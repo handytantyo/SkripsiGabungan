@@ -1,0 +1,74 @@
+﻿@model SkripsiGabungan.Models.OCR
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Detail</h2>
+
+<div>
+    <div class="row">
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.ROE) :
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.ROE)
+            </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.ROI) :
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.ROI)
+            </dd>
+
+            <dt>
+                Cash Ratio :
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.cash_ratio)
+            </dd>
+            <dt>
+                Current Ratio :
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.current_ratio)
+            </dd>
+
+            <dt>
+                CP :
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.CP)
+            </dd>
+
+            <dt>
+                PP :
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.PP)
+            </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.TATO) :
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.TATO)
+            </dd>
+
+            <dt>
+                TMS TA :
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.TMS_TA)
+            </dd>
+        </dl>
+    </div>
+</div>

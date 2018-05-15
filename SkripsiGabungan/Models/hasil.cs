@@ -11,7 +11,8 @@ namespace SkripsiGabungan.Models
 {
     using System;
     using System.Collections.Generic;
-    
+    using System.ComponentModel;
+
     public partial class hasil
     {
         public long id { get; set; }
@@ -27,7 +28,10 @@ namespace SkripsiGabungan.Models
         public Nullable<double> TMS_TA { get; set; }
         public Nullable<double> target { get; set; }
         public Nullable<double> target_2 { get; set; }
+
+        [DisplayName("Tingkat Kesehatan")]
         public string tingkat_kesehatan { get; set; }
+        [DisplayName("Grade")]
         public string grade { get; set; }
     
         public virtual perusahaan perusahaan { get; set; }

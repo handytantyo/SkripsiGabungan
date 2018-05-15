@@ -4,7 +4,12 @@ using System.IO;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using System.Data.SqlClient;
+using System.Text;
 using Bytescout.PDFExtractor;
+using iTextSharp.text.pdf;
+using iTextSharp.text.pdf.parser;
+using SkripsiGabungan.Models;
 
 namespace SkripsiGabungan.Controllers
 {
@@ -25,7 +30,7 @@ namespace SkripsiGabungan.Controllers
 
             foreach (var file in files)
             {
-                string filePath = "default" + Path.GetExtension(file.FileName);//Guid.NewGuid() + Path.GetExtension(file.FileName);
+                string filePath = "default" + System.IO.Path.GetExtension(file.FileName);//Guid.NewGuid() + Path.GetExtension(file.FileName);
                 //string fileapa = Server.MapPath(filePath);
                 //extractor.LoadDocumentFromFile(fileapa);
                 //extractor.OCRMode = OCRMode.Auto;
@@ -33,9 +38,9 @@ namespace SkripsiGabungan.Controllers
                 //extractor.OCRLanguage = "eng";
                 //extractor.OCRResolution = 300;
                 //extractor.SaveTextToFile(Path.Combine(Server.MapPath("~/UploadedFiles/output.txt"), filePath));
-                file.SaveAs(Path.Combine(Server.MapPath("~/UploadedFiles"), filePath));//filePath
+                file.SaveAs(System.IO.Path.Combine(Server.MapPath("~/UploadedFiles"), filePath));//filePath
                 //Here you can write code for save this information in your database if you want
-                Page_Load(Path.Combine(Server.MapPath("~/UploadedFiles"), filePath), filePath);
+                Page_Load(System.IO.Path.Combine(Server.MapPath("~/UploadedFiles"), filePath), filePath);
 
             }
 
@@ -65,10 +70,157 @@ namespace SkripsiGabungan.Controllers
             //extractor.SaveTextToStream(Response.OutputStream);
 
             // Save extracted text to file
-            extractor.SaveTextToFile(Path.Combine(Server.MapPath("~/UploadedFiles"), namaFIle + "TextFIle"));
+            extractor.SaveTextToFile(System.IO.Path.Combine(Server.MapPath("~/UploadedFiles"), namaFIle + "TextFIle"));
             Response.Write("</pre>");
 
             Response.End();
+        }
+
+        public ActionResult Result()
+        {
+            //TextExtractor extractor = new TextExtractor();
+            //extractor.RegistrationName = "demo";
+            //extractor.RegistrationKey = "demo";
+            //extractor.LoadDocumentFromFile(Server.MapPath("~/UploadedFiles/default.pdf"));
+            //string pdfToTxt = extractor.ToString();            
+            string pdfToTxt = System.IO.File.ReadAllText(Server.MapPath("~/UploadedFiles/default.pdf"));
+            //string pdfToTxt = ExtractTextFromPdf(extractor.ToString());
+            //string[] words = extractor.ToString().Split('/', '.');
+
+            string kataLabaUsaha = GetStringFromLaporan("laba usaha", pdfToTxt);
+            //int iKeLabaUsaha = getIfromDB("laba usaha");
+
+            //getBetweenChunk11(pdfToTxt, kata, int, iKe);
+            //Console.WriteLine(kataLabaUsaha);
+            //Console.ReadLine();
+
+            string labaUsaha;
+            for (int i = 2; ; i++)
+            {
+                if (getBetweenChunk(pdfToTxt, kataLabaUsaha, i).Length > 7 && getBetweenChunk(pdfToTxt, kataLabaUsaha, i).ToCharArray()[0] < 58)
+                {
+                    labaUsaha = getBetweenChunk(pdfToTxt, kataLabaUsaha, i);
+                    break;
+                }
+            }
+
+            char[] arrayLabaUsaha = labaUsaha.ToCharArray();
+            char[] arrayLabaUsaha2 = new char[arrayLabaUsaha.Length];
+            int nextLabaUsaha = 0; //Untuk Menghilangkan titik (.) dan koma (,)
+
+            for (int i = 0; i < arrayLabaUsaha.Length; i++)
+            {
+                char letterLabaUsaha = arrayLabaUsaha[i];
+                //Console.WriteLine(letter);
+                if (arrayLabaUsaha[i] != '.' && arrayLabaUsaha[i] != ',' && arrayLabaUsaha[i] != '(' && arrayLabaUsaha[i] != ')')
+                {
+                    arrayLabaUsaha2[nextLabaUsaha] = arrayLabaUsaha[i];
+                    nextLabaUsaha++;
+                }
+                else
+                {
+
+                }
+            }
+
+            string strLabaUsaha = new string(arrayLabaUsaha2);
+            double lngLabaUsaha = Double.Parse(strLabaUsaha);
+
+            var list = new List<OCR>();
+
+            list.Add(new OCR()
+            {
+               ROE =  lngLabaUsaha//labaUsaha;
+            });
+
+            return View(list);
+        }
+
+        public static string ExtractTextFromPdf(string path)
+        {
+            using (PdfReader reader = new PdfReader(path))
+            {
+                StringBuilder text = new StringBuilder();
+
+                for (int i = 1; i <= reader.NumberOfPages; i++)
+                {
+                    text.Append(PdfTextExtractor.GetTextFromPage(reader, i));
+
+                }
+
+                return text.ToString();
+            }
+        }
+
+        public static string getBetweenChunk(string strSource, string strStart, int HowManyChunck)
+        {
+            int Start;
+            char[] whitespace = new char[] { ' ', '\t', '\n' };
+
+            if (strSource.Contains(strStart))
+            {
+                Start = strSource.IndexOf(strStart, 0) + strStart.Length;
+                string findwordChunk = strSource.Substring(Start, strSource.Length - Start);
+                string[] Chunk = findwordChunk.Split(whitespace);
+                return Chunk[HowManyChunck - 1];
+            }
+            else
+            {
+                return "";
+            }
+        }
+
+        public static string GetStringFromLaporan(string kode, string laporanKeuangan)
+        {
+            string result = "Not Found";
+            List<string> namaList = new List<string>();
+            namaList = parameterGet(kode);
+
+            foreach (string nama in namaList)
+            {
+                //jika kalimat nama ini ada di laporan keuangan
+                if (laporanKeuangan.Contains(nama))
+                {
+                    result = nama;
+                    break;
+                }
+            }
+
+            return result;
+        }
+
+        public static List<string> parameterGet(string NamaAsli)
+        {
+            List<string> NamaPenganti = new List<string>();
+            string connStr = @"Data Source=DESKTOP-ERK0RV1\SQLEXPRESS;Initial Catalog=tugasakhir;Integrated Security=True";
+            SqlConnection conn = new SqlConnection(connStr);
+            try
+            {
+                Console.WriteLine("Connecting to SQL Server...");
+                conn.Open();
+
+                string stm = "SELECT source_ocr.nama FROM [source_ocr] JOIN [mapping] ON source_ocr.id_mapping = mapping.id WHERE mapping.nama_mapping = \'" + NamaAsli + "\'";//\""+NamaAsli+"\"
+
+                SqlCommand command = new SqlCommand(stm, conn);
+                SqlDataReader rdr = command.ExecuteReader();
+
+                while (rdr.Read())
+                {
+                    NamaPenganti.Add(rdr.GetString(0)); //pada kolom ke 0 ambil string
+                }
+
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+            }
+
+            conn.Close();
+
+            Console.WriteLine("Done.");
+
+            return NamaPenganti;
+
         }
 
         //public ActionResult Ocr()
