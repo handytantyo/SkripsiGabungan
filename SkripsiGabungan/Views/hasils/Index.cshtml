@@ -1,0 +1,119 @@
+﻿@model IEnumerable<SkripsiGabungan.Models.hasil>
+
+@{
+    ViewBag.Title = "List Perusahaan";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table id="perusahaanTable" class="table table-striped table-bordered">
+    <thead>
+        <tr>
+            <th>
+                @*@Html.DisplayNameFor(model => model.perusahaan.nama_perusahaan)*@ Nama Perusahaan
+            </th>
+            <th>
+                @*@Html.DisplayNameFor(model => model.tahun.id)*@ Tahun
+            </th>
+            <th>
+                @*@Html.DisplayNameFor(model => model.tingkat_kesehatan)*@ Tingkat Kesehatan
+            </th>
+            <th>
+                @*@Html.DisplayNameFor(model => model.grade)*@ Grade
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+
+    @*@foreach (var item in Model) {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ROE)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ROI)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.cash_ratio)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.current_ratio)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CP)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PP)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TATO)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TMS_TA)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.target)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.target_2)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.tingkat_kesehatan)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.grade)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.perusahaan.nama_perusahaan)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.sumber.id)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.tahun.id)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id=item.id }) |
+                    @Html.ActionLink("Details", "Details", new { id=item.id }) |
+                    @Html.ActionLink("Delete", "Delete", new { id=item.id })
+                </td>
+            </tr>
+        }*@
+
+</table>
+
+<link href="https://cdn.datatables.net/1.10.16/css/dataTables.bootstrap.min.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" />
+@section scripts{
+    @*https://stackoverflow.com/questions/44490561/asp-net-mvc-data-table-ajax-error*@
+    <script src="//cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.16/js/dataTables.bootstrap.min.js"></script>
+
+    <script>
+        var Popup, dataTable;
+        $(document).ready(function () {
+            dataTable = $("#perusahaanTable").DataTable({
+                "ajax": {
+                    "url": "/hasils/GetData",
+                    "type": "GET",
+                    "datatype": "json"
+                },
+                "columns": [
+                    { "data": "nama_perusahaan" },
+                    { "data": "tahun_1" },
+                    { "data": "tingkat_kesehatan" },
+                    { "data": "grade" },
+                    {
+                        "data": "id", "render": function (data) {
+                            return "<a class = 'btn btn-info btn-sm' href='/hasils/Details/" + data + "'><i class='fa fa-pencil'></i>Detail</a>"
+                        }
+                    }
+                ]
+            });
+        });
+    </script>
+
+}

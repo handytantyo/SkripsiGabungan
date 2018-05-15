@@ -1,0 +1,552 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="tugasakhirModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="hasil">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="id_perusahaan" Type="bigint" />
+          <Property Name="id_tahun" Type="bigint" />
+          <Property Name="ROE" Type="float" />
+          <Property Name="ROI" Type="float" />
+          <Property Name="cash_ratio" Type="float" />
+          <Property Name="current_ratio" Type="float" />
+          <Property Name="CP" Type="float" />
+          <Property Name="PP" Type="float" />
+          <Property Name="TATO" Type="float" />
+          <Property Name="TMS_TA" Type="float" />
+          <Property Name="target" Type="float" />
+          <Property Name="target_2" Type="float" />
+          <Property Name="tingkat_kesehatan" Type="varchar" MaxLength="30" />
+          <Property Name="grade" Type="varchar" MaxLength="10" />
+        </EntityType>
+        <EntityType Name="Indikator">
+          <Key>
+            <PropertyRef Name="Algorithm" />
+          </Key>
+          <Property Name="Algorithm" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Weight0" Type="float" />
+          <Property Name="Weight1" Type="float" />
+          <Property Name="Weight2" Type="float" />
+          <Property Name="Weight3" Type="float" />
+          <Property Name="Weight4" Type="float" />
+          <Property Name="Weight5" Type="float" />
+          <Property Name="Weight6" Type="float" />
+          <Property Name="Weight7" Type="float" />
+          <Property Name="Weight8" Type="float" />
+          <Property Name="Weight9" Type="float" />
+          <Property Name="Weight10" Type="float" />
+          <Property Name="Weight11" Type="float" />
+          <Property Name="Bias0" Type="float" />
+          <Property Name="Bias1" Type="float" />
+        </EntityType>
+        <EntityType Name="mapping">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="nama_mapping" Type="varchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityType Name="perusahaan">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="bigint" Nullable="false" />
+          <Property Name="nama_perusahaan" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="source_ocr">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="id_mapping" Type="bigint" Nullable="false" />
+          <Property Name="nama" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="nama_2" Type="varchar" MaxLength="50" />
+          <Property Name="nama_3" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="sumber">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="id_perusahaan" Type="bigint" />
+          <Property Name="id_tahun" Type="bigint" />
+          <Property Name="laba_setelah_pajak" Type="bigint" />
+          <Property Name="total_ekuitas" Type="bigint" />
+          <Property Name="EBIT" Type="bigint" />
+          <Property Name="penyusutan" Type="bigint" />
+          <Property Name="capital_employed" Type="bigint" />
+          <Property Name="kas" Type="bigint" />
+          <Property Name="bank" Type="bigint" />
+          <Property Name="surat_berharga_jangka_pendek" Type="bigint" />
+          <Property Name="current_asset" Type="bigint" />
+          <Property Name="current_liabilities" Type="bigint" />
+          <Property Name="total_piutang_usaha" Type="bigint" />
+          <Property Name="total_persediaan" Type="bigint" />
+          <Property Name="total_pendapatan_usaha" Type="bigint" />
+          <Property Name="total_aset" Type="bigint" />
+          <Property Name="kas_dan_setara_kas" Type="bigint" />
+        </EntityType>
+        <EntityType Name="tahun">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="bigint" Nullable="false" />
+          <Property Name="tahun" Type="int" />
+        </EntityType>
+        <Association Name="FK_hasil_perusahaan1">
+          <End Role="perusahaan" Type="Self.perusahaan" Multiplicity="0..1" />
+          <End Role="hasil" Type="Self.hasil" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="perusahaan">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="hasil">
+              <PropertyRef Name="id_perusahaan" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_hasil_sumber">
+          <End Role="sumber" Type="Self.sumber" Multiplicity="1" />
+          <End Role="hasil" Type="Self.hasil" Multiplicity="0..1" />
+          <ReferentialConstraint>
+            <Principal Role="sumber">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="hasil">
+              <PropertyRef Name="id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_hasil_tahun1">
+          <End Role="tahun" Type="Self.tahun" Multiplicity="0..1" />
+          <End Role="hasil" Type="Self.hasil" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="tahun">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="hasil">
+              <PropertyRef Name="id_tahun" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_source_ocr_mapping">
+          <End Role="mapping" Type="Self.mapping" Multiplicity="1" />
+          <End Role="source_ocr" Type="Self.source_ocr" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="mapping">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="source_ocr">
+              <PropertyRef Name="id_mapping" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_sumber_perusahaan1">
+          <End Role="perusahaan" Type="Self.perusahaan" Multiplicity="0..1" />
+          <End Role="sumber" Type="Self.sumber" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="perusahaan">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="sumber">
+              <PropertyRef Name="id_perusahaan" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_sumber_tahun1">
+          <End Role="tahun" Type="Self.tahun" Multiplicity="0..1" />
+          <End Role="sumber" Type="Self.sumber" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="tahun">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="sumber">
+              <PropertyRef Name="id_tahun" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="tugasakhirModelStoreContainer">
+          <EntitySet Name="hasil" EntityType="Self.hasil" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Indikator" EntityType="Self.Indikator" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="mapping" EntityType="Self.mapping" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="perusahaan" EntityType="Self.perusahaan" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="source_ocr" EntityType="Self.source_ocr" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="sumber" EntityType="Self.sumber" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="tahun" EntityType="Self.tahun" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_hasil_perusahaan1" Association="Self.FK_hasil_perusahaan1">
+            <End Role="perusahaan" EntitySet="perusahaan" />
+            <End Role="hasil" EntitySet="hasil" />
+          </AssociationSet>
+          <AssociationSet Name="FK_hasil_sumber" Association="Self.FK_hasil_sumber">
+            <End Role="sumber" EntitySet="sumber" />
+            <End Role="hasil" EntitySet="hasil" />
+          </AssociationSet>
+          <AssociationSet Name="FK_hasil_tahun1" Association="Self.FK_hasil_tahun1">
+            <End Role="tahun" EntitySet="tahun" />
+            <End Role="hasil" EntitySet="hasil" />
+          </AssociationSet>
+          <AssociationSet Name="FK_source_ocr_mapping" Association="Self.FK_source_ocr_mapping">
+            <End Role="mapping" EntitySet="mapping" />
+            <End Role="source_ocr" EntitySet="source_ocr" />
+          </AssociationSet>
+          <AssociationSet Name="FK_sumber_perusahaan1" Association="Self.FK_sumber_perusahaan1">
+            <End Role="perusahaan" EntitySet="perusahaan" />
+            <End Role="sumber" EntitySet="sumber" />
+          </AssociationSet>
+          <AssociationSet Name="FK_sumber_tahun1" Association="Self.FK_sumber_tahun1">
+            <End Role="tahun" EntitySet="tahun" />
+            <End Role="sumber" EntitySet="sumber" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="tugasakhirModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="hasil">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="id_perusahaan" Type="Int64" />
+          <Property Name="id_tahun" Type="Int64" />
+          <Property Name="ROE" Type="Double" />
+          <Property Name="ROI" Type="Double" />
+          <Property Name="cash_ratio" Type="Double" />
+          <Property Name="current_ratio" Type="Double" />
+          <Property Name="CP" Type="Double" />
+          <Property Name="PP" Type="Double" />
+          <Property Name="TATO" Type="Double" />
+          <Property Name="TMS_TA" Type="Double" />
+          <Property Name="target" Type="Double" />
+          <Property Name="target_2" Type="Double" />
+          <Property Name="tingkat_kesehatan" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+          <Property Name="grade" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="perusahaan" Relationship="Self.FK_hasil_perusahaan1" FromRole="hasil" ToRole="perusahaan" />
+          <NavigationProperty Name="sumber" Relationship="Self.FK_hasil_sumber" FromRole="hasil" ToRole="sumber" />
+          <NavigationProperty Name="tahun" Relationship="Self.FK_hasil_tahun1" FromRole="hasil" ToRole="tahun" />
+        </EntityType>
+        <EntityType Name="perusahaan">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int64" Nullable="false" />
+          <Property Name="nama_perusahaan" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="hasils" Relationship="Self.FK_hasil_perusahaan1" FromRole="perusahaan" ToRole="hasil" />
+          <NavigationProperty Name="sumbers" Relationship="Self.FK_sumber_perusahaan1" FromRole="perusahaan" ToRole="sumber" />
+        </EntityType>
+        <EntityType Name="sumber">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="id_perusahaan" Type="Int64" />
+          <Property Name="id_tahun" Type="Int64" />
+          <Property Name="laba_setelah_pajak" Type="Int64" />
+          <Property Name="total_ekuitas" Type="Int64" />
+          <Property Name="EBIT" Type="Int64" />
+          <Property Name="penyusutan" Type="Int64" />
+          <Property Name="capital_employed" Type="Int64" />
+          <Property Name="kas" Type="Int64" />
+          <Property Name="bank" Type="Int64" />
+          <Property Name="surat_berharga_jangka_pendek" Type="Int64" />
+          <Property Name="current_asset" Type="Int64" />
+          <Property Name="current_liabilities" Type="Int64" />
+          <Property Name="total_piutang_usaha" Type="Int64" />
+          <Property Name="total_persediaan" Type="Int64" />
+          <Property Name="total_pendapatan_usaha" Type="Int64" />
+          <Property Name="total_aset" Type="Int64" />
+          <Property Name="kas_dan_setara_kas" Type="Int64" />
+          <NavigationProperty Name="hasil" Relationship="Self.FK_hasil_sumber" FromRole="sumber" ToRole="hasil" />
+          <NavigationProperty Name="perusahaan" Relationship="Self.FK_sumber_perusahaan1" FromRole="sumber" ToRole="perusahaan" />
+          <NavigationProperty Name="tahun" Relationship="Self.FK_sumber_tahun1" FromRole="sumber" ToRole="tahun" />
+        </EntityType>
+        <EntityType Name="tahun">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int64" Nullable="false" />
+          <Property Name="tahun1" Type="Int32" />
+          <NavigationProperty Name="hasils" Relationship="Self.FK_hasil_tahun1" FromRole="tahun" ToRole="hasil" />
+          <NavigationProperty Name="sumbers" Relationship="Self.FK_sumber_tahun1" FromRole="tahun" ToRole="sumber" />
+        </EntityType>
+        <Association Name="FK_hasil_perusahaan1">
+          <End Role="perusahaan" Type="Self.perusahaan" Multiplicity="0..1" />
+          <End Role="hasil" Type="Self.hasil" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="perusahaan">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="hasil">
+              <PropertyRef Name="id_perusahaan" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_hasil_sumber">
+          <End Role="sumber" Type="Self.sumber" Multiplicity="1" />
+          <End Role="hasil" Type="Self.hasil" Multiplicity="0..1" />
+          <ReferentialConstraint>
+            <Principal Role="sumber">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="hasil">
+              <PropertyRef Name="id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_hasil_tahun1">
+          <End Role="tahun" Type="Self.tahun" Multiplicity="0..1" />
+          <End Role="hasil" Type="Self.hasil" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="tahun">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="hasil">
+              <PropertyRef Name="id_tahun" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_sumber_perusahaan1">
+          <End Role="perusahaan" Type="Self.perusahaan" Multiplicity="0..1" />
+          <End Role="sumber" Type="Self.sumber" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="perusahaan">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="sumber">
+              <PropertyRef Name="id_perusahaan" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_sumber_tahun1">
+          <End Role="tahun" Type="Self.tahun" Multiplicity="0..1" />
+          <End Role="sumber" Type="Self.sumber" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="tahun">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="sumber">
+              <PropertyRef Name="id_tahun" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="tugasakhirEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="hasils" EntityType="Self.hasil" />
+          <EntitySet Name="perusahaans" EntityType="Self.perusahaan" />
+          <EntitySet Name="sumbers" EntityType="Self.sumber" />
+          <EntitySet Name="tahuns" EntityType="Self.tahun" />
+          <AssociationSet Name="FK_hasil_perusahaan1" Association="Self.FK_hasil_perusahaan1">
+            <End Role="perusahaan" EntitySet="perusahaans" />
+            <End Role="hasil" EntitySet="hasils" />
+          </AssociationSet>
+          <AssociationSet Name="FK_hasil_sumber" Association="Self.FK_hasil_sumber">
+            <End Role="sumber" EntitySet="sumbers" />
+            <End Role="hasil" EntitySet="hasils" />
+          </AssociationSet>
+          <AssociationSet Name="FK_hasil_tahun1" Association="Self.FK_hasil_tahun1">
+            <End Role="tahun" EntitySet="tahuns" />
+            <End Role="hasil" EntitySet="hasils" />
+          </AssociationSet>
+          <AssociationSet Name="FK_sumber_perusahaan1" Association="Self.FK_sumber_perusahaan1">
+            <End Role="perusahaan" EntitySet="perusahaans" />
+            <End Role="sumber" EntitySet="sumbers" />
+          </AssociationSet>
+          <AssociationSet Name="FK_sumber_tahun1" Association="Self.FK_sumber_tahun1">
+            <End Role="tahun" EntitySet="tahuns" />
+            <End Role="sumber" EntitySet="sumbers" />
+          </AssociationSet>
+          <EntitySet Name="mappings" EntityType="tugasakhirModel.mapping" />
+          <EntitySet Name="source_ocr" EntityType="tugasakhirModel.source_ocr" />
+          <AssociationSet Name="FK_source_ocr_mapping" Association="tugasakhirModel.FK_source_ocr_mapping">
+            <End Role="mapping" EntitySet="mappings" />
+            <End Role="source_ocr" EntitySet="source_ocr" />
+          </AssociationSet>
+          <EntitySet Name="Indikators" EntityType="tugasakhirModel.Indikator" />
+        </EntityContainer>
+        <EntityType Name="mapping">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="nama_mapping" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="source_ocr" Relationship="tugasakhirModel.FK_source_ocr_mapping" FromRole="mapping" ToRole="source_ocr" />
+        </EntityType>
+        <EntityType Name="source_ocr">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="id_mapping" Type="Int64" Nullable="false" />
+          <Property Name="nama" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="nama_2" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="nama_3" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="mapping" Relationship="tugasakhirModel.FK_source_ocr_mapping" FromRole="source_ocr" ToRole="mapping" />
+        </EntityType>
+        <Association Name="FK_source_ocr_mapping">
+          <End Type="tugasakhirModel.mapping" Role="mapping" Multiplicity="1" />
+          <End Type="tugasakhirModel.source_ocr" Role="source_ocr" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="mapping">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="source_ocr">
+              <PropertyRef Name="id_mapping" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="Indikator">
+          <Key>
+            <PropertyRef Name="Algorithm" />
+          </Key>
+          <Property Name="Algorithm" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Weight0" Type="Double" />
+          <Property Name="Weight1" Type="Double" />
+          <Property Name="Weight2" Type="Double" />
+          <Property Name="Weight3" Type="Double" />
+          <Property Name="Weight4" Type="Double" />
+          <Property Name="Weight5" Type="Double" />
+          <Property Name="Weight6" Type="Double" />
+          <Property Name="Weight7" Type="Double" />
+          <Property Name="Weight8" Type="Double" />
+          <Property Name="Weight9" Type="Double" />
+          <Property Name="Weight10" Type="Double" />
+          <Property Name="Weight11" Type="Double" />
+          <Property Name="Bias0" Type="Double" />
+          <Property Name="Bias1" Type="Double" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="tugasakhirModelStoreContainer" CdmEntityContainer="tugasakhirEntities">
+          <EntitySetMapping Name="hasils">
+            <EntityTypeMapping TypeName="tugasakhirModel.hasil">
+              <MappingFragment StoreEntitySet="hasil">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="id_perusahaan" ColumnName="id_perusahaan" />
+                <ScalarProperty Name="id_tahun" ColumnName="id_tahun" />
+                <ScalarProperty Name="ROE" ColumnName="ROE" />
+                <ScalarProperty Name="ROI" ColumnName="ROI" />
+                <ScalarProperty Name="cash_ratio" ColumnName="cash_ratio" />
+                <ScalarProperty Name="current_ratio" ColumnName="current_ratio" />
+                <ScalarProperty Name="CP" ColumnName="CP" />
+                <ScalarProperty Name="PP" ColumnName="PP" />
+                <ScalarProperty Name="TATO" ColumnName="TATO" />
+                <ScalarProperty Name="TMS_TA" ColumnName="TMS_TA" />
+                <ScalarProperty Name="target" ColumnName="target" />
+                <ScalarProperty Name="target_2" ColumnName="target_2" />
+                <ScalarProperty Name="tingkat_kesehatan" ColumnName="tingkat_kesehatan" />
+                <ScalarProperty Name="grade" ColumnName="grade" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="perusahaans">
+            <EntityTypeMapping TypeName="tugasakhirModel.perusahaan">
+              <MappingFragment StoreEntitySet="perusahaan">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="nama_perusahaan" ColumnName="nama_perusahaan" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="sumbers">
+            <EntityTypeMapping TypeName="tugasakhirModel.sumber">
+              <MappingFragment StoreEntitySet="sumber">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="id_perusahaan" ColumnName="id_perusahaan" />
+                <ScalarProperty Name="id_tahun" ColumnName="id_tahun" />
+                <ScalarProperty Name="laba_setelah_pajak" ColumnName="laba_setelah_pajak" />
+                <ScalarProperty Name="total_ekuitas" ColumnName="total_ekuitas" />
+                <ScalarProperty Name="EBIT" ColumnName="EBIT" />
+                <ScalarProperty Name="penyusutan" ColumnName="penyusutan" />
+                <ScalarProperty Name="capital_employed" ColumnName="capital_employed" />
+                <ScalarProperty Name="kas" ColumnName="kas" />
+                <ScalarProperty Name="bank" ColumnName="bank" />
+                <ScalarProperty Name="surat_berharga_jangka_pendek" ColumnName="surat_berharga_jangka_pendek" />
+                <ScalarProperty Name="current_asset" ColumnName="current_asset" />
+                <ScalarProperty Name="current_liabilities" ColumnName="current_liabilities" />
+                <ScalarProperty Name="total_piutang_usaha" ColumnName="total_piutang_usaha" />
+                <ScalarProperty Name="total_persediaan" ColumnName="total_persediaan" />
+                <ScalarProperty Name="total_pendapatan_usaha" ColumnName="total_pendapatan_usaha" />
+                <ScalarProperty Name="total_aset" ColumnName="total_aset" />
+                <ScalarProperty Name="kas_dan_setara_kas" ColumnName="kas_dan_setara_kas" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tahuns">
+            <EntityTypeMapping TypeName="tugasakhirModel.tahun">
+              <MappingFragment StoreEntitySet="tahun">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="tahun1" ColumnName="tahun" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="mappings">
+            <EntityTypeMapping TypeName="tugasakhirModel.mapping">
+              <MappingFragment StoreEntitySet="mapping">
+                <ScalarProperty Name="nama_mapping" ColumnName="nama_mapping" />
+                <ScalarProperty Name="id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="source_ocr">
+            <EntityTypeMapping TypeName="tugasakhirModel.source_ocr">
+              <MappingFragment StoreEntitySet="source_ocr">
+                <ScalarProperty Name="nama_3" ColumnName="nama_3" />
+                <ScalarProperty Name="nama_2" ColumnName="nama_2" />
+                <ScalarProperty Name="nama" ColumnName="nama" />
+                <ScalarProperty Name="id_mapping" ColumnName="id_mapping" />
+                <ScalarProperty Name="id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Indikators">
+            <EntityTypeMapping TypeName="tugasakhirModel.Indikator">
+              <MappingFragment StoreEntitySet="Indikator">
+                <ScalarProperty Name="Bias1" ColumnName="Bias1" />
+                <ScalarProperty Name="Bias0" ColumnName="Bias0" />
+                <ScalarProperty Name="Weight11" ColumnName="Weight11" />
+                <ScalarProperty Name="Weight10" ColumnName="Weight10" />
+                <ScalarProperty Name="Weight9" ColumnName="Weight9" />
+                <ScalarProperty Name="Weight8" ColumnName="Weight8" />
+                <ScalarProperty Name="Weight7" ColumnName="Weight7" />
+                <ScalarProperty Name="Weight6" ColumnName="Weight6" />
+                <ScalarProperty Name="Weight5" ColumnName="Weight5" />
+                <ScalarProperty Name="Weight4" ColumnName="Weight4" />
+                <ScalarProperty Name="Weight3" ColumnName="Weight3" />
+                <ScalarProperty Name="Weight2" ColumnName="Weight2" />
+                <ScalarProperty Name="Weight1" ColumnName="Weight1" />
+                <ScalarProperty Name="Weight0" ColumnName="Weight0" />
+                <ScalarProperty Name="Algorithm" ColumnName="Algorithm" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
