@@ -1,0 +1,308 @@
+PERUSAHAAN PERSEROAN (PERSERO)
+PT INDUSTRI TELEKOMUNIKASI INDONESIA DAN ENTITAS ANAK
+LAPORAN POSISI KEUANGAN KONSOLIDASIAN
+Per 31 Desember 2013 dan 2012
+(Dalam Rupiah)
+2012
+(Setelah reklasifikasi,
+Catatan 2013 Catatan 39)
+ASET
+ASET LANCAR 
+  Kas dan setara kas 2d,2f,4            118.932.027.544        123.076.245.127
+  Piutang usaha - setelah dikurangi provisi
+penurunan piutang sebesar Rp3.905.140.764 dan
+Rp87.253.274 untuk tahun 2013 dan 2012 2d,2h,2z,3b,5            105.564.739.182        242.706.300.619
+  Piutang lain-lain - setelah dikurangi provisi
+penurunuan piutang sebesar Rp20.561.765.997
+untuk tahun 2013 dan 2012) 2h,2z,3b,6                  105.742.973            3.232.669.953
+  Persediaan - setelah dikurangi provisi
+persediaan usang sebesar Rp4.427.971.759
+untuk tahun 2013  dan Rp1.419.472.567 tahun 2012) 2k,2z,3c,7            483.154.830.069        335.217.367.517
+  Pajak dibayar dimuka 2s,19b            124.696.061.994          25.454.195.438
+  Beban dibayar dimuka dan uang muka 2l,8              16.723.574.913            9.220.042.689
+  Aset lancar lainnya 2i,2m,9            789.961.274.361        128.023.442.370
+Jumlah aset lancar       1.639.138.251.036      866.930.263.713
+ASET TIDAK LANCAR
+  Aset tetap - setelah dikurangi akumulasi
+penyusutan sebesar Rp94.253.706.178 dan
+ Rp83.133.002.781 untuk tahun 2013 dan 2012 2o,10              40.601.266.554          41.040.399.093
+  Penyertaan jangka panjang - setelah dikurangi
+provisi penurunan nilai penyertaan sebesar 
+Rp40.880.039.435 untuk tahun 2013 dan 2012 2n,2z,11              21.442.972.842          12.342.972.842
+  Properti investasi 2q,12                                  1                              1
+  Aset tak berwujud - setelah dikurangi
+akumulasi amortisasi Rp20.497.661.956 dan
+Rp14.609.519.472 untuk tahun 2013 dan 2012 2p,13              93.717.673.438          17.034.674.087
+  Aset pajak tangguhan 2s,19e              27.625.113.617          21.445.416.786
+  Aset lain-lain 2t,14                  138.148.046              138.147.971
+Jumlah aset tidak lancar          183.525.174.498        92.001.610.780
+JUMLAH ASET       1.822.663.425.534      958.931.874.493
+1
+Catatan atas laporan keuangan konsolidasian  merupakan bagian tak terpisahkan dari laporan keuangan konsolidasianPERUSAHAAN PERSEROAN (PERSERO)
+PT INDUSTRI TELEKOMUNIKASI INDONESIA DAN ENTITAS ANAK
+LAPORAN POSISI KEUANGAN KONSOLIDASIAN
+Per 31 Desember 2013 dan 2012
+(Dalam Rupiah)
+2012
+(Setelah reklasifikasi,
+Catatan 2013 Catatan 39)
+LIABILITAS DAN EKUITAS
+LIABILITAS
+LIABILITAS JANGKA PENDEK
+  Utang usaha 2d,2z,15            629.309.943.427        113.154.357.069
+  Utang bank 2z,17            455.890.349.023        205.916.286.798
+  Utang pajak 2s,19a               4 .871.561.484            3.739.218.658
+  Provisi masa garansi 20                8.268.267.185            4.956.050.382
+  Pendapatan diterima dimuka 2w,21              12.871.845.779          24.080.068.086
+  Beban yang masih harus dibayar 2w,22            163.549.315.791        118.608.061.699
+  Utang lain-lain 2z,16                2.673.248.166            2.824.150.573
+Jumlah liabilitas jangka pendek       1.277.434.530.855      473.278.193.265
+LIABILITAS JANGKA PANJANG
+  Pinjaman MTN 2z,18              40.000.000.000                              -
+  Liabilitas imbalan pasca kerja 2u,3a,23              55.168.901.122          47.633.292.311
+  Pendapatan ditangguhkan - hak pakai lahan 2w,24               7 .889.250.000                              -
+Jumlah liabilitas jangka panjang          103.058.151.122        47.633.292.311
+JUMLAH LIABILITAS       1.380.492.681.977      520.911.485.576
+EKUITAS
+Ekuitas yang dapat diatribusikan kepada 
+  pemilik entitas induk:
+  Modal saham
+Modal dasar - 1.000.000 saham. Nilai nominal
+Rp 1.000.000 per saham. Modal ditempatkan dan
+disetor penuh 350.000 saham 26            350.000.000.000        350.000.000.000
+  Saldo laba
+Telah ditentukan penggunaannya:
+Cadangan umum 28              72.877.032.550          56.695.295.623
+Cadangan tujuan 28              11.542.719.796          11.542.719.796
+  Belum ditentukan penggunaannya                4.074.503.987          16.331.736.927
+Ekuitas yang dapat diartribusikan kepada
+pemilik entitas induk            438.494.256.333        434.569.752.346
+Kepentingan non pengendali 25               3 .676.487.224            3.450.636.571
+JUMLAH EKUITAS          442.170.743.557      438.020.388.917
+JUMLAH  LIABILITAS DAN EKUITAS       1.822.663.425.534      958.931.874.493
+2
+Catatan atas laporan keuangan konsolidasian  merupakan bagian tak terpisahkan dari laporan keuangan konsolidasianPERUSAHAAN PERSEROAN (PERSERO)
+PT INDUSTRI TELEKOMUNIKASI INDONESIA DAN ENTITAS ANAK
+LAPORAN LABA RUGI KOMPREHENSIF KONSOLIDASIAN
+Untuk Tahun-tahun Yang Berakhir 31 Desember 2013 dan 2012
+(Dalam Rupiah)
+Catatan 2013 2012
+PENDAPATAN 2w,29         1.466.790.301.402         1.227.699.712.374
+BEBAN POKOK PENJUALAN 2w,29       ( 1.245.678.413.301)       ( 1.045.692.427.438)
+LABA KOTOR         221.111.888.101         182.007.284.936
+Beban usaha
+  Beban penjualan 2w,30            (24.229.665.013)            (20.132.759.100)
+  Beban umum dan administrasi 2w,31            (92.469.525.787)            (94.133.236.190)
+  Beban pengembangan 2w,32              (6.780.218.014)              (5.243.710.120)
+       (123. 479.408.814)       (119. 509.705.410)
+LABA USAHA SEBELUM BEBAN PENDANAAN           97.632.479.287           62.497.579.526
+  Beban pendanaan 2w,33            (22.464.716.664)            (20.020.118.694)
+LABA USAHA SETELAH BEBAN PENDANAAN           75.167.762.623           42.477.460.832
+Pendapatan (beban) lain-lain :
+  Pendapatan lain-lain 2x,34             16.096.204.299             12.089.290.548
+  Beban lain-lain 2x,35            (66.711.512.175)            (24.261.075.389)
+         (50.615.307.876)         (12.171.784.841)
+LABA SEBELUM PAJAK           24.552.454.747           30.305.675.991
+Pendapatan (beban) pajak penghasilan
+Pajak kini 2s,19c              (4.692.982.158)            (12.159.744.813)
+Pajak tangguhan 2s,19c               6.414.753.023               3.379.301.028
+Pajak final 2s,19c            (21.973.870.973)              (4.836.444.499)
+         (20.252.100.108)         (13.616.888.284)
+LABA TAHUN BERJALAN             4.300.354.639           16.688.787.707
+Pendapatan (beban) komprehensif lainnya                              -                              -
+LABA KOMPREHENSIF             4.300.354.639           16.688.787.707
+Jumlah laba tahun berjalan yang dapat 
+diatribusikan kepada:
+  Pemilik entitas induk               4.074.503.987             16.331.736.927
+  Kepentingan non pengendali 2b, 23                 2 25.850.652                 3 57.050.780
+             4.300.354.639           16.688.787.707
+Jumlah laba komprehensif yang dapat 
+diatribusikan kepada :
+  Pemilik entitas induk               4.074.503.987             16.331.736.927
+  Kepentingan non pengendali 2b, 23                 2 25.850.652                 3 57.050.780
+             4.300.354.639           16.688.787.707
+Catatan atas laporan keuangan konsolidasian  merupakan bagian tak terpisahkan dari laporan keuangan konsolidasian 3PERUSAHAAN PERSEROAN (PERSERO)
+PT INDUSTRI TELEKOMUNIKASI INDONESIA DAN ENTITAS ANAK
+LAPORAN PERUBAHAN EKUITAS KONSOLIDASIAN
+Untuk Tahun-tahun Yang Berakhir 31 Desember 2013 dan 2012
+(Dalam Rupiah)
+Jumlah yang dapat diatribusikan ke pemilik entitas induk
+Saldo laba
+Telah ditentukan penggunaannya Jumlah
+ Belum ditentukan 
+Modal Cadangan Cadangan Kepentingan Ekuitas
+Catatan saham umum tujuan penggunaannya Jumlah non-pengendali bersih
+Saldo per 1 Januari 2012      3 50.000.000.000         47.900.413.673      1 1.542.719.796   1 0.226.606.919       419.669.740.388      3 .113.876.846       422.783.617.234
+Pembagian laba 2011 : 26
+Pembentukan cadangan                                 -             8.794.881.950                               -       (8.794.881.950)                             -                            -                             -
+Deviden                                -                                -                              -       (1.022.660.692)            (1.022.660.692)            ( 20.291.054)            (1.042.951.746)
+PKBL                                -                                -                             -          ( 409.064.277)               (409.064.277)                            -               (409.064.278)
+Laba komprehensif                                 -                                -                             -       16.331.736.927             16.331.736.927            357.050.780            16.688.787.707
+Saldo per 31 Desember 2012      3 50.000.000.000         56.695.295.623      1 1.542.719.796   1 6.331.736.927       434.569.752.346      3 .450.636.572       438.020.388.917
+Pembagian laba 2012 : 26
+Pembentukan cadangan                                -             16.181.736.927                              -     (16.181.736.927)                             -                            -                             -
+Program Bina Lingkungan                                -                                -                             -          ( 150.000.000)               (150.000.000)                            -               (150.000.000)
+Laba komprehensif                                -                                 -                              -        4.074.503.987              4.074.503.987            225.850.652              4.300.354.640
+Saldo per 31 Desember 2013      3 50.000.000.000         72.877.032.550      1 1.542.719.796     4 .074.503.987       438.494.256.333      3 .676.487.224       442.170.743.557
+Catatan atas laporan keuangan konsolidasian merupakan bagian tak terpisahkan
+dari laporan keuangan konsolidasian
+4PERUSAHAAN PERSEROAN (PERSERO)
+PT INDUSTRI TELEKOMUNIKASI INDONESIA DAN ENTITAS ANAK
+LAPORAN ARUS KAS KONSOLIDASIAN
+Untuk Tahun-tahun Yang Berakhir 31 Desember 2013 dan 2012
+(Dalam Rupiah)
+2013 2012
+ARUS KAS DARI AKTIVITAS OPERASI
+Laba sebelum pajak konsolidasian                 24.552.454.747           30.305.675.991
+Penyesuaian atas unsur-unsur yang tidak mempengaruhi 
+arus kas :
+Penyusutan aset tetap                 11.120.703.397           10.290.045.474
+Penyisihan piutang usaha                   3.817.887.490                 20.069.710
+Penyisihan persediaan                   4.427.971.759               154.415.198
+Amortisasi beban tangguhan                   5.888.142.484            3.994.343.741
+Beban imbalan pasca kerja                 14.210.680.570           15.231.290.497
+Pendapatan tangguhan - hak pakai lahan                  (1.210.750.000)                               -
+Beban lainnya                      235.056.192            1.100.173.985
+Arus kas operasi sebelum perubahan modal kerja                63.042.146.639        61.096.014.595
+Perubahan modal kerja
+Penurunan (kenaikan) aset lancar:
+Piutang usaha               1 33.323.673.947          1 6.077.675.190
+Piutang lain-lain                   3.126.926.980            3.676.253.705
+Persediaan              (152.365.434.311)           83.556.509.239
+Pajak dibayar dimuka                (99.133.481.753)         (95.768.850.815)
+Beban dibayar dimuka                  (7.503.532.225)            9.789.794.542
+Aset lancar lainnya              (661.937.831.991)         (64.681.393.200)
+ Kenaikan (penurunan) liabilitas jangka pendek:
+Utang usaha               5 16.155.586.358        (100.236.043.182)
+Utang pajak                  (3.560.639.333)           94.009.341.601
+Provisi masa garansi                   3.312.216.804               158.839.389
+Pendapatan diterima dimuka                (11.208.222.307)           (9.192.090.688)
+Beban yang masih harus dibayar                 44.941.254.093           54.076.568.032
+Utang lain-lain                    (150.902.407)           (9.421.695.604)
+            (171.958.239.507)        43.140.922.804
+Pembayaran pajak penghasilan badan                (29.749.242.924)         (16.306.627.450)
+Penerimaan pajak lebih bayar tahun 2011                   7.666.987.148                               -
+Kas bersih yang diperoleh dari (digunakan untuk)
+   aktivitas operasi            (194.040.495.283)        26.834.295.354
+ARUS KAS DARI AKTIVITAS INVESTASI
+Perolehan aset tetap                (10.681.570.857)         (16.476.945.009)
+Penyertaan jangka panjang                                      -              (599.999.998)
+Kenaikan beban ditangguhkan                (82.571.143.289)           (7.114.897.677)
+Aset lain-lain                               1.379           (1.389.260.003)
+Kas bersih yang digunakan untuk aktivitas investasi             ( 93.252.712.767)       (25.581.102.688)
+ARUS KAS DARI AKTIVITAS PENDANAAN
+Perolehan utang bank                2 49.974.062.225           13.723.052.870
+Pinjaman Jangka Menengah MTN                 40.000.000.000                               -
+Pembayaran imbalan pasca kerja                  (6.675.071.759)           (7.269.590.744)
+Pembagian laba                    (150.000.000)           (1.452.016.023)
+Kas bersih yang diperoleh dari aktivitas pendanaan             283.148.990.466          5.001.446.102
+Kenaikan (penurunan) bersih kas dan setara kas               (4.144.217.584)          6.254.638.769
+Kas dan setara kas awal tahun             123.076.245.127      1 16.821.606.358
+KAS DAN SETARA KAS AKHIR TAHUN             118.932.027.544      1 23.076.245.127
+Catatan atas laporan keuangan konsolidasian merupakan bagian tak terpisahkan dari laporan keuangan konsolidasian 5PERUSAHAAN PERSEROAN (PERSERO)
+PT INDUSTRI TELEKOMUNIKASI INDONESIA DAN ENTITAS ANAK
+CATATAN ATAS LAPORAN KEUANGAN KONSOLIDASIAN
+Untuk Tahun-Tahun Yang Berakhir 31 Desember 2013 dan 2012
+(Dalam Rupiah)
+3. ESTIMASI DAN PERTIMBANGAN AKUNTANSI YANG PENTING 
+c. Provisi penurunan nilai persediaan
+Provisi persediaan usang dan bergerak lambat diestimasi berdasarkan fakta dan situasi yang tersedia, termasuk
+namun tidak terbatas kepada, kondisi fisik persediaan yang dimiliki, harga jual pasar, estimasi biaya penyelesaian
+dan estimasi biaya yang timbul untuk penjualan. Provisi dievaluasi kembali dan disesuaikan jika terdapat
+tambahan informasi yang mempengaruhi jumlah yang diestimasi.
+d. Provisi masa pemeliharaan
+Atas penjualan peralatan kepada kastemer,selama satu tahun semenjak diterbitkannya Berita Acara Serah Terima-
+1 atau dalam masa garansi, perusahan mencadangkan beban masa pemeliharaan sebesar maksimal 2% dari nilai
+peralatan. Manajemen menganggap estimasi masa garansi sebesar maksimal 2% tersebut cukup untuk menutupi
+klaim dari kastemer.
+4. KAS DAN SETARA KAS
+a. Kas yang tidak dibatasi penggunaannya
+2013 2012
+Perusahaan :
+Kas
+            1 .697.298.844            1 .186.712.628
+Bank, dalam mata uang Rupiah:
+- PT Bank Negara Indonesia (Persero) Tbk.               180.839.280            1 .224.238.173
+- PT Bank Mandiri (Persero) Tbk.               409.093.922            1 .565.997.835
+- PT Bank Rakyat Indonesia (Persero) Tbk.            1 .162.935.327           10.447.081.064
+- PT Bank BRISyariah               309.587.591                            -
+- Deutsche Bank                   3.718.000                   3.962.000
+- PT Bank DKI                     680.000                            -
+          2.066.854.120        13.241.279.072
+Catatan atas laporan keuangan merupakan bagian tak terpisahkan dari laporan keuangan konsolidasian 29PERUSAHAAN PERSEROAN (PERSERO)
+PT INDUSTRI TELEKOMUNIKASI INDONESIA DAN ENTITAS ANAK
+CATATAN ATAS LAPORAN KEUANGAN KONSOLIDASIAN
+Untuk Tahun-Tahun Yang Berakhir 31 Desember 2013 dan 2012
+(Dalam Rupiah)
+4. KAS DAN SETARA KAS
+Bank, dalam mata uang asing:
+- PT Bank Negara Indonesia (Persero) Tbk.
+(2013: USD 23.101,23; 2012: USD 10.004,12)               286.278.898                 96.739.838
+- PT Bank Mandiri (Persero) Tbk.
+(2013; USD 678.043,66; 2012: USD 3.216.040,58)            8 .264.674.172           31.099.112.409
+- PT Bank Rakyat Indonesia (Persero) Tbk
+(2013: USD 18.343,57; 2012: 57.130,48 )               223.589.799               552.451.742
+- Deutsche Bank
+(2013: USD 22.190,64 -; 2012: USD 22.197,46 )               270.481.711               214.649.438
+          9.045.024.580        31.962.953.427
+Jumlah bank        11.111.878.700        45.204.232.499
+Deposito berjangka, dalam mata uang Rupiah:
+- PT Bank Negara Indonesia (Persero) Tbk.           33.000.000.000            9 .900.000.000
+- PT Bank Mandiri (Persero) Tbk.           40.500.000.000           14.300.000.000
+- PT Bank Rakyat Indonesia (Persero) Tbk.            3 .500.000.000            8 .100.000.000
+        77.000.000.000        32.300.000.000
+Deposito berjangka, dalam mata uang asing:
+- PT Bank Negara Indonesia (Persero) Tbk.
+(2013: USD - ; 2012: USD 675.000)                            -
+- PT Bank Rakyat Indonesia (Persero) Tbk.
+(2013: USD 650.000 - ; 2012: USD 3.240.000)            7 .922.850.000           37.858.050.000
+          7.922.850.000        37.858.050.000
+b. Kas yang dibatasi penggunaannya
+2013 2012
+Deposito dijaminkan:
+PT Bank Mandiri (Persero) Tbk.
+- Rupiah :             9 .200.000.000                            -
+PT Bank Negara Indonesia (Persero) Tbk.
+- Rupiah :             6 .000.000.000                            -
+- Dolar Amerika : 
+(2013: USD - ; 2012: USD 675.000)                            -            6 .527.250.000
+PT Bank Rakyat Indonesia (Persero) Tbk.
+- Rupiah :             6 .000.000.000                            -
+        21.200.000.000          6.527.250.000
+Jumlah deposito yang dijaminkan      106.122.850.000        76.685.300.000
+Jumlah Kas dan Setara Kas       118.932.027.544      123.076.245.127
+Catatan atas laporan keuangan merupakan bagian tak terpisahkan dari laporan keuangan konsolidasian 30PERUSAHAAN PERSEROAN (PERSERO)
+PT INDUSTRI TELEKOMUNIKASI INDONESIA DAN ENTITAS ANAK
+CATATAN ATAS LAPORAN KEUANGAN KONSOLIDASIAN
+Untuk Tahun-Tahun Yang Berakhir 31 Desember 2013 dan 2012
+(Dalam Rupiah)
+30. BEBAN PENJUALAN 
+2013 2012
+Tenaga kerja tidak langsung          1 2.988.833.644          1 2.332.209.634
+Administrasi dan rumah tangga            5 .717.483.523            4 .955.980.899
+Pemeliharaan dan perbaikan               633.206.258               512.579.925
+Penyusutan aset tetap            2 .684.073.639               317.288.725
+Amortisasi                 28.891.531                 33.318.704
+Kehumasan               177.680.795               319.051.323
+Asuransi                 77.707.925                 52.549.776
+Seminar dan pelatihan               186.912.227                            -
+Kesejahteraan pegawai            1 .613.744.583            1 .356.416.845
+Konsultan                  4 .545.454                  1 .500.000
+Sertifikasi Produk                 65.713.340               193.604.164
+Uji Coba Lapangan                 50.872.094                 58.259.105
+Jumlah        24.229.665.013        20.132.759.100
+31. BEBAN UMUM DAN ADMINISTRASI
+2013 2012
+Tenaga kerja tidak langsung          4 5.407.651.558          5 2.835.649.758
+Administrasi dan rumah tangga          1 9.711.249.937          1 4.500.064.076
+Pemeliharaan dan perbaikan            5 .617.100.120            6 .886.321.916
+Penyusutan aset tetap            2 .721.521.193            2 .624.365.985
+Amortisasi            4 .368.767.073            2 .180.587.692
+Kehumasan               686.628.208               361.296.244
+Seminar dan pelatihan            2 .825.927.127            2 .847.104.336
+Kesejahteraan pegawai            8 .622.799.586            9 .895.436.306
+Konsultan             1 .051.586.592            1 .086.703.404
+Pajak               682.270.848               628.311.002
+Kualitas                774.023.545               287.395.471
+Jumlah        92.469.525.787        94.133.236.190
+Catatan atas laporan keuangan merupakan bagian tak terpisahkan dari laporan keuangan konsolidasian 62

@@ -1,0 +1,552 @@
+PT INDUSTRI TELEKOMUNIKASI INDONESIA (PERSERO) PT INDUSTRI TELEKOMUNIKASI INDONESIA (PERSERO)
+DAN ENTITAS ANAK AND ITS SUBSIDIARIES
+LAPORAN POSISI KEUANGAN (NERACA) CONSOLIDATED STATEMENTS OF
+KONSOLIDASIAN FINANCIAL POSITION (BALANCE SHEETS)
+Tanggal 31 Desember 2016 dan 2015 As of December 31, 2016 and 2015
+(Dinyatakan dalam Rupiah penuh, kecuali dinyatakan lain) (Expressed in fully Rupiah, unless otherwise stated)
+Catatan/  31 Desember 2016/ 31 Desember 2015/ 
+Notes December 31, 2016 December 31, 2015
+ASET ASSETS
+ASET LANCAR CURRENT ASSETS
+Kas dan setara kas 3d;3f;3g;5          56.204.802.020        181.868.354.936 Cash and Cash Equivalent
+Piutang usaha 3d;3f;3h;6 Accounts Receivables
+Pihak Ketiga          31.727.733.465          56.713.942.443 Third Parties
+Pihak Berelasi          28.484.147.005          49.801.501.256 Related Parties
+Tagihan Bruto Pemberi Kerja 3s;7        199.399.012.752        447.194.354.967 Gross Amount Due from Customers
+Aset Keuangan Lancar Lainnya 3h;8            3.496.693.478            6.182.464.578 Other Current Financial Assets
+Persediaan 3i;9          94.005.499.387        200.314.963.346 Inventories
+Pajak Dibayar Dimuka 3t;20a          61.690.472.386          28.861.792.379 Prepaid Taxes
+Uang Muka 3j;10            3.701.504.868            5.393.101.033 Advance
+JUMLAH ASET LANCAR        478.709.865.361        976.330.474.938 TOTAL CURRENT ASSETS
+ASET TIDAK LANCAR NON CURRENT ASSETS
+Investasi pada Entitas Asosiasi 3k;11          21.442.972.841          21.442.972.841 Investment in Associates
+Properti Investasi 3l;12                                 1                                 1 Investment Property
+Aset Tetap 3m;13        772.892.435.873        778.317.834.506 Fixed Assets
+Aset Takberwujud 3n;14                 74.626.309            2.608.630.304 Intangible Assets
+Aset Pajak Tangguhan 3t;20d          84.364.631.865          87.322.990.721 Deferred Tax Assets
+Aset Tidak Lancar Lainnya 15            9.348.104.846            3.740.818.379 Other Non Current Financial Assets
+JUMLAH ASET TIDAK LANCAR        888.122.771.735        893.433.246.754 TOTAL NON CURRENT ASSETS
+JUMLAH ASET     1.366.832.637.096     1.869.763.721.692 TOTAL ASSETS
+Catatan atas laporan keuangan konsolidasian terlampir merupakan bagian yang The accompanying notes to the consolidated financial statements as 
+tidak terpisahkan dari laporan keuangan konsolidasian secara keseluruhan an integral part of  these consolidated financial statements
+1P PT T I IND NDUS UST TRI T RI TE EL LE EKOM KOMUN UNIKA IKAS SI I INDONE INDONES SIA IA ( (P PE ERS RSE ERO) RO)  P PT T I IND NDUS UST TRI T RI TE EL LE EKOM KOMUN UNIKAS IKASI I INDONE INDONES SIA ( IA (P PE ERS RSE ERO) RO) PT INDUSTRI TELEKOMUNIKASI INDONESIA (PERSERO) PT INDUSTRI TELEKOMUNIKASI INDONESIA (PERSERO)
+DA DAN E N ENT NTIT ITA AS S A ANA NAK K AN AND IT D ITS S S SUB UBS SIDIARIE IDIARIES S DAN ENTITAS ANAK AND ITS SUBSIDIARIES
+L LA AP PORA ORAN P N POS OSIS ISI I KE KEUA UANGA NGAN ( N (NE NERA RACA CA) )  CONS CONSOL OLIDAT IDATE ED S D ST TAT ATE EM ME ENT NTS S O OF F LAPORAN POSISI KEUANGAN (NERACA) CONSOLIDATED STATEMENTS OF
+KONS KONSOL OLIDA IDAS SIA IAN N F FINAN INANCIAL CIAL P POS OSIT ITIO ION ( N (BA BAL LAN ANCE CE S SHE HEE ET TS S) ) KONSOLIDASIAN FINANCIAL POSITION (BALANCE SHEETS)
+T Tanggal anggal 31 D 31 Des esem ember ber 2 2016 d 016 dan 2 an 2015 015 A As s o off  D De ec ce em mber ber 3 31, 1,  2016 a 2016 and 2 nd 2015 015 Tanggal 31 Desember 2016 dan 2015 As of December 31, 2016 and 2015
+( (D Diiny nyat ata ak kan d an dal ala am m R Rupi upia ah h p penuh, enuh,  k kec ecual ualii d diin ny yat ata ak kan l an lai ain n) ) ( (E Ex xp pr re esse ssed d  in in  f fu ull lly y Ru Rup piah iah, u , un nless o less oth the er rw wise sta ise state ted d) ) (Dinyatakan dalam Rupiah penuh, kecuali dinyatakan lain) (Expressed in fully Rupiah, unless otherwise stated)
+Cat Cata at ta an n/ /  3 31 D 1 Desem esemb ber er 2 2016/ 016/  31 D 31 Desem esemb ber er 2 2015/ 015/  Catatan/  31 Desember 2016/ 31 Desember 2015/ 
+N Note otes s D De ec cem emb ber er  3 31, 1, 2016  2016 D De ec cem emb ber er  3 31, 1, 2015 2015 Notes December 31, 2016 December 31, 2015
+A ASET SET A AS SSET SETS S
+LIABILITAS DAN EKUITAS EQUITY AND LIABILITIES
+AS ASE ET T L LAN ANC CAR AR  CU CURR RRE ENT NT AS ASS SE ET TS S
+LIABILITAS JANGKA PENDEK SHORT-TERM LIABILITIES
+K Kas as d dan s an se etta ar ra k a kas as 3d; 3d;3 3ff;3g; ;3g;5 5                    56. 56.2 204. 04.8 802. 02.0 020 20                181. 181.8 868. 68.3 354. 54.9 936 36 Cash Cash a an nd d Ca Cash sh E Eq qu uivale ivalen ntt
+Utang Usaha 3h;16        143.192.654.377        292.341.137.633 Trade Accounts Payable
+P Piiu utang u tang us saha aha 3d; 3d;3 3ff;3h; ;3h;6 6 A Acco ccou un nts Rece ts Receivab ivables les
+Beban Akrual 3h;17        103.895.094.270          85.653.392.750 Accrued Expenses
+P Piha ihak k K Ke etig tiga a                    31. 31.7 727. 27.7 733. 33.4 465 65                    56. 56.7 713. 13.9 942. 42.4 443 43 T Thi hir rd P d Par arttiies es Utang Bank 3h;18        716.955.189.682        649.503.797.623 Bank Loan
+Pinjaman MTN 3h;19                                  -        116.000.000.000 Medium Term Note
+P Piha ihak k B Be er re elasi lasi                    28. 28.4 484. 84.1 147. 47.0 005 05                    49. 49.8 801. 01.5 501. 01.2 256 56 Rela Relate ted d P Pa ar rtie ties s
+Utang pajak 3t;20b            9.380.239.567          12.723.261.876 Tax Payables
+T Tagi agih ha an B n Br rut uto o P Pem ember berii K Ker erjja a 3 3s;7 s;7                199. 199.3 399. 99.0 012. 12.7 752 52                447. 447.1 194. 94.3 354. 54.9 967 67 Gr Gro oss A ss Am mo ou un nt t Due Due f fr ro om m Cu Custo stom me er rs s
+Imbalan Paska Kerja Jangka Pendek 3u;23            8.639.642.275                                  - Short-Term Employee Benefits Plan
+A As set et  K Keuangan L euangan Lanc ancar ar L Lai ain nn ny ya a 3h; 3h;8 8                        3. 3.4 496. 96.6 693. 93.4 478 78                        6. 6.1 182. 82.4 464. 64.5 578 78 Ot Oth he er r Cu Cur rr re en nt t F Fina inan ncial A cial Asse ssets ts
+Liabilitas Keuangan Jangka Pendek Lainnya 3h;21          61.451.745.620          88.717.666.526 Other Short-Term Financial Liabilities
+P Per ers sedi edia aa an n 3 3i;9 i;9                    94. 94.0 005. 05.4 499. 99.3 387 87                200. 200.3 314. 14.9 963. 63.3 346 46 In Inve ven nto tor ries ies
+P Pa ajak jak Diba Dibay ya ar r Dim Dimu uk ka a 3t 3t;20a ;20a                    61. 61.6 690. 90.4 472. 72.3 386 86                    28. 28.8 861. 61.7 792. 92.3 379 79 P Pr repai epaid d T Tax axes es
+TOTAL LIABILITAS JANGKA PENDEK     1.043.514.565.791     1.244.939.256.408 TOTAL SHORT-TERM LIABILITIES
+U Ua an ng M g Muk uka a 3j 3j;;10 10                        3. 3.7 701. 01.5 504. 04.8 868 68                        5. 5.3 393. 93.1 101. 01.0 033 33 A Adv dvanc ance e
+LIABILITAS JANGKA PANJANG LONG-TERM LIABILITIES
+Utang Bank 3h;18          18.657.589.851                                  -
+J JU UM ML LAH AH AS ASE ET T L LAN ANC CAR AR                478. 478.7 709. 09.8 865. 65.3 361 61                976. 976.3 330. 30.4 474. 74.9 938 38 T TOT OTA AL L CUR CURRE RENT NT A AS SS SE ET TS S
+Pendapatan Ditangguhkan 22            1.674.749.998            3.258.749.998 Deferred Revenue
+Liabilitas Imbalan Paska Kerja 3u;23        112.244.673.927          97.259.368.526 Employee Benefits Liabilities
+AS ASE ET T T TIID DAK AK L LAN ANC CAR AR NON CU NON CURR RRE ENT NT AS ASS SE ET TS S
+TOTAL LIABILITAS JANGKA PANJANG        132.577.013.776        100.518.118.524 TOTAL LONG-TERM LIABILITIES
+IIn nve vesta stasi p si pa ad da a E En ntita titas A s Aso sosiasi siasi 3 3k k;;11 11                    21. 21.4 442. 42.9 972. 72.8 841 41                    21. 21.4 442. 42.9 972. 72.8 841 41 In Inve vestm stme en nt in A t in Asso ssociat ciate es s
+P Pr ro op pe er rti I ti In nve vesta stasi si 3l 3l;;12 12                                                                  1 1                                                                  1 1 I In nv ves est tm ment ent P Pr roper opert ty y
+TOTAL LIABILITAS     1.176.091.579.567     1.345.457.374.932 TOTAL LIABILITIES
+A As set et T Tet eta ap p 3 3m m;;13 13                772. 772.8 892. 92.4 435. 35.8 873 73                778. 778.3 317. 17.8 834. 34.5 506 06 F Fix ixe ed d A Asse ssets ts
+A As set et T Tak akber berw wuj uju ud d  3n; 3n;1 14 4                                  74. 74.6 626. 26.3 309 09                        2. 2.6 608. 08.6 630. 30.3 304 04 In Inta tan ng gible ible A Asse ssets ts
+EKUITAS EQUITY
+A As set et P Paj aja ak k  T Tangguhan angguhan 3t 3t;20d ;20d                    84. 84.3 364. 64.6 631. 31.8 865 65                    87. 87.3 322. 22.9 990. 90.7 721 21 D De efer ferr red T ed Tax ax A As ss set ets s
+Ekuitas yang Dapat Diatribusikan kepada Equity Attributable to Owner 
+Pemilik Entitas Induk: of Parent Entity :
+A Ase set t T Tida idak k L La an nca car r L La ainn inny ya a 15 15                        9. 9.3 348. 48.1 104. 04.8 846 46                        3. 3.7 740. 40.8 818. 18.3 379 79 Ot Oth he er r No Non n Cu Cur rr re en nt t F Fina inan ncial A cial Asse ssets ts
+Modal saham 24        350.000.000.000        350.000.000.000 Shares Capital
+nilai nominal Rp1.000.000 per saham nominal value  Rp1.000.000/ share
+J JUM UML LA AH A H AS SE ET T T TIDA IDAK L K LA ANC NCA AR R                888. 888.1 122. 22.7 771. 71.7 735 35                893. 893.4 433. 33.2 246. 46.7 754 54 T TOT OTAL AL NON CUR NON CURRE RENT NT AS ASS SE ET TS S
+Modal ditempatkan dan disetor penuh issued and fully paid capital about
+- 350.000 saham, nilai nominal Rp. - 350.000 shares., nominal value Rp. 
+J JU UM ML LAH AH AS ASE ET T          1. 1.3 366. 66.8 832. 32.6 637. 37.0 096 96          1. 1.8 869. 69.7 763. 63.7 721. 21.6 692 92 TOTA TOTAL AS L ASS SE ETS TS
+350.000.000.000 350.000.000.000
+Saldo Laba (Rugi) 25 Retained Earnings
+Ditentukan Penggunaannya: Appopriate:
+Cadangan Umum          76.951.536.537          76.951.536.537 General Reserves
+C Ca atat tata an a n atta as s l lapor aporan k an keuangan k euangan kons onsol oliidas dasiia an n ter terlla am mpi pir r m mer erupak upakan b an bagi agia an n y yang ang T The a he ac cc com ompany panyiin ng g n not ote es s to the c to the co ons nsol oliidat date ed fi d fin na anc nciia all s stat tate em ment ents s  as as  
+Cadangan Tujuan          11.542.719.796          11.542.719.796 Purpose Reserves
+ttiidak dak ter terpi pis sa ah hk kan d an dar arii l la ap por oran k an keuangan k euangan kons onsol oliidas dasiia an n s se ec car ara k a kes esel elu ur ruhan uhan an i an int nte egr gral al par partt  of of   thes these c e co ons nsol oliidat date ed fi d fin na anc nciia all s stat tate em ment ents s
+Belum Ditentukan Penggunaannya: Un-Appopriate:
+Saldo laba tahun lalu       (626.037.378.154)       (342.589.493.318) Retained Earning
+Laba (Rugi) Tahun Berjalan       (315.351.597.117)       (283.447.884.836) Profit or Loss of The Year
+       (941.388.975.272)       (626.037.378.154)
+Komponen Ekuitas Lainnya        692.119.168.282        709.485.931.562 Other Equity Components
+Ekuitas yang dapat diatribusikan kepada Total Equity Atributable to owner
+ pemilik entitas induk        189.224.449.343        521.942.809.741 of parent entity
+Kepentingan Non pengendali            1.516.608.186            2.363.537.017 Non-controlling Interest
+Jumlah Ekuitas        190.741.057.529        524.306.346.758 Total Equity
+JUMLAH LIABILITAS DAN EKUITAS     1.366.832.637.096     1.869.763.721.691 TOTAL EQUITY AND LIABILITIES
+Catatan atas laporan keuangan konsolidasian terlampir merupakan bagian yang The accompanying notes to the consolidated financial statements as 
+tidak terpisahkan dari laporan keuangan konsolidasian secara keseluruhan an integral part of  these consolidated financial statements
+1 1 2PT INDUSTRI TELEKOMUNIKASI INDONESIA (PERSERO) PT INDUSTRI TELEKOMUNIKASI INDONESIA (PERSERO)
+DAN ENTITAS ANAK AND ITS SUBSIDIARIES
+LAPORAN LABA RUGI DAN PENGHASILAN KOMPREHENSIF CONCOLIDATED STATEMENT OF INCOME AND OTHER 
+LAIN KONSOLIDASIAN COMPREHENSIVE INCOME
+Untuk Tahun yang Berakhir pada Tanggal-tanggal 31 Desember 2016 dan 2015 For the Years Ended As fo December 31, 2016 and 2015
+(Dinyatakan dalam Rupiah penuh, kecuali dinyatakan lain) (Expressed in fully Rupiah, unless otherwise stated)
+Catatan/ 
+ 2016 2015
+Notes
+Pendapatan        681.078.397.077 3s;27        420.991.676.514 Revenues
+Beban Pokok Penjualan       (801.710.705.164) 3s;28       (417.911.768.649) Cost of Goods Sold
+Laba (Rugi) Kotor       (120.632.308.087)            3.079.907.865 Gross Profits (Loss)
+Beban Usaha         (98.489.385.016) 3s;29       (113.526.822.859) Operating Expenses
+Rugi Usaha Sebelum Beban Pendanaan       (219.121.693.103)       (110.446.914.994) Loss Before Funding Expenses
+Beban Pendanaan         (83.519.174.987) 3s;30       (115.515.426.687) Funding Expenses
+Rugi Sebelum Pendapatan (Beban) Loss Before
+Non-Usaha       (302.640.868.090)       (225.962.341.681) Non Operating Expenses 
+Pendapatan (Beban) Non Usaha               796.882.459 3s;31         (40.685.740.643) Non Operating Expenses - Net
+Rugi Sebelum Pajak       (301.843.985.632)       (266.648.082.324) Loss Before Income Tax
+Manfaat (Beban) Pajak Penghasilan         (14.354.540.317) 3t;20c         (17.012.632.254) Income Taxes Benefit (Expenses)
+Rugi Tahun Berjalan       (316.198.525.948)       (283.660.714.578) Loss For The Year
+Penghasilan Komprehensif Lain Ohter Comprehensive Income
+Pos-pos yang Tidak Akan Items That Will Not be Reclassified
+  Direklasifikasi ke Laba Rugi: to Profit or Loss:
+Surplus Revaluasi Tanah                              -        756.742.173.635 Surplus revaluasi Land
+Pengukuran Kembali atas Program Imbalan Gain (Losses)
+Pasti
+         (23.155.684.373)          12.318.646.900 Actuarial
+Beban Pajak Penghasilan terkait            5.788.921.093           (3.079.661.725) Related Income Tax
+Penghasilan Komprehensif Lain Tahun Other Comprehensive Income                          
+         (17.366.763.280)        765.981.158.810
+Berjalan for the Year
+Jumlah Penghasilan Komprehensif Total Comprehensive Income                            
+Tahun Berjalan       (333.565.289.228)        482.320.444.232 for the Year
+Rugi Tahun Berjalan yang Dapat Diatribusikan kepada: Loss Attributable for the year:
+Pemilik Entitas Induk       (315.351.597.117)       (283.447.884.836) Owners of The Parent
+Kepentingan Non pengendali              (846.928.831)              (212.829.742) Non-controlling Interest
+Jumlah       (316.198.525.948)       (283.660.714.578) Total
+Jumlah Penghasilan Komprehensif Tahun Berjalan yang Total Comprehensive Income 
+Dapat Diatribusikan kepada:     Attributable to: 
+Pemilik Entitas Induk       (332.718.360.397)        482.533.273.974 Equity Holders of The Parent Entity
+Kepentingan Non pengendali              (846.928.831)              (212.829.742) Non-controlling Interest
+Jumlah       (333.565.289.228)        482.320.444.232 Total
+Laba (Rugi) Per Lembar Saham                     (903.424)                     (810.459) Basic Net Earnings Per Share
+Catatan atas laporan keuangan konsolidasian terlampir merupakan 
+The accompanying notes to the consolidated financial statements as 
+bagian yang tidak terpisahkan dari laporan keuangan konsolidasian 
+an integral part of  these consolidated financial statements
+secara keseluruhan
+3PT INDUSTRI TELEKOMUNIKASI INDONESIA (PERSERO) AND SUBSIDIARIES
+PT INDUSTRI TELEKOMUNIKASI INDONESIA (PERSERO) DAN ENTITAS ANAK
+LAPORAN PERUBAHAN EKUITAS KONSOLIDASIAN CONSOLIDATED STATEMENTS OF CHANGES IN EQUITY
+Untuk Tahun yang Berakhir 31 Desember 2016 For the Year Ended December 31, 2015
+P PT T I IND NDUS UST TRI T RI TE EL LE EKOM KOMUN UNIKA IKAS SI I INDONE INDONES SIA IA ( (P PE ERS RSE ERO) RO) P PT T I IND NDUS UST TRI T RI TE EL LE EKOM KOMUN UNIKAS IKASI I INDONE INDONES SIA ( IA (P PE ERS RSE ERO) RO)
+(Angka-angka Disajikan Dalam Rupiah, kecuali dinyatakan lain) (Expressed in Rupiah, unless otherwise stated)
+DA DAN E N ENT NTIT ITA AS S A ANA NAK K AN AND IT D ITS S S SUB UBS SIDIARIE IDIARIES S
+L LA AP PORA ORAN L N LA ABA BA RUGI  RUGI DA DAN P N PE ENGHA NGHAS SIL ILA AN KOM N KOMP PRE REHE HENS NSIF IF  CONC CONCOL OLIDAT IDATE ED S D ST TAT ATE EM ME ENT NT O OF F I INC NCOM OME E AND AND O OT THE HER R 
+Ekuitas yang Dapat Diatribusikan Kepada Pemilik Entitas Induk/Equity Attributable to Owner of Parent Entity 
+L LA AIN KONS IN KONSOL OLIDA IDAS SIA IAN N COM COMP PRE REHE HENS NSIV IVE E I INC NCOM OME E
+Saldo Laba/Retained Earnings Komponen                 Kepentingan        
+U Un ntuk tuk T Tahun y ahun yang B ang Ber erak akhi hir r p pada T ada Tanggal anggal- -tta anggal nggal 31 D 31 Des esem ember ber 2 2016 d 016 dan 2 an 2015 015 F For or the Y the Year ears s E Ended A nded As s fo D fo Dec ecem ember ber 3 31, 1,  2016 a 2016 and 2 nd 2015 015
+Modal Ditempatkan Jumlah            
+Ditentukan Penggunaannya/Appopriate
+Ekuitas          Non Pengendali/ 
+( (D Diiny nyat ata ak kan d an dal ala am m R Rupi upia ah h p penuh, enuh,  k kec ecual ualii d diin ny yat ata ak kan l an lai ain n) ) ( (E Ex xp pr re esse ssed d  in in  f fu ull lly y Ru Rup piah iah, u , un nless o less oth the er rw wise sta ise state ted d) )
+dan Disetor Penuh/    Belum Ditentukan Ekuitas/Total                       
+Cadangan                  Cadangan                  Lainnya/              Jumlah/Total Non-controlling 
+Issued and Fully Penggunaannya/  Un- Equity
+Interest
+Umum/        General Tujuan/          Other Equity 
+Paid Capital
+Appopriate
+Cat Cata at ta an n/ / 
+Components
+Reserves Purpose Reserves             
+ 2 2016 016 2015 2015
+N Note otes s
+Saldo per 31 Desember 2014        350.000.000.000        76.951.536.537        11.542.719.796       (349.702.948.059)         (56.495.227.249)          32.296.081.026          3.790.123.156           36.086.204.182 Balance as of December 31, 2014 *)
+P Pendapat endapata an n                681. 681.0 078. 78.3 397. 97.0 077 77 3 3s;2 s;27 7                420. 420.9 991. 91.6 676. 76.5 514 14 R Re ev ve enues nues
+Cadangan Umum                                  -                                -                                -                                  -                                  -                                  -                                -                               - General Reserves
+B Beban P eban Pok okok ok P Penj enju ua alla an n              ( (801. 801.7 710. 10.7 705. 05.1 164) 64) 3 3s;2 s;28 8              ( (417. 417.9 911. 11.7 768. 68.6 649) 49) Cost Cost o of f Go Goo od ds S s So old ld
+Rugi Tahun Berjalan                                  -                                -                                -       (283.447.884.836)                                  -       (283.447.884.836)            (212.829.742)        (283.660.714.578) Loss for the Year
+Keuntungan Aktuaria                                  -                                -                                -                                  -            9.238.985.175            9.238.985.175                                -             9.238.985.175 Gain Actuarial
+La Laba ba (R (Ru ugi gi) K ) Kot otor or              ( (120. 120.6 632. 32.3 308. 08.0 087) 87)                        3. 3.0 079. 79.9 907. 07.8 865 65 G Gr ros oss s P Pr rof ofiits ts (Los (Loss s) )
+Surplus Revaluasi Tanah                                  -                                -                                -                                  -        756.742.173.635        756.742.173.635                                -         756.742.173.635 Surplus Revaluation of Land
+Koreksi Saldo Laba                                  -                                -                                -            7.113.454.741                                  -            7.113.454.741         (1.213.756.397)             5.899.698.344 Correction Retained Earnings
+B Beban U eban Us saha aha                  ( (98. 98.4 489. 89.3 385. 85.0 016) 16) 3 3s;2 s;29 9              ( (113. 113.5 526. 26.8 822. 22.8 859) 59) O Op per erat atiing E ng Ex xpens penses es
+Balance as of December 31, 2015
+Saldo per 31 Desember 2015        350.000.000.000        76.951.536.537        11.542.719.796       (626.037.378.154)        709.485.931.562        521.942.809.741          2.363.537.017         524.306.346.758
+R Ru ug gii  U Us sa ah ha S a Seb ebel elu um m B Beb eban an P Pen end dan anaan aan              ( (219. 219.1 121. 21.6 693. 93.1 103) 03)              ( (110. 110.4 446. 46.9 914. 14.9 994) 94) Los Loss s B Be ef for ore e F Fundi undin ng E g Ex xpe pens nse es s
+Cadangan Umum                                  -                                -                                -                                  -                                  -                                  -                                -                               - General Reserves
+Rugi Tahun Berjalan                                  -                                -                                -       (315.351.597.117)                                  -       (315.351.597.117)            (846.928.831)        (316.198.525.949) Loss for the Year
+B Beban P eban Pendanaan endanaan                  ( (83. 83.5 519. 19.1 174. 74.9 987) 87) 3 3s;3 s;30 0              ( (115. 115.5 515. 15.4 426. 26.6 687) 87) F Fundi undin ng g E Ex xpens penses es
+Keuntungan Aktuaria                                  -                                -                                -                                  -         (17.366.763.280)         (17.366.763.280)                                -          (17.366.763.280) Gain Actuarial
+Surplus Revaluasi Tanah                                  -                                -                                -                                  -                                  -                                  -                                -                               - Surplus Revaluation of Land
+R Ru ugi gi  S Se ebe bellu um m P Pe enda ndapa pat ta an (B n (Be eb ba an) n) Los Loss s B Be ef for ore e Koreksi Saldo Laba                                  -                                -                                -                                  -                                  -                                  -                                -                               - Correction Retained Earnings
+No Non n- -Usa Usah ha a              ( (302. 302.6 640. 40.8 868. 68.0 090) 90)              ( (225. 225.9 962. 62.3 341. 41.6 681) 81) N No on n Op Oper erat atiin ng g E Exp xpen enses ses  
+Saldo per 31 Desember 2016        350.000.000.000        76.951.536.537        11.542.719.796       (941.388.975.271)        692.119.168.282        189.224.449.344          1.516.608.186         190.741.057.529 Balance as of December 31, 2016
+P Pendapat endapata an ( n (B Beban) eban) N Non U on Us saha aha                              796. 796.8 882. 82.4 459 59 3 3s;3 s;31 1                  ( (40. 40.6 685. 85.7 740. 40.6 643) 43) N No on n Oper Operat atiing E ng Ex xpens penses es - - N Net et
+Ru Rug gi S i Se eb be elu lum m  P Pa aja jak k              ( (301. 301.8 843. 43.9 985. 85.6 632) 32)              ( (266. 266.6 648. 48.0 082. 82.3 324) 24) L Lo oss B ss Bef efo or re In e Inco com me T e Tax ax
+Catatan atas laporan keuangan konsolidasian terlampir merupakan bagian yang tidak The Accompanying Notes to the Consolidated Financial Statements
+M Manf anfa aat at  ( (B Beban) eban) P Paj aja ak k P Penghas enghasiillan an                  ( (14. 14.3 354. 54.5 540. 40.3 317) 17) 3t 3t;20c ;20c                  ( (17. 17.0 012. 12.6 632. 32.2 254) 54) IIn nc com ome T e Tax axes es B Benef enefiitt  ( (E Ex xpens penses es) )
+terpisahkan dari laporan keuangan konsolidasian secara keseluruhan which are an Integral Parts of The Consolidated Financial Statements
+R Ru ugi gi Ta Tahun hun B Be er rj ja al la an n              ( (316. 316.1 198. 98.5 525. 25.9 948) 48)              ( (283. 283.6 660. 60.7 714. 14.5 578) 78) L Lo oss F ss Fo or r T Th he Y e Year ear
+P Pe engha nghas siilla an K n Kom ompr pre ehe hens nsiif L f La aiin n Oh Ohte ter r  Co Com mp pr re eh he en nsive In sive Inco com me e
+P Po os- s-p po os y s yan ang g T Tiid dak A ak Akan kan It Ite em ms T s Th ha at t W Wil ill Not l Not b be e Re Reclassifie classified d
+    D Diir rekl ekla asi sif fiik kasi asi  ke L ke Lab aba R a Ru ug gii: : to to P Pr ro ofit fit o or r L Lo oss: ss:
+S Su ur rp plus Reva lus Revalua luasi si T Ta an na ah h                                                            - -                756. 756.7 742. 42.1 173. 73.6 635 35 S Su ur rp plus r lus re eva valua luasi si L La an nd d
+P Penguk engukur uran K an Kem embal balii a atta as s P Pr rogr ogram am I Im mbal bala an n  Ga Gain ( in (L Lo osse sses) s)
+P Pa asti sti
+                  ( (23. 23.1 155. 55.6 684. 84.3 373) 73)                    12. 12.3 318. 18.6 646. 46.9 900 00 A Actu ctua ar rial ial
+B Beban P eban Paj aja ak k P Penghas enghasiillan ter an terk kai aitt                        5. 5.7 788. 88.9 921. 21.0 093 93                      ( (3. 3.0 079. 79.6 661. 61.7 725) 25) R Re ellat ate ed Inc d Incom ome T e Tax ax
+P Pe engha nghas siilla an K n Kom ompr pre ehe hens nsiif L f La aiin n T Ta ahun hun O Othe ther r C Com ompr pre ehe hens nsiiv ve e I Inc ncom ome e                                                    
+                  ( (17. 17.3 366. 66.7 763. 63.2 280) 80)                765. 765.9 981. 81.1 158. 58.8 810 10
+Ber Berja jala lan n f for or the the Y Ye ea ar r
+J Jum umlla ah P h Pe engha nghas siilla an K n Kom ompr pre ehe hens nsiif f T To ot tal al  C Co om mp pr reh ehen ensi siv ve In e Inco com me  e                                                      
+Ta Tahun B hun Be er rjja alla an n              ( (333. 333.5 565. 65.2 289. 89.2 228) 28)                482. 482.3 320. 20.4 444. 44.2 232 32 f for or the the Y Ye ea ar r
+R Ru ug gii T Tahun B ahun Ber erjja allan y an yang D ang Dapat apat  D Diiat atr riib bu us siik kan k an kepada: epada: L Lo oss A ss Att ttr ribu ibuta tab ble le fo for r t th he e ye yea ar r::
+P Pe em mil ilik ik E En ntita titas I s In nd du uk k              ( (315. 315.3 351. 51.5 597. 97.1 117) 17)              ( (283. 283.4 447. 47.8 884. 84.8 836) 36) O Ow wner ners s o off  T The P he Par arent ent
+K Kepent epentiingan N ngan Non p on pengendal engendalii                            ( (846. 846.9 928. 28.8 831) 31)                            ( (212. 212.8 829. 29.7 742) 42) Non Non- -co con ntr tro oll lling ing I In nte ter re est st
+J Jum umlla ah h              ( (316. 316.1 198. 98.5 525. 25.9 948) 48)              ( (283. 283.6 660. 60.7 714. 14.5 578) 78) Tot Tota all
+J Jum umlla ah h P Penghas enghasiillan K an Kom ompr prehens ehensiiff T Tahun B ahun Ber erjja allan y an yang ang T To ota tal l Com Comp pr re eh he en nsive In sive Inco com me e  
+D Da ap pat at D Diiat atr riib bu us siik kan an k kepada: epada:          A Att ttr ribu ibuta tab ble to le to: : 
+P Pe em mil ilik ik E En ntita titas I s In nd du uk k              ( (332. 332.7 718. 18.3 360. 60.3 397) 97)                482. 482.5 533. 33.2 273. 73.9 974 74 E Eq qu uity Ho ity Holde lder rs o s of f T Th he e P Pa ar re en nt t E En ntity tity
+K Kepent epentiingan N ngan Non p on pengendal engendalii                            ( (846. 846.9 928. 28.8 831) 31)                            ( (212. 212.8 829. 29.7 742) 42) Non Non- -co con ntr tro oll lling ing I In nte ter re est st
+J Jum umlla ah h              ( (333. 333.5 565. 65.2 289. 89.2 228) 28)                482. 482.3 320. 20.4 444. 44.2 232 32 Tot Tota all 4
+La Laba ba (R (Ru ugi gi) P ) Pe er r L Le em mba bar r S Sa aha ham m                                          ( (903. 903.4 424) 24)                                          ( (810. 810.4 459) 59) B Ba as siic c N Net et E Ear arn niin ng gs P s Per er S Sh har are e
+C Ca atat tata an a n atta as s l lapor aporan k an keuangan k euangan kons onsol oliidas dasiia an n ter terlla am mpi pir r m mer erupak upakan an 
+T The a he ac cc com ompany panyiin ng g n not ote es s to the c to the co ons nsol oliidat date ed fi d fin na anc nciia all s stat tate em ment ents s  as as  
+bagi bagia an n y yang ti ang tid da ak k ter terpi pis sa ah hk kan d an dar arii l la ap por oran k an keuangan k euangan kons onsol oliidas dasiia an n  
+an i an int nte egr gral al par partt  of of   thes these c e co ons nsol oliidat date ed fi d fin na anc nciia all s stat tate em ment ents s
+s sec ecar ara k a kes esel elu ur ruhan uhan
+3 3PERUSAHAAN PERSEROAN (PERSERO) PT INDUSTRI TELEKOMUNIKASI INDONESIA (PERSERO)
+PT INDUSTRI TELEKOMUNIKASI INDONESIA DAN ENTITAS ANAK AND ITS SUBSIDIARIES
+LAPORAN ARUS KAS KONSOLIDASIAN CONSOLIDATED STATEMENTS OF CASH FLOWS
+Untuk Tahun yang berakhir pada tanggal-tanggal 31 Desember 2016 dan 2015 For the Years Ended December 31, 2016 and 2015
+(Disajikan dalam Rupiah penuh, kecuali dinyatakan lain) (Expressed in Rupiah, Unless Otherwise Stated)
+ 31 Desember 2016/  31 Desember 2015/ 
+December 31, 2016 December 31, 2015 
+ARUS KAS DARI AKTIVITAS OPERASI CASH FLOWS FROM OPERATING ACTIVITIES
+Laba (rugi) sebelum pajak konsolidasian      (301.8 43.985.632)      (266.6 48.082.324) Income (loss) before tax consolidated
+Penyesuaian atas unsur-unsur yang tidak Adjustments to the elements that are not
+mempengaruhi arus kas : affecting cash flows:   
+Penyusutan aset tetap            5.648.820.615            9.231.706.345 Depreciation of Fix Asset
+Penyisihan piutang usaha               703.926.321            6.470.082.336 Provision for impairment of receivable
+Penyisihan persediaan               415.090.180        (36.06 1.671.933) Provision for impairment of inventories
+Penurunan nilai penyertaan / bagian laba anak                                 -           (1.213 .755.572) Impairment of investment/profit share of subsidiaries
+Amortisasi beban tangguhan            2.534.003.995            6.019.081.960 Amortization of deferred expenses
+Beban imbalan pasca kerja            6.569.339.454          31.852.439.092 Post-retirement benefits
+Amortisasi pendapatan tangguhan - sewa lahan          (1.584 .000.000)          (2.208 .999.999) Amortization of deferred revenue - land lease
+Arus kas operasi sebelum perubahan modal kerja       (287.5 56.805.067)      (252.5 59.200.095) Operating cash flow before working capital changes
+Perubahan modal kerja Changes in working capital
+Penurunan (kenaikan) aset lancar: Decrease (increase) in current assets: 
+Piutang usaha         4 9.157.563.229        (62.83 2.884.212) Accounts receivable
+Persediaan       1 06.309.463.959       1 27.361.419.212 Inventories
+Pajak dibayar dimuka        (32.82 8.680.007)        (11.58 6.065.325) Prepaid taxes
+Beban dibayar dimuka           1 .691.596.165           3 .157.469.907 Prepaid expenses
+Aset lancar lainnya              1 68.228.278          (5.913 .184.762) Other current financial assets
+Tagihan Bruto Kepada Pemberi Kerja       2 47.795.342.215       5 24.355.661.775 Gross Amount Due From Customers
+ Kenaikan (penurunan) liabilitas jangka pendek: Increase (decrease) in short term liablities: 
+Utang usaha      (149.1 48.483.257)        (27.44 9.647.288) Accounts payable
+Utang pajak          (3.343 .022.309)          19.372.862.221 Tax payable
+Beban yang masih harus dibayar          18.241.701.518        (45.09 3.578.404) Accrued Expenses
+Liabilitas jangka pendek lainnya        (14.81 4.314.512)          28.018.060.601 Other short-term liabilities
+        (64.32 7.409.786)        296.830.913.631
+Pembayaran pajak penghasilan badan            3.004.236.980          (4.869 .710.153) Payment of income tax
+Penerimaan kelebihan pembayaran pajak PPN                                 -           13.219.767.627 Acceptance overpaid VAT
+Kas bersih yang digunakan untuk aktivitas operasi        (61.32 3.172.806)        305.180.971.105 Net cash provided by (used) in operating activities
+ARUS KAS DARI AKTIVITAS INVESTASI CASH FLOWS FROM INVESTING ACTIVITIES
+Perolehan/Pelepasan aset tetap             (732.5 69.742)             (289.7 06.187) Acquisition / Disposal of fixed assets
+Kenaikan beban ditangguhkan                   8.028.908          40.827.741.786 Increase in deferred charges
+Aset tidak lancar lainnya          (6.116 .434.002)               153.146.602 Other non-current assets
+Kas bersih yang digunakan untuk aktivitas investasi          (6.840 .974.836)          40.691.182.201 Net cash provided by (used) in investing activities
+ARUS KAS DARI AKTIVITAS PENDANAAN CASH FLOWS FROM FINANCING ACTIVITIES
+Perolehan utang bank           67.451.392.059        100.024.420.042 Acquisition of bank debt
+Pinjaman Jangka Menengah MTN      (116.0 00.000.000)      (279.0 00.000.000) (MTN) Medium Term Loans
+Realisasi imbalan pasca kerja          (8.950 .797.333)        (30.69 6.583.343) Realization of post-retirement benefits
+Kas bersih yang diperoleh dari aktivitas pendanaan        (57.49 9.405.274)      (209.6 72.163.301) Net cash provided by (used) financing activities
+Kenaikan (penurunan) bersih kas dan setara kas      (125.6 63.552.916)        136.199.990.005 Increase (decrease) in net cash and cash equivalents
+Kas dan setara kas awal tahun        181.868.354.936          45.668.364.932 Cash and cash equivalents at beginning of year
+KAS DAN SETARA KAS 31 Desember 2016          56.204.802.020        181.868.354.936 CASH AND CASH EQUIVALENTS at December 31, 2016
+5PT INDU PT INDUSTRI T STRI TELEKO ELEKOM MUN UNIKA IKASI INDO SI INDONE NESIA SIA  ( (PER PERSER SERO O) ) DA DAN N PT INDU PT INDUSTRI T STRI TELEKO ELEKOM MUN UNIKAS IKASI INDO I INDONE NESIA SIA (PERSER (PERSERO O) ) AN AND D PT INDUSTRI TELEKOMUNIKASI INDONESIA (PERSERO) DAN PT INDUSTRI TELEKOMUNIKASI INDONESIA (PERSERO) AND
+EN ENT TIT ITA AS A S ANA NAKN KNYA YA IT ITS SUB S SUBSIDIAR SIDIARIES IES ENTITAS ANAKNYA ITS SUBSIDIARIES
+CA CAT TA AT TA AN A N AT TA AS L S LA APO PORA RAN KE N KEUA UANG NGA AN KO N KONS NSO OL LIDA IDASIA SIAN N NO NOT TES O ES OF F T THE HE CO CONS NSO OL LIDATED F IDATED FINAN INANCIAL CIAL STAT STATEM EMEN ENT TS S CATATAN ATAS LAPORAN KEUANGAN KONSOLIDASIAN NOTES OF THE CONSOLIDATED FINANCIAL STATEMENTS
+U Un ntuk tuk T Tahun y ahun yang B ang Be er ra ak khi hir r  P Pada ada F For or  T The Y he Ye ear ar  E Ended A nded As s o off Untuk Tahun yang Berakhir Pada For The Year Ended As of
+T Tanggal anggal- -T Tanggal anggal 3 31 D 1 Des esem ember ber  2016 d 2016 dan 2 an 2015 015 D De ec cem ember ber  31, 31,  2016 a 2016 and 2 nd 2015 015 Tanggal-Tanggal 31 Desember 2016 dan 2015 December 31, 2016 and 2015
+( (D Diiny nyat ata ak kan d an dal alam am R Rupi upiah p ah penuh, enuh,  k kec ecual ualii d diiny nyat ata ak kan l an lai ain) n) ( (E Ex xpr pre es ss sed i ed in ful n fullly y R Rupi upiah, ah,  unl unles ess s o otth her erw wiis se s e stta atte ed) d) (Dinyatakan dalam Rupiah penuh, kecuali dinyatakan lain) (Expressed in fully Rupiah, unless otherwise stated)
+4. 4. P PE ENG NGG GUNA UNAA AN N EST ESTIIM MA ASI SI,, P PE ER RT TIIM MB BAN ANG GAN AN D DAN AN 4. 4. M MANAG ANAGE EM ME ENT NT U USE SE OF OF ESTI ESTIM MA ATES, TES, J JUDG UDGM ME ENT NTS S 5. KAS DAN SETARA KAS 5. CASH AND CASH EQUIVALENT
+A AS SU UM MSI SI M MA AN NA AJE JEM MEN EN  ( (llanj anjut utan) an) AND AS AND ASS SUM UMP PT TIIO ONS NS  ( (c cont ontiinued) nued)
+31 Desember 2016/ 31 Desember 2015/
+December 31, 2016 December 31, 2015
+E Est stiim ma asi si d dan an A Asu sum ms sii  ( (llanj anjut utan) an) E Est stiim ma at tes an es and d A Assu ssum mpt ptiio on ns s ( (c cont ontiinued) nued)
+P Paj ajak ak P Penghas enghasiillan an IInc ncom ome T e Tax ax Kas Cash
+Induk Perusahaan             481.675.434          1.302.151.818 The Company
+D Dal alam am s siittuas uasii tter erttent entu, u, P Per erus usahaan ahaan ttiidak dak dapat dapat In In c cer erttai ain n ci cir rcu cum mst sta an nce ces, s, tthe he C Com ompany pany ma may y not not be be abl able e
+Entitas Anak             124.480.157               34.850.281 Subsidiaries
+m me enent nentuk ukan an s sec ecar ara a pas pasttii jju umla mlah h lia liab bilit ilita as s paj pajak ak m mer ere ek ka a to to det deter erm miine ne tthe he ex exac actt am amount ount of of its its c cur urr rent ent or or ffut utur ure e ttax ax
+pada pada s saat aat iini ni at atau au m mas asa a depan depan k kar arena ena pr pros oses es lia liab bilit ilitie ies s due due to to ongoi ongoing ng iinv nves esttiigat gatiions ons by by,, or or
+Sub Jumlah             606.155.591          1.337.002.099 Sub Total
+negot negotiiat atiions ons wi witth h,, tthe he ttax axat atiion on aut author horiitty y.. U Unc ncer erttai aint ntiies es
+pem peme er riik ks saan, aan, at atau au negos negosiias asii dengan dengan ot otor oriittas as per perpaj pajak akan. an.
+K Ket etiidak dakpas pasttiian an ttiim mbu bull tter erk kai aitt dengan dengan iint ntepr epret etas asii dar darii e exi xist st wi witth h r res espec pectt to to tthe he iint nter erpr pret etat atiion on of of c com ompl plex ex ttax ax
+Bank Bank 
+per perat atur uran an per perpaj pajak akan an yang yang k kom omp pllek eks s dan dan jju umla mlah h dan dan r regul egulat atiions ons and and tthe he am amount ount and and ttim imin ing g of of ffut utur ure e ttax axabl able e
+Rupiah Rupiah
+w wak akttu u dar darii penghas penghasiillan an k kena ena paj pajak ak di di m mas asa a depan. depan. D Dal alam am iinc ncom ome. e. In In det deter erm miini ning ng tthe he am amount ount to to be be r rec ecogni ogniz zed ed in in
+Pihak Ketiga: Third Parties:
+m me enent nentuk ukan an jju umla mlah h yang yang har harus us di diak akui ui tter erk kai aitt dengan dengan r res espec pectt of of an an unc uncer erttai ain n ttax ax lia liab bilit ility y,, tthe he C Com ompany pany appl appliies es
+Induk Perusahaan The Company
+lia liab bilit ilita as s paj pajak ak yang yang ttiidak dak pas pasttii,, P Per erus usahaan ahaan m me ener nerapk apkan an s sim imila ilar r c cons onsiider derat atiions ons as as it it w woul ould d us use e in in det deter erm miini ning ng tthe he
+PT Duetsche Bank                               -               16.431.064 PT Duetsche Bank
+per perttiim mb bangan angan yang yang s sam ama a yang yang ak akan an m mer ere ek ka a gunak gunakan an am amount ount of of a a pr prov oviis siion on to to be be r rec ecogni ogniz zed ed in in ac acc cor ordanc dance e
+Entitas Anak Entitas Anak
+dal dalam am m me enent nentuk ukan an jju umla mlah h c cadangan adangan yang yang har harus us di diak akui ui wi witth h PSAK PSAK 57, 57, ““P Prrov oviis siions ons,, C Cont ontiingent ngent L Lia iab bilit ilitie ies s and and
+PT Inti Konten Indonesia PT Inti Konten Indonesia
+s ses esuai uai dengan dengan PSAK PSAK 57, 57, ““P Prrovi ovis sii,, Li Liabi abilliittas as K Kont ontiijjens ensii C Cont ontiingent ngent A As ss set et.. I Inc ncom ome t e tax ax i is s di dis sc cllos osed i ed in N n Not ote 20. e 20.
+PT Bank Daerah PT Bank Daerah 
+dan dan A As set et K Kont ontiijjens ensii””.. P Paj ajak ak penghas penghasiillan an ttel elah ah
+Khusus Ibukota                                -                               - Khusus Ibukota (DKI)
+di diungk ungkapk apkan dal an dalam am  C Ca attat atan 20. an 20.
+PT Bank Rakyat 
+PT Bank Rakyat 
+Indonesia Syariah              459.734.033             520.757.520 Indonesia Syariah 
+R Rugi ugi P Penur enurunan unan N Nila ilaii P Piinj njam ama an n yang yang D Diiber beriik kan an dan dan IIm mpai pair rm ment ent Los Loss s on Loans on Loans and R and Rec ecei eiv vabl ables es
+PT Bank Kesejahterahan             384.994.740                               - PT Bank Kesejahterahan
+P Piiut utang ang
+Sub Jumlah             844.728.773             537.188.584 Sub Total
+P Per erus usahaan ahaan m me eni nillai ai penur penurunan unan ni nillai ai pi pinj njam ama an n yang yang T The he C Com ompany pany a asse ssesse sses s iim mpai pair rm ment ent of of lloans oans and and
+Pihak Berelasi: Related Parties:
+di diber beriik kan an dan dan pi piut utang ang pada pada s set etiiap ap ttanggal anggal pel pelapor aporan. an. r rec ecei eiv vabl ables es at at eac each h r repor eporttiing ng dat date. e. In In det deter erm miini ning ng
+Induk Perusahaan The Company
+D Dal alam am m me enent nentuk ukan an apak apakah ah r rugi ugi penur penurunan unan ni nillai ai har harus us w whet hether her an an iim mpai pair rm ment ent llos oss s s shoul hould d be be r rec ecor orded ded in in tthe he
+PT Bank Rakyat Indonesia PT Bank Rakyat Indonesia 
+di dic cat atat at dal dalam am llapor aporan an llaba aba r rugi ugi,, m ma anaj najem eme en n m mem embu bua att iinc ncom ome e s sttat atem ement ent,, m managem anagement ent m mak akes es jjudgm udgment ents s,,
+(Persero), Tbk.          1.225.015.330             106.957.587 (Persero), Tbk.
+peni penillai aian, an, apak apakah ah tter erdapat dapat buk bukttii obj objek ekttiiff bahw bahwa a k ker erugi ugian an w whet hether her tther here e is is obj objec ecttiiv ve e ev eviidenc dence e tthat hat a a llos oss s has has
+PT Bank Negara PT Bank Negara Indonesia 
+ttel elah t ah ter erjjadi adi..  oc occ cur urr red. ed.
+Indonesia 46 (Persero),              417.053.489          2.032.390.078 46 (Persero), Tbk.
+P Per erus usahaan ahaan m me eni nillai ai penur penurunan unan ni nillai ai pi pinj njam ama an n yang yang T The he C Com ompany pany and and its its s subs ubsiidi diar ariies es a asse ssess ss tthei heir r lloans oans and and PT Bank Mandiri (Persero) Tbk          4.863.148.575          1.816.494.748 PT Bank Mandiri (Persero) Tbk
+di diber beriik kan an dan dan pi piut utang ang pada pada s set etiiap ap ttanggal anggal pel pelapor aporan. an. r rec ecei eiv vabl ables es ffor or iim mpai pair rm ment ent at at eac each h r repor eporttiing ng dat date. e. In In
+Entitas Anak Subsidiaries
+D Dal alam am m me enent nentuk ukan an apak apakah ah r rugi ugi penur penurunan unan ni nillai ai har harus us det deter erm miini ning ng w whet hether her an an iim mpai pair rm ment ent llos oss s s shoul hould d be be PT Inti Pindad Mitra Sejati PT Inti Pindad Mitra Sejati
+di dic cat atat at dal dalam am llapor aporan an llaba aba r rugi ugi,, m ma anaj najem eme en n m mem embu bua att r rec ecor orded ded in in pr prof ofiitt or or llo oss, ss, m managem anagement ent m mak akes es jjudgm udgment ent
+PT Bank Rakyat Indonesia PT Bank Rakyat Indonesia 
+peni penillai aian, an, apak apakah ah tter erdapat dapat buk bukttii obj objek ekttiiff bahw bahwa a k ker erugi ugian an as as to to w whet hether her tther here e is is an an obj objec ecttiiv ve e ev eviidenc dence e tthat hat llos oss s (Persero), Tbk.          1.112.571.750             986.497.223 (Persero), Tbk.
+ev event ent has has oc occ cur urr red. ed. M Ma anagem nagement ent al als so o m mak akes es jjudgm udgment ent
+ttel elah ah tter erjjadi adi.. M Ma anaj najem eme en n jjuga uga m mem embu bua att peni penillai aian an at atas as PT Bank Negara PT Bank Negara Indonesia 
+m me ettodol odologi ogi dan dan as asum ums sii unt untuk uk m me em mp per erk kiir rak akan an jju umla mlah h dan dan as as to to tthe he m met ethodol hodology ogy and and as ass sum umpt ptiions ons ffor or es esttiim mat atiing ng Indonesia 46 (Persero),                11.013.598             159.974.074 46 (Persero), Tbk.
+tthe he am amount ount and and ttim imin ing g of of ffut utur ure e ca cash sh ffllo ows ws wh whiic ch h ar are e
+w wak akttu u ar arus us k kas as m mas asa a depan depan yang yang di dir revi eview ew s sec ecar ara a PT Bank Mandiri (Persero) Tbk               80.097.722                               - PT Bank Mandiri (Persero) Tbk
+ber berk kal ala a unt untuk uk m me engur ngurangi angi per perbedaan bedaan ant antar ara a e est stiim ma asi si r rev eviiew ewed ed r regul egular arlly y to to r reduc educe e any any di diffffer erenc ence e bet betw ween een
+PT Inti Konten Indonesia PT Inti Konten Indonesia
+k ker erugi ugian an dan dan k ker erugi ugian an ak akttual ualnya. nya. N Nila ilaii tter erc cat atat at pi pinj njam ama an n llos oss s es esttiim mat ate e and and ac acttual ual llo oss. ss. T The he c car arr ry yiing ng am amount ount of of PT Bank Rakyat Indoensia PT Bank Rakyat Indoensia 
+yang yang di diber beriik kan an dan dan pi piut utang ang ttel elah ah di diungk ungkapk apkan an pada pada lloans oans and r and rec ecei eiv vabl ables es ar are di e dis sc cllos osed i ed in  not n  notes es 6. 6. (Persero), Tbk.
+(Persero), Tbk.                 2.608.928               24.821.199
+C Cat atat atan 6. an 6. PT Bank Negara PT Bank Negara Indonesia 
+Indonesia 46 (Persero),              252.784.175          1.052.729.192 46 (Persero), Tbk.
+P Penur enurunan N unan Niillai ai A As set et T Tet etap ap IIm mpai pair rm ment ent of of P Pr roper opertty y and E and Equi quipm pment ent
+Sub Jumlah          8.809.022.340          6.179.864.101 Sub Total
+P Penel enelaahan aahan penur penurunan unan ni nillai ai di dillak akuk ukan an b bila ila tter erdapat dapat IIm mpai pair rm ment ent r rev eviiew ew is is per perffor orm med ed w when hen c cer erttai ain n iim mpai pair rm ment ent
+iindi ndik kas asii adanya adanya penur penurunan unan n nila ilai. i. P Penent enentuan uan ni nillai ai w waj ajar ar iindi ndic cat ator ors s ar are e pr pres esent ent.. D Det eter erm miini ning ng tthe he ffai air r v val alue ue of of
+as aset et m mem emer erllu uk ka an n e est stiim ma asi si ar arus us k kas as yang yang di dihar harapk apkan an as ass set ets s r requi equir res es tthe he es esttiim mat atiion on of of ca cash sh ffllo ows ws ex expec pectted ed to to
+di diper perol oleh eh dar darii penggunaan penggunaan ber berk kel elanj anjut utan an dan dan pel pelepas epasan an be be gener generat ated ed ffr rom om tthe he c cont ontiinued nued us use e and and ul ulttiim mat ate e
+di dis spos posiittiion on of of su such ch a asse ssetts. s. A Any ny s siigni gniffiic cant ant c changes hanges in in tthe he
+as aset et tter ers sebut ebut.. S Set etiiap ap per perubahan ubahan s siigni gniffiik kan an pada pada as asum ums sii
+yang yang di digunak gunakan an dal dalam am m me enent nentuk ukan an ni nillai ai w waj ajar ar dapat dapat as ass sum umpt ptiions ons us used ed in in det deter erm miini ning ng tthe he ffai air r v val alue ue ma may y
+m mem embe ber riik ka an n dam damp pak ak yang yang m ma atter eriial al tter erhadap hadap peni penillai aian an m mat ater eriial allly y af afffec ectt tthe he as ass ses ess sm ment ent of of r rec ecov over erabl able e v val alues ues
+ni nillai ai yang yang tter erpul puliihk hkan an dan dan s set etiiap ap k ker erugi ugian an penur penurunan unan ni nillai ai and and any any r res esul ulttiing ng iim mpai pair rm ment ent llos oss s c coul ould d hav have e a a m mat ater eriial al
+yang yang di dihas hasiillk kan an dapat dapat m mem embe ber riik ka an n dam damp pak ak tter erhadap hadap iim mpac pactt on on r res esul ultts s of of oper operat atiions ons..T The he c car arr ry yiing ng am amount ount of of
+has hasiill oper operas asii.. N Nila ilaii tter erc cat atat at as aset et ttet etap ap ttel elah ah di diungk ungkapk apkan an lloans oans and r and rec ecei eiv vabl ables es ar are di e dis sc cllos osed i ed in  not n  notes es 13. 13.
+pada C pada Cat atat atan 13. an 13.
+88 88 89PT INDUSTRI TELEKOMUNIKASI INDONESIA (PERSERO) DAN PT INDUSTRI TELEKOMUNIKASI INDONESIA (PERSERO) AND
+ENTITAS ANAKNYA ITS SUBSIDIARIES
+CATATAN ATAS LAPORAN KEUANGAN KONSOLIDASIAN NOTES OF THE CONSOLIDATED FINANCIAL STATEMENTS
+Untuk Tahun yang Berakhir Pada For The Year Ended As of
+Tanggal-Tanggal 31 Desember 2016 dan 2015 December 31, 2016 and 2015
+(Dinyatakan dalam Rupiah penuh, kecuali dinyatakan lain) (Expressed in fully Rupiah, unless otherwise stated)
+5. KAS DAN SETARA KAS (lanjutan) 5. CASH AND CASH EQUIVALENT (continued)
+31 Desember 2016/ 31 Desember 2015/
+December 31, 2016 December 31, 2015
+Valuta Asing: Foreign Currency:
+Pihak Ketiga: Third Parties:
+Induk Perusahaan The Company
+PT United Overseas Bank                               -             180.031.012 PT United Overseas Bank
+(2015; USD13.051,40) (USD13.051,40)
+Sub Jumlah                               -             180.031.012 Sub Total
+Pihak Berelasi: Related Parties:
+Induk Perusahaan The Company
+PT Bank Rakyat PT Bank Rakyat Indonesia 
+Indonesia (Persero),              248.703.182                 9.102.523 (Persero), Tbk.
+(2016;USD34.357,16;2015; USD1.663,68) (2016;USD34.357,16;2015; USD1.663,68)
+PT Bank Negara PT Bank Negara Indonesia 
+Indonesia 46 (Persero)                11.925.122               12.242.865 46 (Persero) Tbk
+(2016;887;2015; USD887) (2016;887;2015; USD887)
+PT Bank Mandiri (Persero) Tbk          5.928.750.147        13.799.042.396 PT Bank Mandiri (Persero) Tbk
+(2016;USD;441.258,57;2015; USD1.000.364) (2016;USD;441.258,57;2015; USD1.000.364)
+Entitas Anak Entitas Anak
+PT Inti Pindad Mitra Sejati PT Inti Pindad Mitra Sejati
+PT Bank Rakyat Indonesia  PT Bank Rakyat Indonesia 
+             207.845.638             213.305.415
+(Persero), Tbk. (Persero), Tbk. 
+(2016; USD15.433,7;2015; USD15.463) (2016; USD15.433,7;2015; USD15.463)
+PT Inti Konten Indonesia PT Inti Konten Indonesia
+PT Bank Rakayat Indonesia  PT Bank Rakayat Indonesia 
+(Persero), Tbk.                               -                    575.941 (Persero), Tbk. 
+2015; USD42) 2015; USD42)
+Sub Jumlah          6.397.224.089        14.034.269.140 Sub Total
+Jumlah        15.206.246.429        20.931.352.837 Total
+Deposito Berjangka Time deposit
+Rupiah: Rupiah:
+Pihak Berelasi Related Parties
+Induk Perusahaan The Company
+PT Bank Rakyat Indonesia PT Bank Rakyat Indonesia
+(Persero), Tbk.        20.000.000.000      111.000.000.000 (Persero), Tbk.
+PT Bank Mandiri (Persero) Tbk                               -        36.100.000.000 PT Bank Mandiri (Persero) Tbk
+PT Bank Negara Indonesia PT Bank Negara Indonesia 
+(Persero), Tbk.          6.300.000.000          9.400.000.000 (Persero), Tbk.
+Entitas Anak Subsidiaries
+PT Inti Pindad Mitra Sejati PT Inti Pindad Mitra Sejati
+PT Bank Negara Indonesia 
+PT Bank Negara Indonesia 
+(Persero), Tbk.          2.000.000.000                               - (Persero), Tbk.
+Entitas Anak Subsidiaries
+PT Inti Konten Indonesia PT Inti Konten Indonesia
+PT Bank Negara Indonesia PT Bank Negara Indonesia 
+(Persero), Tbk.                               -          3.100.000.000 (Persero), Tbk.
+Valuta Asing: Foreign Currency:
+Pihak Berelasi Related Parties
+Induk Perusahaan The Company
+PT Bank Negara Indonesia PT Bank Negara Indonesia 
+(Persero), Tbk.        12.092.400.000                               - (Persero), Tbk.
+Sub Jumlah        40.392.400.000      159.600.000.000 Sub Total
+Jumlah        55.598.646.429      180.531.352.837 Total
+Jumlah Kas dan Setara Kas        56.204.802.020      181.868.354.936 Total Cash and Cash Equivalent 
+90PT INDU PT INDUSTRI T STRI TELEKO ELEKOM MUN UNIKA IKASI INDO SI INDONE NESIA SIA  ( (PER PERSER SERO O) ) DA DAN N PT INDU PT INDUSTRI T STRI TELEKO ELEKOM MUN UNIKAS IKASI INDO I INDONE NESIA SIA (PERSER (PERSERO O) ) AN AND D PT INDUSTRI TELEKOMUNIKASI INDONESIA (PERSERO) DAN PT INDUSTRI TELEKOMUNIKASI INDONESIA (PERSERO) AND
+EN ENT TIT ITA AS A S ANA NAKN KNYA YA IT ITS SUB S SUBSIDIAR SIDIARIES IES ENTITAS ANAKNYA ITS SUBSIDIARIES
+CA CAT TA AT TA AN A N AT TA AS L S LA APO PORA RAN KE N KEUA UANG NGA AN KO N KONS NSO OL LIDA IDASIA SIAN N NO NOT TES O ES OF F T THE HE CO CONS NSO OL LIDATED F IDATED FINAN INANCIAL CIAL STAT STATEM EMEN ENT TS S CATATAN ATAS LAPORAN KEUANGAN KONSOLIDASIAN NOTES OF THE CONSOLIDATED FINANCIAL STATEMENTS
+U Un ntuk tuk T Tahun y ahun yang B ang Be er ra ak khi hir r  P Pada ada F For or  T The Y he Ye ear ar  E Ended A nded As s o off Untuk Tahun yang Berakhir Pada For The Year Ended As of
+T Tanggal anggal- -T Tanggal anggal 3 31 D 1 Des esem ember ber  2016 d 2016 dan 2 an 2015 015 D De ec cem ember ber  31, 31,  2016 a 2016 and 2 nd 2015 015 Tanggal-Tanggal 31 Desember 2016 dan 2015 December 31, 2016 and 2015
+( (D Diiny nyat ata ak kan d an dal alam am R Rupi upiah p ah penuh, enuh,  k kec ecual ualii d diiny nyat ata ak kan l an lai ain) n) ( (E Ex xpr pre es ss sed i ed in ful n fullly y R Rupi upiah, ah,  unl unles ess s o otth her erw wiis se s e stta atte ed) d) (Dinyatakan dalam Rupiah penuh, kecuali dinyatakan lain) (Expressed in fully Rupiah, unless otherwise stated)
+28. 28. BE BEBA BAN P N PO OKO KOK P K PE ENJ NJUA UAL LA AN N ( (llanj anjut utan) an) 28. 28. C COS OST T OF OF GOOD GOOD S SOL OLD D  ( (llanj anjut utan) an) 29. BEBAN USAHA (lanjutan) 29. OPERATING EXPENSES (continued)
+Ta Tahun/ hun/Y Year ear 2 2015 015
+b. b. General and Administrative Expenses (continued)
+Beban Umum dan Administrasi (lanjutan)
+ B Beb eban an P Poko okok/ k/  
+ P Pe enda ndapa pat ta an/ n/           L La ab ba a ( (Rug Rugi) i)/ /          % % P Pen enyelesaian yelesaian/ / 
+Cos Cost o t of G f Go oo od d  
+Rev Reve en nu ue e  Pr Pro ofi fit (L t (Lo os ss s) ) F Fisn isnish ishin ing g  31 Desember 2016/ 31 Desember 2015/
+Sol Sold d  
+December 31, 2016 December 31, 2015
+          8. 8.  5 541. 41.2 235. 35.4 487 87    ( (1 15. 5.8 809. 09.2 219. 19.0 009) 09)        ( (7 7..2 267. 67.9 983. 83.5 521) 21) 56% 56%
+Pr Pro ojje ec ctt TI TITO TO - - SP# SP#4 4 Pr Pro ojje ec ctt TI TITO TO - - SP# SP#4 4
+      18. 18.  3 347. 47.2 269. 69.5 580 80    ( (2 29. 9.7 750. 50.9 981. 81.6 688) 88)    ( (1 11. 1.4 403. 03.7 712. 12.1 108) 08) 68% 68%
+Pr Pro ojje ec ctt TI TITO TO - - SP# SP#5 5 Pr Pro ojje ec ctt TI TITO TO - - SP# SP#5 5
+Induk Perusahaan The Company :
+      11. 11.  3 395. 95.3 340. 40.8 899 99    ( (1 18. 8.9 921. 21.6 672. 72.2 275) 75)        ( (7 7..5 526. 26.3 331. 31.3 376) 76) 45% 45%
+Pr Pro ojje ec ctt TI TITO TO - - SP# SP#6 6 Pr Pro ojje ec ctt TI TITO TO - - SP# SP#6 6
+Beban Tenaga kerja tidak Indirect Labor 
+      13. 13.  8 869. 69.9 985. 85.1 147 47    ( (2 24. 4.9 999. 99.1 136. 36.2 247) 47)    ( (1 11. 1.1 129. 29.1 151. 51.1 100) 00) 51% 51%
+Pr Pro ojje ec ctt TI TITO TO - - SP# SP#7 7 Pr Pro ojje ec ctt TI TITO TO - - SP# SP#7 7
+langsung        38.172.288.123        39.115.129.612 Expenses 
+          1. 1.  4 416. 16.1 113. 13.3 307 07    ( (2 28. 8.9 928. 28.6 684. 84.4 495) 95)    ( (2 27. 7.5 512. 12.5 571. 71.1 189) 89) 46% 46%
+Pr Pro ojje ec ctt TI TITO TO - - SP# SP#8 8 Pr Pro ojje ec ctt TI TITO TO - - SP# SP#8 8
+Beban Kesehatan         8. 733.828.445         9. 201.138.658 Health Expenses
+      19. 19.  0 084. 84.8 898. 98.3 306 06    ( (1 15. 5.8 851. 51.2 247. 47.2 221) 21)          3. 3.  2 233. 33.6 651. 51.0 086 86 46% 46%
+Pr Pro ojje ec ctt TI TITO TO - - SP# SP#9 9 Pr Pro ojje ec ctt TI TITO TO - - SP# SP#9 9
+Beban Transportasi         1. 172.479.295         1. 399.371.785 Transportation Expenses
+        ( (5 5..6 613. 13.5 546. 46.8 861) 61)    ( (4 48. 8.0 049. 49.3 343. 43.7 723) 23)    ( (5 53. 3.6 662. 62.8 890. 90.5 584) 84) 42% 42%
+Pr Pro ojje ec ctt TI TITO TO - - SP# SP#1 10 0 Pr Pro ojje ec ctt TI TITO TO - - SP# SP#1 10 0
+Beban ATK            179. 238.789            326. 079.380 Stationery Expenses
+                                                      - -              ( (8 876. 76.1 175. 75.8 812) 12)              ( (8 876. 76.1 175. 75.8 812) 12) 100% 100%
+Pr Pro ojje ec ctt TI TITO TO - - SP# SP#1 11 1 Pr Pro ojje ec ctt TI TITO TO - - SP# SP#1 11 1
+Beban Air Telepohe dan Water, Telephone and Electricity 
+                                                      - -    ( (1 10. 0.9 960. 60.6 626. 26.2 283) 83)    ( (1 10. 0.9 960. 60.6 626. 26.2 283) 83) 72% 72%
+Pr Pro ojje ec ctt TI TITO TO - - FTTH FTTH1 1 Pr Pro ojje ec ctt TI TITO TO - - FTTH FTTH1 1
+Listrik         1. 994.726.317         3. 666.230.240 Expenses 
+                                                      - -        ( (3 3..9 953. 53.5 506. 06.5 507) 07)        ( (3 3..9 953. 53.5 506. 06.5 507) 07) 51% 51%
+Pr Pro ojje ec ctt TI TITO TO - - FTTH FTTH2 2 Pr Pro ojje ec ctt TI TITO TO - - FTTH FTTH2 2
+Beban Perjalanan Dinas            869. 758.881            946. 947.534 Official Travel Expenses
+      67. 67.  0 041. 41.2 295. 95.8 866 66              ( (  198.100.593.260) 198.100.593.260)              ( (  131.059.297.394) 131.059.297.394)
+J Jum umllah ah Tot Tota all Beban Pemeliharaan dan Maintenance and Repairs 
+Perbaikan         3. 608.824.498         4. 313.970.097 Expenses 
+Beban Penyusutan         1. 705.474.069         1. 882.697.768 Depreciation Expenses
+29. 29. BE BEBA BAN US N USA AHA HA 29. 29. O OPER PERA ATI TIN NG G EXPEN EXPENSES SES
+Beban Amortisaasi         2. 291.824.095         4. 830.687.089 Amortization Expenses
+Beban Promosi            353. 693.702            321. 555.144 Promotion Expenses
+31 D 31 Desem esember ber 2016/ 2016/ 31 D 31 Desem esember ber 2015/ 2015/
+Beban Sewa         1. 711.859.362         4. 350.903.571 Rental Expenses
+D Decem ecember ber 31, 31, 2016 2016 D Decem ecember ber 31, 31, 2015 2015
+Beban Rekrutmen Recruitment Expenses
+         1. 404.011.223         2. 254.747.036
+Beban Pajak            857. 926.821         2. 468.320.368 Tax Expenses
+B Beban P eban Pem ema as sar aran an                18. 18.915. 915.492. 492.751 751                21. 21.991. 991.456. 456.187 187 M Ma ar rk ket etiing E ng Ex xpens penses es
+Beban Perijinan            415. 520.000         3. 074.341.520 Licensing Expenses
+B Beban U eban Um mu um m  d dan A an Adm dmiin niis sttr ras asii                69. 69.376. 376.797. 797.979 979                85. 85.001. 001.590. 590.568 568 G Gener eneral al and A and Adm dmiini nis sttr rat atiiv ve E e Ex xpens penses es
+Beban Lain-lain         2. 056.834.598         3. 122.038.970 Others
+B Beban P eban Pengem engemb bangan angan                10. 10.197. 197.094. 094.286 286                  6. 6.  533. 533.776. 776.104 104 D Dev evel elopm opment ent E Ex xpens penses es
+J Jum umllah B ah Be eba ban U n Us sa aha ha                98. 98.489. 489.385. 385.016 016            113. 113.526. 526.822. 822.859 859 T To ot tal al O Op per erat atiin ng g E Exp xpen enses ses
+Sub Jumlah        65.528.288.218        81.274.158.772 Sub Total
+R Riinc nciian beban us an beban usaha ber aha berdas dasar ark kan f an fungs ungsii:: D Det etai aills s of of oper operat atiing ex ng expens penses es bas base on t e on the f he func uncttiion : on :
+Entitas Anak : Subsidiaries
+PT Inti Pindad Mitra Sejati          2.593.852.829          2.633.603.267 PT Inti Pindad Mitra Sejati
+31 D 31 Desem esember ber 2016/ 2016/ 31 D 31 Desem esember ber 2015/ 2015/
+PT Inti Konten Indonesia          1.254.656.932          1.093.828.529 PT Inti Konten Indonesia
+D Decem ecember ber 31, 31, 2016 2016 D Decem ecember ber 31, 31, 2015 2015
+Sub Jumlah          3.848.509.761          3.727.431.796 Sub Total
+a. a. B Beb eban an P Pem ema asar saran an a. a. M Mar arket ketiin ng g E Exp xpen enses ses
+Jumlah Beban Administrasi Amortization 
+        69.376.797.979        85.001.590.568 and Administration Expense
+dan Umum
+IIn nd du uk P k Per eru usah sahaan aan The The C Com omp pa any ny
+B Beban eban T Tenaga enaga k ke er rja ja ttiidak dak D Diir rec ectt Labor Labor  
+c. Beban Pengembangan c. Development Expenses
+llangs angsung ung                10. 10.864. 864.879. 879.584 584                12. 12.075. 075.520. 520.578 578 E Ex xpens penses es
+B Beban T eban Tr rans anspor porttas asii                        362. 362.  843. 843.688 688                        748. 748.  772. 772.970 970 T Tr rans anspor porttat atiion E on Ex xpens penses es
+Beban Sub Kontrak            308. 909.077            167. 910.082 Sub Contract Expenses
+B Beban A eban AT TK K                            51. 51.  987. 987.922 922                        138. 138.  240. 240.228 228 S Sttat atiioner onery y E Ex xpens penses es
+Beban Tenaga Kerja         7. 815.694.803         3. 946.281.098 Labor Expenses
+B Beban eban Ai Air r T Tel elepohe epohe dan dan W Wat ater er,, T Tel elephone and E ephone and Ellec ecttr riic ciitty y  
+Beban Perijinan              21. 819.285              98. 811.754 Licensing Expenses
+L Lis isttr rik ik                        428. 428.  707. 707.464 464                        495. 495.  376. 376.674 674 E Ex xpens penses es
+Beban Transportasi            112. 658.149              38. 256.239 Transportation Expenses
+B Beban P eban Per erjjal alanan D anan Diinas nas                        575. 575.  979. 979.040 040                  1. 1.  186. 186.134. 134.961 961 O Offffiic ciial al T Tr rav avel el E Ex xpens penses es
+Beban ATK              13. 671.724                2. 799.700 Stationery Expenses
+B Beban eban P Pem eme elliihar haraan aan dan dan M Ma aiint ntenanc enance and R e and Repai epair rs s  
+Beban Listrik telepon dan Water, Telephone and Electricity 
+P Per erbai baik kan an                  1. 1.  212. 212.172. 172.295 295                        692. 692.  122. 122.716 716 E Ex xpens penses es
+Expenses 
+air            263. 064.000            243. 636.801
+B Beban P eban Penyus enyusut utan an                  2. 2.  561. 561.136. 136.146 146                  2. 2.  817. 817.108. 108.965 965 D Depr eprec eciiat atiion E on Ex xpens penses es
+Beban Perjalanan Dinas            201. 762.695              96. 040.697 Official Travel Expenses
+B Beban A eban Am mo or rttiis saas aasii                                3. 3.  234. 234.372 372                                9. 9.  008. 008.962 962 A Am mor orttiiz zat atiion E on Ex xpens penses es
+Beban Perbaikan dan Maintenance and Repairs Expenses 
+B Beban A eban As sur urans ansii                  1. 1.  059. 059.021. 021.056 056                  1. 1.  395. 395.713. 713.928 928 IIns nsur uranc ance E e Ex xpens penses es
+Pemeliharaan            388. 030.536            384. 920.029
+B Beban S eban Sew ewa a                        617. 617.  311. 311.369 369                        686. 686.  194. 194.043 043 R Rent ental al E Ex xpens penses es
+Beban Penyusutan              31. 823.934              37. 887.250 Depreciation Expenses
+B Beban P eban Per eriijjiinan nan                            24. 24.  070. 070.400 400                        640. 640.  915. 915.408 408 Li Lic cens ensiing E ng Ex xpens penses es
+Beban Amortisasi            174. 179.139         1. 130.705.761 Amortization Expenses
+Sub J Sub Jum umllah ah                17. 17.761. 761.343. 343.336 336                20. 20.885. 885.109. 109.433 433 Sub T Sub Tot ota all
+Beban Sewa            152. 820.885            113. 546.685 Rental Expenses
+Beban Kesehatan                               -            272. 980.008 Health Expenses
+E En nt tiit tas A as An nak : ak : Subs Subsiidi dia ar riie es s
+Beban Lain-lain            712. 660.059                               - Others
+P PT T I Int ntii P Piindad M ndad Miittr ra S a Sej ejat atii                        608. 608.  088. 088.281 281                        320. 320.  144. 144.747 747 P PT T I Int ntii P Piindad M ndad Miittr ra S a Sej ejat atii
+P PT T I Int ntii K Kont onten I en Indones ndonesiia a                        546. 546.  061. 061.134 134                        786. 786.  202. 202.007 007 P PT T I Int ntii K Kont onten I en Indones ndonesiia a
+Jumlah        10.197.094.286         6. 533.776.104 Total
+Sub J Sub Jum umllah ah                  1. 1.  154. 154.149. 149.415 415                  1. 1.  106. 106.346. 346.754 754 Sub Tot Sub Tota all
+J Jum umllah ah                18. 18.915. 915.492. 492.751 751                21. 21.991. 991.456. 456.187 187 Tot Tota all
+148 148 149

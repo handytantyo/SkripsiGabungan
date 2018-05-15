@@ -1,0 +1,359 @@
+ 
+PT WASKITA KARYA (PERSERO) Tbk PT WASKITA KARYA (PERSERO) Tbk
+LAPORAN POSISI KEUANGAN STATEMENTS OF FINANCIAL POSITION 
+Per 31 Desember 2012 dan 2011 As of December 31, 2012 and 2011 
+(Dalam Rupiah Penuh) (In Full of Rupiah) 
+ 
+Catatan/ 2012 2011
+Notes Rp Rp
+ASET ASSETS
+ASET LANCAR CURRENT ASSETS
+Kas dan Setara Kas 2.c, 2.f, 2.r, 3, 43 2,183,783,098,228 583,188,263,886 Cash and Cash Equivalents
+Investasi Jangka Pendek 2.d, 4 24,276,133,745 24,276,133,745 Short-Term Investments
+Piutang Usaha Accounts Receivable
+Pihak-pihak Berelasi Related Parties
+(Setelah dikurangi penyisihan kerugian penurunan nilai (Net of allowance for impairment losses 
+per 31 Desember 2012 dan 2011 masing-masing as of December 31, 2012 and 2011  amounting to
+sebesar Rp 3.859.427.446 dan Rp 4.175.637.396) 2.f, 2.r, 5, 43 857,072,216,150 498,998,752,904  Rp 3,859,427,446 and  Rp 4,175,637,396, respectively)
+Pihak-pihak Ketiga Third Parties
+(Setelah dikurangi penyisihan kerugian penurunan nilai (Net of allowance for impairment losses 
+per 31 Desember 2012 dan 2011 masing-masing as of December 31, 2012 and 2011 amounting to 
+sebesar Rp 20.767.000.159 dan Rp 24.857.315.971) 2.f, 5 607,197,604,777 473,086,934,052 Rp 20,767,000,159 and Rp 24,857,315,971, respectively)
+Piutang Retensi Retention Receivables
+Pihak-pihak Berelasi Related Parties
+(Setelah dikurangi penyisihan kerugian penurunan nilai (Net of allowance for impairment losses as of 
+per 31 Desember 2012 dan 2011 masing-masing December 31, 2012 and 2011 amounting to
+ sebesar Rp 488.244.169 dan Rp 382.398.318) 2.f, 2.g, 2.r, 6, 43 145,666,855,182 126,145,746,835 Rp 488,244,169 and Rp 382,398,318, respectively)
+Pihak-pihak Ketiga Third Parties
+(Setelah dikurangi penyisihan kerugian penurunan nilai (Net of allowance for impairment losses as of 
+per 31 Desember 2012 dan 2011 masing-masing December 31, 2012 and 2011 amounting to
+ sebesar Rp 12.092.752.307 dan Rp 10.393.959.406) 2.f, 2.g, 6 329,722,130,433 318,434,337,473 Rp 12,092,752,307 and Rp 10,393,959,406, respectively)
+Piutang Lain Lain Other Receivables
+Pihak-pihak Berelasi Related Parties
+(Setelah dikurangi penyisihan kerugian penurunan nilai (Net of allowance for impairment losses as of 
+per 31 Desember 2012 dan 2011 masing-masing December 31, 2012 and 2011 amounting to
+sebesar Rp 47.552.388.629 dan Rp 12.833.995.383) 2.f, 2.r, 7 30,032,355,937 142,448,447,857 Rp 47,552,388,629 and Rp 12,833,995,383, respectively)
+Pihak-pihak Ketiga 2.f, 7 2,305,658,489 4,590,303,099 Third Parties
+Persediaan Inventories
+(Setelah dikurangi penyisihan kerugian penurunan nilai (Net of allowance for impairment losses as of 
+per 31 Desember 2012 dan 2011 masing-masing December 31, 2012 and 2011 amounting to
+sebesar Rp 2.802.733.157 dan Rp Nihil ) 2.j, 8 412,538,363,464 351,258,887,957 Rp 2,802,733,157 and nil, respectively)
+Tagihan Bruto Kepada Pengguna Jasa Gross Amount Due from Customers
+Pihak-pihak Berelasi Related Parties
+(Setelah dikurangi penyisihan kerugian penurunan nilai (Net of allowance for impairment losses as of 
+per 31 Desember 2012 dan 2011 masing-masing December 31, 2012 and 2011 amounting to
+sebesar Rp 4.128.279.970 dan Rp Nihil) 2.f, 2.h, 2.r, 9, 43 879,342,546,622 324,316,005,904 Rp 4,128,279,970 and nil, respectively)
+Pihak-pihak Ketiga Third Parties
+(Setelah dikurangi penyisihan kerugian penurunan nilai (Net of allowance for impairment losses as of 
+per 31 Desember 2012 dan 2011 masing-masing December 31, 2012 and 2011 amounting to
+sebesar Rp 11.606.458.192 dan Rp 5.007.022.951) 2.f, 2.h, 9 1,879,826,030,597 1,382,044,176,517 Rp 11,606,458,192 and Rp 5,007,022,951, respectively)
+Pajak Dibayar di Muka 2.s, 10.a 276,032,203,979 255,775,066,972 Prepaid Taxes
+Uang Muka dan Biaya Dibayar Dimuka 2.i, 11 161,919,595,591 119,217,387,466 Advances and Prepayments
+Jumlah Aset Lancar 7,789,714,793,194 4,603,780,444,667 Total Current Assets
+ASET TIDAK LANCAR NON CURRENT ASSETS
+Aset Keuangan Dimiliki Hingga Jatuh Tempo 2.f, 12 175,000,000,000 175,000,000,000 Held-to-Maturity Financial Assets
+Investasi Pada Entitas Asosiasi 2.d, 14 7,825,767,785 7,314,876,811 Investment in Associates
+Aset Ventura Bersama Joint Ventures Assets
+Pihak-pihak Berelasi 2.r, 2.u, 13, 43 42,958,282,193 15,265,358,610 Related Parties
+Pihak-pihak Ketiga 2.u, 13 73,525,361,652 20,865,909,410 Third Parties
+Investasi Jangka Panjang Lainnya 2.e, 15 18,250,000,000 94,458,000,000 Other Long-Term Investments
+Aset Tetap Fixed Assets
+(Setelah dikurangi akumulasi penyusutan per (Net of accumulated depreciation as of 
+31 Desember 2012 dan 2011 masing-masing December 31, 2012 and 2011 amounting to 
+sebesar Rp 160.672.476.972 dan Rp 155.117.470.437) 2.k, 16 239,933,622,514 192,398,571,437 Rp 160,672,476,972 and Rp 155,117,470,437, respectively)
+Aset Lain-lain 2.l, 17 19,036,260,700 6,918,553,573 Other Assets
+Jumlah Aset Tidak Lancar 576,529,294,844 512,221,269,841 Total Non Current Assets
+JUMLAH ASET TOTAL ASSETS
+8,366,244,088,038 5,116,001,714,508 
+  
+Catatan terlampir merupakan bagian yang tidak terpisahkan  The accompanying notes form an integral part  
+dari laporan keuangan secara keseluruhan of these financial statements 
+ 
+ 1    
+PT WASKITA KARYA (PERSERO) Tbk PT WASKITA KARYA (PERSERO) Tbk
+LAPORAN POSISI KEUANGAN (Lanjutan) STATEMENTS OF FINANCIAL POSITION (Continued) 
+Per 31 Desember 2012 dan 2011 As of December 31, 2012 and 2011 
+(Dalam Rupiah Penuh) (In Full of Rupiah) 
+ 
+ 
+Catatan/ 2012 2011
+Notes Rp Rp
+LIABILITAS DAN EKUITAS LIABILITIES AND EQUITY
+LIABILITAS JANGKA PENDEK CURRENT LIABILITIES
+Utang Bank Jangka Pendek Short-Term Bank Loans
+Pihak-pihak Berelasi 2.f, 2.r, 18, 43 Related Parties
+822,776,203,700 806,637,853,977 
+Pihak-Pihak Ketiga 2.f, 18 Third Parties
+349,077,277,915 398,330,514,288 
+Utang Usaha Accounts Payable
+Pihak-pihak Berelasi 2.f, 2.r, 19, 43 41,708,785,424 26,725,561,045 Related Parties
+Pihak-pihak Ketiga 2.f, 19 Third Parties
+1,961,106,631,985 1,634,988,803,644 
+Utang Bruto Subkontraktor Pihak ketiga 2.f, 2.n, 20 Gross Amount Due to Third Party Subcontractors
+1,564,997,856,733 1,022,911,841,173 
+Beban Masih harus Dibayar 2.f, 22 Accrued Expenses
+27,993,453,168 8,440,741,203 
+Utang Pajak 2.s, 10.b 95,086,201,879 28,116,924,693 Taxes Payables
+Uang Muka Kontrak Jangka Pendek 2,f, 21 Advances on Short-Term Contract
+405,128,300,805 462,490,507,935 
+Liabilitas Jangka Pendek Lainnya 23 Other Current Liabilites
+23,951,446,633 29,394,037,126 
+Jumlah Liabilitas Jangka Pendek Total Current Liabilities
+5,291,826,158,242 4,418,036,785,084 
+LIABILITAS JANGKA PANJANG NON CURRENT LIABILITIES
+Uang Muka Kontrak Jangka Panjang Advances on Long-Term Contract
+Pihak-pihak Berelasi 2.f, 25, 43 Related Parties
+93,378,356,335 3,097,553,230 
+Pihak-Pihak Ketiga 2.f, 2.r, 25 Third Parties
+226,510,505,054 74,645,015,301 
+Utang Obligasi - Bersih 2.f, 2.w, 24 Bonds Payables- Net
+747,453,839,713 -- 
+Jumlah Liabilitas Jangka Panjang 1,067,342,701,102 77,742,568,531 Total Non Current Liabilities
+Jumlah Liabilitas Total Liabilties
+6,359,168,859,344 4,495,779,353,615 
+EKUITAS EQUITY
+Modal Saham Share Capital
+Modal Saham - Nilai Nominal Rp 100 dan Rp 1.000.000 Capital Stock - Rp 100 and Rp 10.000.000 par Value per Share
+masing-masing pada 31 Desember 2012 dan 2011 for December 31, 2012 and 2011, respectively
+Modal Dasar - 1 Saham Seri A Dwi Warna dan Authorized Capital - 1 share of Dwi Warna Serie A and 
+25.999.999.999 Saham Seri B pada tahun 2012 serta 25,999,999,999 shares of  Serie B in 2012, then
+186.900 Saham Seri A Dwi Warna dan 20.000 Saham Seri B pada tahun 2011 186,900 shares of Dwi Warna Serie A and 20,000 shares of Serie B in 2011
+Modal Ditempatkan dan Disetor Penuh - 1 Saham Seri A Dwi Warna Subscribed and Fully Paid Capitall - 1 share of Dwi Warna Serie A
+dan 9.632.325.999 Saham Seri B pada tahun 2012, and 9,632,325,999 shares of Serie B in 2012  
+serta 180.000 Saham Seri A Dwi Warna dan and 180,000 shares of  Dwi Warna Serie A and 17,820,000
+17.820.000 Saham Seri B pada tahun 2011 27.a 963,223,600,000 654,992,100,000 shares of Serie B in 2011
+Tambahan Modal Disetor 28 Additional Paid-in Capital
+831,137,834,545 -- 
+Saldo Laba 29 Retained Earnings
+    Telah Ditentukan Penggunaannya Appropriated
+192,279,960,913 192,279,960,913 
+    Belum Ditentukan Penggunaannya Unappropriated
+22,893,575,038 (224,258,148,777)
+Pendapatan Komprehensif Lainnya 2.q       (2,459,741,802)      ( 2,791,551,243) Other Comprehensive Income
+Jumlah Ekuitas Total Equity
+2,007,075,228,694      620,222,360,893 
+JUMLAH LIABILITAS DAN EKUITAS  8,366,244,088,038   5,116,001,714,508 TOTAL LIABILITIES AND EQUITY
+ 
+Catatan terlampir merupakan bagian yang tidak terpisahkan  The accompanying notes form an integral part  
+dari laporan keuangan secara keseluruhan of these financial statements 
+ 
+ 2    
+PT WASKITA KARYA (PERSERO) Tbk PT WASKITA KARYA (PERSERO) Tbk
+LAPORAN LABA RUGI KOMPREHENSIF STATEMENTS OF COMPREHENSIVE INCOME 
+Untuk Tahun-tahun yang Berakhir For the Years Ended 
+31 Desember 2012 dan 2011 December 31, 2012 and 2011 
+(Dalam Rupiah Penuh) (In Full of Rupiah) 
+ 
+Catatan/ 2012 2011
+Notes Rp Rp
+Pendapatan Usaha 2.o, 30 8,808,415,748,693 7,274,166,637,800 Revenues
+Beban Pokok Pendapatan 2.o, 31 (8,076,157,819,190) (6,610,972,812,647) Cost of Revenues
+Laba Bruto 732,257,929,503 663,193,825,153 Gross Profit
+Pendapatan Bersih Ventura Bersama 2.o, 2.u, 32 92,576,889,698 24,201,504,217 Net Revenue of Joint Ventures
+Laba Bruto Setelah Ventura Bersama 824,834,819,201 687,395,329,370 Gross Profit After Joint Ventures
+Beban Penjualan 2.u, 33 (18,617,699,303) (13,140,159,281) Selling Expenses
+Beban Umum dan Administrasi 2.u, 33 (266,102,491,181) (225,155,980,831) General and Administrative Expenses
+Pendapatan Bunga 31,885,098,337 28,348,543,593 Interest Income
+Keuntungan (Kerugian) Selisih Kurs - Bersih 2.q 2,112,666,181 (4,091,098,088) Gain (Loss) on Foreign Exchange - Net
+Keuntungan Penjualan Aset Tetap 2.k, 16 81,358,081 128,164,999 Gain on Sale of Fixed Assets
+Pendapatan Lainnya 35 72,180,413,597 43,464,697,237 Other Income
+Beban Lain-lain - Bersih (17,845,848,944) (31,916,033,576) Other Expenses - Net
+Laba Sebelum Pajak dan Beban Pinjaman 628,528,315,969 485,033,463,423 Income Before Tax and Finance Costs
+Beban Pinjaman 2.p, 34 (169,585,561,829) (153,789,010,055) Finance Costs
+Bagian Laba Bersih Entitas Asosiasi 2.d, 32 970,623,987 582,478,081 Equity in Net Income of Associates
+Laba Sebelum Pajak 459,913,378,127 331,826,931,449 Income Before Tax
+Beban Pajak Penghasilan 2.s, 10.c (205,882,086,548) (159,837,737,328) Income Tax Expenses
+Laba Bersih Tahun Berjalan 254,031,291,579 171,989,194,121 Net Income for the Year
+Pendapatan Komprehensif Lain Other Comprehensive Income
+Selisih Kurs Penjabaran Laporan Keuangan Exchange Difference From 
+    dalam Valuta Asing 2.q 331,809,441 467,611,156 Financial Statements Translation   
+Laba Komprehensif Tahun Berjalan    254,363,101,020     172,456,805,277 Total Comprehensive Income
+LABA BERSIH PER SAHAM DASAR 36 38 9,555 EARNINGS PER SHARE
+ 
+Catatan terlampir merupakan bagian yang tidak terpisahkan  The accompanying notes form an integral part  
+dari laporan keuangan secara keseluruhan of these financial statements 
+ 
+ 3    
+PT WASKITA KARYA (PERSERO) Tbk PT WASKITA KARYA (PERSERO) Tbk
+LAPORAN PERUBAHAN EKUITAS STATEMENTS OF CHANGES IN EQUITY 
+Untuk Tahun-tahun yang Berakhir 31 Desember 2012 dan 2011 For the Years Ended December 31, 2012 and 2011 
+(Dalam Rupiah Penuh) (In Full of Rupiah) 
+ 
+ 
+Pendapatan
+Saldo Laba / Retained Earnings
+Catatan/ Modal Saham/ Tambahan Modal Ditentukan Belum Ditentukan Komprehensif Lainnya/ Jumlah Ekuitas/
+Notes Shares Capital Penggunaannya/ Penggunaannya/ Other Comprehensive Total
+Disetor/Additional 
+Paid in Capital Appropriated Unappropriated Income Equity
+Rp Rp Rp Rp Rp Rp
+SALDO PER 31 DESEMBER 2010 654,992,100,000 -- 192,279,960,913 (393,823,430,028) (3,259,162,399) 450,189,468,486 BALANCE AS OF DECEMBER 31, 2010
+Laba Bersih Tahun Berjalan -- -- -- 171,989,194,121 -- 171,989,194,121 Net Income For The Period
+Dana Program Kemitraan dan Bina Lingkungan 28 -- -- -- (2,423,912,870) -- (2,423,912,870) Partnership Program and Community Development Funds
+Selisih Kurs Penjabaran Laporan Keuangan Exchange Difference From Financial 
+  dalam Valuta Asing 2.q -- -- -- -- 467,611,156 467,611,156 Statements Translation
+                            -   
+SALDO PER 31 DESEMBER 2011 654,992,100,000 -- 192,279,960,913 (224,258,148,777) (2,791,551,243) 620,222,360,893 BALANCE AS OF DECEMBER 31, 2011
+Penerbitan Modal Saham Melalui 308,231,500,000 863,048,200,000 -- -- -- 1,171,279,700,000 Issuance of New Share Through Initial
+   Penawaran Umum Perdana Public Offering
+Biaya Emisi Saham -- (31,910,365,455) -- -- -- (31,910,365,455) Stock Issuance Costs
+Laba Bersih Tahun Berjalan -- -- -- 254,031,291,579 -- 254,031,291,579 Net Income For The Year
+Dana Program Kemitraan dan Bina Lingkungan 28 -- -- -- (6,879,567,764) -- (6,879,567,764) Partnership Program and Community Development Funds
+Selisih Kurs Penjabaran Laporan Keuangan Exchange Difference From Financial 
+  dalam Valuta Asing 2.q -- -- -- -- 331,809,441 331,809,441 Statements Translation
+                            -   
+SALDO PER 31 DESEMBER 2012 963,223,600,000 831,137,834,545 192,279,960,913       22,893,575,038 (2,459,741,802) 2,007,075,228,694 BALANCE AS OF DECEMBER 31, 2012
+Catatan terlampir merupakan bagian yang tidak terpisahkan             The accompanying notes form an integral part  
+dari laporan keuangan secara keseluruhan       of these financial statements 
+  
+ 
+ 4    
+PT WASKITA KARYA (PERSERO) Tbk PT WASKITA KARYA (PERSERO) Tbk
+LAPORAN ARUS KAS STATEMENTS OF CASH FLOWS 
+Untuk Tahun-tahun yang Berakhir 31 Desember 2012 dan 2011 For the Years Ended December 31, 2012 and 2011 
+(Dalam Rupiah Penuh) (In Full of Rupiah) 
+ 
+ 
+Catatan/ 2012 2011
+Notes Rp Rp
+ARUS KAS DARI AKTIVITAS OPERASI CASH FLOWS FROM OPERATING ACTIVITIES
+Penerimaan dari Pelanggan 7,483,968,458,803 6,562,378,494,542 Receipt from Customers
+Pembayaran Kepada Pemasok dan Pihak Ketiga (7,216,587,622,717) (6,140,967,715,052) Payment to Suppliers and Third Parties
+Pembayaran Kepada Karyawan (157,166,437,749) (111,116,123,818) Payment to Employees
+Penerimaan Rekening Giro dan Deposito Berjangka 31,885,098,337 28,348,543,593 Interest Income from Current Account and Time Deposit
+Penerimaan Restitusi Pajak 136,759,385,799 2,626,940,054 Receipt from Tax Restitutions
+Pembayaran Beban Pinjaman (169,585,561,829) (157,880,108,143) Payment for Finance Cost
+Pembayaran Pajak Penghasilan (295,929,332,167) (289,494,678,568) Payment for Income Taxes
+Kas Bersih Digunakan untuk Aktivitas Operasi Net Cash Used in Operating Activities
+(186,656,011,523) (106,104,647,392)
+ARUS KAS DARI AKTIVITAS INVESTASI CASH FLOWS FROM INVESTING ACTIVITIES
+Penerimaan dari Ventura Bersama Receipt from Joint Ventures
+49,124,593,108 65,477,316,597
+Penempatan pada Ventura Bersama Placement of Joint Ventures
+(36,900,079,236) (12,050,693,397)
+Perolehan Aset Tetap Acquisition of Fixed Assets
+(81,696,574,605) (63,077,519,438)
+Hasil Penjualan Aset Tetap 15 Proceeds from Sale of Fixed Assets
+81,358,081 150,300,000
+Penerimaan Penjualan Investasi pada Entitas Asosiasi Receipt from Sale of Associates 
+     dan Investasi Jangka Panjang Lainnya 14 and Long Term Investments
+117,931,194,128 8,481,000,000
+Pencairan Investasi Jangka Pendek Receipt from Short Term Investments
+-- 315,871,034,299
+Penempatan Investasi Jangka Pendek 4 Placement of Short Term Investments
+-- (175,000,000,000)
+Penempatan Investasi Pada Entitas Asosiasi 14 Placement of Investment on Associates
+-- (3,250,000,000)
+Penerimaan Penjualan Penyertaan pada Entitas Asosiasi Receipt from Sale of Investment on Associates
+(76,208,000,000) --
+Kas Bersih Diperoleh dari (Digunakan untuk) Aktivitas Investasi Net Cash Provided by (Used in) Investing Activities
+(27,667,508,524) 136,601,438,061
+ARUS KAS DARI AKTIVITAS PENDANAAN CASH FLOWS FROM FINANCING ACTIVITIES
+Penerimaan Utang Obligasi 750,000,000,000 -- Receipt from Bonds Payable
+Biaya Emisi Obligasi (2,546,160,287) -- Bonds Issuance Costs
+Biaya Emisi Efek saham (31,910,365,455) -- Stocks Issuance Cost
+Penerimaan Pinjaman Bank 12,238,719,830,980 13,269,804,704,902 Receipt from Bank Loans
+Pembayaran Pinjaman Bank (12,271,834,717,630) (13,069,615,536,840) Payment of Bank Loans
+Penerimaan Setoran Modal Saham 308,231,500,000 -- Receipt from Share Capital Issuance
+Penerimaan Tambahan Setoran Modal 831,137,834,545 -- Receipt from Paid in Capital
+Pembayaran Program Kemitraan dan Bina Lingkungan Partnership Program and Community Development Funds
+(6,879,567,764) (2,423,912,872)
+Kas Bersih Diperoleh dari Aktivitas Pendanaan 1,814,918,354,389 197,765,255,190 Net Cash Provided by Financing Activities
+KENAIKAN BERSIH KAS DAN SETARA KAS NET INCREASE IN CASH AND CASH EQUIVALENTS
+1,600,594,834,342 228,262,045,859
+KAS DAN SETARA KAS AWAL TAHUN CASH AND CASH EQUIVALENTS AT BEGINNING OF YEAR
+583,188,263,886 354,926,218,027
+KAS DAN SETARA KAS AKHIR TAHUN 2.c, 3 2,183,783,098,228 583,188,263,886 CASH AND CASH EQUIVALENTS AT END OF YEAR
+Kas dan Setara Kas pada Akhir Tahun terdiri dari: Cash and Cash Equivalents at End of the Year consist of:
+Kas Cash on Hand
+1,482,250,458 1,705,153,596
+Bank Cash in Banks
+843,300,847,770 486,483,110,290
+Deposito Berjangka Time Deposits
+1,339,000,000,000 95,000,000,000
+Jumlah 2,183,783,098,228 583,188,263,886 Total
+--
+ 
+ 
+Catatan terlampir merupakan bagian yang tidak terpisahkan  The accompanying notes form an integral part  
+dari laporan keuangan secara keseluruhan of these financial statements 
+ 
+ 5   PT WASKITA KARYA (PERSERO) Tbk PT WASKITA KARYA (PERSERO) Tbk
+CATATAN ATAS LAPORAN KEUANGAN  NOTES TO THE FINANCIAL STATEMENTS 
+(Lanjutan) (Continued) 
+Untuk Tahun-tahun yang Berakhir  For the Years Ended 
+pada 31 Desember 2012 dan 2011 December 31, 2012 and 2011 
+(Dalam Rupiah Penuh) (In Full of Rupiah) 
+33.  Beban Penjualan dan Administrasi dan Umum 33.  Selling and Administrative and General
+ 
+2012 2011
+Rp Rp
+Beban Penjualan Selling Expenses
+Tender 11,633,869,806 8,458,195,232 Tender 
+Pemasaran Advertising 
+6,125,846,049 4,109,078,599 
+Iklan Marketing 
+857,983,448 572,885,450 
+Jumlah Total
+18,617,699,303 13,140,159,281 
+Beban Umum dan Administrasi General and Administration Expenses
+Pegawai 91,276,356,434 84,533,224,354 Employee 
+Penyisihan Piutang Allowance for Doubtful Accounts
+48,130,682,072 40,002,823,558 
+Jasa Produksi dan Tantiem Production  and Tantiem
+29,000,000,000 25,000,000,000 
+Perjalanan Dinas 19,654,246,950 17,165,347,911 Travelling
+THR/Bonus THR Allowance
+18,406,858,329 3,935,230,635 
+Umum dan Adminstrasi 17,005,618,936 12,564,929,314 General and Administration
+Pesangon Severance 
+15,675,559,685 15,131,742,287 
+Kantor 13,241,849,306 13,194,641,897 Office
+Gedung Building
+5,631,864,233 6,055,486,442 
+Penyusutan Aset Tetap Depreciation of Fixed Assets
+         5,271,791,935 5,053,532,106 
+Jamsostek 2,570,147,829 2,498,909,519 Jamsostek
+DPLK DPLK
+237,515,472 20,112,808 
+Jumlah 266,102,491,181 225,155,980,831 Total
+Jumlah 284,720,190,484 238,296,140,112 Total
+ 
+ 
+34.  Beban Pinjaman 34.  Loan Expenses
+  
+ 
+Merupakan beban bunga atas kredit bank/non bank, beban Represent interest expenses of bank loans/non banks, fees, 
+provisi, dan beban administrasi bank yang terkait dengan and administrative expenses related to the acquisition of 
+perolehan pinjaman selama periode berjalan setelah bank loans during the current period after deducting      
+dikurangi biaya bunga yang secara langsung dapat the interest costs which are directly attributable to the cost of 
+diatribusikan dengan biaya perolehan suatu proyek tertentu a qualifying project. 
+yang memenuhi syarat. 
+ 
+2012 2011
+Rp Rp
+Beban Utang Pinjaman Bank 128,170,978,496 153,789,010,055 Bank Loan Interest
+Beban Utang Obligasi 41,414,583,333 -- Bonds Interest Expense
+Jumlah 169,585,561,829 153,789,010,055 Total
+35.  Pendapatan Lain-lain 35.  Others Revenue
+ 
+2012 2011
+Rp Rp
+Keuntungan Penjualan Saham Perusahaan Asosiasi 41,723,194,128         8,481,000,000   Gain on Sale of Associates's Share
+Pendapatan lain-lain Proyek         18,398,831,680           2,988,443,082   Project Other Income
+Pendapatan Pemulihan Piutang 5,286,460,625       25,141,594,739   Income from Recovery of Receivables
+Pendapatan Klaim Asuransi          4,731,000,213           5,114,896,030   Insurance Claims Income 
+Lain-lain          2,040,926,951             1,738,763,386 Others
+Jumlah 72,180,413,597 43,464,697,237 Total
+ 
+ 
+Pendapatan pemulihan piutang merupakan penerimaan  Recovery of receivable income represents receipt in     
+ditahun 2012 atas piutang yang telah dibentuk the year 2012 from the receivables that have been 
+pencadangannya di tahun 2012 sebesar Rp 1.316.566.128 provided the impairment in 2012 amounted to   
+untuk piutang usaha, sebesar Rp 3.688.918.788 untuk Rp 1,316,566,128 for accounts receivable, amounted to 
+piutang retensi, dan sebesar Rp 280.975.709 untuk tagihan Rp 3,688,918,788 for the retention receivables, and 
+bruto. amounted to Rp 280,975,709 for gross amount due 
+from customer. 
+ 
+ 
+ 74   

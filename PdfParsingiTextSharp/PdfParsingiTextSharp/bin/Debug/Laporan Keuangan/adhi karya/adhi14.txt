@@ -1,0 +1,482 @@
+ 
+PT ADHI KARYA (PERSERO) Tbk PT ADHI KARYA (PERSERO) Tbk 
+DAN ENTITAS ANAK AND SUBSIDIARIES 
+LAPORAN POSISI KEUANGAN CONSOLIDATED STATEMENTS OF  
+KONSOLIDASIAN FINANCIAL POSITION 
+Tanggal 31 Desember 2014 dan 2013 As of December 31, 2014 and 2013 
+(Dalam Rupiah Penuh) (In Full of Rupiah) 
+ 
+Catatan/ 2014 2013
+Notes Rp Rp
+ASET ASSETS
+ASET LANCAR CURRENT ASSETS
+Kas dan Setara Kas 2.d, 2.e, 2.v, 2.w, 3 Cash and Cash Equivalents
+             811,411,723,393           1,939,959,892,639 
+Piutang Usaha Accounts Receivable
+Pihak-pihak Berelasi 2.d, 2.v, 2.w, 4             258,397,773,214              216,425,341,533 Related Parties
+Pihak-pihak Ketiga 2.d, 2.v, 4          1,695,502,639,777           1,287,012,808,508 Third Parties
+Piutang Retensi Retention Receivables
+Pihak-pihak Berelasi 2.d, 2.g, 2.v, 2.w, 5 Related Parties
+             554,351,047,079              413,798,247,589 
+Pihak-pihak Ketiga 2.d, 2.g, 2.v, 5             387,394,876,486              366,133,954,789 Third Parties
+Tagihan Bruto Pemberi Kerja Gross Amount Due from Customers
+Pihak-pihak Berelasi 2.d, 2.h, 2.v, 2.w, 6          1,187,417,011,461           1,507,378,794,101 Related Parties
+Pihak-pihak Ketiga 2.d, 2.h, 2.v, 6          1,429,816,010,167              945,704,630,972 Third Parties
+Piutang pada Ventura Bersama Konstruksi Constructions Joint Venture Receivables
+Pihak-pihak Berelasi 2.d, 2.l, 2.w, 7             169,365,729,670              267,561,277,652 Related Parties
+Pihak-pihak Ketiga 2.d, 2.l, 7 Third Parties
+             149,038,801,034              154,153,306,801 
+Persediaan 2.i, 2.o, 8             132,013,517,468              161,559,750,775 Inventories
+Uang Muka 2.d, 9             183,607,503,710              226,061,200,106 Advances
+Biaya Dibayar di Muka 2.j, 10 Prepaid Expenses
+             814,053,429,715              219,939,991,122 
+Pajak Dibayar di Muka 2.x, 11.a             622,516,778,227              497,493,058,365 Prepaid Taxes
+Aset Real Estat 2.k, 2.o, 12.a          1,089,412,066,524              896,284,552,057 Real Estate Assets
+Jumlah Aset Lancar          9,484,298,907,925           9,099,466,807,010 Total Current Assets
+ASET TIDAK LANCAR NON CURRENT ASSETS
+Aset Pajak Tangguhan 2.x, 24                      14,733,917 -- Deferred Tax Assets
+Piutang Lain-lain Jangka Panjang 2.d, 13               36,374,118,437                  6,492,998,787 Other Long-Term Receivables
+Aset Real Estat 2.k, 2.o, 12.b                 5,132,984,482 21,932,353,413 Real Estate Assets
+Investasi pada Ventura Bersama 2.l,14               45,250,408,918                52,434,184,823 Investment in Joint Ventures
+Properti Investasi 2.m, 2.o, 15             356,221,665,867              196,697,458,123 Investment Properties
+Aset Tetap 2.n, 2.o, 2.ab, 16             496,095,844,221              271,256,911,163 Property, Plant and Equipment
+Investasi Jangka Panjang Lainnya 2.d, 2.f, 17                 7,600,000,000                  7,600,000,000 Other Long - Term Investment
+Aset Lain-lain 2.d, 18               27,893,020,507                65,081,051,104 Other Assets
+Jumlah Aset Tidak Lancar             974,582,776,349              621,494,957,412 Total Non Current Assets
+JUMLAH ASET        10,458,881,684,274           9,720,961,764,422 TOTAL ASSETS
+ 
+ 
+ 
+Catatan terlampir merupakan bagian yang tidak terpisahkan  The accompanying notes form an integral part  
+dari laporan keuangan konsolidasian secara keseluruhan of these consolidated financial statements 
+ 
+d6/February 5, 2014 1  paraf:  
+PT ADHI KARYA (PERSERO) Tbk PT ADHI KARYA (PERSERO) Tbk 
+DAN ENTITAS ANAK AND SUBSIDIARIES 
+LAPORAN POSISI KEUANGAN CONSOLIDATED STATEMENTS OF  
+KONSOLIDASIAN FINANCIAL POSITION 
+Tanggal 31 Desember 2014 dan 2013 As of December 31, 2014 and 2013 
+(Dalam Rupiah Penuh) (In Full of Rupiah) 
+ 
+ 
+Catatan/ 2014 2013
+Notes
+Rp Rp
+LIABILITAS DAN EKUITAS LIABILITIES AND EQUITY
+LIABILITAS JANGKA PENDEK CURRENT LIABILITIES
+Utang Usaha Accounts Payable
+Pihak Berelasi 2.d, 2.w, 19 Related Parties
+               23,150,723,308                28,638,024,968 
+Pihak Ketiga 2.d, 2.v, 19          4,900,061,986,106           4,738,781,537,156 Third Parties
+Utang Bank 2.d, 2.v, 20.a             692,000,000,000              211,800,000,000 Bank Loans
+Utang Pajak 2.x, 11.b Taxes Payables
+             279,847,706,524              259,695,783,516 
+Uang Muka Pemberi Kerja 2.d, 21.a             494,513,341,101              620,342,538,872 Advances Receipts
+Pendapatan Diterima di Muka 2.d, 22               77,196,379,347              153,557,931,854 Unearned Revenues
+Beban Akrual 23 Accrued Expenses
+             348,933,582,604              259,600,358,425 
+Utang Retensi 2.d, 2.s, 24 Retention Payables
+             220,811,939,708              170,368,605,115 
+Liabilitas Jangka Pendek Lainnya 2.d, 25               33,187,953,324                98,872,367,430 Other Current Liabilities
+Jumlah Liabilitas Jangka Pendek          7,069,703,612,022           6,541,657,147,336 Total Current Liabilities
+LIABILITAS JANGKA PANJANG NON CURRENT LIABILITIES
+Utang Retensi 2.d, 2.s, 24                 7,034,546,407                  8,635,934,290 Retention Payables
+Uang Jaminan Penyewa 2.d, 2.t, 26 -- Customer Deposits
+                    301,073,000 
+Uang Muka Pemberi Kerja 2.d, 21.b Advances Receipts
+               48,155,670,181                84,532,290,178 
+Utang Bank 2.d, 2.u, 20.b               79,500,000,000 -- Bank Loans
+Utang Obligasi 2.d, 2.q, 27 Bond Payables
+          1,247,628,720,991           1,246,976,440,710 
+Utang Lain-lain 2.d, 29 Other Payables
+                    400,440,917                     526,424,707 
+Liabilitas Imbalan Kerja 2.y, 2.ab, 30                 4,915,344,112                39,869,661,630 Liabilities for Employment Benefits
+Utang Sukuk 2.d, 2.r, 28             250,000,000,000              250,000,000,000 Sukuk Payables
+Jumlah Liabilitas Jangka Panjang Total Long-term Liabilities
+          1,637,634,722,608           1,630,841,824,515 
+Jumlah Liabilitas Total Liabilties
+          8,707,338,334,630           8,172,498,971,851 
+EKUITAS EQUITY
+Ekuitas yang Dapat Diatribusikan
+Equity Attributable to Owners
+k
+kepada Pemilik Entitas Induk of the Parent
+Modal Saham - Nilai Nominal Rp 100 per Saham Capital Stock - Rp 100 par Value per Share
+Modal Dasar - 5.440.000.000 Saham Authorized Capital - 5,440,000,000 Shares 
+Modal Ditempatkan dan Disetor Penuh - 1.801.320.000 Saham 31 180,132,000,000 180,132,000,000 Subscribed and Paid Up Capital - 1,801,320,000 Shares
+Tambahan Modal Disetor 2.p, 32 50,004,090,079               50,004,090,079 Additional Paid in Capital
+Selisih Transaksi dengan Pihak Non Pengendali 34.c -- Difference in Transaction with Non Controling Interest
+                 3,117,842,245 
+Saldo Laba Retained Earnings
+Ditentukan Penggunaannya 33          1,187,954,751,131              903,770,990,399 Appropriated
+Belum Ditentukan Penggunaannya 33 Unappropriated
+             321,624,141,244              403,529,579,993 
+Pendapatan Komprehensif Lain Other Comprehensive Income
+Selisih Penjabaran Laporan Keuangan 2.v                 1,751,501,902                  1,792,021,294 Difference in Foreign Currency Translation
+Ekuitas yang Dapat Diatribusikan Equity Attributable to Owners
+kkepada Pemilik Entitas Induk of the Parent
+          1,744,584,326,601           1,539,228,681,765 
+Kepentingan Non Pengendali 2.z, 34                 6,959,023,043                  9,234,110,806 Non Controlling Interest
+Jumlah Ekuitas          1,751,543,349,644           1,548,462,792,571 Total Equity
+JUMLAH LIABILITAS DAN EKUITAS        10,458,881,684,274           9,720,961,764,422 TOTAL LIABILITIES AND EQUITY
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Catatan terlampir merupakan bagian yang tidak terpisahkan  The accompanying notes form an integral part  
+dari laporan keuangan konsolidasian secara keseluruhan of these consolidated financial statements 
+ 
+d6/February 5, 2014 2  paraf:  
+PT ADHI KARYA (PERSERO) Tbk PT ADHI KARYA (PERSERO) Tbk 
+DAN ENTITAS ANAK AND SUBSIDIARIES 
+LAPORAN LABA RUGI KOMPREHENSIF CONSOLIDATED STATEMENTS OF  
+KONSOLIDASIAN COMPREHENSIVE INCOME 
+Untuk Tahun-tahun yang Berakhir pada Tanggal For the Years Ended 
+31 Desember 2014 dan 2013 December 31, 2014 and 2013 
+(Dalam Rupiah Penuh) (In Full of Rupiah) 
+ 
+Catatan/ 2014 2013
+Notes Rp Rp
+Pendapatan Usaha 2.t, 2.w, 35    8,653,578,309,020     9,799,598,396,362 Revenues
+Beban Pokok Pendapatan 2.t, 2.w, 36    7,655,376,741,694     8,606,443,802,782 Cost of Revenues
+LABA KOTOR       998,201,567,326     1,193,154,593,580 GROSS PROFITS
+Pendapatan Bersih Ventura Bersama Konstruksi 2.l, 7, 37 Net Revenue of Construction Joint Ventures
+         18,386,699,464          54,556,790,892 
+GROSS PROFITS AFTER CONSTRUCTION 
+LABA KOTOR SETELAH LABA VENTURA 
+BERSAMA KONSTRUKSI    1,016,588,266,790     1,247,711,384,472   JOINT VENTURES     
+Pendapatan Bunga 2.t, 38         33,424,985,725          32,515,337,279 Interest Income
+Laba Penjualan Aset Tetap 2.t, 16              183,424,566          10,164,308,376 Gain on Sale of Fixed Assets
+Laba Selisih Kurs - Bersih 2.v       100,096,399,242        110,166,380,494 Gain on Foreign Exchange - Net
+Beban Usaha 2.t, 39 Administration and General Expenses
+     (361,178,821,874)     (328,960,747,964)
+Beban Penyisihan Penurunan Nilai Piutang 2.d, 40       (42,597,387,115)       (65,357,861,758) Allowance for Impairment of Receivables
+Beban Lainnya - Bersih 41         (8,250,202,296)     (183,536,900,296) Other Charges - Net
+LABA USAHA       738,266,665,038        822,701,900,603 INCOME FROM OPERATION
+Bagian Atas Rugi Bersih Ventura Bersama 2.l, 37         (7,183,775,905)            (418,579,307) Equity in Net Loss of Joint Ventures
+Beban  Keuangan 2.u, 42     (136,530,244,593)     (107,918,678,613) Financial Charges
+LABA SEBELUM PAJAK       594,552,644,540        714,364,642,683 INCOME BEFORE TAX
+Beban Pajak 2.x, 11.c Tax Expenses
+     (267,896,083,942)     (305,926,729,229)
+LABA TAHUN BERJALAN       326,656,560,598        408,437,913,454 INCOME FOR THE YEAR
+Pendapatan Komprehensif Lain Other Comprehensive Income
+Selisih Kurs Penjabaran Laporan Keuangan               (40,519,392)           1,423,988,239 Difference in Foreign Currency Translation
+TOTAL LABA KOMPREHENSIF TOTAL COMPREHENSIVE INCOME
+TAHUN BERJALAN       326,616,041,206        409,861,901,693 FOR THE YEAR
+TOTAL LABA YANG DAPAT DIATRIBUSIKAN TOTAL INCOME FOR THE YEAR 
+KEPADA: ATTRIBUTABLE TO:
+Pemilik Entitas Induk Owners of the Parent
+       324,071,362,296        405,976,801,046 
+Kepentingan Nonpengendali 2.z, 35           2,585,198,301            2,461,112,408 Non-Controlling Interest
+JUMLAH        326,656,560,598        408,437,913,454 TOTAL
+TOTAL LABA KOMPREHENSIF YANG DAPAT TOTAL COMPREHENSIVE INCOME FOR
+DIATRIBUSIKAN KEPADA: THE YEAR ATTRIBUTABLE TO:
+Pemilik Entitas Induk       324,030,842,904        407,400,789,285 Owners of the Parent
+Kepentingan Nonpengendali 2.z, 35           2,585,198,301            2,461,112,408 Non-Controlling Interest
+JUMLAH TOTAL
+       326,616,041,206        409,861,901,693 
+LABA PER SAHAM EARNINGS PER SHARE
+2.ab, 43                       179.91 225.38
+ 
+ 
+ 
+ 
+ 
+ 
+Catatan terlampir merupakan bagian yang tidak terpisahkan  The accompanying notes form an integral part  
+dari laporan keuangan konsolidasian secara keseluruhan of these consolidated financial statements 
+ 
+d6/February 5, 2014 3  paraf:  
+PT ADHI KARYA (PERSERO) Tbk PT ADHI KARYA (PERSERO) Tbk 
+DAN ENTITAS ANAK AND SUBSIDIARIES 
+LAPORAN PERUBAHAN EKUITAS KONSOLIDASIAN CONSOLIDATED STATEMENTS OF CHANGES IN EQUITY 
+Untuk Tahun-tahun yang Berakhir pada tanggal 31 Desember 2014 dan 2013 For the Years Ended December 31, 2014 and 2013 
+(Dalam Rupiah Penuh) (In Full of Rupiah) 
+ 
+Dapat Diatribusikan Kepada Pemilik Entitas Induk/
+Attibutable to the Owners of the Parent 
+Saldo Laba / Retained Earnings
+Kepentingan
+Modal Saham/ Pendapatan 
+Catatan/ Tambahan Modal Selisih Ditentukan Belum Ditentukan Jumlah/ Non Pengendali/ Jumlah Ekuitas/
+Komprehensif
+Notes Capital Disetor/Additional Transaksi Penggunaannya/ Penggunaannya/ Total Non - Controlling Total
+Stock Paid in Capital dengan Pihak Appropriated Unappropriated Lainnya - Selisih Interest Equity
+Non Pengendali/ Penjabaran
+Difference in Laporan Keuangan/
+Transaction Other
+with Non Controling Comprehensive
+Interest Income - Different
+in Foreign Currency
+Translation
+Rp Rp Rp Rp Rp Rp Rp Rp
+                                   -   
+SALDO PER 1 JANUARI 2013 180,132,000,000 50,004,090,079 -- 734,498,675,143           209,143,173,017                    368,033,055     1,174,145,971,294 6,772,998,398         1,180,918,969,692 BALANCE AS OF JANUARY 1, 2013
+Laba Komprehensif Tahun Berjalan 33 -- -- -- -- 405,976,801,046 1,423,988,239 407,400,789,285 2,461,112,408 409,861,901,693 Total Comprehensive Income for the Year
+Dana Cadangan 33 -- -- -- 169,272,315,256 (169,272,315,256) -- -- -- -- General Reserve
+Dividen Tunai 33 -- -- -- -- (42,318,078,814) -- (42,318,078,814) -- (42,318,078,814) Cash Dividends
+SALDO PER 31 DESEMBER 2013 180,132,000,000               50,004,090,079 --           903,770,990,399           403,529,579,993                 1,792,021,294     1,539,228,681,765           9,234,110,806         1,548,462,792,571 BALANCE AS OF DECEMBER 31, 2013
+Laba Komprehensif Tahun Berjalan 33 -- -- -- -- 324,071,362,296 (40,519,392) 324,030,842,904 2,585,198,301 326,616,041,206 Total Comprehensive Income for the Year
+Perubahan Kepentingan Non Pengendali 34.c -- -- 3,117,842,245 -- -- -- 3,117,842,245 (4,860,286,063) (1,742,443,818) Changes in Non-Controling Interest
+Dana Cadangan 33 -- -- -- 284,183,760,732 (284,183,760,732) -- -- -- -- General Reserve
+Dividen Tunai 33 -- -- -- -- (121,793,040,314) -- (121,793,040,314) -- (121,793,040,314) Cash Dividends
+SALDO PER 31 DESEMBER 2014      180,132,000,000               50,004,090,079          3,117,842,245         1,187,954,751,131           321,624,141,244                 1,751,501,902     1,744,584,326,601           6,959,023,043         1,751,543,349,644 BALANCE AS OF DECEMBER 31, 2014
+ 
+ 
+Catatan terlampir merupakan bagian yang tidak terpisahkan              The accompanying notes form an integral part  
+dari laporan keuangan konsolidasian secara keseluruhan                    of these consolidated financial statements 
+  
+ 
+d6/February 5, 2014 4  paraf:   
+PT ADHI KARYA (PERSERO) Tbk PT ADHI KARYA (PERSERO) Tbk 
+DAN ENTITAS ANAK AND SUBSIDIARIES 
+LAPORAN ARUS KAS CONSOLIDATED STATEMENTS  
+KONSOLIDASIAN OF CASH FLOWS 
+Untuk Tahun-tahun yang Berakhir pada tanggal 31 Desember 2014 dan 2013 For the Years Ended December 31, 2014 and 2013 
+(Dalam Rupiah Penuh) (In Full of Rupiah) 
+ 
+ 
+2014 2013
+Rp Rp
+ARUS KAS DARI AKTIVITAS OPERASI CASH FLOWS FROM OPERATING ACTIVITIES
+Penerimaan Kas dari Pelanggan Cash Receipts from Customers
+8,353,958,635,469 11,010,917,275,014
+Penerimaan Bunga Received from Interest
+33,424,985,725 32,515,337,279
+Penerimaan Restitusi Pajak 192,952,448,449 57,270,321,234 Received from Tax Refunds
+Total Penerimaan Total Cash Receipts
+8,580,336,069,643 11,100,702,933,527
+Pembayaran Kepada Pemasok dan Beban lainnya Payment to Suppliers and Other Expenses
+(8,889,675,227,475) (9,902,240,080,636)
+Pembayaran Kepada Karyawan Payment to Employees
+(218,378,193,743) (208,316,201,353)
+Pembayaran Beban Keuangan (182,602,875,367) (146,957,614,301) Payment for Financial Charges
+Pembayaran Pajak Penghasilan Income Tax Paid
+(267,910,817,858) (272,351,629,636)
+Total Pengeluaran (9,558,567,114,443) (10,529,865,525,926) Total Cash Payments
+Arus Kas Neto Diperoleh dari (Digunakan untuk) Aktivitas Operasi Net Cash Provided by (Used in) Operating Activities
+(978,231,044,800) 570,837,407,601
+ARUS KAS DARI AKTIVITAS INVESTASI CASH FLOWS FROM INVESTING ACTIVITIES
+Hasil Penjualan Aset Tetap Proceeds from Sale of Fixed Assets
+1,510,862,816 12,141,500,000
+Pelepasan (Penempatan) Investasi Saham -- 21,918,840,000 Long Term Investment
+Perolehan Aset Tetap Acquisition of Fixed Assets
+(244,674,145,804) (100,987,927,122)
+Perolehan Aset Real Estat (176,629,218,536) -- Acquisition of Real Estate Assets
+Perolehan Properti Investasi Acquisition of Investment Properties 
+(168,148,643,178) (231,934,653,275)
+Kas Bersih Digunakan untuk Aktivitas Investasi Net Cash Used in Investing Activities
+(587,941,144,701) (298,862,240,397)
+ARUS KAS DARI AKTIVITAS PENDANAAN CASH FLOWS FROM FINANCING ACTIVITIES
+Penerimaan Pinjaman Bank 1,496,656,000,000 370,656,112,761 Received form Bank Loans
+Pembayaran Pinjaman Bank
+(936,956,000,000) (359,776,060,958) Payment of Bank Loans
+Penerimaan Utang Obligasi Received form Bonds Payable
+-- 624,237,922,855
+Penerimaan Utang Sukuk -- 125,000,000,000 Received from Sukuk Payable
+Penambahan Utang Pembelian Kendaraan -- 2,417,665,580 Addition of Purchase of Vehicle Liabilities
+Pembayaran Utang Pembelian Kendaraan Payment of Vehicle Purchase Debt
+(323,458,823) (4,961,132,501)
+Pembayaran Dividen (121,793,040,314) (42,318,078,814) Payment of Dividend
+Kas Bersih Diperoleh dari Aktivitas Pendanaan Net Cash Provided by Financing Activities
+437,583,500,863 715,256,428,923
+KENAIKAN (PENURUNAN) BERSIH KAS DAN SETARA KAS (1,128,588,688,638) 987,231,596,127 NET INCREASE (DECREASE) IN CASH AND CASH EQUIVALENTS
+Pengaruh Selisih Kurs - Bersih 40,519,392 3,882,454,880 Effect in Foreign Exchange - Net
+KAS DAN SETARA KAS AWAL TAHUN CASH AND CASH EQUIVALENTS AT BEGINNING OF YEAR
+1,939,959,892,639 948,845,841,632
+KAS DAN SETARA KAS AKHIR TAHUN CASH AND CASH EQUIVALENTS AT END OF YEAR
+811,411,723,393 1,939,959,892,639
+ 
+Tambahan informasi akuntansi yang tidak mempengaruhi Additional information of non cash transaction is presented 
+arus kas disajikan pada Catatan 49. in Note 49. 
+ 
+ 
+ 
+ 
+Catatan terlampir merupakan bagian yang tidak terpisahkan  The accompanying notes form an integral part  
+dari laporan keuangan secara keseluruhan of these Consolidated financial statements 
+ 
+d6/February 5, 2014 5  paraf: PT ADHI KARYA (Persero) Tbk PT ADHI KARYA (Persero) Tbk 
+DAN ENTITAS ANAK AND SUBSIDIARIES 
+CATATAN ATAS LAPORAN KEUANGAN NOTES TO THE CONSOLIDATED FINANCIAL 
+KONSOLIDASIAN (Lanjutan) STATEMENTS (Contrinued) 
+Untuk Tahun-tahun yang Berakhir pada Tanggal For the Years Ended 
+31 Desember 2014 dan 2013   December 31, 2014 and 2013 
+(Dalam Rupiah Penuh) (In Full of Rupiah) 
+ 
+ 
+ 
+3. Kas dan Setara Kas 3. Cash and Cash Equivalents 
+ 
+2014 2013
+Rp Rp
+Kas 87,990,397,207 91,033,698,410 Cash on Hand
+Bank Cash in Banks
+    Pihak-pihak Berelasi
+   Related Parties
+    Rupiah   Rupiah
+    PT Bank Mandiri (Persero) Tbk    PT Bank Mandiri (Persero) Tbk
+247,362,747,171 220,137,207,408
+    PT Bank Negara lndonesia (Persero) Tbk    PT Bank Negara lndonesia (Persero) Tbk
+37,876,979,185 36,497,977,650
+    PT Bank Rakyat lndonesia (Persero) Tbk    PT Bank Rakyat lndonesia (Persero) Tbk
+381,115,670 3,206,026,640
+    Lain-lain (masing-masing di bawah Rp1 Milyar) Others (each below Rp 1 Billion)
+889,692,529 1,025,525,416
+    USD    USD
+    PT Bank Mandiri (Persero) Tbk    PT Bank Mandiri (Persero) Tbk
+25,937,381,053 299,188,961,616
+    PT Bank Negara lndonesia (Persero) Tbk    PT Bank Negara lndonesia (Persero) Tbk
+10,695,636 10,950,685
+    Yen Jepang
+    Japanese Yen
+    PT Bank Mandiri (Persero) Tbk    PT Bank Mandiri (Persero) Tbk
+1,077,670,951 1,121,302,230
+    Euro
+    Euro
+    PT Bank Mandiri (Persero) Tbk    PT Bank Mandiri (Persero) Tbk
+3,895,010,200 --
+317,431,292,395 561,187,951,645
+    Pihak Ketiga
+    Third Parties
+    Rupiah    Rupiah
+    Bank Pembangunan Daerah    Bank Pembangunan Daerah
+34,625,343,590 43,540,891,021
+    PT Bank CIMB Niaga Tbk    PT Bank CIMB Niaga Tbk
+19,881,741,200 832,275,648
+    PT Bank Central Asia Tbk    PT Bank Central Asia Tbk
+2,712,432,183 19,143,981,291
+    PT Bank Muamalat Tbk    PT Bank Muamalat Tbk
+1,523,076,457 1,057,316,228
+    PT Bank Permata Tbk    PT Bank Permata Tbk
+130,907,365 16,429,729,129
+    Lain-lain (masing-masing di bawah Rp1 Milyar) Others (each below Rp 1 Billion)
+702,601,888 4,236,835,415
+    USD    USD
+    Lain-lain (masing-masing di bawah Rp1 Milyar) Others (each below Rp 1 Billion)
+513,931,108 422,213,852
+60,090,033,791 85,663,242,584
+377,521,326,186 646,851,194,229
+Jumlah Bank Total Cash in Banks
+Deposito Berjangka
+Time Deposits
+    Rupiah    Rupiah
+    Pihak-pihak Berelasi
+   Related Parties
+    PT Bank Mandiri (Persero) Tbk    PT Bank Mandiri (Persero) Tbk
+280,900,000,000 468,075,000,000
+PT Bank Tabungan Negara Syariah PT Bank Tabungan Negara Syariah
+-- 100,000,000,000
+280,900,000,000 568,075,000,000
+    Pihak ketiga
+    Third Parties
+    PT Bank Tabungan Pensiunan Nasional Tbk    PT Bank Tabunga Pensiunan Nasional Tbk
+50,000,000,000 100,000,000,000
+    PT Bank Muamalat    PT Bank Muamalat
+15,000,000,000 194,000,000,000
+    PT Bank CIMB Niaga Tbk    PT Bank CIMB Niaga Tbk
+-- 100,000,000,000
+    PT Bank Panin Syariah Tbk    PT Bank Panin Syariah Tbk
+-- 95,000,000,000
+    PT Bank Victoria International Tbk    PT Bank Victoria International Tbk
+-- 45,000,000,000
+    PT Bank Kesejahteraan    PT Bank Kesejahteraan
+-- 40,000,000,000
+    PT Bank Victoria Syariah    PT Bank Victoria Syariah
+-- 25,000,000,000
+PT Bank Mega Tbk PT Bank Mega Tbk
+-- 25,000,000,000
+    PT Bank of India Indonesia Tbk    PT Bank of India Indonesia Tbk
+-- 10,000,000,000
+65,000,000,000 634,000,000,000
+Jumlah Deposito Berjangka 345,900,000,000 1,202,075,000,000 Total Time Deposits
+Kas dan Setara Kas 811,411,723,393 1,939,959,892,639 Cash and Cash Equivalents
+Tingkat suku bunga deposito berjangka per tahun 8,00% - 11,00% 8,50% - 12,00% Time deposit interest rate per annum
+Tingkat Nisbah Bagi Hasil - Ekuivalen 7,00% - 7,50% 5,00% - 6,00% Profit Sharing Rate - Equivalent
+1 - 3 Bulan/Months 1 - 3 Bulan/Months Maturity Period
+Jangka Waktu
+ 
+ 
+d6/February 5, 2014 28  paraf: PT ADHI KARYA (Persero) Tbk PT ADHI KARYA (Persero) Tbk 
+DAN ENTITAS ANAK AND SUBSIDIARIES 
+CATATAN ATAS LAPORAN KEUANGAN NOTES TO THE CONSOLIDATED FINANCIAL 
+KONSOLIDASIAN (Lanjutan) STATEMENTS (Contrinued) 
+Untuk Tahun-tahun yang Berakhir pada Tanggal For the Years Ended 
+31 Desember 2014 dan 2013   December 31, 2014 and 2013 
+(Dalam Rupiah Penuh) (In Full of Rupiah) 
+ 
+ 
+sebesar Rp288.306.418.943 dan Rp1.526.870.766.691 Rp1,526,870,766,691 respectively with contract costs 
+dengan beban kontrak masing-masing sebesar amounting to Rp269,469,719,479 and 
+Rp269.469.719.479 dan Rp1.472.313.975.745. Rp1,472,313,975,745, respectively. 
+ 
+Rincian proyek kerjasama yang masih berjalan di tahun The details of joint projects that are still on going in 2014 as 
+2014 adalah sebagai berikut: follows: 
+ 
+No Uraian/Description Para Pihak/Parties Porsi/Portion Status
+1 Proyek Pumping Station/ Pumping Station Project PT Adhi Karya : PT Pembangunan Perumahan 51% : 49% Berjalan/On Going
+2 Proyek Bandara Sepinggan/ Sepinggan Airport PT Adhi Karya : PT Wijaya Karya :                              33.33% : 36.67% :         B   e  r j a lan/On Going
+Project PT Pembangunan Perumahan 30%
+3 Proyek PLTU Tanjung Selor/ PLTU Tanjung Selor PT Adhi Karya : PT Karya Mitra Nugraha 60% : 40% Berjalan/On Going
+Project
+4 Proyek Port Tanjung Priok/ Seaport Tanjung Priok PT Adhi Karya : Toyo Construction Ltd. 40% : 60% Berjalan/On Going
+Project
+5 Proyek Bandara Samarinda Baru Paket III/ PT Adhi Karya - PT Putra Tanjung 60% : 40% Berjalan/On Going
+Samarinda Baru Airport Package III Project
+6 Proyek Jalur Ganda Lintas Bojonegoro-Surabaya PT Adhi Karya - PT Surya Kencana 55% : 45% Berjalan/On Going
+Pasturi/ Double Track Bojonegoro-Surabaya 
+Project
+7 Proyek Dredging and Embankment Of Cengkareng PT Adhi Karya - PT Hutama Karya -                     40% : 30% :                   B   erjalan/On Going
+Floodway Sub/ Dredging and Embankment Of PT Jaya Konstruksi 30%
+Cengkareng Floodway Sub Project
+Proyek Kali Ciliwung Paket 1/ Kali Ciliwung Berjalan/On Going
+Package 1 Project PT Adhi Karya - PT Jaya Konstruksi 51% : 49%
+8
+Proyek Peningkatan Jalan Tanah ke Jalan Hotmix PT Adhi Karya - PT Wijaya Karya -                             33,33% : 33,67% : Berjalan/On Going
+Ruas Jalan PT Pembangunan Perumahan 30%
+9
+10 Proyek Pembangunan Terminal Bandara Ngurah PT Adhi Karya : PT Wijaya Karya 51% : 49% Serah Terima Tahap 1/ 
+Rai/ Ngurah Rai Airport Development Project Partial Hand Over
+11 Proyek Arsitekur Bandara Ngurah Rai Bali/ PT Adhi Karya : PT Wijaya Karya 51% : 49% Serah Terima Tahap 1/ 
+Architecture of Ngurah Rai Airport Project Partial Hand Over
+ 
+38. Pendapatan Bunga 38. Interest Income 
+ 
+Pendapatan Bunga merupakan pendapatan atas bunga Interest income represents interest income on time deposits, 
+deposito berjangka, bunga jasa giro bank dan bunga interest on bank current accounts and other interest for the 
+lainnya pada 31 Desember 2014 dan 2013, masing- year ended December 31, 2014 and 2013, each amounting to 
+masing sebesar Rp33.424.985.725 dan Rp33,424,985,725 and Rp33,515,337,279. 
+Rp32.515.337.279. 
+ 
+ 
+39. Beban Usaha 39. Operating Expenses 
+ 
+2014 2013
+Rp Rp
+Pegawai Personel
+218,378,193,743 208,316,201,353
+Umum Generals
+101,384,237,900 92,223,566,271
+Penyusutan Depreciation
+24,818,518,696 9,449,999,929
+Penjualan Selling
+16,597,871,535 18,970,980,411
+Jumlah 361,178,821,874 328,960,747,964 Total
+ 
+Beban pegawai meliputi gaji, honor, upah, pesangon, Personnel expenses comprise salaries, honorariums, 
+tunjangan sosial, Tunjangan Hari Raya, Insentif & wages, severance, social benefits, allowance, Insentief and 
+Tantiem, premi THT, biaya mutasi pegawai, biaya Tantiem THT, the cost of employee transfers, nursing costs, 
+perawatan, beban imbalan jangka panjang dan PPh 21 long-term benefits expense and Income Tax 21 of the 
+karyawan yang seluruhnya ditanggung Perusahaan.  employees which are entirely charged to the Company. 
+  
+Beban Umum merupakan pengeluaran untuk alat tulis General expenses comprise stationeries, electricity, 
+kantor, listrik, telekomunikasi, rumah tangga kantor, telecommunications, household supplies, consumptions, 
+ 
+d6/February 5, 2014 78  paraf: 

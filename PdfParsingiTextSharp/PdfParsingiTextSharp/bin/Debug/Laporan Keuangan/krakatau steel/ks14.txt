@@ -1,0 +1,451 @@
+Analisis dan Pembahasan Tanggung Jawab Sosial 
+Profil Perusahaan Laporan Manajemen Manajemen Tata Kelola Perusahaan Perusahaan
+The original consolidated financial statements included herein are in
+the Indonesian language.
+PT KRAKATAU STEEL (PERSERO) Tbk PT KRAKATAU STEEL (PERSERO) Tbk
+dan Entitas Anaknya and Its Subsidiaries
+LAPORAN POSISI KEUANGAN CONSOLIDATED STATEMENT OF
+KONSOLIDASIAN FINANCIAL POSITION
+Tanggal 31 Desember 2014 As of December 31, 2014
+(Disajikan dalam ribuan Dolar AS, (Expressed in thousands of US Dollar,
+kecuali dinyatakan lain) unless otherwise stated)
+31 Desember/December 31,
+Catatan/
+2014 Notes 2013
+ASET ASSETS
+ASET LANCAR CURRENT ASSETS
+Kas dan setara kas 236.689 2c,2d,2e,2f 190.232 Cash and cash equivalents
+4,9,32,36
+Investasi jangka pendek - 2d,2f,5,32,36 7.810 Short-term investments
+Deposito berjangka yang dibatasi 2c,2e,2f
+penggunaannya 20.172 6,9,15,32 26 Restricted time deposits
+Piutang usaha, setelah dikurangi 2d,2f,3 Trade receivables, net of
+cadangan kerugian penurunan nilai 7,15,21 allowance for impairment
+sebesar US$5.094 pada tanggal 32,36 losses of US$5,094 as of
+31 Desember 2014 dan US$3.434 December 31, 2014 and US$3,434
+pada tanggal 31 Desember 2013 as of December 31, 2013
+Pihak ketiga 140.303 159.101 Third parties
+Pihak berelasi 108.523 2c,9 117.068 Related parties
+Piutang lain-lain, setelah dikurangi 2d,2f,8, Other receivables, net of
+cadangan kerugian penurunan nilai 17,32,36 allowance for impairment
+sebesar US$551 pada tanggal losses of US$551 as of
+31 Desember 2014 dan US$558 December 31, 2014 and US$558
+pada tanggal 31 Desember 2013 as of December 31, 2013
+Pihak ketiga 2.789 18.158 Third parties
+Pihak berelasi 28.375 2c,9,12 38.832 Related parties
+Persediaan, neto 480.871 2g,3,10,15,21 519.086 Inventories, net
+Uang muka dan biaya dibayar di muka 33.529 2d,2h,11,35,36 35.515 Advances and prepaid expenses
+Pajak dibayar di muka 7.372 2r,18 9.391 Prepaid taxes
+Total Aset Lancar 1.058.623 1.095.219 Total Current Assets
+ASET TIDAK LANCAR NON-CURRENT ASSETS
+Estimasi tagihan pajak 58.423 2r,18 54.448 Estimated claims for tax refund
+2d,2f,2i
+Penyertaan saham, neto 213.095 12,32,36 255.417 Investments in shares of stock, net
+Aset pajak tangguhan, neto 78.800 2r,3,18 38.012 Deferred tax assets, net
+Aset tetap, setelah dikurangi akumulasi 2j,3 Fixed assets, net of accumulated
+penyusutan sebesar US$690.710 13,15,21 depreciation of US$690,710
+pada tanggal 31 Desember 2014 dan as of December 31, 2014 and
+US$622.596 pada tanggal US$622,596 as of
+31 Desember 2013 1.097.410 857.738 December 31, 2013
+Aset lain-lain Other assets
+Aset real estat 14.446 2k 13.987 Real estate assets
+Aset yang tidak digunakan dalam
+operasi 1.995 2j,13 3.659 Assets not used in operations
+Kas dan deposito berjangka yang 2c,2d,2e,2f
+dibatasi penggunaannya 28.177 21,32,36 19.798 Restricted cash and time deposits
+2d,2f,2j
+Lain-lain 47.454 32,34,36 41.226 Others
+Total Aset Tidak Lancar 1.539.800 1.284.285 Total Non-Current Assets
+TOTAL ASET 2.598.423 2.379.504 TOTAL ASSETS
+Catatan atas laporan keuangan konsolidasian terlampir The accompanying notes to the consolidated financial
+merupakan bagian yang tidak terpisahkan dari laporan statements form an integral part of these consolidated
+keuangan konsolidasian secara keseluruhan. financial statements taken as a whole.
+1
+256
+PT Krakatau Steel (Persero) Tbk. Laporan Tahunan  2014  Annual ReportCorporate Social Good Corporate Management Discussion 
+Responsibility Governance and Analysis Management Report Company Profile
+The original consolidated financial statements included herein are in
+the Indonesian language.
+PT KRAKATAU STEEL (PERSERO) Tbk PT KRAKATAU STEEL (PERSERO) Tbk
+dan Entitas Anaknya and Its Subsidiaries
+LAPORAN POSISI KEUANGAN CONSOLIDATED STATEMENT OF
+KONSOLIDASIAN (lanjutan) FINANCIAL POSITION (continued)
+Tanggal 31 Desember 2014 As of December 31, 2014
+(Disajikan dalam ribuan Dolar AS, (Expressed in thousands of US Dollar,
+kecuali dinyatakan lain) unless otherwise stated)
+31 Desember/December 31,
+Catatan/
+2014 Notes 2013
+LIABILITAS DAN EKUITAS LIABILITIES AND EQUITY
+LIABILITAS JANGKA PENDEK CURRENT LIABILITIES
+2c,2d,2f,6,7,9,
+Pinjaman bank jangka pendek 1.037.148 10,13,15,32,36 800.476 Short-term bank loans
+Utang usaha 2d,2f Trade payables
+Pihak ketiga 164.370 16,32,36 152.220 Third parties
+Pihak berelasi 38.513 2c,9 27.679 Related parties
+Utang lain-lain 2d,2f Other payables
+Pihak ketiga 34.358 17,32,36 17.060 Third parties
+Pihak berelasi 3.157 2c,9 2.721 Related parties
+Utang pajak 14.675 2r,3,18 12.886 Taxes payable
+Beban akrual 33.809 2d,2f,19,32,36 24.200 Accrued expenses
+Liabilitas imbalan kerja jangka Short-term employee benefits
+pendek 8.542 2f,2q,3,23 9.157 liabilities
+Uang muka penjualan dan lainnya 23.306 2c,2d,9,20,36 31.175 Sales and other advances
+Bagian pinjaman jangka panjang yang 2c,2d,2f,7,9, Current maturities of long-term
+jatuh tempo dalam waktu satu tahun 55.400 10,13,21,32,36 59.826 loans
+Bagian liabilitas keuangan jangka
+panjang yang jatuh tempo dalam 2d,2f,22, Current maturities of long-term
+waktu satu tahun 17 32,36 747 financial liabilities
+Total Liabilitas Jangka Pendek 1.413.295 1.138.147 Total Current Liabilities
+LIABILITAS JANGKA PANJANG NON-CURRENT LIABILITIES
+Liabilitas pajak tangguhan, neto 336 2r,3,18 4.345 Deferred tax liabilities, net
+Uang muka konstruksi, bagian jangka Advances for construction,
+panjang 8.314 2d,20,36 - long-term portion
+Pinjaman jangka panjang, setelah 2c,2d,2f
+dikurangi bagian yang jatuh tempo 7,9,10,13 Long-term loans, net of current
+dalam waktu satu tahun 247.829 21,32,36 146.026 maturities
+Liabilitas keuangan jangka panjang,
+setelah dikurangi bagian yang 2d,2f,22 Long-term financial liabilities,
+jatuh tempo dalam waktu satu tahun 6.366 32,36 7.692 net of current maturities
+Liabilitas imbalan kerja jangka Long-term employee benefits
+panjang 30.415 2q,3,23 31.241 liabilities
+Total Liabilitas Jangka Panjang 293.260 189.304 Total Non-Current Liabilities
+TOTAL LIABILITAS 1.706.555 1.327.451 TOTAL LIABILITIES
+Catatan atas laporan keuangan konsolidasian terlampir The accompanying notes to the consolidated financial
+merupakan bagian yang tidak terpisahkan dari laporan statements form an integral part of these consolidated
+keuangan konsolidasian secara keseluruhan. financial statements taken as a whole.
+2
+257
+Laporan Tahunan  2014  Annual Report PT Krakatau Steel (Persero) Tbk.Analisis dan Pembahasan Tanggung Jawab Sosial 
+Profil Perusahaan Laporan Manajemen Manajemen Tata Kelola Perusahaan Perusahaan
+The original consolidated financial statements included herein are in
+the Indonesian language.
+PT KRAKATAU STEEL (PERSERO) Tbk PT KRAKATAU STEEL (PERSERO) Tbk
+dan Entitas Anaknya and Its Subsidiaries
+LAPORAN POSISI KEUANGAN CONSOLIDATED STATEMENT OF
+KONSOLIDASIAN (lanjutan) FINANCIAL POSITION (continued)
+Tanggal 31 Desember 2014 As of December 31, 2014
+(Disajikan dalam ribuan Dolar AS, (Expressed in thousands of US Dollar,
+kecuali dinyatakan lain) unless otherwise stated)
+31 Desember/December 31,
+Catatan/
+2014 Notes 2013
+EKUITAS EQUITY
+EKUITAS YANG DAPAT EQUITY ATTRIBUTABLE TO
+DIATRIBUSIKAN KEPADA PEMILIK OWNERS OF THE PARENT
+ENTITAS INDUK ENTITY
+Modal saham Share capital
+Nilai nominal Rp500 (angka penuh) Par value Rp500 (full amount)
+per saham per share
+Modal dasar - 40.000.000.000 saham Authorized capital - 40,000,000,000
+yang terdiri dari 1 saham Seri A shares which consist of 1 Series A
+Dwiwarna dan 39.999.999.999 Dwiwarna share and 39,999,999,999
+saham Seri B Series B shares
+Modal ditempatkan dan disetor Issued and fully paid -
+penuh - 15.775.000.000 saham 15,775,000,000 shares which
+yang terdiri dari 1 saham Seri A consist of 1 Series A Dwiwarna
+Dwiwarna dan 15.774.999.999 share and 15,774,999,999
+saham Seri B 855.968 25 855.968 Series B shares
+Tambahan modal disetor, neto 116.263 1b,2n,26 117.217 Additional paid-in capital, net
+Pendapatan komprehensif lainnya (58.141) (55.595) Other comprehensive income
+Retained earnings (accumulated
+Saldo laba (akumulasi kerugian) losses)
+Dicadangkan 146.834 146.834 Appropriated
+Tidak dicadangkan (182.159) (32.344) Unappropriated
+Total Ekuitas Yang Dapat Diatribusikan Total Equity Attributable to
+Kepada Pemilik Entitas Induk 878.765 1.032.080 Owners of the Parent Entity
+Kepentingan Nonpengendali 13.103 2b,24 19.973 Non-controlling Interests
+EKUITAS, NETO 891.868 1.052.053 EQUITY, NET
+TOTAL LIABILITAS DAN EKUITAS 2.598.423 2.379.504 TOTAL LIABILITIES AND EQUITY
+Catatan atas laporan keuangan konsolidasian terlampir The accompanying notes to the consolidated financial
+merupakan bagian yang tidak terpisahkan dari laporan statements form an integral part of these consolidated
+keuangan konsolidasian secara keseluruhan. financial statements taken as a whole.
+3
+258
+PT Krakatau Steel (Persero) Tbk. Laporan Tahunan  2014  Annual ReportCorporate Social Good Corporate Management Discussion 
+Responsibility Governance and Analysis Management Report Company Profile
+The original consolidated financial statements included herein are in
+the Indonesian language.
+PT KRAKATAU STEEL (PERSERO) Tbk PT KRAKATAU STEEL (PERSERO) Tbk
+dan Entitas Anaknya and Its Subsidiaries
+LAPORAN LABA RUGI KOMPREHENSIF CONSOLIDATED STATEMENT OF
+KONSOLIDASIAN COMPREHENSIVE INCOME
+Tahun Yang Berakhir Pada Tanggal Year Ended
+31 Desember 2014 December 31, 2014
+(Disajikan dalam ribuan Dolar AS, (Expressed in thousands of US Dollar,
+kecuali dinyatakan lain) unless otherwise stated)
+Tahun yang Berakhir pada Tanggal 31 Desember/
+Years Ended December 31,
+Catatan/
+2014 Notes 2013
+2c,2o,9,
+PENDAPATAN NETO 1.868.845 28,37 2.084.448 NET REVENUES
+2c,2j,2o,9,
+BEBAN POKOK PENDAPATAN (1.827.703) 29,37 (1.988.828) COST OF REVENUES
+LABA BRUTO 41.142 95.620 GROSS PROFIT
+2c,2h,2j,
+Beban penjualan (31.686) 2o,2q,9,30 (40.287) Selling expenses
+2c,2h,2j,
+Beban umum dan administrasi (117.618) 2o,2q,9,30 (95.218) General and administrative expenses
+Penjualan limbah produksi 5.662 3.613 Sales of waste products
+Laba pengalihan aset tetap 17.154 2i,2j,12,13 12.222 Gain on transfer of fixed assets
+Pendapatan lain-lain 24.046 2f,2n,12 28.087 Other income
+Beban lain-lain (9.144) 13,18 (5.104) Other expenses
+RUGI OPERASI (70.444) (1.067) OPERATING LOSS
+Bagian rugi dari entitas asosiasi (70.439) 12 (12.290) Share in loss of associates
+Pendapatan keuangan 5.013 4,5 6.902 Finance income
+Laba selisih kurs, neto 4.487 2d,2f,17 37.360 Gain on foreign exchange, net
+Beban keuangan (51.470) 15,21 (45.652) Finance expense
+RUGI SEBELUM BEBAN LOSS BEFORE TAX
+(MANFAAT) PAJAK (182.853) (14.747) EXPENSE (BENEFIT)
+BEBAN (MANFAAT) PAJAK 2r,18 TAX EXPENSE (BENEFIT)
+Pajak kini 18.832 14.685 Current tax
+Pajak tangguhan, neto (44.793) (15.832) Deferred tax, net
+Manfaat Pajak, Neto (25.961) (1.147) Tax Benefit, Net
+RUGI TAHUN BERJALAN (156.892) (13.600) LOSS FOR THE YEAR
+PENDAPATAN KOMPREHENSIF LAIN OTHER COMPREHENSIVE INCOME
+Selisih kurs karena penjabaran Difference in foreign currency
+laporan keuangan translation of the financial
+Entitas Anak - neto (2.551) 2b (50.318) statements of Subsidiaries - net
+TOTAL LABA KOMPREHENSIF - RUGI TOTAL COMPREHENSIVE INCOME -
+TAHUN BERJALAN (159.443) (63.918) LOSS FOR THE YEAR
+RUGI TAHUN BERJALAN YANG LOSS FOR THE YEAR
+DAPAT DIATRIBUSIKAN KEPADA: ATTRIBUTABLE TO:
+Pemilik entitas induk (149.815) (13.986) Owners of the parent entity
+Kepentingan nonpengendali (7.077) 2b,24 386 Non-controlling interests
+TOTAL (156.892) (13.600) TOTAL
+Catatan atas laporan keuangan konsolidasian terlampir The accompanying notes to the consolidated financial
+merupakan bagian yang tidak terpisahkan dari laporan statements form an integral part of these consolidated
+keuangan konsolidasian secara keseluruhan. financial statements taken as a whole.
+4
+259
+Laporan Tahunan  2014  Annual Report PT Krakatau Steel (Persero) Tbk.Analisis dan Pembahasan Tanggung Jawab Sosial 
+Profil Perusahaan Laporan Manajemen Manajemen Tata Kelola Perusahaan Perusahaan
+The original consolidated financial statements included herein are in
+the Indonesian language.
+PT KRAKATAU STEEL (PERSERO) Tbk PT KRAKATAU STEEL (PERSERO) Tbk
+dan Entitas Anaknya and Its Subsidiaries
+LAPORAN LABA RUGI KOMPREHENSIF CONSOLIDATED STATEMENT OF
+KONSOLIDASIAN (lanjutan) COMPREHENSIVE INCOME (continued)
+Tahun Yang Berakhir Pada Tanggal Year Ended
+31 Desember 2014 December 31, 2014
+(Disajikan dalam ribuan Dolar AS, (Expressed in thousands of US Dollar,
+kecuali dinyatakan lain) unless otherwise stated)
+Tahun yang Berakhir pada Tanggal 31 Desember/
+Years Ended December 31,
+Catatan/
+2014 Notes 2013
+TOTAL LABA KOMPREHENSIF - RUGI TOTAL COMPREHENSIVE INCOME -
+TAHUN BERJALAN YANG LOSS FOR THE YEAR
+DAPAT DIATRIBUSIKAN KEPADA: ATTRIBUTABLE TO:
+Pemilik entitas induk (152.361) (64.247) Owners of the parent entity
+Kepentingan nonpengendali (7.082) 2b,24 329 Non-controlling interests
+TOTAL (159.443) (63.918) TOTAL
+RUGI PER SAHAM DASAR BASIC LOSS PER SHARE
+YANG DAPAT DIATRIBUSIKAN ATTRIBUTABLE TO OWNERS
+KEPADA PEMILIK ENTITAS INDUK OF THE PARENT ENTITY
+(dalam Dolar AS penuh) (0,0095) 2s,31 (0,0009) (in full US Dollar amount)
+Catatan atas laporan keuangan konsolidasian terlampir The accompanying notes to the consolidated financial
+merupakan bagian yang tidak terpisahkan dari laporan statements form an integral part of these consolidated
+keuangan konsolidasian secara keseluruhan. financial statements taken as a whole.
+5
+260
+PT Krakatau Steel (Persero) Tbk. Laporan Tahunan  2014  Annual ReportCorporate Social Good Corporate Management Discussion 
+Responsibility Governance and Analysis Management Report Company Profile
+261
+Laporan Tahunan  2014  Annual Report PT Krakatau Steel (Persero) Tbk.
+The original consolidated financial statements included herein are in the Indonesian language.
+PT KRAKATAU STEEL (PERSERO) Tbk PT KRAKATAU STEEL (PERSERO) Tbk
+dan Entitas Anaknya and Its Subsidiaries
+LAPORAN PERUBAHAN EKUITAS KONSOLIDASIAN CONSOLIDATED STATEMENT OF CHANGES IN EQUITY
+Tahun Yang Berakhir Pada Tanggal 31 Desember 2014 Year Ended December 31, 2014
+(Disajikan dalam ribuan Dolar AS, kecuali dinyatakan lain) (Expressed in thousands of US Dollar, unless otherwise stated)
+Ekuitas yang Dapat Diatribusikan Kepada Pemilik Entitas Induk/Equity Attributable to Owners of the Parent Entity
+Pendapatan Komprehensif
+Lainnya/Other
+Comprehensive Income
+Selisih Kurs
+karena Penjabaran
+Saldo Laba Laporan Keuangan
+(Akumulasi Kerugian)/ Entitas Anak/
+Modal Saham Tambahan Retained Earnings Difference in
+Ditempatkan Modal (Accumulated Losses) Foreign Currency
+dan Disetor Disetor, neto Translation of Kepentingan
+Penuh/Issued Additional Tidak the Financial Nonpengendali/
+Catatan/ and Fully Paid Paid-in Dicadangkan/ Dicadangkan/ Statements of Non-controlling Ekuitas, Neto/
+Notes Share Capital Capital, net Appropriated Unappropriated Subsidiaries Total/Total Interests Equity, Net
+Saldo tanggal 31 Desember 2012 855.968 116.956 146.834 (18.358) (5.334) 1.096.066 19.920 1.115.986 Balance as of December 31, 2012
+Rugi tahun berjalan - - - (13.986) - (13.986) 386 (13.600) Loss for the year
+Pendapatan komprehensif lain - - - - (50.261) (50.261) (57) (50.318) Other comprehensive income
+Total laba komprehensif - rugi Total comprehensive income - loss
+tahun berjalan - - - (13.986) (50.261) (64.247) 329 (63.918) for the year
+Akuisisi kepentingan nonpengendali oleh Acquisition of non-controlling interest
+Entitas Anak 1c,24 - - - - - - (276) (276) by a Subsidiary
+Opsi kepemilikan saham oleh manajemen
+yang telah vested 2v,26,39 - 261 - - - 261 - 261 Vesting of management stock option
+Saldo tanggal 31 Desember 2013 855.968 117.217 146.834 (32.344) (55.595) 1.032.080 19.973 1.052.053 Balance as of December 31, 2013
+Rugi tahun berjalan - - - (149.815) - (149.815) (7.077) (156.892) Loss for the year
+Pendapatan komprehensif lain - - - - (2.546) (2.546) (5) (2.551) Other comprehensive income
+Total laba komprehensif - rugi Total comprehensive income - loss
+tahun berjalan - - - (149.815) (2.546) (152.361) (7.082) (159.443) for the year
+Dividen tunai kepada kepentingan Cash dividends to non-controlling
+nonpengendali 24 - - - - - - (8) (8) interests
+Setoran modal dari kepentingan Capital contribution from
+nonpengendali 1c,24 - - - - - - 220 220 non-controlling interest
+Opsi kepemilikan saham oleh manajemen
+yang telah vested 2v,26,39 - (954) - - - (954) - (954) Vesting of management stock option
+Saldo tanggal 31 Desember 2014 855.968 116.263 146.834 (182.159) (58.141) 878.765 13.103 891.868 Balance as of December 31, 2014
+Catatan atas laporan keuangan konsolidasian terlampir merupakan bagian yang tidak The accompanying notes to the consolidated financial statements form an integral part of these consolidated financial
+terpisahkan dari laporan keuangan konsolidasian ini secara keseluruhan. statements taken as a whole.
+6Analisis dan Pembahasan Tanggung Jawab Sosial 
+Profil Perusahaan Laporan Manajemen Manajemen Tata Kelola Perusahaan Perusahaan
+The original interim consolidated financial statements included herein
+are in the Indonesian language.
+PT KRAKATAU STEEL (PERSERO) Tbk PT KRAKATAU STEEL (PERSERO) Tbk
+dan Entitas Anaknya and Its Subsidiaries
+LAPORAN ARUS KAS KONSOLIDASIAN CONSOLIDATED STATEMENT OF
+Tahun Yang Berakhir Pada Tanggal CASH FLOWS
+31 Desember 2014 Year Ended December 31, 2014
+(Disajikan dalam ribuan Dolar AS, (Expressed in thousands of US Dollar,
+kecuali dinyatakan lain) unless otherwise stated)
+Tahun yang Berakhir pada Tanggal 31 Desember/
+Years Ended December 31,
+Catatan/
+2014 Notes 2013
+ARUS KAS DARI AKTIVITAS CASH FLOWS FROM OPERATING
+OPERASI ACTIVITIES
+Penerimaan dari pelanggan 1.982.439 2.320.122 Receipts from customers
+Penerimaan dari tagihan pajak 25.841 44.653 Receipts from claims for tax refund
+Penerimaan dari pendapatan bunga 4.886 6.294 Receipts from interest income
+Pembayaran kepada pemasok (1.598.674) (1.780.829) Payments to suppliers
+Pembayaran beban usaha Payments for operating expenses
+dan lainnya (72.891) (84.006) and others
+Pembayaran kepada karyawan (120.932) (117.109) Payments to employees
+Pembayaran untuk pajak (215.830) (239.382) Payments for taxes
+Pembayaran untuk beban bunga Payments for interest and bank
+dan beban bank (7.137) (10.868) charges
+Kas neto yang (digunakan untuk) Net cash (used in) provided by
+diperoleh dari aktivitas operasi (2.298) 138.875 operating activities
+ARUS KAS DARI AKTIVITAS CASH FLOWS FROM INVESTING
+INVESTASI ACTIVITIES
+Penarikan investasi jangka Withdrawal of short-term
+pendek 7.810 4.143 investments
+Penerimaan dividen kas 43 12 271 Receipts of cash dividend
+Penempatan kas dan deposito berjangka Placement of restricted
+yang dibatasi penggunaannya (28.525) (1.375) cash and time deposits
+Penambahan penyertaan pada Additional investments in shares
+saham (28.897) 12 (30.524) of stock
+Penambahan aset tetap (199.068) (177.676) Purchase of fixed assets
+Hasil dari penjualan aset tetap 22.540 3.571 Proceeds from sale of fixed assets
+Kas neto yang digunakan untuk Net cash used in investing
+aktivitas investasi (226.097) (201.590) activities
+ARUS KAS DARI AKTIVITAS CASH FLOWS FROM FINANCING
+PENDANAAN ACTIVITIES
+Penerimaan pinjaman bank jangka Proceeds from short-term bank
+pendek, neto 236.671 (6.957) loans, net
+Penerimaan pinjaman jangka panjang 121.775 39.041 Proceeds from long-term loans
+Setoran modal dari kepentingan Capital contribution from
+non-pengendali 220 24 - non-controlling interests
+Dividen tunai kepada kepentingan Cash dividend from
+non-pengendali (8) 24 - non-controlling interest
+Pembayaran pinjaman jangka panjang (24.398) (7.962) Repayments of long-term loans
+Pembayaran untuk beban bunga (53.748) (37.177) Payments for interest
+Pembayaran untuk program kemitraan Payments for partnership and
+dan bina lingkungan - (1.786) community development program
+Kas neto yang diperoleh dari
+(digunakan untuk) aktivitas Net cash provided by (used in)
+pendanaan 280.512 (14.841) financing activities
+Catatan atas laporan keuangan konsolidasian terlampir The accompanying notes to the consolidated financial
+merupakan bagian yang tidak terpisahkan dari laporan statements form an integral part of these consolidated
+keuangan konsolidasian secara keseluruhan. financial statements taken as a whole.
+7
+262
+PT Krakatau Steel (Persero) Tbk. Laporan Tahunan  2014  Annual ReportCorporate Social Good Corporate Management Discussion 
+Responsibility Governance and Analysis Management Report Company Profile
+The original interim consolidated financial statements included herein
+are in the Indonesian language.
+PT KRAKATAU STEEL (PERSERO) Tbk
+PT KRAKATAU STEEL (PERSERO) Tbk
+dan Entitas Anaknya and Its Subsidiaries
+LAPORAN ARUS KAS KONSOLIDASIAN (lanjutan) CONSOLIDATED STATEMENT OF
+Tahun Yang Berakhir Pada Tanggal
+CASH FLOWS (continued)
+31 Desember 2014 Year Ended December 31, 2014
+(Disajikan dalam ribuan Dolar AS, (Expressed in thousands of US Dollar,
+kecuali dinyatakan lain)
+unless otherwise stated)
+Tahun yang Berakhir pada Tanggal 31 Desember/
+Years Ended December 31,
+Catatan/
+2014 Notes 2013
+KENAIKAN (PENURUNAN) NETO NET INCREASE (DECREASE) IN
+KAS DAN SETARA KAS 52.117 (77.556) CASH AND CASH EQUIVALENTS
+KAS DAN SETARA KAS AWAL CASH AND CASH EQUIVALENTS
+TAHUN 190.232 270.267 AT BEGINNING OF YEAR
+Dampak perubahan selisih kurs (5.660) (2.479) Effect of foreign exchange rate changes
+KAS DAN SETARA KAS AKHIR CASH AND CASH EQUIVALENTS
+TAHUN 236.689 4 190.232 AT END OF YEAR
+Catatan atas laporan keuangan konsolidasian terlampir The accompanying notes to the consolidated financial
+merupakan bagian yang tidak terpisahkan dari laporan statements form an integral part of these consolidated
+keuangan konsolidasian secara keseluruhan. financial statements taken as a whole.
+8
+263
+Laporan Tahunan  2014  Annual Report PT Krakatau Steel (Persero) Tbk.Analisis dan Pembahasan Tanggung Jawab Sosial 
+Profil Perusahaan Laporan Manajemen Manajemen Tata Kelola Perusahaan Perusahaan
+The original consolidated financial statements included herein are in
+the Indonesian language.
+PT KRAKATAU STEEL (PERSERO) Tbk PT KRAKATAU STEEL (PERSERO) Tbk
+dan Entitas Anaknya
+and Its Subsidiaries
+CATATAN ATAS LAPORAN KEUANGAN NOTES TO THE CONSOLIDATED
+KONSOLIDASIAN FINANCIAL STATEMENTS
+Tanggal 31 Desember 2014 dan As of December 31, 2014 and
+Tahun yang Berakhir pada Tanggal Tersebut Year Then Ended
+(Disajikan dalam ribuan Dolar AS dan (Expressed in thousands of US Dollar and
+dalam jutaan Rupiah, kecuali dinyatakan lain) in millions of Rupiah, unless otherwise stated)
+29. BEBAN POKOK PENDAPATAN (lanjutan) 29. COST OF REVENUES (continued)
+Kelompok Usaha melakukan transaksi pembelian The Group entered into purchase transactions with
+dengan entitas yang berelasi dengan Pemerintah Government-related entities totaling 9.82% and
+dengan total masing-masing sebesar 9,82% dan 13.08% of the consolidated net purchases above
+13,08% dari total pembelian neto konsolidasian di for the years ended December 31, 2014 and 2013,
+atas untuk tahun yang berakhir pada tanggal-tanggal respectively.
+31 Desember 2014 dan 2013.
+30. BEBAN USAHA 30. OPERATING EXPENSES
+Akun ini terdiri dari: This account consists of:
+Tahun yang Berakhir pada Tanggal 31 Desember/
+Years Ended December 31,
+2014 2013
+Penjualan Selling
+Ongkos angkut 21.757 29.652 Delivery expense
+Gaji, upah dan kesejahteraan karyawan 6.460 7.912 Salaries, wages and employees benefits
+Klaim pelanggan 945 1.574 Customer claims
+Transportasi dan komunikasi 331 359 Transportation and communication
+Beban kantor 328 547 Office expenses
+Penyusutan dan amortisasi 199 137 Depreciation and amortization
+Lain-lain (masing-masing di bawah US$200) 1.666 106 Others (each below US$200)
+Sub-total 31.686 40.287 Sub-total
+Umum dan administrasi General and administrative
+Gaji, upah dan kesejahteraan karyawan 64.292 61.342 Salaries, wages and employees benefits
+Penyusutan dan amortisasi 16.478 5.779 Depreciation and amortization
+Asuransi dan sewa 11.750 13.558 Insurance and rental
+Beban kantor 9.590 3.328 Office expenses
+Perawatan dan pemeliharaan 3.259 3.472 Repairs and maintenance
+Pencadangan penurunan nilai piutang 2.320 589 Provision for impairment of receivables
+Jasa profesional 2.275 1.898 Professional fees
+Transportasi dan komunikasi 1.265 2.093 Transportation and communication
+Pendidikan dan pelatihan 744 1.215 Education and training
+Tanggung jawab sosial Corporate Social Responsibility and
+dan bina lingkungan 664 1.239 Community Development
+Lain-lain (masing-masing di bawah US$200) 4.981 705 Others (each below US$200)
+Sub-total 117.618 95.218 Sub-total
+Total 149.304 135.505 Total
+Beban gaji, upah dan kesejahteraan karyawan untuk Salaries, wages and employees benefits expense
+tahun yang berakhir pada tanggal-tanggal for the years ended December 31, 2014 and 2013
+31 Desember 2014 dan 2013 termasuk pemberian includes providing rewards to the Company’s and
+penghargaan kepada karyawan dan manajemen Subsidiaries’ employees and management in the
+Perusahaan dan Entitas Anak berupa pembiayaan form of financing the ownership of the Company’s
+kepemilikan saham baru melalui program MESOP new shares through MESOP program amounting to
+sebesar (US$954) dan US$261 (Catatan 39). (US$954) and US$261 (Note 39).
+141
+396
+PT Krakatau Steel (Persero) Tbk. Laporan Tahunan  2014  Annual Report

@@ -1,0 +1,629 @@
+  The original consolidated financial statements included herein are in the 
+Indonesian language. 
+ 
+PT KRAKATAU STEEL (PERSERO) Tbk PT KRAKATAU STEEL (PERSERO) Tbk 
+DAN ENTITAS ANAK AND SUBSIDIARIES 
+LAPORAN POSISI KEUANGAN CONSOLIDATED STATEMENTS OF  
+KONSOLIDASIAN FINANCIAL POSITION 
+31 Desember 2012 dan 2011 (Disajikan Kembali) December 31, 2012 and 2011 (As Restated) 
+dan 1 Januari 2011/31 Desember 2010  
+and January 1, 2011/December 31, 2010  
+(Disajikan Kembali) (As Restated) 
+(Disajikan dalam ribuan Dolar AS (Expressed in thousands of US Dollar 
+dan dalam jutaan Rupiah, 
+ and in millions of Rupiah, 
+Kecuali Dinyatakan Lain) Unless Otherwise Stated) 
+ 
+ 
+     1 Jan. 2011/ 
+     31 Des. 2010/ 
+    31 Des. 2011/ Jan. 1, 2011/ 
+    Dec. 31, 2011 Dec. 31, 2010 
+    (Disajikan Kembali - (Disajikan Kembali - 
+    Catatan 2e/ Catatan 2e/ 
+  Catatan/ 31 Des. 2012/ As Restated - As Restated - 
+  Notes Dec. 31, 2012 Note 2e) Note 2e) 
+         
+ASET        ASSETS 
+ 
+ASET LANCAR        CURRENT ASSETS 
+Kas dan setara kas 2d,2e,2f,2g 270,267  396,285  466,422  Cash and cash equivalents 
+  4,9,32,36    
+Investasi jangka pendek 2e,2g,5,32,36 7,842  17,853  -  Short-term investments 
+Deposito berjangka yang dibatasi 2d,2f,2g    
+ penggunaannya 6,9,15,32 4,136  -  3,003  Restricted time deposits 
+Piutang usaha, setelah dikurangi 2e,2g,3       Trade receivables, net of 
+ cadangan kerugian penurunan nilai 7,15,21,32       allowance for impairment 
+ sebesar US$3.759 pada tanggal 36       losses of US$3,759 as of 
+ 31 Desember 2012, US$5.717        December 31, 2012, US$5,717 
+ pada tanggal 31 Desember 2011        as of December 31, 2011 and 
+ dan US$4.890 pada tanggal        US$4,890 as of January 1, 2011/ 
+ 1 Januari 2011/31 Desember 2010        December 31, 2010 
+ Pihak ketiga  158,260  180,607  109,852  Third parties 
+ Pihak berelasi 2d,9 233,331  65,725  21,873  Related parties 
+Piutang lain-lain, setelah dikurangi 2e,2g,8       Other receivables, net of 
+ cadangan kerugian penurunan nilai 17,32,36       allowance for impairment  
+ sebesar US$696 pada tanggal        losses of US$696 as of 
+ 31 Desember 2012, US$635        December 31, 2012, US$635 
+ pada tanggal 31 Desember 2011        as of December 31, 2011 and 
+ dan US$769 pada tanggal        US$769 as of January 1, 2011/ 
+ 1 Januari 2011/31 Desember 2010        December 31, 2010 
+ Pihak ketiga  16,976  4,514  8,165  Third parties 
+ Pihak berelasi 2d,9,12 3,928  11,244  944  Related parties 
+Persediaan, neto 2h,3,10,15,21 652,368  779,099  724,239  Inventories, net 
+Uang muka dan biaya dibayar di muka 2e,2i,11,36 40,932  30,790  15,115  Advances and prepaid expenses 
+Pajak dibayar di muka 2r,18 11,614  -  12,799  Prepaid taxes 
+       
+Total Aset Lancar  1,399,654  1,486,117  1,362,412  Total Current Assets 
+       
+ASET TIDAK LANCAR        NON-CURRENT ASSETS 
+Estimasi tagihan pajak 2r,18 76,957  55,797  33,697  Estimated claims for tax refund 
+  2e,2g,2j, 
+Penyertaan saham, neto 12,32,36,40 244,399  183,076  34,276  Investments in shares of stock, net 
+Aset pajak tangguhan, neto 2r,3,18 20,087  3,139  3,119  Deferred tax assets, net 
+Aset tetap, setelah dikurangi akumulasi 2k,3,       Fixed assets, net of accumulated 
+ penyusutan sebesar US$559.977 13,15,21       depreciation of US$559,977 
+ pada tanggal 31 Desember 2012,        as of December 31, 2012, 
+ US$511.697 pada tanggal        US$511,697 as of December 31, 
+ 31 Desember 2011 dan         2011 and US$467,398 
+ US$467.398  pada tanggal        as of January 1, 2011/ 
+ 1 Januari 2011/31 Desember 2010  748,936  615,754  472,197  December 31, 2010 
+Aset lain-lain        Other assets 
+ Piutang jangka panjang, neto 2g,14,32 81  142  386  Long-term receivables, net 
+ Aset real estat 2l 12,749  9,199  8,279  Real estate assets 
+ Aset yang tidak digunakan        
+  dalam operasi 2k,13 3,465  3,463  3,260  Assets not used in operations 
+ Kas dan deposito berjangka yang 2d,2e,2f,2g    
+  dibatasi penggunaannya 21,32,36 18,459  8,718  10,556  Restricted cash and time deposits 
+ Beban ditangguhkan jasa        Deferred charges of site 
+  pematangan tanah 12,34 -  23,052  -  preparation work 
+  2e,2g,2k    
+ Lain-lain 32,34,36 37,160  9,622  6,822  Others 
+       
+Total Aset Tidak Lancar  1,162,293  911,962  572,592  Total Non-Current Assets 
+       
+TOTAL ASET  2,561,947   2,398,079  1,935,004  TOTAL ASSETS 
+   
+    
+Catatan atas laporan keuangan konsolidasian terlampir  The accompanying notes to the consolidated financial 
+merupakan bagian yang tidak terpisahkan dari laporan statements form an integral part of these consolidated 
+keuangan konsolidasian secara keseluruhan. financial statements taken as a whole. 
+ 
+1 
+170 Laporan Tahunan 2012 PT Krakatau Steel (Persero) Tbk  The original consolidated financial statements included herein are in the 
+Indonesian language. 
+ 
+PT KRAKATAU STEEL (PERSERO) Tbk PT KRAKATAU STEEL (PERSERO) Tbk 
+DAN ENTITAS ANAK AND SUBSIDIARIES 
+LAPORAN POSISI KEUANGAN CONSOLIDATED STATEMENTS OF FINANCIAL 
+KONSOLIDASIAN (lanjutan) POSITION (continued) 
+31 Desember 2012 dan 2011 (Disajikan Kembali) December 31, 2012 and 2011 (As Restated) 
+dan 1 Januari 2011/31 Desember 2010  
+and January 1, 2011/December 31, 2010  
+(Disajikan Kembali) (As Restated) 
+(Disajikan dalam ribuan Dolar AS  (Expressed in thousands of US Dollar 
+dan dalam jutaan Rupiah, 
+ and in millions of Rupiah, 
+Kecuali Dinyatakan Lain) Unless Otherwise Stated) 
+ 
+ 
+     1 Jan. 2011/ 
+     31 Des. 2010/ 
+    31 Des. 2011/ Jan. 1, 2011/ 
+    Dec. 31, 2011 Dec. 31, 2010 
+    (Disajikan Kembali - (Disajikan Kembali - 
+    Catatan 2e/ Catatan 2e/ 
+  Catatan/ 31 Des. 2012/ As Restated - As Restated - 
+  Notes Dec. 31, 2012 Note 2e) Note 2e) 
+         
+LIABILITAS DAN EKUITAS        LIABILITIES AND EQUITY 
+ 
+LIABILITAS JANGKA PENDEK        CURRENT LIABILITIES 
+  2d,2e,2g,6,7,9, 
+Pinjaman bank jangka pendek 10,13,15,32,36 807,434  640,925  571,308  Short-term bank loans 
+Utang usaha 2e,2g       Trade payables 
+ Pihak ketiga 16,32,36 241,339  189,753  79,868  Third parties 
+ Pihak berelasi  2d,9 23,126  31,821  20,441  Related parties 
+Utang lain-lain 2e,2g       Other payables 
+ Pihak ketiga 17,32,36 14,597  37,963  9,094  Third parties 
+ Pihak berelasi 2d,9 99  3  203  Related parties 
+Utang pajak 2r,3,18 29,493  13,925  8,131  Taxes payable 
+Biaya yang masih harus dibayar 2e,2g,19,32,36,38 24,642  17,449  12,320  Accrued expenses 
+Liabilitas imbalan kerja        Short-term employee  
+ jangka pendek 2q,3,23 10,951  10,675  18,712  benefits liabilities 
+Uang muka penjualan dan lainnya 2d,2e,9,20,36 71,222  51,471  24,233  Sales and other advances 
+Bagian pinjaman jangka panjang yang 2d,2e,2g,7,9,       Current maturities of  long-term 
+ jatuh tempo dalam waktu satu tahun 10,13,21,32,36 21,099  20,576  25,976  loans 
+Bagian liabilitas jangka panjang 
+ yang jatuh tempo dalam 2e,2g,22,       Current maturities of long-term 
+ waktu satu tahun 32,36 433  488  462  liabilities 
+       
+Total Liabilitas Jangka Pendek  1,244,435  1,015,049  770,748  Total Current Liabilities 
+     
+     
+ 
+LIABILITAS JANGKA PANJANG        NON-CURRENT LIABILITIES 
+Liabilitas pajak tangguhan, neto 2r,3,18 2,139  2,826  5,285  Deferred tax liabilities, net 
+Uang muka konstruksi, bagian        Advance for construction, 
+ jangka panjang 2d,2e,9,20,36 -  25,037  -  long-term portion 
+Pinjaman jangka panjang, setelah 
+ dikurangi bagian yang jatuh tempo 2d,2e,2g,7,9,       Long-term loans, net of current 
+ dalam waktu satu tahun 10,13,21,32,36 154,794  144,391  95,881  maturities 
+Liabilitas jangka panjang, setelah 
+ dikurangi bagian yang jatuh 2e,2g,22,       Long-term liabilities, net of current 
+ tempo dalam waktu satu tahun 32,36 6,885  6,007  5,038  maturities 
+Liabilitas imbalan kerja         Long-term employee benefits  
+ jangka panjang 2q,3,23 37,708  34,173  28,277  liabilities 
+       
+Total Liabilitas Jangka Panjang  201,526  212,434  134,481  Total Non-Current Liabilities 
+       
+TOTAL LIABILITAS  1,445,961  1,227,483  905,229  TOTAL LIABILITIES 
+   
+    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Catatan atas laporan keuangan konsolidasian terlampir  The accompanying notes to the consolidated financial 
+merupakan bagian yang tidak terpisahkan dari laporan statements form an integral part of these consolidated 
+keuangan konsolidasian secara keseluruhan. financial statements taken as a whole. 
+ 
+2 
+Annual Report 2012 PT Krakatau Steel (Persero) Tbk 171  The original consolidated financial statements included herein are in the 
+Indonesian language. 
+ 
+PT KRAKATAU STEEL (PERSERO) Tbk PT KRAKATAU STEEL (PERSERO) Tbk 
+DAN ENTITAS ANAK AND SUBSIDIARIES 
+LAPORAN POSISI KEUANGAN 
+CONSOLIDATED STATEMENTS OF FINANCIAL 
+KONSOLIDASIAN (lanjutan) POSITION (continued) 
+31 Desember 2012 dan 2011 (Disajikan Kembali) December 31, 2012 and 2011 (As Restated) 
+dan 1 Januari 2011/31 Desember 2010  
+and January 1, 2011/December 31, 2010  
+(Disajikan Kembali) (As Restated) 
+(Disajikan dalam ribuan Dolar AS (Expressed in thousands of US Dollar 
+dan dalam jutaan Rupiah, and in millions of Rupiah, 
+Kecuali Dinyatakan Lain) Unless Otherwise Stated) 
+ 
+ 
+     1 Jan. 2011/ 
+     31 Des. 2010/ 
+    31 Des. 2011/ Jan. 1, 2011/ 
+    Dec. 31, 2011 Dec. 31, 2010 
+    (Disajikan Kembali - (Disajikan Kembali - 
+    Catatan 2e/ Catatan 2e/ 
+  Catatan/ 31 Des. 2012/ As Restated - As Restated - 
+  Notes Dec. 31, 2012 Note 2e) Note 2e) 
+         
+EKUITAS        EQUITY 
+ 
+EKUITAS YANG DAPAT      EQUITY ATTRIBUTABLE TO 
+DIATRIBUSIKAN KEPADA PEMILIK        OWNERS OF THE PARENT 
+ENTITAS INDUK        ENTITY 
+Modal saham        Share capital 
+ Nilai nominal Rp500 (angka penuh) per        Par value Rp500 (full amount) 
+  per saham        per share  
+ Modal dasar - 40.000.000.000 saham        Authorized capital - 40,000,000,000 
+  yang terdiri dari 1 saham Seri A        shares which consist of 1 Series A 
+  Dwiwarna dan 39.999.999.999      Dwiwarna share and 39,999,999,999 
+  saham Seri B        Series B shares  
+ Modal ditempatkan dan disetor        Issued and fully paid - 
+  penuh - 15.775.000.000 saham        15,775,000,000 shares which 
+  yang terdiri dari 1 saham Seri A        consist of 1 Series A Dwiwarna 
+  Dwiwarna dan 15.774.999.999        share and 15,774,999,999 
+  saham Seri B 25 855,968  855,968  855,968  Series B shares 
+Tambahan modal disetor, neto 1b,2n,26,38 116,956  116,016  116,016  Additional paid-in capital, net 
+Pendapatan komprehensif lainnya  (5,334) 4,871  6,614  Other comprehensive income  
+         Retained earnings (accumulated  
+Saldo laba (akumulasi kerugian)        losses) 
+ Dicadangkan  146,834  141,553  141,433  Appropriated 
+ Tidak dicadangkan  (18,358) 33,128       (104,049) Unappropriated 
+       
+Total Ekuitas Yang Dapat Diatribusikan        Total Equity Attributable to 
+ Kepada Pemilik Entitas Induk  1,096,066  1,151,536  1,015,982  Owners of the Parent Entity 
+ 
+Kepentingan Nonpengendali 2c,24 19,920  19,060  13,793  Non-controlling Interests 
+       
+EKUITAS, NETO  1,115,986  1,170,596  1,029,775  EQUITY, NET 
+       
+TOTAL LIABILITAS DAN EKUITAS  2,561,947  2,398,079  1,935,004  TOTAL LIABILITIES AND EQUITY 
+   
+    
+Catatan atas laporan keuangan konsolidasian terlampir  The accompanying notes to the consolidated financial 
+merupakan bagian yang tidak terpisahkan dari laporan statements form an integral part of these consolidated 
+keuangan konsolidasian secara keseluruhan. financial statements taken as a whole. 
+ 
+3 
+172 Laporan Tahunan 2012 PT Krakatau Steel (Persero) Tbk  The original consolidated financial statements included herein are in the 
+Indonesian language. 
+ 
+ 
+PT KRAKATAU STEEL (PERSERO) Tbk  PT KRAKATAU STEEL (PERSERO) Tbk 
+DAN ENTITAS ANAK AND SUBSIDIARIES 
+LAPORAN LABA RUGI KOMPREHENSIF CONSOLIDATED STATEMENTS OF 
+KONSOLIDASIAN COMPREHENSIVE INCOME 
+Tahun Yang Berakhir Pada Tanggal-Tanggal Years Ended 
+31 Desember 2012 dan 2011 (Disajikan Kembali) December 31, 2012 and 2011 (As Restated) 
+ (Disajikan dalam ribuan Dolar AS (Expressed in thousands of US Dollar 
+dan dalam jutaan Rupiah,  and in millions of Rupiah, 
+Kecuali Dinyatakan Lain) Unless Otherwise Stated) 
+  
+ 
+   2011 
+   (Disajikan Kembali - 
+   Catatan 2e/ 
+  Catatan/ As Restated - 
+ 2012 Notes Note 2e) 
+       
+    2d,2o,9, 
+PENDAPATAN NETO 2,287,445  28,37 2,032,852  NET REVENUES 
+    2d,2k,2o,9, 
+BEBAN POKOK PENDAPATAN (2,165,025) 29,37 (1,874,728) COST OF REVENUES 
+ 
+    
+LABA BRUTO 122,420   158,124  GROSS PROFIT 
+ 
+    
+     
+    2d,2i,2k,    
+Beban penjualan (42,463) 2o,2q,9,30 (31,867) Selling expenses 
+    2d,2i,2k, 
+Beban umum dan administrasi (105,413) 2o,2q,9,30 (109,797) General and administrative expenses 
+Penjualan limbah produksi 9,645   3,591  Sales of waste products 
+Laba pengalihan aset tetap 6,983  2j,2k,12,13 83,255  Gain on transfer of fixed assets 
+Laba pematangan tanah 917  2o,8,12,34 7,916  Gain on site preparation work 
+Pendapatan lain-lain 27,939  2g,2o,12 10,550  Other income 
+Beban lain-lain (4,098) 13,18 (7,540) Other expenses 
+ 
+    
+LABA OPERASI 15,930   114,232  OPERATING PROFIT 
+ 
+    
+Bagian laba (rugi) dari entitas asosiasi (5,433) 12 482  Share in profit (loss) of associates 
+Pendapatan keuangan  9,418  4,5 14,728  Finance income 
+Laba selisih kurs, neto 5,237  2e,2g,17 67,258  Gain on foreign exchange, net 
+Beban keuangan (40,623) 15,21 (34,692) Finance expense 
+     
+LABA (RUGI) SEBELUM BEBAN      PROFIT (LOSS)  BEFORE TAX 
+(MANFAAT) PAJAK (15,471)  162,008  EXPENSE (BENEFIT) 
+ 
+    
+ 
+BEBAN (MANFAAT) PAJAK   2r,18   TAX EXPENSE (BENEFIT) 
+Pajak kini 21,746   13,253  Current tax 
+Pajak tangguhan, neto (17,657)  (2,582) Deferred tax, net 
+ 
+    
+Beban Pajak, Neto 4,089   10,671  Tax Expense, Net 
+ 
+    
+LABA (RUGI) TAHUN BERJALAN (19,560)  151,337  PROFIT (LOSS) FOR THE YEAR 
+ 
+PENDAPATAN KOMPREHENSIF LAIN      OTHER COMPREHENSIVE INCOME  
+Selisih kurs karena penjabaran       Difference in foreign currency 
+ laporan keuangan        translation of the financial statements 
+ Entitas Anak - neto  (10,220) 2c (1,746) of Subsidiaries 
+ 
+    
+TOTAL LABA (RUGI)      TOTAL COMPREHENSIVE 
+KOMPREHENSIF TAHUN BERJALAN (29,780)  149,591  INCOME (LOSS) FOR THE YEAR 
+  
+ 
+  
+ 
+LABA (RUGI) TAHUN BERJALAN       
+YANG DAPAT DIATRIBUSIKAN      PROFIT (LOSS) FOR THE YEAR 
+KEPADA:      ATTRIBUTABLE TO: 
+ Pemilik entitas induk (20,435)  151,201  Owners of the parent entity 
+ Kepentingan nonpengendali 875  2c,24 136  Non-controlling interests 
+ 
+    
+TOTAL (19,560)  151,337  TOTAL 
+   
+  
+Catatan atas laporan keuangan konsolidasian terlampir  The accompanying notes to the consolidated financial 
+merupakan bagian yang tidak terpisahkan dari laporan statements form an integral part of these consolidated 
+keuangan konsolidasian secara keseluruhan. financial statements taken as a whole. 
+ 
+4 
+Annual Report 2012 PT Krakatau Steel (Persero) Tbk 173  The original consolidated financial statements included herein are in the 
+Indonesian language. 
+ 
+PT KRAKATAU STEEL (PERSERO) Tbk  PT KRAKATAU STEEL (PERSERO) Tbk 
+DAN ENTITAS ANAK AND SUBSIDIARIES 
+LAPORAN LABA RUGI KOMPREHENSIF 
+CONSOLIDATED STATEMENTS OF 
+KONSOLIDASIAN (lanjutan) COMPREHENSIVE INCOME 
+Tahun Yang Berakhir Pada Tanggal-Tanggal Years Ended (continued) 
+31 Desember 2012 dan 2011 (Disajikan Kembali) 
+December 31, 2012 and 2011 (As Restated) 
+ (Disajikan dalam ribuan Dolar AS  (Expressed in thousands of US Dollar 
+dan dalam jutaan Rupiah,  and in millions of Rupiah, 
+Kecuali Dinyatakan Lain) Unless Otherwise Stated) 
+ 
+ 
+   2011 
+   (Disajikan Kembali - 
+   Catatan 2e/ 
+  Catatan/ As Restated - 
+ 2012 Notes Note 2e 
+       
+TOTAL LABA (RUGI)      TOTAL COMPREHENSIVE INCOME  
+KOMPREHENSIF TAHUN BERJALAN      (LOSS) FOR THE YEAR   
+YANG DAPAT DIATRIBUSIKAN KEPADA:      ATTRIBUTABLE TO: 
+ Pemilik entitas induk (30,640)  149,458  Owners of the parent entity 
+ Kepentingan nonpengendali 860  2c,24 133  Non-controlling interests 
+ 
+    
+TOTAL (29,780)  149,591  TOTAL 
+   
+  
+ 
+LABA (RUGI) PER SAHAM DASAR      BASIC EARNINGS (LOSS)  
+YANG DAPAT DIATRIBUSIKAN      PER SHARE ATTRIBUTABLE TO  
+KEPADA PEMILIK ENTITAS INDUK       OWNERS OF THE PARENT ENTITY 
+(dalam Dolar AS penuh) (0.0012) 2s,31 0.0096   (in full US Dollar amount) 
+   
+  
+ 
+LABA (RUGI) PER SAHAM DILUSIAN      DILUTED EARNINGS (LOSS)  
+YANG DAPAT DIATRIBUSIKAN      PER SHARE ATTRIBUTABLE TO  
+KEPADA PEMILIK ENTITAS INDUK       OWNERS OF THE PARENT ENTITY 
+(dalam Dolar AS penuh) (0.0012) 2s,31 0.0096   (in full US Dollar amount) 
+  
+ 
+  
+ 
+Catatan atas laporan keuangan konsolidasian terlampir  The accompanying notes to the consolidated financial 
+merupakan bagian yang tidak terpisahkan dari laporan statements form an integral part of these consolidated 
+keuangan konsolidasian secara keseluruhan. financial statements taken as a whole. 
+ 
+5 
+174 Laporan Tahunan 2012 PT Krakatau Steel (Persero) TbkAnnual Report 2012 PT Krakatau Steel (Persero) Tbk 175
+  The original consolidated financial statements included herein are in the Indonesian language. 
+ 
+PT KRAKATAU STEEL (PERSERO) Tbk DAN ENTITAS ANAK  PT KRAKATAU STEEL (PERSERO) Tbk AND SUBSIDIARIES 
+LAPORAN PERUBAHAN EKUITAS KONSOLIDASIAN 
+CONSOLIDATED STATEMENTS OF CHANGES IN EQUITY 
+Tahun Yang Berakhir Pada Tanggal-Tanggal 31 Desember 2012 dan 2011 (Disajikan Kembali) Years Ended December 31, 2012 and 2011 (As Restated) 
+(Disajikan dalam ribuan Dolar AS dan dalam jutaan Rupiah, Kecuali Dinyatakan Lain) (Expressed in thousands of US Dollar and in millions of Rupiah , Unless Otherwise Stated) 
+ 
+ 
+ 
+  
+          Ekuitas yang Dapat Diatribusikan Kepada Pemilik Entitas Induk/Equity Attributable to Owners of the Parent Entity 
+                
+          
+                      Pendapatan Komprehensif 
+                      Lainnya/Other  
+                     Comprehensive Income 
+ 
+                         
+                      Selisih Kurs 
+                    karena Penjabaran  
+                Saldo Laba   Laporan Keuangan  
+                 (Akumulasi Kerugian)/     Entitas Anak/  
+          Modal Saham    Tambahan    Retained Earnings    Difference in  
+          Ditempatkan    Modal     (Accumulated Losses)    Foreign Currency  
+    
+          dan Disetor    Disetor, neto      Translation of        Kepentingan 
+          Penuh/Issued    Additional        Tidak    the Financial         Nonpengendali/ 
+      Catatan/    and Fully Paid    Paid-in    Dicadangkan/    Dicadangkan/    Statements of     Total/    Non-controlling    Ekuitas, Neto/ 
+      Notes    Share Capital    Capital, net    Appropriated    Unappropriated    Subsidiaries    Total    Interests    Equity, Net 
+                                
+Saldo pada tanggal 1 Januari 2011/                             Balance as of January 1, 2011/ 
+ 31 Desember 2010, disajikan kembali  2e    855,968   116,016   141,433   (104,049 )  6,614   1,015,982   13,793   1,029,775  December 31, 2010, as restated 
+ 
+Laba tahun berjalan, disajikan kembali  2e    -   -   -   151,201   -   151,201   136   151,337  Profit for the year, as restated 
+Pendapatan komprehensif lain,                    
+ disajikan kembali  2e    -   -   -   -   (1,743)  (1,743 )  (3)  (1,746) Other comprehensive income, as restated 
+                                
+Total laba komprehensif                              Total comprehensive income for the year, 
+ tahun berjalan, disajikan kembali      -   -   -   151,201   (1,743)  149,458   133   149,591   as restated 
+ 
+Dividen tunai  27    -   -   -   (12,501 )  -   (12,501 )  -   (12,501) Cash dividends 
+Alokasi dana untuk program kemitraan  27    -   -   -   (1,403 )     (1,403 )  -   (1,403) Allocation of funds for partnership program 
+Pembentukan cadangan umum  27    -   -   120   (120 )  -   -   -   -  Appropriation for general reserve 
+Setoran modal dari kepentingan                             Capital contribution from non-controlling 
+ nonpengendali  24    -   -   -   -   -   -   5,134   5,134  interests 
+                                
+Saldo pada tanggal 31 Desember 2011,                             Balance as of December 31, 2011, 
+ disajikan kembali  2e    855,968   116,016   141,553   33,128   4,871   1,151,536   19,060   1,170,596  as restated 
+        
+                        
+Rugi tahun berjalan  2e    -   -   -   (20,435 )  -   (20,435 )  875   (19,560) Loss for the year 
+Pendapatan komprehensif lain  2e    -   -   -   -   (10,205)  (10,205 )  (15)  (10,220) Other comprehensive income 
+                                
+Total laba (rugi) komprehensif                             Total comprehensive income (loss) 
+ tahun berjalan      -   -   -   (20,435 )  (10,205)  (30,640 )  860   (29,780) for the year 
+ 
+Dividen tunai  27    -   -   -   (25,242 )   -   (25,242 )  -   (25,242) Cash dividends 
+Opsi kepemilikan saham oleh manajemen 
+ yang telah vested  27    -   940   -   -   -   940   -   940  Vesting of management stock option 
+Alokasi dana untuk program kemitraan  27    -   -   -   (528 )  -   (528 )  -   (528) Allocation of funds for partnership program 
+Pembentukan cadangan umum  27    -   -   5,281   (5,281 )  -   -   -   -  Appropriation for general reserve 
+                                
+Saldo pada tanggal 31 Desember 2012      855,968   116,956   146,834   (18,358 )  (5,334)  1,096,066   19,920   1,115,986  Balance as of December 31, 2012 
+        
+                        
+Catatan atas laporan keuangan  konsolidasian terlampir merupakan bagian yang tidak  The accompanying notes to the consolidated financial statements form an integral part of these consolidated financial 
+terpisahkan dari laporan keuangan konsolidasian secara keseluruhan. statements taken as a whole. 
+ 
+6   The original consolidated financial statements included herein are in the 
+Indonesian language. 
+ 
+PT KRAKATAU STEEL (PERSERO) Tbk  PT KRAKATAU STEEL (PERSERO) Tbk 
+DAN ENTITAS ANAK AND SUBSIDIARIES 
+LAPORAN ARUS KAS KONSOLIDASIAN 
+CONSOLIDATED STATEMENTS OF CASH FLOWS 
+Tahun yang Berakhir pada Tanggal-tanggal  Years Ended 
+31 Desember 2012 dan 2011 (Disajikan Kembali) December 31, 2012 and 2011 (As Restated) 
+ (Disajikan dalam ribuan Dolar AS 
+(Expressed in thousands of US Dollar 
+dan dalam jutaan Rupiah,  and in millions of Rupiah, 
+Kecuali Dinyatakan Lain) Unless Otherwise Stated) 
+ 
+ 
+   2011 
+   (Disajikan Kembali - 
+   Catatan 2e/ 
+  Catatan/ As Restated - 
+ 2012 Notes Note 2e 
+       
+ARUS KAS DARI AKTIVITAS      CASH FLOWS FROM OPERATING 
+OPERASI      ACTIVITIES 
+Penerimaan dari pelanggan 2,349,059   2,116,726  Receipts from customers 
+Penerimaan dari tagihan pajak 6,049   26,878  Receipts from claims for tax refund 
+Penerimaan dari pendapatan bunga 9,381   13,498  Receipts from interest income 
+Pembayaran kepada pemasok (1,915,268)  (1,553,232) Payments to suppliers 
+Pembayaran beban usaha      Payments for operating expenses 
+ dan lainnya (49,073)  (228,528) and others 
+Pembayaran kepada karyawan (120,520)  (178,137) Payments to employees 
+Pembayaran untuk pajak (246,893)  (118,023) Payments for taxes 
+Pembayaran untuk beban bunga      Payments for interest and bank 
+ dan beban bank (12,287)  (16,914) charges 
+ 
+    
+Kas neto yang diperoleh dari      Net cash provided by operating 
+ aktivitas operasi 20,448   62,268  activities 
+ 
+    
+ARUS KAS DARI AKTIVITAS      CASH FLOWS FROM INVESTING 
+INVESTASI      ACTIVITIES 
+Penarikan (penempatan) investasi      Withdrawal (placement) of short-term 
+ jangka pendek 10,074   (14,534) investments 
+Penarikan (penempatan) kas dan deposito      Withdrawal (placement) of restricted 
+ berjangka yang dibatasi penggunaannya (13,766)  1,614  cash and time deposits 
+Penerimaan dividen kas 944   1,462  Receipts of cash dividends 
+Penambahan penyertaan pada saham (19,895) 12 (1,849) Additional investments in shares of stock 
+Penambahan aset tetap (170,514)  (177,602) Purchase of fixed assets 
+Hasil dari penjualan aset tetap  16   749  Proceeds from sale of fixed assets 
+ 
+    
+Kas neto yang digunakan untuk      Net cash used in investing 
+ aktivitas investasi (193.141)  (190,160) activities 
+ 
+    
+ARUS KAS DARI AKTIVITAS      CASH FLOWS FROM FINANCING 
+PENDANAAN      ACTIVITIES 
+Penerimaan bank jangka pendek, neto 100,318   48,381  Proceeds from short-term bank loans, net 
+Penerimaan pinjaman jangka panjang 25,258   50,312  Proceeds from long-term loans 
+Pembayaran pinjaman jangka panjang (14,854)  (17,411) Repayments of long-term loans 
+Pembayaran untuk beban bunga (25,741)  (17,077) Payments for interest 
+Setoran modal dari kepentingan      Capital contribution from 
+ nonpengendali  -  24 5,134  non-controlling interests 
+Pembayaran dividen kas (25,242) 27 (12,501) Payments of cash dividends 
+Pembayaran untuk program       Payments for partnership and 
+ kemitraan dan bina lingkungan (3,044)  (10,085) community development program 
+ 
+    
+Kas neto yang diperoleh dari      Net cash provided by financing 
+ aktivitas pendanaan 56,695   46,753  activities 
+ 
+    
+PENURUNAN NETO KAS      NET DECREASE IN 
+DAN SETARA KAS (115,998)  (81,139) CASH AND CASH EQUIVALENTS 
+ 
+KAS DAN SETARA KAS AWAL      CASH AND CASH EQUIVALENTS 
+TAHUN 396,285   466,422  AT BEGINNING OF YEAR 
+ 
+Dampak perubahan selisih kurs (10,020)  11,002  Effect of foreign exchange rate changes 
+ 
+    
+KAS DAN SETARA KAS AKHIR      CASH AND CASH EQUIVALENTS 
+TAHUN 270,267  4 396,285  AT END OF YEAR 
+  
+ 
+ 
+Catatan atas laporan keuangan konsolidasian terlampir  The accompanying notes to the consolidated financial 
+merupakan bagian yang tidak terpisahkan dari laporan statements form an integral part of these consolidated 
+keuangan konsolidasian secara keseluruhan. financial statements taken as a whole. 
+ 
+7 
+176 Laporan Tahunan 2012 PT Krakatau Steel (Persero) Tbk  The original consolidated financial statements included herein are in the 
+Indonesian language. 
+ 
+PT KRAKATAU STEEL (PERSERO) Tbk  PT KRAKATAU STEEL (PERSERO) Tbk 
+DAN ENTITAS ANAK 
+AND SUBSIDIARIES 
+CATATAN ATAS LAPORAN KEUANGAN NOTES TO CONSOLIDATED FINANCIAL 
+KONSOLIDASIAN STATEMENTS 
+Pada Tanggal 31 Desember 2012 dan 2011 As of December 31, 2012 and 2011 
+(Disajikan Kembali) (As Restated) 
+dan 1 Januari 2011/31 Desember 2010 (Disajikan and January 1, 2011/December 31, 2010 
+Kembali) dan Untuk Tahun yang Berakhir (As Restated) and for the Years Ended 
+Pada Tanggal-tanggal 31 Desember 2012 dan 2011 December 31, 2012 and 2011 (As Restated) 
+(Disajikan Kembali) (Disajikan dalam (Expressed in thousands of 
+ribuan Dolar AS dan dalam jutaan Rupiah, US Dollar and in millions of Rupiah, 
+Kecuali Dinyatakan Lain) Unless Otherwise Stated) 
+ 
+ 
+30. BEBAN USAHA  30. OPERATING EXPENSES 
+ 
+ Akun ini terdiri dari:   This account consists of: 
+ 
+  2011 
+  (Disajikan 
+  Kembali - 
+  Catatan 2e/ 
+  As Restated - 
+ 2012 Note 2e)     
+  
+   
+Penjualan     Selling 
+ 
+Ongkos angkut 30,799  23,879  Delivery expense 
+Gaji, upah dan kesejahteraan karyawan 8,031  6,046  Salaries, wages and employees benefits 
+Klaim pelanggan 1,885  921  Customer claims 
+Transportasi dan komunikasi 426  462  Transportation and communication 
+Beban kantor 549  338  Office expenses 
+Lain-lain (masing-masing di bawah US$200) 773  221  Others (each below US$200) 
+  
+   
+Sub-total 42,463  31,867  Sub-total 
+  
+   
+ 
+Umum dan administrasi     General and administrative 
+ 
+Gaji, upah dan kesejahteraan karyawan 68,655  64,196  Salaries, wages and employees benefits 
+Asuransi dan sewa 13,787  13,937  Insurance and rental 
+Perawatan dan pemeliharaan 6,002  7,644  Repairs and maintenance 
+Beban kantor 4,140  5,057  Office expenses 
+Penyusutan dan amortisasi 5,362  4,403  Depreciation and amortization 
+Tanggung jawab sosial     Corporate Social Responsibility and 
+ dan bina lingkungan 1,235  4,630  Community Development 
+Jasa profesional 2,154  3,066  Professional fees 
+Transportasi dan komunikasi 1,929  2,683  Transportation and communication 
+Pendidikan dan pelatihan  1,318  2,151  Education and training 
+Pencadangan penurunan nilai piutang 718  1,320  Provision for impairment of receivables 
+Lain-lain (masing-masing di bawah US$200) 113  710  Others (each below US$200) 
+  
+   
+Sub-total 105,413  109,797  Sub-total 
+  
+   
+Total 147,876  141,664  Total 
+  
+   
+ 
+ Beban gaji, upah dan kesejahteraan karyawan  Salaries, wages and employees benefits expense 
+ 
+pada tahun 2012 termasuk pemberian in 2012 includes providing rewards to the 
+penghargaan kepada karyawan dan manajemen Company’s and Subsidiaries’ employees and 
+management in the form of financing the ownership 
+Perusahaan dan Entitas Anak berupa pembiayaan 
+kepemilikan saham baru melalui program MESOP of the Company’s new shares through MESOP 
+sebesar US$942 (Catatan 39). program amounting to US$942 (Note 39). 
+ 
+ 
+ 
+167 
+336 Laporan Tahunan 2012 PT Krakatau Steel (Persero) Tbk
