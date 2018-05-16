@@ -225,8 +225,9 @@
     <Property Name="PP" Type="Double" />
     <Property Name="TATO" Type="Double" />
     <Property Name="TMS_TA" Type="Double" />
-    <Property Name="Output" Type="Double" />
     <Property Name="TingkatKesehatan" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
     <Property Name="Grade" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="OutputANN" Type="Double" />
+    <Property Name="OutputFNN" Type="Double" />
   </EntityType>
 </Schema>

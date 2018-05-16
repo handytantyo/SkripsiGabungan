@@ -109,22 +109,100 @@ namespace SkripsiGabungan.Controllers
             long Investasi_ = Investasi(pdfToTxt);
             long CapitalEmployed = TotalAset_ - Liabilitas_;
 
+            var Indikators = db.Indikators;
+
+            testing_data_hasil.ROE = ((float)labaBersih_ / Ekuitas_) * 100;
+            testing_data_hasil.ROI = (((float)labaUsaha_ + penyusutan_) / CapitalEmployed) * 100;
+            testing_data_hasil.cash_ratio = (((float)kasDanSetaraKas_ + Investasi_) / Liabilitas_) * 100;//investasi belum
+            testing_data_hasil.current_ratio = ((float)AsetLancar_ / Liabilitas_) * 100;
+            //testing_data_hasil.CP = ((float)PiutangUsaha / Pendapatan) * 365;//piutang usaha belum
+            testing_data_hasil.PP = ((float)persediaan_ / Pendapatan_) * 365;
+            testing_data_hasil.TATO = ((float)Pendapatan_ / CapitalEmployed) * 100;
+            testing_data_hasil.TMS_TA = ((float)Ekuitas_ / TotalAset_) * 100;
+
+            //ANN and FNN
+            double[] input = new double[3];
+            input[0] = (double)testing_data_hasil.ROE;
+            input[1] = (double)testing_data_hasil.ROI;
+            input[2] = (double)testing_data_hasil.cash_ratio;
+
+            double[] weight = new double[12];
+            double[] bias = new double[2];
+            float outoANN;
+
+            double[] neth = new double[3];
+            float[] outh = new float[3];            
+
+            SQLConnectionForANN(weight, bias);
+
+            outoANN = FeedForward(input, weight, bias, neth, outh);
+
+            testing_data_hasil.OutputANN = outoANN;
+
             if (ModelState.IsValid)
             {
-                testing_data_hasil.ROE = ((float)labaBersih_ / Ekuitas_) * 100;
-                testing_data_hasil.ROI = (((float)labaUsaha_ + penyusutan_) / CapitalEmployed) * 100;
-                testing_data_hasil.cash_ratio = (((float)kasDanSetaraKas_ + Investasi_) / Liabilitas_) * 100;//investasi belum
-                testing_data_hasil.current_ratio = ((float)AsetLancar_ / Liabilitas_) * 100;
-                //testing_data_hasil.CP = ((float)PiutangUsaha / Pendapatan) * 365;//piutang usaha belum
-                testing_data_hasil.PP = ((float)persediaan_ / Pendapatan_) * 365;
-                testing_data_hasil.TATO = ((float)Pendapatan_ / CapitalEmployed) * 100;
-                testing_data_hasil.TMS_TA = ((float)Ekuitas_ / TotalAset_) * 100;
                 db.testing_data_hasil.Add(testing_data_hasil);
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
 
             return View(testing_data_hasil);
+        }
+
+        static void SQLConnectionForANN(double[] Weight, double[] Bias)
+        {
+            //sqlconnection from https://www.youtube.com/watch?v=IcD9Jffstmw
+            string connStr = @"Data Source=DESKTOP-ERK0RV1\SQLEXPRESS;Initial Catalog=tugasakhir;Integrated Security=True";
+            SqlConnection conn = new SqlConnection(connStr);
+            try
+            {
+                conn.Open();
+                SqlCommand command = new SqlCommand("SELECT * FROM [Indikator] WHERE Algorithm = 'ANN'", conn);
+                SqlDataReader reader = command.ExecuteReader();
+                while (reader.Read())
+                {
+                    for(int weight = 0; weight < 12; weight++)
+                    {
+                        Weight[weight] = (double)reader["Weight" + weight + ""];
+                    }
+
+                    for (int bias = 0; bias < 2; bias++)
+                    {
+                        Bias[bias] = (double)reader["Bias" + bias + ""];
+                    }
+
+                }
+                reader.Close();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+
+            conn.Close();
+        }
+
+        static float FeedForward(double[] input, double[] weight, double[] bias, double[] neth, float[] outh)
+        {
+            int kolom = 0;
+            double neto;
+            float outo;
+
+            for (int i = 0; i < 3; i++)
+            {
+                neth[i] = input[ 0] * weight[kolom] + input[1] * weight[kolom + 1] + input[2] * weight[kolom + 2] + bias[0];//sudah bener			
+                outh[i] = 1 / (1 + (float)Math.Exp(-neth[i]));
+                //cout<<weight[kolom]<<" "<<weight[kolom+1]<<" "<<weight[kolom+2]<<endl<<endl;
+                kolom = kolom + 3;
+                //cout<<"["<<i+1<<"] "<<neth[i]<<" "<<outh[i]<<endl;						
+            }
+            kolom = 0;
+
+            neto = weight[9] * outh[0] + weight[10] * outh[1] + weight[11] * outh[2] + bias[1];
+            //cout<<neto<<endl;
+            outo = 1 / (1 + (float)Math.Exp(-neto));
+
+            return outo;
         }
 
         static long labaUsaha(string pdfToTxt)
@@ -878,36 +956,5 @@ namespace SkripsiGabungan.Controllers
 
         }
 
-        //public ActionResult Ocr()
-        //{
-        //    // Create Bytescout.PDFExtractor.TextExtractor instance
-        //    TextExtractor extractor = new TextExtractor();
-        //    extractor.RegistrationName = "demo";
-        //    extractor.RegistrationKey = "demo";
-
-        //    // Load sample PDF document
-        //    extractor.LoadDocumentFromFile("C:/Users/Nabyl/Desktop/ocr1IronPDF/ocr1IronPDF/bin/Debug/1ar-adhi2016.pdf");
-
-        //    // Enable Optical Character Recognition (OCR)
-        //    // in .Auto mode (SDK automatically checks if needs to use OCR or not)
-        //    extractor.OCRMode = OCRMode.Auto;
-
-        //    // Set the location of "tessdata" folder containing language data files
-        //    extractor.OCRLanguageDataFolder = @"C:\Users\Nabyl\Desktop\ocr1IronPDF\ocr1IronPDF\tessdata";
-
-        //    // Set OCR language
-        //    extractor.OCRLanguage = "eng"; // "eng" for english, "deu" for German, "fra" for French, "spa" for Spanish etc - according to files in /tessdata
-
-        //    // Set PDF document rendering resolution
-        //    extractor.OCRResolution = 300;
-
-        //    // Save extracted text to file
-        //    extractor.SaveTextToFile("C:/Users/Nabyl/Desktop/ocr1IronPDF/ocr1IronPDF/bin/Debug/adhi16.txt");
-
-        //    // Open output file in default associated application
-        //    System.Diagnostics.Process.Start("C:/Users/Nabyl/Desktop/ocr1IronPDF/ocr1IronPDF/bin/Debug/adhi16.txt");
-        //    return Json("Success..", JsonRequestBehavior.AllowGet);
-
-        //}
     }
 }

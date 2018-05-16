@@ -23,8 +23,9 @@ namespace SkripsiGabungan.Models
         public Nullable<double> PP { get; set; }
         public Nullable<double> TATO { get; set; }
         public Nullable<double> TMS_TA { get; set; }
-        public Nullable<double> Output { get; set; }
         public string TingkatKesehatan { get; set; }
         public string Grade { get; set; }
+        public Nullable<double> OutputANN { get; set; }
+        public Nullable<double> OutputFNN { get; set; }
     }
 }

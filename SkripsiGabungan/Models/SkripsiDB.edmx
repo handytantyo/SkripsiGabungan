@@ -112,7 +112,8 @@
           <Property Name="PP" Type="float" />
           <Property Name="TATO" Type="float" />
           <Property Name="TMS_TA" Type="float" />
-          <Property Name="Output" Type="float" />
+          <Property Name="OutputANN" Type="float" />
+          <Property Name="OutputFNN" Type="float" />
           <Property Name="TingkatKesehatan" Type="varchar" MaxLength="50" />
           <Property Name="Grade" Type="varchar" MaxLength="50" />
         </EntityType>
@@ -451,9 +452,10 @@
           <Property Name="PP" Type="Double" />
           <Property Name="TATO" Type="Double" />
           <Property Name="TMS_TA" Type="Double" />
-          <Property Name="Output" Type="Double" />
           <Property Name="TingkatKesehatan" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
           <Property Name="Grade" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="OutputANN" Type="Double" />
+          <Property Name="OutputFNN" Type="Double" />
         </EntityType>
       </Schema>
     </edmx:ConceptualModels>
@@ -565,9 +567,10 @@
           <EntitySetMapping Name="testing_data_hasil">
             <EntityTypeMapping TypeName="tugasakhirModel.testing_data_hasil">
               <MappingFragment StoreEntitySet="testing_data_hasil">
+                <ScalarProperty Name="OutputFNN" ColumnName="OutputFNN" />
+                <ScalarProperty Name="OutputANN" ColumnName="OutputANN" />
                 <ScalarProperty Name="Grade" ColumnName="Grade" />
                 <ScalarProperty Name="TingkatKesehatan" ColumnName="TingkatKesehatan" />
-                <ScalarProperty Name="Output" ColumnName="Output" />
                 <ScalarProperty Name="TMS_TA" ColumnName="TMS_TA" />
                 <ScalarProperty Name="TATO" ColumnName="TATO" />
                 <ScalarProperty Name="PP" ColumnName="PP" />

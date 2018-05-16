@@ -107,7 +107,8 @@
     <Property Name="PP" Type="float" />
     <Property Name="TATO" Type="float" />
     <Property Name="TMS_TA" Type="float" />
-    <Property Name="Output" Type="float" />
+    <Property Name="OutputANN" Type="float" />
+    <Property Name="OutputFNN" Type="float" />
     <Property Name="TingkatKesehatan" Type="varchar" MaxLength="50" />
     <Property Name="Grade" Type="varchar" MaxLength="50" />
   </EntityType>

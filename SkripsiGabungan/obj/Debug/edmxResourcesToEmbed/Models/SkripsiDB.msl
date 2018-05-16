@@ -105,9 +105,10 @@
     <EntitySetMapping Name="testing_data_hasil">
       <EntityTypeMapping TypeName="tugasakhirModel.testing_data_hasil">
         <MappingFragment StoreEntitySet="testing_data_hasil">
+          <ScalarProperty Name="OutputFNN" ColumnName="OutputFNN" />
+          <ScalarProperty Name="OutputANN" ColumnName="OutputANN" />
           <ScalarProperty Name="Grade" ColumnName="Grade" />
           <ScalarProperty Name="TingkatKesehatan" ColumnName="TingkatKesehatan" />
-          <ScalarProperty Name="Output" ColumnName="Output" />
           <ScalarProperty Name="TMS_TA" ColumnName="TMS_TA" />
           <ScalarProperty Name="TATO" ColumnName="TATO" />
           <ScalarProperty Name="PP" ColumnName="PP" />
