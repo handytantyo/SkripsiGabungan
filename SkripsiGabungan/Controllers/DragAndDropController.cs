@@ -106,14 +106,14 @@ namespace SkripsiGabungan.Controllers
             long Pendapatan_ = Pendapatan(pdfToTxt);
             //long PihakBerelasi_ = PihakBerelasi(pdfToTxt);
             //long PihakKetiga_ = PihakKetiga(pdfToTxt);
+            long Investasi_ = Investasi(pdfToTxt);
             long CapitalEmployed = TotalAset_ - Liabilitas_;
-
 
             if (ModelState.IsValid)
             {
                 testing_data_hasil.ROE = ((float)labaBersih_ / Ekuitas_) * 100;
                 testing_data_hasil.ROI = (((float)labaUsaha_ + penyusutan_) / CapitalEmployed) * 100;
-                //testing_data_hasil.cash_ratio = (((float)kasDanSetaraKas_ + lngInvestasi) / Liabilitas_) * 100;//investasi belum
+                testing_data_hasil.cash_ratio = (((float)kasDanSetaraKas_ + Investasi_) / Liabilitas_) * 100;//investasi belum
                 testing_data_hasil.current_ratio = ((float)AsetLancar_ / Liabilitas_) * 100;
                 //testing_data_hasil.CP = ((float)PiutangUsaha / Pendapatan) * 365;//piutang usaha belum
                 testing_data_hasil.PP = ((float)persediaan_ / Pendapatan_) * 365;
@@ -567,6 +567,51 @@ namespace SkripsiGabungan.Controllers
             return lngPihakKetiga;
         }
 
+        static long Investasi(string pdfToTxt)
+        {
+            string kataInvestasi = GetStringFromLaporan("investasi jangka pendek", pdfToTxt);
+            //int iKePihakKetiga = getIfromDB("pihak ketiga");
+
+            //getBetweenChunk11(pdfToTxt, kata, int, iKe);
+
+            string Investasi = "";
+            for (int i = 2; i < 40; i++)
+            {
+                if (getBetweenChunk(pdfToTxt, kataInvestasi, i).Length > 7 && getBetweenChunk(pdfToTxt, kataInvestasi, i).ToCharArray()[0] < 58)
+                {
+                    Investasi = getBetweenChunk(pdfToTxt, kataInvestasi, i);
+                    break;
+                }
+            }
+
+            char[] arrayInvestasi = Investasi.ToCharArray();
+            char[] arrayInvestasi2 = new char[arrayInvestasi.Length];
+            int nextInvestasi = 0; //Untuk Menghilangkan titik (.) dan koma (,)
+
+            for (int i = 0; i < arrayInvestasi.Length; i++)
+            {
+                char letterPihakKetiga = arrayInvestasi[i];
+                //Console.WriteLine(letter);
+                if (arrayInvestasi[i] != '.' && arrayInvestasi[i] != ',' && arrayInvestasi[i] != '(' && arrayInvestasi[i] != ')')
+                {
+                    arrayInvestasi2[nextInvestasi] = arrayInvestasi[i];
+                    nextInvestasi++;
+                }
+            }
+            string strInvestasi = new string(arrayInvestasi2);
+            long lngInvestasi;
+            try
+            {
+                lngInvestasi = Int64.Parse(strInvestasi);
+            }
+            catch
+            {
+                lngInvestasi = 0;
+            }
+
+            return lngInvestasi;
+        }
+
         [HttpGet]
         public ActionResult Result(long? id)
         {
@@ -580,77 +625,7 @@ namespace SkripsiGabungan.Controllers
                 return HttpNotFound();
             }
             return View(testingData);            
-        }
-
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Result([Bind(Include = "id,ROE,ROI,cash_ratio,current_ratio,CP,PP,TATO,TMS_TA,Output,TingkatKesehatan,Grade")] testing_data_hasil testingData)
-        {
-            //TextExtractor extractor = new TextExtractor();
-            //extractor.RegistrationName = "demo";
-            //extractor.RegistrationKey = "demo";
-            //extractor.LoadDocumentFromFile(Server.MapPath("~/UploadedFiles/default.pdf"));
-            //string pdfToTxt = extractor.ToString();            
-            string pdfToTxt = System.IO.File.ReadAllText(Server.MapPath("~/UploadedFiles/default.pdf"));
-            //string pdfToTxt = ExtractTextFromPdf(extractor.ToString());
-            //string[] words = extractor.ToString().Split('/', '.');
-
-            string kataLabaUsaha = GetStringFromLaporan("laba usaha", pdfToTxt);
-
-            string labaUsaha;
-            for (int i = 2; ; i++)
-            {
-                if (getBetweenChunk(pdfToTxt, kataLabaUsaha, i).Length > 7 && getBetweenChunk(pdfToTxt, kataLabaUsaha, i).ToCharArray()[0] < 58)
-                {
-                    labaUsaha = getBetweenChunk(pdfToTxt, kataLabaUsaha, i);
-                    break;
-                }
-            }
-
-            char[] arrayLabaUsaha = labaUsaha.ToCharArray();
-            char[] arrayLabaUsaha2 = new char[arrayLabaUsaha.Length];
-            int nextLabaUsaha = 0; //Untuk Menghilangkan titik (.) dan koma (,)
-
-            for (int i = 0; i < arrayLabaUsaha.Length; i++)
-            {
-                char letterLabaUsaha = arrayLabaUsaha[i];
-                //Console.WriteLine(letter);
-                if (arrayLabaUsaha[i] != '.' && arrayLabaUsaha[i] != ',' && arrayLabaUsaha[i] != '(' && arrayLabaUsaha[i] != ')')
-                {
-                    arrayLabaUsaha2[nextLabaUsaha] = arrayLabaUsaha[i];
-                    nextLabaUsaha++;
-                }
-            }
-
-            string strLabaUsaha = new string(arrayLabaUsaha2);
-            double lngLabaUsaha = Double.Parse(strLabaUsaha);
-
-            DataTable dtblTest = new DataTable();
-            var list = new List<testing_data_hasil>();
-            list.Add(new testing_data_hasil()
-            {
-                ROE = lngLabaUsaha,//labaUsaha;
-                ROI = lngLabaUsaha,
-                cash_ratio = lngLabaUsaha,
-                current_ratio = lngLabaUsaha,
-                CP = lngLabaUsaha,
-                PP = lngLabaUsaha,
-                TATO = lngLabaUsaha,
-                TMS_TA = lngLabaUsaha,
-                Output = lngLabaUsaha,
-                TingkatKesehatan = "Sehat",
-                Grade = "AA"
-            });
-
-            if (ModelState.IsValid)
-            {
-                db.testing_data_hasil.Add(testingData);
-                db.SaveChanges();
-                return RedirectToAction("Result");
-            }
-
-            return View(testingData);
-        }
+        }       
 
         public static string ExtractTextFromPdf(string path)
         {
