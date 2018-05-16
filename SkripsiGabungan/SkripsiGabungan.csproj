@@ -47,10 +47,12 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Bytescout.PDFExtractor, Version=9.0.0.3095, Culture=neutral, PublicKeyToken=f7dd1bd9d40a50eb, processorArchitecture=MSIL">
-      <HintPath>..\packages\Bytescout.PDFExtractor.9.0.0.3095\lib\net40\Bytescout.PDFExtractor.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Bytescout PDF Extractor SDK\net4.00\Bytescout.PDFExtractor.dll</HintPath>
     </Reference>
     <Reference Include="Bytescout.PDFExtractor.OCRExtension, Version=9.0.0.3095, Culture=neutral, PublicKeyToken=f7dd1bd9d40a50eb, processorArchitecture=MSIL">
-      <HintPath>..\packages\Bytescout.PDFExtractor.9.0.0.3095\lib\net40\Bytescout.PDFExtractor.OCRExtension.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Bytescout PDF Extractor SDK\net4.00\Bytescout.PDFExtractor.OCRExtension.dll</HintPath>
     </Reference>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
@@ -162,7 +164,6 @@
     <Compile Include="Controllers\DragAndDropController.cs" />
     <Compile Include="Controllers\hasilsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\testing_data_hasilController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -310,11 +311,7 @@
     <Content Include="tessdata\deu.traineddata" />
     <Content Include="Views\DragAndDrop\Index.cshtml" />
     <Content Include="Views\DragAndDrop\Result.cshtml" />
-    <Content Include="Views\testing_data_hasil\Create.cshtml" />
-    <Content Include="Views\testing_data_hasil\Delete.cshtml" />
-    <Content Include="Views\testing_data_hasil\Details.cshtml" />
-    <Content Include="Views\testing_data_hasil\Edit.cshtml" />
-    <Content Include="Views\testing_data_hasil\Index.cshtml" />
+    <Content Include="Views\DragAndDrop\Create.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
