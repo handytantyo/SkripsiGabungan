@@ -12,11 +12,9 @@ namespace SkripsiGabungan.Models
     using System;
     using System.Collections.Generic;
     
-    public partial class hasil
+    public partial class testing_data_hasil
     {
         public long id { get; set; }
-        public Nullable<long> id_perusahaan { get; set; }
-        public Nullable<long> id_tahun { get; set; }
         public Nullable<double> ROE { get; set; }
         public Nullable<double> ROI { get; set; }
         public Nullable<double> cash_ratio { get; set; }
@@ -25,16 +23,8 @@ namespace SkripsiGabungan.Models
         public Nullable<double> PP { get; set; }
         public Nullable<double> TATO { get; set; }
         public Nullable<double> TMS_TA { get; set; }
-        public Nullable<double> target { get; set; }
-        public Nullable<double> target_2 { get; set; }
-        public string tingkat_kesehatan { get; set; }
-        public string grade { get; set; }
-    
-        public virtual perusahaan perusahaan { get; set; }
-        public virtual sumber sumber { get; set; }
-        public virtual tahun tahun { get; set; }
-
-        public string nama_perusahaan { get; set; }
-        public Nullable<int> tahun_1 { get; set; }
+        public Nullable<double> Output { get; set; }
+        public string TingkatKesehatan { get; set; }
+        public string Grade { get; set; }
     }
 }

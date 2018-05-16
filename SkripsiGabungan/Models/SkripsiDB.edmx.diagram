@@ -18,6 +18,7 @@
         <EntityTypeShape EntityType="tugasakhirModel.source_ocr" Width="1.5" PointX="7.625" PointY="0.875" />
         <AssociationConnector Association="tugasakhirModel.FK_source_ocr_mapping" />
         <EntityTypeShape EntityType="tugasakhirModel.Indikator" Width="1.5" PointX="5.375" PointY="4.75" />
+        <EntityTypeShape EntityType="tugasakhirModel.testing_data_hasil" Width="1.5" PointX="7.375" PointY="4.75" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

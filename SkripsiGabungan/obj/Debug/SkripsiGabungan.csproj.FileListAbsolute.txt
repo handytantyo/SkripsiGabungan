@@ -189,10 +189,10 @@ D:\Kuliah\Semester 8\GitHub Skripsi\SkripsiGabungan\SkripsiGabungan\bin\Microsof
 D:\Kuliah\Semester 8\GitHub Skripsi\SkripsiGabungan\SkripsiGabungan\bin\Microsoft.AI.ServerTelemetryChannel.xml
 D:\Kuliah\Semester 8\GitHub Skripsi\SkripsiGabungan\SkripsiGabungan\bin\Microsoft.AI.WindowsServer.xml
 D:\Kuliah\Semester 8\GitHub Skripsi\SkripsiGabungan\SkripsiGabungan\bin\Microsoft.AI.Web.xml
-D:\Kuliah\Semester 8\GitHub Skripsi\SkripsiGabungan\SkripsiGabungan\obj\Debug\SkripsiGabungan.csprojResolveAssemblyReference.cache
 D:\Kuliah\Semester 8\GitHub Skripsi\SkripsiGabungan\SkripsiGabungan\obj\Debug\SkripsiGabungan.csproj.CoreCompileInputs.cache
 D:\Kuliah\Semester 8\GitHub Skripsi\SkripsiGabungan\SkripsiGabungan\obj\Debug\SkripsiGabungan.csproj.CopyComplete
 D:\Kuliah\Semester 8\GitHub Skripsi\SkripsiGabungan\SkripsiGabungan\obj\Debug\SkripsiGabungan.dll
 D:\Kuliah\Semester 8\GitHub Skripsi\SkripsiGabungan\SkripsiGabungan\obj\Debug\SkripsiGabungan.pdb
 D:\Kuliah\Semester 8\GitHub Skripsi\SkripsiGabungan\SkripsiGabungan\bin\itextsharp.dll
 D:\Kuliah\Semester 8\GitHub Skripsi\SkripsiGabungan\SkripsiGabungan\bin\itextsharp.xml
+D:\Kuliah\Semester 8\GitHub Skripsi\SkripsiGabungan\SkripsiGabungan\obj\Debug\SkripsiGabungan.csprojResolveAssemblyReference.cache

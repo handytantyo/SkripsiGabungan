@@ -162,6 +162,7 @@
     <Compile Include="Controllers\DragAndDropController.cs" />
     <Compile Include="Controllers\hasilsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\testing_data_hasilController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -200,6 +201,9 @@
       <DependentUpon>SkripsiDB.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\tahun.cs">
+      <DependentUpon>SkripsiDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\testing_data_hasil.cs">
       <DependentUpon>SkripsiDB.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -306,6 +310,11 @@
     <Content Include="tessdata\deu.traineddata" />
     <Content Include="Views\DragAndDrop\Index.cshtml" />
     <Content Include="Views\DragAndDrop\Result.cshtml" />
+    <Content Include="Views\testing_data_hasil\Create.cshtml" />
+    <Content Include="Views\testing_data_hasil\Delete.cshtml" />
+    <Content Include="Views\testing_data_hasil\Details.cshtml" />
+    <Content Include="Views\testing_data_hasil\Edit.cshtml" />
+    <Content Include="Views\testing_data_hasil\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -32,5 +32,6 @@ namespace SkripsiGabungan.Models
         public virtual DbSet<mapping> mappings { get; set; }
         public virtual DbSet<source_ocr> source_ocr { get; set; }
         public virtual DbSet<Indikator> Indikators { get; set; }
+        public virtual DbSet<testing_data_hasil> testing_data_hasil { get; set; }
     }
 }

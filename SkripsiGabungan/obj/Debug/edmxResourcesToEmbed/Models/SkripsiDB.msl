@@ -102,5 +102,23 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
+    <EntitySetMapping Name="testing_data_hasil">
+      <EntityTypeMapping TypeName="tugasakhirModel.testing_data_hasil">
+        <MappingFragment StoreEntitySet="testing_data_hasil">
+          <ScalarProperty Name="Grade" ColumnName="Grade" />
+          <ScalarProperty Name="TingkatKesehatan" ColumnName="TingkatKesehatan" />
+          <ScalarProperty Name="Output" ColumnName="Output" />
+          <ScalarProperty Name="TMS_TA" ColumnName="TMS_TA" />
+          <ScalarProperty Name="TATO" ColumnName="TATO" />
+          <ScalarProperty Name="PP" ColumnName="PP" />
+          <ScalarProperty Name="CP" ColumnName="CP" />
+          <ScalarProperty Name="current_ratio" ColumnName="current_ratio" />
+          <ScalarProperty Name="cash_ratio" ColumnName="cash_ratio" />
+          <ScalarProperty Name="ROI" ColumnName="ROI" />
+          <ScalarProperty Name="ROE" ColumnName="ROE" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
   </EntityContainerMapping>
 </Mapping>

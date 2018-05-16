@@ -5,16 +5,20 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using System.Data.SqlClient;
+using System.Data;
 using System.Text;
 using Bytescout.PDFExtractor;
 using iTextSharp.text.pdf;
 using iTextSharp.text.pdf.parser;
 using SkripsiGabungan.Models;
+using System.Net;
 
 namespace SkripsiGabungan.Controllers
 {
     public class DragAndDropController : Controller
     {
+        private tugasakhirEntities db = new tugasakhirEntities();
+
         // GET: DragAndDrop
         public ActionResult Index()
         {
@@ -76,7 +80,24 @@ namespace SkripsiGabungan.Controllers
             Response.End();
         }
 
-        public ActionResult Result()
+        [HttpGet]
+        public ActionResult Result(long? id)
+        {
+            if (id == null)
+            {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            }
+            testing_data_hasil testingData = db.testing_data_hasil.Find(id);
+            if (testingData == null)
+            {
+                return HttpNotFound();
+            }
+            return View(testingData);            
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Result([Bind(Include = "id,ROE,ROI,cash_ratio,current_ratio,CP,PP,TATO,TMS_TA,Output,TingkatKesehatan,Grade")] testing_data_hasil testingData)
         {
             //TextExtractor extractor = new TextExtractor();
             //extractor.RegistrationName = "demo";
@@ -88,11 +109,6 @@ namespace SkripsiGabungan.Controllers
             //string[] words = extractor.ToString().Split('/', '.');
 
             string kataLabaUsaha = GetStringFromLaporan("laba usaha", pdfToTxt);
-            //int iKeLabaUsaha = getIfromDB("laba usaha");
-
-            //getBetweenChunk11(pdfToTxt, kata, int, iKe);
-            //Console.WriteLine(kataLabaUsaha);
-            //Console.ReadLine();
 
             string labaUsaha;
             for (int i = 2; ; i++)
@@ -117,23 +133,36 @@ namespace SkripsiGabungan.Controllers
                     arrayLabaUsaha2[nextLabaUsaha] = arrayLabaUsaha[i];
                     nextLabaUsaha++;
                 }
-                else
-                {
-
-                }
             }
 
             string strLabaUsaha = new string(arrayLabaUsaha2);
             double lngLabaUsaha = Double.Parse(strLabaUsaha);
 
-            var list = new List<OCR>();
-
-            list.Add(new OCR()
+            DataTable dtblTest = new DataTable();
+            var list = new List<testing_data_hasil>();
+            list.Add(new testing_data_hasil()
             {
-               ROE =  lngLabaUsaha//labaUsaha;
+                ROE = lngLabaUsaha,//labaUsaha;
+                ROI = lngLabaUsaha,
+                cash_ratio = lngLabaUsaha,
+                current_ratio = lngLabaUsaha,
+                CP = lngLabaUsaha,
+                PP = lngLabaUsaha,
+                TATO = lngLabaUsaha,
+                TMS_TA = lngLabaUsaha,
+                Output = lngLabaUsaha,
+                TingkatKesehatan = "Sehat",
+                Grade = "AA"
             });
 
-            return View(list);
+            if (ModelState.IsValid)
+            {
+                db.testing_data_hasil.Add(testingData);
+                db.SaveChanges();
+                return RedirectToAction("Result");
+            }
+
+            return View(testingData);
         }
 
         public static string ExtractTextFromPdf(string path)

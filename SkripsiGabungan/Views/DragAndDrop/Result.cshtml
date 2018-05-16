@@ -1,16 +1,16 @@
-﻿@model SkripsiGabungan.Models.OCR
+﻿@model SkripsiGabungan.Models.testing_data_hasil
 
 @{
-    ViewBag.Title = "Details";
+    ViewBag.Title = "Result";
 }
 
-<h2>Detail</h2>
+<h2>Hasil</h2>
 
 <div>
     <div class="row">
         <dl class="dl-horizontal">
             <dt>
-                @Html.DisplayNameFor(model => model.ROE) :
+                @Html.DisplayNameFor(model => model.ROE):
             </dt>
 
             <dd>
@@ -20,7 +20,7 @@
                 @Html.DisplayNameFor(model => model.ROI) :
             </dt>
 
-            <dd>
+            @*<dd>
                 @Html.DisplayFor(model => model.ROI)
             </dd>
 
@@ -68,7 +68,7 @@
 
             <dd>
                 @Html.DisplayFor(model => model.TMS_TA)
-            </dd>
+            </dd>*@
         </dl>
     </div>
 </div>

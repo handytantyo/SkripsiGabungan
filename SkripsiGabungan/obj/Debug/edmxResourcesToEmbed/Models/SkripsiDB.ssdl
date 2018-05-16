@@ -94,6 +94,23 @@
     <Property Name="id" Type="bigint" Nullable="false" />
     <Property Name="tahun" Type="int" />
   </EntityType>
+  <EntityType Name="testing_data_hasil">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ROE" Type="float" />
+    <Property Name="ROI" Type="float" />
+    <Property Name="cash_ratio" Type="float" />
+    <Property Name="current_ratio" Type="float" />
+    <Property Name="CP" Type="float" />
+    <Property Name="PP" Type="float" />
+    <Property Name="TATO" Type="float" />
+    <Property Name="TMS_TA" Type="float" />
+    <Property Name="Output" Type="float" />
+    <Property Name="TingkatKesehatan" Type="varchar" MaxLength="50" />
+    <Property Name="Grade" Type="varchar" MaxLength="50" />
+  </EntityType>
   <Association Name="FK_hasil_perusahaan1">
     <End Role="perusahaan" Type="Self.perusahaan" Multiplicity="0..1" />
     <End Role="hasil" Type="Self.hasil" Multiplicity="*" />
@@ -174,6 +191,7 @@
     <EntitySet Name="source_ocr" EntityType="Self.source_ocr" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="sumber" EntityType="Self.sumber" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="tahun" EntityType="Self.tahun" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="testing_data_hasil" EntityType="Self.testing_data_hasil" Schema="dbo" store:Type="Tables" />
     <AssociationSet Name="FK_hasil_perusahaan1" Association="Self.FK_hasil_perusahaan1">
       <End Role="perusahaan" EntitySet="perusahaan" />
       <End Role="hasil" EntitySet="hasil" />

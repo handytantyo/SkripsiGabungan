@@ -159,6 +159,7 @@
       <End Role="source_ocr" EntitySet="source_ocr" />
     </AssociationSet>
     <EntitySet Name="Indikators" EntityType="tugasakhirModel.Indikator" />
+    <EntitySet Name="testing_data_hasil" EntityType="tugasakhirModel.testing_data_hasil" />
   </EntityContainer>
   <EntityType Name="mapping">
     <Key>
@@ -210,5 +211,22 @@
     <Property Name="Weight11" Type="Double" />
     <Property Name="Bias0" Type="Double" />
     <Property Name="Bias1" Type="Double" />
+  </EntityType>
+  <EntityType Name="testing_data_hasil">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int64" Nullable="false" />
+    <Property Name="ROE" Type="Double" />
+    <Property Name="ROI" Type="Double" />
+    <Property Name="cash_ratio" Type="Double" />
+    <Property Name="current_ratio" Type="Double" />
+    <Property Name="CP" Type="Double" />
+    <Property Name="PP" Type="Double" />
+    <Property Name="TATO" Type="Double" />
+    <Property Name="TMS_TA" Type="Double" />
+    <Property Name="Output" Type="Double" />
+    <Property Name="TingkatKesehatan" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Grade" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
   </EntityType>
 </Schema>

@@ -1,0 +1,112 @@
+﻿@model SkripsiGabungan.Models.testing_data_hasil
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>testing_data_hasil</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ROE)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ROE)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ROI)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ROI)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.cash_ratio)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.cash_ratio)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.current_ratio)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.current_ratio)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CP)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CP)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PP)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PP)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TATO)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TATO)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TMS_TA)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TMS_TA)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Output)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Output)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TingkatKesehatan)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TingkatKesehatan)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Grade)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Grade)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>
