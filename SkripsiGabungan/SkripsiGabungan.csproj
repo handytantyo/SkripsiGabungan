@@ -300,11 +300,6 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\hasils\Create.cshtml" />
-    <Content Include="Views\hasils\Delete.cshtml" />
-    <Content Include="Views\hasils\Details.cshtml" />
-    <Content Include="Views\hasils\Edit.cshtml" />
-    <Content Include="Views\hasils\Index.cshtml" />
     <Content Include="tessdata\spa.traineddata" />
     <Content Include="tessdata\fra.traineddata" />
     <Content Include="tessdata\eng.traineddata" />
@@ -312,6 +307,11 @@
     <Content Include="Views\DragAndDrop\Index.cshtml" />
     <Content Include="Views\DragAndDrop\Result.cshtml" />
     <Content Include="Views\DragAndDrop\Create.cshtml" />
+    <Content Include="Views\hasils\Create.cshtml" />
+    <Content Include="Views\hasils\Delete.cshtml" />
+    <Content Include="Views\hasils\Details.cshtml" />
+    <Content Include="Views\hasils\Edit.cshtml" />
+    <Content Include="Views\hasils\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -6,7 +6,6 @@
 
 <h2>Edit</h2>
 
-
 @using (Html.BeginForm())
 {
     @Html.AntiForgeryToken()
@@ -15,7 +14,7 @@
         <h4>hasil</h4>
         <hr />
         @Html.ValidationSummary(true, "", new { @class = "text-danger" })
-        @Html.HiddenFor(model => model.id)
+        @Html.HiddenFor(model => model.IDHasil)
 
         <div class="form-group">
             @Html.LabelFor(model => model.id_perusahaan, "id_perusahaan", htmlAttributes: new { @class = "control-label col-md-2" })
@@ -140,7 +139,3 @@
 <div>
     @Html.ActionLink("Back to List", "Index")
 </div>
-
-@section Scripts {
-    @Scripts.Render("~/bundles/jqueryval")
-}

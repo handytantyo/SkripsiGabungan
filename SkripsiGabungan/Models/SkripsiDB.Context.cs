@@ -25,13 +25,13 @@ namespace SkripsiGabungan.Models
             throw new UnintentionalCodeFirstException();
         }
     
-        public virtual DbSet<hasil> hasils { get; set; }
-        public virtual DbSet<perusahaan> perusahaans { get; set; }
-        public virtual DbSet<sumber> sumbers { get; set; }
-        public virtual DbSet<tahun> tahuns { get; set; }
         public virtual DbSet<mapping> mappings { get; set; }
         public virtual DbSet<source_ocr> source_ocr { get; set; }
         public virtual DbSet<Indikator> Indikators { get; set; }
+        public virtual DbSet<sumber> sumbers { get; set; }
+        public virtual DbSet<perusahaan> perusahaans { get; set; }
+        public virtual DbSet<hasil> hasils { get; set; }
+        public virtual DbSet<tahun> tahuns { get; set; }
         public virtual DbSet<testing_data_hasil> testing_data_hasil { get; set; }
     }
 }

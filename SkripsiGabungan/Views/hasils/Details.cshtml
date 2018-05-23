@@ -1,16 +1,15 @@
 ﻿@model SkripsiGabungan.Models.hasil
 
 @{
-    ViewBag.Title = "Details";
+    ViewBag.Title = "Detail";
 }
 
 <h2>Detail</h2>
 
 <div>
     <h4>@Html.DisplayFor(model => model.perusahaan.nama_perusahaan) Tahun @Html.DisplayFor(model => model.tahun.tahun1)</h4>
-    <hr />
-    <table class="table table-dark table-bordered" style="width: 50%;margin-left:20%">
-        <thead>
+    <table class="table table table-bordered" style="width: 50%;margin-left:20%">
+        <thead style="background-color: #e9ecef">
             <tr>
                 <th>Tingkat Kesehatan</th>
                 <th>Grade</th>
@@ -167,9 +166,10 @@
 
     </div>
 </div>
+
 <p>
     @*@Html.ActionLink("Edit", "Edit", new { id = Model.id }) |*@
-    <a href="/hasils/Index/">
+    <a href="/hasils">
         <button type="button" class="btn btn-success">
             @*@Html.ActionLink("Back to List", "Index")*@ Back to List
         </button>

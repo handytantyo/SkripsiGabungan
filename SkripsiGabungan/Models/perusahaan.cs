@@ -11,22 +11,24 @@ namespace SkripsiGabungan.Models
 {
     using System;
     using System.Collections.Generic;
-    
+    using System.ComponentModel;
+
     public partial class perusahaan
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public perusahaan()
         {
-            this.hasils = new HashSet<hasil>();
             this.sumbers = new HashSet<sumber>();
+            this.hasils = new HashSet<hasil>();
         }
     
-        public long id { get; set; }
+        public long IDPerusahaan { get; set; }
+        [DisplayName("Nama Perusahaan")]
         public string nama_perusahaan { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<hasil> hasils { get; set; }
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<sumber> sumbers { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<hasil> hasils { get; set; }
     }
 }

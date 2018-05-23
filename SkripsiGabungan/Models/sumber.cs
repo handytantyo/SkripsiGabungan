@@ -11,30 +11,46 @@ namespace SkripsiGabungan.Models
 {
     using System;
     using System.Collections.Generic;
-    
+    using System.ComponentModel.DataAnnotations;
+
     public partial class sumber
     {
-        public long id { get; set; }
+        public long IDSumber { get; set; }
         public Nullable<long> id_perusahaan { get; set; }
         public Nullable<long> id_tahun { get; set; }
+        [DisplayFormat(DataFormatString = "{0:N2}")]
         public Nullable<long> laba_setelah_pajak { get; set; }
+        [DisplayFormat(DataFormatString = "{0:N2}")]
         public Nullable<long> total_ekuitas { get; set; }
+        [DisplayFormat(DataFormatString = "{0:N2}")]
         public Nullable<long> EBIT { get; set; }
+        [DisplayFormat(DataFormatString = "{0:N2}")]
         public Nullable<long> penyusutan { get; set; }
+        [DisplayFormat(DataFormatString = "{0:N2}")]
         public Nullable<long> capital_employed { get; set; }
+        [DisplayFormat(DataFormatString = "{0:N2}")]
         public Nullable<long> kas { get; set; }
+        [DisplayFormat(DataFormatString = "{0:N2}")]
         public Nullable<long> bank { get; set; }
+        [DisplayFormat(DataFormatString = "{0:N2}")]
         public Nullable<long> surat_berharga_jangka_pendek { get; set; }
+        [DisplayFormat(DataFormatString = "{0:N2}")]
         public Nullable<long> current_asset { get; set; }
+        [DisplayFormat(DataFormatString = "{0:N2}")]
         public Nullable<long> current_liabilities { get; set; }
+        [DisplayFormat(DataFormatString = "{0:N2}")]
         public Nullable<long> total_piutang_usaha { get; set; }
+        [DisplayFormat(DataFormatString = "{0:N2}")]
         public Nullable<long> total_persediaan { get; set; }
+        [DisplayFormat(DataFormatString = "{0:N2}")]
         public Nullable<long> total_pendapatan_usaha { get; set; }
+        [DisplayFormat(DataFormatString = "{0:N2}")]
         public Nullable<long> total_aset { get; set; }
+        [DisplayFormat(DataFormatString = "{0:N2}")]
         public Nullable<long> kas_dan_setara_kas { get; set; }
     
-        public virtual hasil hasil { get; set; }
         public virtual perusahaan perusahaan { get; set; }
+        public virtual hasil hasil { get; set; }
         public virtual tahun tahun { get; set; }
     }
 }

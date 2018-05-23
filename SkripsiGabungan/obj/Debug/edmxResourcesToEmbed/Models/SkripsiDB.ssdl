@@ -2,9 +2,9 @@
 <Schema Namespace="tugasakhirModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
   <EntityType Name="hasil">
     <Key>
-      <PropertyRef Name="id" />
+      <PropertyRef Name="IDHasil" />
     </Key>
-    <Property Name="id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IDHasil" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="id_perusahaan" Type="bigint" />
     <Property Name="id_tahun" Type="bigint" />
     <Property Name="ROE" Type="float" />
@@ -49,9 +49,9 @@
   </EntityType>
   <EntityType Name="perusahaan">
     <Key>
-      <PropertyRef Name="id" />
+      <PropertyRef Name="IDPerusahaan" />
     </Key>
-    <Property Name="id" Type="bigint" Nullable="false" />
+    <Property Name="IDPerusahaan" Type="bigint" Nullable="false" />
     <Property Name="nama_perusahaan" Type="varchar" MaxLength="50" />
   </EntityType>
   <EntityType Name="source_ocr">
@@ -66,9 +66,9 @@
   </EntityType>
   <EntityType Name="sumber">
     <Key>
-      <PropertyRef Name="id" />
+      <PropertyRef Name="IDSumber" />
     </Key>
-    <Property Name="id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IDSumber" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="id_perusahaan" Type="bigint" />
     <Property Name="id_tahun" Type="bigint" />
     <Property Name="laba_setelah_pajak" Type="bigint" />
@@ -89,16 +89,16 @@
   </EntityType>
   <EntityType Name="tahun">
     <Key>
-      <PropertyRef Name="id" />
+      <PropertyRef Name="IDTahun" />
     </Key>
-    <Property Name="id" Type="bigint" Nullable="false" />
+    <Property Name="IDTahun" Type="bigint" Nullable="false" />
     <Property Name="tahun" Type="int" />
   </EntityType>
   <EntityType Name="testing_data_hasil">
     <Key>
-      <PropertyRef Name="id" />
+      <PropertyRef Name="IDTesting" />
     </Key>
-    <Property Name="id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IDTesting" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="ROE" Type="float" />
     <Property Name="ROI" Type="float" />
     <Property Name="cash_ratio" Type="float" />
@@ -117,7 +117,7 @@
     <End Role="hasil" Type="Self.hasil" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="perusahaan">
-        <PropertyRef Name="id" />
+        <PropertyRef Name="IDPerusahaan" />
       </Principal>
       <Dependent Role="hasil">
         <PropertyRef Name="id_perusahaan" />
@@ -129,10 +129,10 @@
     <End Role="hasil" Type="Self.hasil" Multiplicity="0..1" />
     <ReferentialConstraint>
       <Principal Role="sumber">
-        <PropertyRef Name="id" />
+        <PropertyRef Name="IDSumber" />
       </Principal>
       <Dependent Role="hasil">
-        <PropertyRef Name="id" />
+        <PropertyRef Name="IDHasil" />
       </Dependent>
     </ReferentialConstraint>
   </Association>
@@ -141,7 +141,7 @@
     <End Role="hasil" Type="Self.hasil" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="tahun">
-        <PropertyRef Name="id" />
+        <PropertyRef Name="IDTahun" />
       </Principal>
       <Dependent Role="hasil">
         <PropertyRef Name="id_tahun" />
@@ -165,7 +165,7 @@
     <End Role="sumber" Type="Self.sumber" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="perusahaan">
-        <PropertyRef Name="id" />
+        <PropertyRef Name="IDPerusahaan" />
       </Principal>
       <Dependent Role="sumber">
         <PropertyRef Name="id_perusahaan" />
@@ -177,7 +177,7 @@
     <End Role="sumber" Type="Self.sumber" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="tahun">
-        <PropertyRef Name="id" />
+        <PropertyRef Name="IDTahun" />
       </Principal>
       <Dependent Role="sumber">
         <PropertyRef Name="id_tahun" />

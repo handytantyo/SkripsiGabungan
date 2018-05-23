@@ -11,10 +11,11 @@ namespace SkripsiGabungan.Models
 {
     using System;
     using System.Collections.Generic;
-    
+    using System.ComponentModel;
+
     public partial class testing_data_hasil
     {
-        public long id { get; set; }
+        public long IDTesting { get; set; }
         public Nullable<double> ROE { get; set; }
         public Nullable<double> ROI { get; set; }
         public Nullable<double> cash_ratio { get; set; }
@@ -23,9 +24,12 @@ namespace SkripsiGabungan.Models
         public Nullable<double> PP { get; set; }
         public Nullable<double> TATO { get; set; }
         public Nullable<double> TMS_TA { get; set; }
-        public string TingkatKesehatan { get; set; }
-        public string Grade { get; set; }
         public Nullable<double> OutputANN { get; set; }
         public Nullable<double> OutputFNN { get; set; }
+
+        [DisplayName("Tingkat Kesehatan")]
+        public string TingkatKesehatan { get; set; }
+        [DisplayName("Grade")]
+        public string Grade { get; set; }
     }
 }

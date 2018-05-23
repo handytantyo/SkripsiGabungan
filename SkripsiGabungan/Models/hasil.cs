@@ -11,10 +11,11 @@ namespace SkripsiGabungan.Models
 {
     using System;
     using System.Collections.Generic;
-    
+    using System.ComponentModel;
+
     public partial class hasil
     {
-        public long id { get; set; }
+        public long IDHasil { get; set; }
         public Nullable<long> id_perusahaan { get; set; }
         public Nullable<long> id_tahun { get; set; }
         public Nullable<double> ROE { get; set; }
@@ -27,14 +28,18 @@ namespace SkripsiGabungan.Models
         public Nullable<double> TMS_TA { get; set; }
         public Nullable<double> target { get; set; }
         public Nullable<double> target_2 { get; set; }
+        [DisplayName("Tingkat Kesehatan")]
         public string tingkat_kesehatan { get; set; }
+        [DisplayName("Grade")]
         public string grade { get; set; }
     
         public virtual perusahaan perusahaan { get; set; }
         public virtual sumber sumber { get; set; }
         public virtual tahun tahun { get; set; }
 
+        [DisplayName("Nama Perusahaan")]
         public string nama_perusahaan { get; set; }
+        [DisplayName("Tahun")]
         public Nullable<int> tahun_1 { get; set; }
     }
 }

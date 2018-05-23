@@ -28,9 +28,6 @@ namespace SkripsiGabungan.Controllers
         [HttpPost]
         public ActionResult UploadFiles(IEnumerable<HttpPostedFileBase> files)
         {
-            //TextExtractor extractor = new TextExtractor();
-            //extractor.RegistrationName = "demo";
-            //extractor.RegistrationKey = "demo";
 
             foreach (var file in files)
             {
@@ -70,9 +67,6 @@ namespace SkripsiGabungan.Controllers
 
             Response.Write("<pre>");
 
-            // Write extracted text to output stream
-            //extractor.SaveTextToStream(Response.OutputStream);
-
             // Save extracted text to file
             extractor.SaveTextToFile(System.IO.Path.Combine(Server.MapPath("~/UploadedFiles"), namaFIle + "TextFIle"));
             Response.Write("</pre>");
@@ -92,8 +86,6 @@ namespace SkripsiGabungan.Controllers
         public ActionResult Create([Bind(Include = "id,ROE,ROI,cash_ratio,current_ratio,CP,PP,TATO,TMS_TA,Output,TingkatKesehatan,Grade")] testing_data_hasil testing_data_hasil)
         {
             string pdfToTxt = System.IO.File.ReadAllText(Server.MapPath("~/UploadedFiles/default.pdfTextFIle"));
-            //string pdfToTxt = ExtractTextFromPdf(extractor.ToString());
-            //string[] words = extractor.ToString().Split('/', '.');
             long labaUsaha_ = labaUsaha(pdfToTxt);
             long labaBersih_ = labaBersih(pdfToTxt);
             long kasDanSetaraKas_ = kasDanSetaraKas(pdfToTxt);
@@ -115,12 +107,12 @@ namespace SkripsiGabungan.Controllers
             testing_data_hasil.ROI = (((float)labaUsaha_ + penyusutan_) / CapitalEmployed) * 100;
             testing_data_hasil.cash_ratio = (((float)kasDanSetaraKas_ + Investasi_) / Liabilitas_) * 100;//investasi belum
             testing_data_hasil.current_ratio = ((float)AsetLancar_ / Liabilitas_) * 100;
-            //testing_data_hasil.CP = ((float)PiutangUsaha / Pendapatan) * 365;//piutang usaha belum
+            ////testing_data_hasil.CP = ((float)PiutangUsaha / Pendapatan) * 365;//piutang usaha belum
             testing_data_hasil.PP = ((float)persediaan_ / Pendapatan_) * 365;
             testing_data_hasil.TATO = ((float)Pendapatan_ / CapitalEmployed) * 100;
             testing_data_hasil.TMS_TA = ((float)Ekuitas_ / TotalAset_) * 100;
 
-            //ANN and FNN
+            #region //ANN
             double[] input = new double[3];
             input[0] = (double)testing_data_hasil.ROE;
             input[1] = (double)testing_data_hasil.ROI;
@@ -133,23 +125,53 @@ namespace SkripsiGabungan.Controllers
             double[] neth = new double[3];
             float[] outh = new float[3];            
 
-            SQLConnectionForANN(weight, bias);
-
+            SQLConnectionForMachineLearning(weight, bias, "ANN");
             outoANN = FeedForward(input, weight, bias, neth, outh);
+            #endregion
+
+            #region//FNN
+            float[,] fuzzyInput = new float[3, 3];
+            double[] norm = new double[3];
+            int[] inputPopulation = new int[] { 0, 1, 2 };//ROE, ROI, cash ratio
+            float outoFNN;
+            
+            fuzzyInput = selectedFuzzyInput(input, fuzzyInput, inputPopulation);
+            norm = Tnorm(fuzzyInput);
+            SQLConnectionForMachineLearning(weight, bias, "FNN");
+            outoFNN = FeedForward(norm, weight, bias, neth, outh);
+            #endregion
 
             testing_data_hasil.OutputANN = outoANN;
+            testing_data_hasil.OutputFNN = outoFNN;
+            testing_data_hasil.TingkatKesehatan = TingkatKesehatan((float)Math.Round(outoFNN, 1));
+            testing_data_hasil.Grade = Grade((float)Math.Round(outoFNN, 1));
 
             if (ModelState.IsValid)
             {
                 db.testing_data_hasil.Add(testing_data_hasil);
                 db.SaveChanges();
-                return RedirectToAction("Index");
+                return RedirectToAction("Result", new { Id = testing_data_hasil.IDTesting });
             }
 
             return View(testing_data_hasil);
         }
 
-        static void SQLConnectionForANN(double[] Weight, double[] Bias)
+        [HttpGet]
+        public ActionResult Result(long? id)
+        {
+            if (id == null)
+            {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            }
+            testing_data_hasil testingData = db.testing_data_hasil.Find(id);
+            if (testingData == null)
+            {
+                return HttpNotFound();
+            }
+            return View(testingData);            
+        }
+
+        static void SQLConnectionForMachineLearning(double[] Weight, double[] Bias, string Algorithm)
         {
             //sqlconnection from https://www.youtube.com/watch?v=IcD9Jffstmw
             string connStr = @"Data Source=DESKTOP-ERK0RV1\SQLEXPRESS;Initial Catalog=tugasakhir;Integrated Security=True";
@@ -157,11 +179,11 @@ namespace SkripsiGabungan.Controllers
             try
             {
                 conn.Open();
-                SqlCommand command = new SqlCommand("SELECT * FROM [Indikator] WHERE Algorithm = 'ANN'", conn);
+                SqlCommand command = new SqlCommand("SELECT * FROM [Indikator] WHERE Algorithm = '" + Algorithm + "'", conn);
                 SqlDataReader reader = command.ExecuteReader();
                 while (reader.Read())
                 {
-                    for(int weight = 0; weight < 12; weight++)
+                    for (int weight = 0; weight < 12; weight++)
                     {
                         Weight[weight] = (double)reader["Weight" + weight + ""];
                     }
@@ -176,10 +198,168 @@ namespace SkripsiGabungan.Controllers
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.Message);
+                //Console.WriteLine(ex.Message);
             }
 
             conn.Close();
+        }
+
+        static float[,] ROE(double[] input, float[,] roe, int parameter, int lowmedhigh)//[parameter, recordke-,lowmediumhigh]
+        {
+            //ROE
+            float high = 13;
+            float medium = 6.6F;
+            float low = 1;
+            if (input[parameter] >= high)
+            {
+                if (lowmedhigh == 0) roe[parameter, 0] = 0;
+                else if (lowmedhigh == 1) roe[parameter, 1] = 0;
+                else roe[parameter, 2] = 1;
+            }
+            else if (input[parameter] > medium)
+            {
+                if (lowmedhigh == 0) roe[parameter, 0] = 0;
+                else if (lowmedhigh == 1) roe[parameter, 1] = (float)(high - input[parameter]) / (float)(high - medium);
+                else roe[parameter, 2] = (float)(input[0] - medium) / (float)(high - medium);
+            }
+            else if (input[parameter] == medium)
+            {
+                if (lowmedhigh == 0) roe[parameter, 0] = 0;
+                else if (lowmedhigh == 0) roe[parameter, 1] = 1;
+                else roe[parameter, 2] = 0;
+            }
+            else if (input[parameter] > low)
+            {
+                if (lowmedhigh == 0) roe[parameter, 0] = (float)(medium - input[parameter]) / (float)(medium - low);
+                else if (lowmedhigh == 1) roe[parameter, 1] = (float)(input[parameter] - 1) / (float)(medium - low);
+                else roe[parameter, 2] = 0;
+            }
+            else
+            {
+                if (parameter == 0) roe[parameter, 0] = 1;
+                else if (parameter == 1) roe[parameter, 1] = 0;
+                else roe[parameter, 2] = 0;
+            }
+
+            return roe;
+        }
+
+        static float[,] ROI(double[] input, float[,] roi, int parameter, int lowmedhigh)
+        {
+            float high = 15F;
+            float medium = 9F;
+            float low = 1F;
+            //ROI
+            if (input[parameter] >= high)
+            {
+                if (lowmedhigh == 0) roi[parameter, 0] = 0;
+                else if (lowmedhigh == 1) roi[parameter, 1] = 0;
+                else roi[parameter, 2] = 1;
+            }
+            else if (input[parameter] > medium)
+            {
+                if (lowmedhigh == 0) roi[parameter, 0] = 0;
+                else if (lowmedhigh == 1) roi[parameter, 1] = (float)(high - input[parameter]) / (float)(high - medium);
+                else roi[parameter, 2] = (float)(input[parameter] - medium) / (float)(high - medium);
+            }
+            else if (input[parameter] == medium)
+            {
+                if (lowmedhigh == 0) roi[parameter, 0] = 0;
+                else if (lowmedhigh == 1) roi[parameter, 1] = 1;
+                else roi[parameter, 2] = 0;
+            }
+            else if (input[parameter] > low)
+            {
+                if (lowmedhigh == 0) roi[parameter, 0] = (float)(medium - input[parameter]) / (float)(medium - low);
+                else if (lowmedhigh == 1) roi[parameter, 1] = (float)(input[parameter] - 1) / (float)(medium - low);
+                else roi[parameter, 2] = 0;
+            }
+            else
+            {
+                if (lowmedhigh == 0) roi[parameter, 0] = 1;
+                else if (lowmedhigh == 1) roi[parameter, 1] = 0;
+                else roi[parameter, 2] = 0;
+            }
+            //Console.WriteLine(roi[roi_, 0]);
+
+            return roi;
+        }
+
+        static float[,] cashRatio(double[] input, float[,] cash, int parameter, int lowmedhigh)
+        {
+            float high = 35F;
+            float medium = 15F;
+            float low = 5F;
+            //cash ratio
+            if (input[parameter] >= high)
+            {
+                if (lowmedhigh == 0) cash[parameter, 0] = 0;
+                else if (lowmedhigh == 1) cash[parameter, 1] = 0;
+                else cash[parameter, 2] = 1;
+            }
+            else if (input[parameter] > medium)
+            {
+                if (lowmedhigh == 0) cash[parameter, 0] = 0;
+                else if (lowmedhigh == 1) cash[parameter, 1] = (float)(high - input[parameter]) / (float)(high - medium);
+                else cash[parameter, 2] = (float)(input[2] - medium) / (float)(high - medium);
+            }
+            else if (input[parameter] == medium)
+            {
+                if (lowmedhigh == 0) cash[parameter, 0] = 0;
+                else if (lowmedhigh == 1) cash[parameter, 1] = 1;
+                else cash[parameter, 2] = 0;
+            }
+            else if (input[parameter] > low)
+            {
+                if (lowmedhigh == 0) cash[parameter, 0] = (float)(medium - input[parameter]) / (float)(medium - low);
+                else if (lowmedhigh == 1) cash[parameter, 1] = (float)(input[parameter] - 5) / (float)(medium - low);
+                else cash[parameter, 2] = 0;
+            }
+            else
+            {
+                if (lowmedhigh == 0) cash[parameter, 0] = 1;
+                else if (lowmedhigh == 1) cash[parameter, 1] = 0;
+                else cash[parameter, 2] = 0;
+            }
+            return cash;
+        }
+
+        static float[,] selectedFuzzyInput(double[] input, float[,] fuzzyInput, int[] inputPopulation)
+        {
+            for (int Parameter = 0; Parameter < 3; Parameter++)
+            {
+                switch (inputPopulation[Parameter])
+                {
+                    case 0:
+                        for (int LowMedHigh = 0; LowMedHigh < 3; LowMedHigh++)
+                            fuzzyInput = ROE(input, fuzzyInput, Parameter, LowMedHigh); break;
+                    case 1:
+                        for (int LowMedHigh = 0; LowMedHigh < 3; LowMedHigh++)
+                            fuzzyInput = ROI(input, fuzzyInput, Parameter, LowMedHigh); break;
+                    case 2:
+                        for (int LowMedHigh = 0; LowMedHigh < 3; LowMedHigh++)
+                            fuzzyInput = cashRatio(input, fuzzyInput, Parameter, LowMedHigh); break;
+
+                }
+
+            }
+            return fuzzyInput;
+        }
+
+        static double[] Tnorm(float[,] fuzzy)//double[,]
+        {
+            double[] norm = new double[3];
+            double[] phi = new double[3];
+
+            phi[0] = (fuzzy[0, 2] + fuzzy[1, 2] + fuzzy[2, 2]) / 3;//high
+            phi[1] = (fuzzy[0, 1] + fuzzy[1, 1] + fuzzy[2, 1]) / 3;//medium
+            phi[2] = (fuzzy[0, 0] + fuzzy[1, 0] + fuzzy[2, 0]) / 3;//low
+
+            norm[0] = phi[0] / (phi[0] + phi[1] + phi[2]);
+            norm[1] = phi[1] / (phi[0] + phi[1] + phi[2]);
+            norm[2] = phi[2] / (phi[0] + phi[1] + phi[2]);
+
+            return norm;
         }
 
         static float FeedForward(double[] input, double[] weight, double[] bias, double[] neth, float[] outh)
@@ -190,7 +370,7 @@ namespace SkripsiGabungan.Controllers
 
             for (int i = 0; i < 3; i++)
             {
-                neth[i] = input[ 0] * weight[kolom] + input[1] * weight[kolom + 1] + input[2] * weight[kolom + 2] + bias[0];//sudah bener			
+                neth[i] = input[0] * weight[kolom] + input[1] * weight[kolom + 1] + input[2] * weight[kolom + 2] + bias[0];//sudah bener			
                 outh[i] = 1 / (1 + (float)Math.Exp(-neth[i]));
                 //cout<<weight[kolom]<<" "<<weight[kolom+1]<<" "<<weight[kolom+2]<<endl<<endl;
                 kolom = kolom + 3;
@@ -205,6 +385,25 @@ namespace SkripsiGabungan.Controllers
             return outo;
         }
 
+        static string TingkatKesehatan(float Hasil)
+        {
+            string result;
+            if (Hasil >= 0.69) result = "Sehat";
+            else if (Hasil >= 0.39 && Hasil < 0.7) result = "Kurang Sehat";
+            else result = "Tidak Sehat";
+
+            return result;
+        }
+
+        static string Grade(float Hasil)
+        {
+            string[] Grade = new string[] { "C", "CC", "CCC", "B", "BB", "BBB", "A", "AA", "AAA" };
+            int array = (int)Math.Round(Hasil * 10, 1);
+            string result = Grade[array - 1];
+
+            return result;
+        }
+
         static long labaUsaha(string pdfToTxt)
         {
             string kataLabaUsaha = GetStringFromLaporan("laba usaha", pdfToTxt);
@@ -212,10 +411,25 @@ namespace SkripsiGabungan.Controllers
             string labaUsaha;
             for (int i = 2; ; i++)
             {
-                if (getBetweenChunk(pdfToTxt, kataLabaUsaha, i).Length > 7 && getBetweenChunk(pdfToTxt, kataLabaUsaha, i).ToCharArray()[0] < 58)
+                //if (getBetweenChunkSubPenyusutan(pdfToTxt, kata1LabaUsaha, kata2LabaUsaha, i).Length > 7 && getBetweenChunkSubPenyusutan(pdfToTxt, kata1LabaUsaha, kata2LabaUsaha, i).ToCharArray()[0] < 58)
+                //{
+                //    labaUsaha = getBetweenChunkSubPenyusutan(pdfToTxt, kata1LabaUsaha, kata2LabaUsaha, i);
+                //    break;
+                //}
+
+                if (getBetweenChunk(pdfToTxt, kataLabaUsaha, i).Length > 5 && getBetweenChunk(pdfToTxt, kataLabaUsaha, i).ToCharArray()[0] < 58 && getBetweenChunk(pdfToTxt, kataLabaUsaha, i).ToCharArray()[1] < 58 && getBetweenChunk(pdfToTxt, kataLabaUsaha, i).ToCharArray()[2] < 58)
                 {
-                    labaUsaha = getBetweenChunk(pdfToTxt, kataLabaUsaha, i);
-                    break;
+                    if (getBetweenChunk(pdfToTxt, kataLabaUsaha, i).ToCharArray()[0] == 40)
+                    {
+                        labaUsaha = "-" + getBetweenChunk(pdfToTxt, kataLabaUsaha, i);
+                        break;
+                    }
+                    else
+                    {
+                        labaUsaha = getBetweenChunk(pdfToTxt, kataLabaUsaha, i);
+                        break;
+                    }
+
                 }
             }
 
@@ -247,10 +461,19 @@ namespace SkripsiGabungan.Controllers
             string labaBersih;
             for (int i = 2; ; i++)
             {
-                if (getBetweenChunk(pdfToTxt, kataLabaBersih, i).Length > 7 && getBetweenChunk(pdfToTxt, kataLabaBersih, i).ToCharArray()[0] < 58)
+                if (getBetweenChunk(pdfToTxt, kataLabaBersih, i).Length > 7 && getBetweenChunk(pdfToTxt, kataLabaBersih, i).ToCharArray()[0] < 58 && getBetweenChunk(pdfToTxt, kataLabaBersih, i).ToCharArray()[1] < 58 && getBetweenChunk(pdfToTxt, kataLabaBersih, i).ToCharArray()[2] < 58)
                 {
-                    labaBersih = getBetweenChunk(pdfToTxt, kataLabaBersih, i);
-                    break;
+                    if (getBetweenChunk(pdfToTxt, kataLabaBersih, i).ToCharArray()[0] == 40)
+                    {
+                        labaBersih = "-" + getBetweenChunk(pdfToTxt, kataLabaBersih, i);
+                        break;
+                    }
+                    else
+                    {
+                        labaBersih = getBetweenChunk(pdfToTxt, kataLabaBersih, i);
+                        break;
+                    }
+
                 }
             }
 
@@ -276,13 +499,22 @@ namespace SkripsiGabungan.Controllers
         }
 
         static long kasDanSetaraKas(string pdfToTxt)
-        {            
-            string kataKasSetara = GetStringFromLaporan("kas dan setara kas", pdfToTxt);
+        {
+            string[] arraykataKasSetara = GetStringFromLaporanAll2("kas dan setara kas", pdfToTxt);
             //int iKeKasSetara = getIfromDB("kas dan setara kas");
+            string kataKasSetara = arraykataKasSetara[0];
+            string kata2KasSetara = arraykataKasSetara[1];
+
             string KasSetara;
             for (int i = 2; ; i++)
             {
-                if (getBetweenChunk(pdfToTxt, kataKasSetara, i).Length > 7 && getBetweenChunk(pdfToTxt, kataKasSetara, i).ToCharArray()[0] < 58)
+                if (getBetweenChunkSubPenyusutan(pdfToTxt, kataKasSetara, kata2KasSetara, i).Length > 5 && getBetweenChunkSubPenyusutan(pdfToTxt, kataKasSetara, kata2KasSetara, i).ToCharArray()[0] < 58 && getBetweenChunkSubPenyusutan(pdfToTxt, kataKasSetara, kata2KasSetara, i).ToCharArray()[1] < 58 && getBetweenChunkSubPenyusutan(pdfToTxt, kataKasSetara, kata2KasSetara, i).ToCharArray()[2] < 58)
+                {
+                    KasSetara = getBetweenChunkSubPenyusutan(pdfToTxt, kataKasSetara, kata2KasSetara, i);
+                    break;
+                }
+
+                else if (getBetweenChunk(pdfToTxt, kataKasSetara, i).Length > 5 && getBetweenChunk(pdfToTxt, kataKasSetara, i).ToCharArray()[0] < 58 && getBetweenChunk(pdfToTxt, kataKasSetara, i).ToCharArray()[1] < 58 && getBetweenChunk(pdfToTxt, kataKasSetara, i).ToCharArray()[2] < 58)
                 {
                     KasSetara = getBetweenChunk(pdfToTxt, kataKasSetara, i);
                     break;
@@ -312,15 +544,28 @@ namespace SkripsiGabungan.Controllers
 
         static long penyusutan(string pdfToTxt)
         {
-            string kataBebanUmum = GetStringFromLaporan("penyusutan", pdfToTxt);
-            string kataPenyusutan = GetStringFromLaporan2("penyusutan", pdfToTxt);
+            string[] contoh = GetStringFromLaporanAll2("penyusutan", pdfToTxt);
+            //int iKePenyusutan = getIfromDB("penyusutan");
+
+            string kata1Penyusutan = contoh[0];
+            string kata2Penyusutan = contoh[1];
+            // string kata3Penyusutan = contoh[2];
+            //getBetweenChunk11(pdfToTxt, kata, int, iKe);
 
             string Penyusutan;
             for (int i = 2; ; i++)
             {
-                if (getBetweenChunkSubPenyusutan(pdfToTxt, kataBebanUmum, kataPenyusutan, i).Length > 7 && getBetweenChunkSubPenyusutan(pdfToTxt, kataBebanUmum, kataPenyusutan, i).ToCharArray()[0] < 58 && getBetweenChunkSubPenyusutan(pdfToTxt, kataBebanUmum, kataPenyusutan, i).ToCharArray()[1] < 58)
+                //if(kata3Penyusutan == "")
+                //{
+                //    if (getBetweenChunk3nama(pdfToTxt, kata1Penyusutan, kata2Penyusutan, kata3Penyusutan, i).Length > 5 && getBetweenChunk3nama(pdfToTxt, kata1Penyusutan, kata2Penyusutan, kata3Penyusutan, i).ToCharArray()[0] < 58 && getBetweenChunk3nama(pdfToTxt, kata1Penyusutan, kata2Penyusutan, kata3Penyusutan, i).ToCharArray()[1] < 58 && getBetweenChunk3nama(pdfToTxt, kata1Penyusutan, kata2Penyusutan, kata3Penyusutan, i).ToCharArray()[2] < 58)
+                //    {
+                //        Penyusutan = getBetweenChunk3nama(pdfToTxt, kata1Penyusutan, kata2Penyusutan, kata3Penyusutan, i);
+                //    }
+                //}
+
+                if (getBetweenChunkSubPenyusutan(pdfToTxt, kata1Penyusutan, kata2Penyusutan, i).Length > 5 && getBetweenChunkSubPenyusutan(pdfToTxt, kata1Penyusutan, kata2Penyusutan, i).ToCharArray()[0] < 58 && getBetweenChunkSubPenyusutan(pdfToTxt, kata1Penyusutan, kata2Penyusutan, i).ToCharArray()[1] < 58 && getBetweenChunkSubPenyusutan(pdfToTxt, kata1Penyusutan, kata2Penyusutan, i).ToCharArray()[2] < 58)
                 {
-                    Penyusutan = getBetweenChunkSubPenyusutan(pdfToTxt, kataBebanUmum, kataPenyusutan, i);
+                    Penyusutan = getBetweenChunkSubPenyusutan(pdfToTxt, kata1Penyusutan, kata2Penyusutan, i);
                     break;
                 }
             }
@@ -348,15 +593,40 @@ namespace SkripsiGabungan.Controllers
 
         static long persediaan(string pdfToTxt)
         {
-            string kataPersediaan = GetStringFromLaporan("persediaan", pdfToTxt);
+            string[] arraykataPersediaan = GetStringFromLaporanAll2("persediaan", pdfToTxt);
+            //int iKePersediaan = getIfromDB("persediaan");
+
+            string kata1Persediaan = arraykataPersediaan[0];
+            string kata2Persediaan = arraykataPersediaan[1];
+            //string kata3Persediaan = arraykataPersediaan[2];
+            //getBetweenChunk11(pdfToTxt, kata, int, iKe);
+
             string Persediaan;
 
-            for (int i = 2; ; i++)
+            if (kata2Persediaan == "Not Found")
             {
-                if (getBetweenChunk(pdfToTxt, kataPersediaan, i).Length > 7 && getBetweenChunk(pdfToTxt, kataPersediaan, i).ToCharArray()[0] < 58)
+                Persediaan = "0";
+            }
+            else
+            {
+                for (int i = 2; ; i++)
                 {
-                    Persediaan = getBetweenChunk(pdfToTxt, kataPersediaan, i);
-                    break;
+                    //if (getBetweenChunk3nama(pdfToTxt, kata1Persediaan, kata2Persediaan, kata3Persediaan, i).Length > 5 && getBetweenChunk3nama(pdfToTxt, kata1Persediaan, kata2Persediaan, kata3Persediaan, i).ToCharArray()[0] < 58 && getBetweenChunk3nama(pdfToTxt, kata1Persediaan, kata2Persediaan, kata3Persediaan, i).ToCharArray()[1] < 58 && getBetweenChunk3nama(pdfToTxt, kata1Persediaan, kata2Persediaan, kata3Persediaan, i).ToCharArray()[2] < 58)
+                    //{
+                    //    Persediaan = getBetweenChunk3nama(pdfToTxt, kata1Persediaan, kata2Persediaan, kata3Persediaan, i);
+                    //}
+
+                    if (getBetweenChunkSubPenyusutan(pdfToTxt, kata1Persediaan, kata2Persediaan, i).Length > 5 && getBetweenChunkSubPenyusutan(pdfToTxt, kata1Persediaan, kata2Persediaan, i).ToCharArray()[0] < 58 && getBetweenChunkSubPenyusutan(pdfToTxt, kata1Persediaan, kata2Persediaan, i).ToCharArray()[1] < 58 && getBetweenChunkSubPenyusutan(pdfToTxt, kata1Persediaan, kata2Persediaan, i).ToCharArray()[2] < 58)
+                    {
+                        Persediaan = getBetweenChunkSubPenyusutan(pdfToTxt, kata1Persediaan, kata2Persediaan, i);
+                        break;
+                    }
+
+                    else if (getBetweenChunk(pdfToTxt, kata1Persediaan, i).Length > 5 && getBetweenChunk(pdfToTxt, kata1Persediaan, i).ToCharArray()[0] < 58 && getBetweenChunk(pdfToTxt, kata1Persediaan, i).ToCharArray()[1] < 58 && getBetweenChunk(pdfToTxt, kata1Persediaan, i).ToCharArray()[2] < 58)
+                    {
+                        Persediaan = getBetweenChunk(pdfToTxt, kata1Persediaan, i);
+                        break;
+                    }
                 }
             }
 
@@ -379,19 +649,18 @@ namespace SkripsiGabungan.Controllers
             long lngPersediaan = Int64.Parse(strPersediaan);
 
             return lngPersediaan;
-        } 
+        }
 
         static long AsetLancar(string pdfToTxt)
         {
-            string kataAsetLancar = GetStringFromLaporan("aset lancar", pdfToTxt);
-            //int iKeAsetLancar = getIfromDB("aset lancar");
 
-            //getBetweenChunk11(pdfToTxt, kata, int, iKe);
-            
+            string kataAsetLancar = GetStringFromLaporan("aset lancar", pdfToTxt);
+
+
             string AsetLancar;
             for (int i = 2; ; i++)
             {
-                if (getBetweenChunk(pdfToTxt, kataAsetLancar, i).Length > 7 && getBetweenChunk(pdfToTxt, kataAsetLancar, i).ToCharArray()[0] < 58)
+                if (getBetweenChunk(pdfToTxt, kataAsetLancar, i).Length > 5 && getBetweenChunk(pdfToTxt, kataAsetLancar, i).ToCharArray()[0] < 58 && getBetweenChunk(pdfToTxt, kataAsetLancar, i).ToCharArray()[1] < 58 && getBetweenChunk(pdfToTxt, kataAsetLancar, i).ToCharArray()[2] < 58)
                 {
                     AsetLancar = getBetweenChunk(pdfToTxt, kataAsetLancar, i);
                     break;
@@ -418,21 +687,29 @@ namespace SkripsiGabungan.Controllers
             return lngAsetLancar;
         }
 
-        static long TotalAset (string pdfToTxt)
+        static long TotalAset(string pdfToTxt)
         {
-            string kataTotalAset = GetStringFromLaporan("total aset", pdfToTxt);
+            string[] arraykataTotalAset = GetStringFromLaporanAll2("total aset", pdfToTxt);
+            //string kata2TotalAset = GetStringFromLaporan2("total aset", pdfToTxt);
             //int iKeTotalAset = getIfromDB("total aset");
 
-            //getBetweenChunk11(pdfToTxt, kata, int, iKe)
+            string kata1TotalAset = arraykataTotalAset[0];
+            string kata2TotalAset = arraykataTotalAset[1];
 
             string TotalAset;
             for (int i = 2; ; i++)
             {
-                if (getBetweenChunk(pdfToTxt, kataTotalAset, i).Length > 7 && getBetweenChunk(pdfToTxt, kataTotalAset, i).ToCharArray()[0] < 58)
+                if (getBetweenChunkSubPenyusutan(pdfToTxt, kata1TotalAset, kata2TotalAset, i).Length > 5 && getBetweenChunkSubPenyusutan(pdfToTxt, kata1TotalAset, kata2TotalAset, i).ToCharArray()[0] < 58 && getBetweenChunkSubPenyusutan(pdfToTxt, kata1TotalAset, kata2TotalAset, i).ToCharArray()[1] < 58 && getBetweenChunkSubPenyusutan(pdfToTxt, kata1TotalAset, kata2TotalAset, i).ToCharArray()[2] < 58)
                 {
-                    TotalAset = getBetweenChunk(pdfToTxt, kataTotalAset, i);
+                    TotalAset = getBetweenChunkSubPenyusutan(pdfToTxt, kata1TotalAset, kata2TotalAset, i);
                     break;
                 }
+
+                //else if (getBetweenChunk(pdfToTxt, kata1TotalAset, i).Length > 5 && getBetweenChunk(pdfToTxt, kata1TotalAset, i).ToCharArray()[0] < 58 && getBetweenChunk(pdfToTxt, kata1TotalAset, i).ToCharArray()[1] < 58 && getBetweenChunk(pdfToTxt, kata1TotalAset, i).ToCharArray()[2] < 58)
+                //{
+                //    TotalAset = getBetweenChunk(pdfToTxt, kata1TotalAset, i);
+                //    break;
+                //}
             }
 
             char[] arrayTotalAset = TotalAset.ToCharArray();
@@ -456,20 +733,26 @@ namespace SkripsiGabungan.Controllers
             return lngTotalAset;
         }
 
-        static long Liabilitas (string pdfToTxt)
+        static long Liabilitas(string pdfToTxt)
         {
-            string kataLiabilitas = GetStringFromLaporan("liabilitas jangka pendek", pdfToTxt);
-            // int iKeLiabilitas = getIfromDB("liabilitas jangka pendek");
+            string[] arraykataLiabilitas = GetStringFromLaporanAll2("liabilitas jangka pendek", pdfToTxt);
+            //int iKeLiabilitas = getIfromDB("liabilitas jangka pendek");
 
-            //getBetweenChunk11(pdfToTxt, kata, int, iKe);
-         
+            string kata1Liabilitas = arraykataLiabilitas[0];
+            string kata2Liabilitas = arraykataLiabilitas[1];
 
             string Liabilitas;
             for (int i = 2; ; i++)
             {
-                if (getBetweenChunk(pdfToTxt, kataLiabilitas, i).Length > 7 && getBetweenChunk(pdfToTxt, kataLiabilitas, i).ToCharArray()[0] < 58)
+                if (getBetweenChunkSubPenyusutan(pdfToTxt, kata1Liabilitas, kata2Liabilitas, i).Length > 5 && getBetweenChunkSubPenyusutan(pdfToTxt, kata1Liabilitas, kata2Liabilitas, i).ToCharArray()[0] < 58 && getBetweenChunkSubPenyusutan(pdfToTxt, kata1Liabilitas, kata2Liabilitas, i).ToCharArray()[1] < 58 && getBetweenChunkSubPenyusutan(pdfToTxt, kata1Liabilitas, kata2Liabilitas, i).ToCharArray()[2] < 58)
                 {
-                    Liabilitas = getBetweenChunk(pdfToTxt, kataLiabilitas, i);
+                    Liabilitas = getBetweenChunkSubPenyusutan(pdfToTxt, kata1Liabilitas, kata2Liabilitas, i);
+                    break;
+                }
+
+                else if (getBetweenChunk(pdfToTxt, kata1Liabilitas, i).Length > 5 && getBetweenChunk(pdfToTxt, kata1Liabilitas, i).ToCharArray()[0] < 58 && getBetweenChunk(pdfToTxt, kata1Liabilitas, i).ToCharArray()[1] < 58 && getBetweenChunk(pdfToTxt, kata1Liabilitas, i).ToCharArray()[2] < 58)
+                {
+                    Liabilitas = getBetweenChunk(pdfToTxt, kata1Liabilitas, i);
                     break;
                 }
             }
@@ -495,18 +778,32 @@ namespace SkripsiGabungan.Controllers
             return lngLiabilitas;
         }
 
-        static long Ekuitas (string pdfToTxt)
+        static long Ekuitas(string pdfToTxt)
         {
-            string kataEkuitas = GetStringFromLaporan("total ekuitas", pdfToTxt);
+            string[] arraykataEkuitas = GetStringFromLaporanAll2("total ekuitas", pdfToTxt);
+            string kata1Ekuitas = arraykataEkuitas[0];
+            string kata2Ekuitas = arraykataEkuitas[1];
+            //string kata3Ekuitas = arraykataEkuitas[2];
 
             string Ekuitas;
             for (int i = 2; ; i++)
             {
-                if (getBetweenChunk(pdfToTxt, kataEkuitas, i).Length > 7 && getBetweenChunk(pdfToTxt, kataEkuitas, i).ToCharArray()[0] < 58)
+                //if (getBetweenChunk3nama(pdfToTxt, kata1Ekuitas, kata2Ekuitas, kata3Ekuitas, i).Length > 5 && getBetweenChunk3nama(pdfToTxt, kata1Ekuitas, kata2Ekuitas, kata3Ekuitas, i).ToCharArray()[0] < 58 && getBetweenChunk3nama(pdfToTxt, kata1Ekuitas, kata2Ekuitas, kata3Ekuitas, i).ToCharArray()[1] < 58 && getBetweenChunk3nama(pdfToTxt, kata1Ekuitas, kata2Ekuitas, kata3Ekuitas, i).ToCharArray()[2] < 58)
+                //{
+                //    Ekuitas = getBetweenChunk3nama(pdfToTxt, kata1Ekuitas, kata2Ekuitas, kata3Ekuitas, i);
+                //}
+
+                if (getBetweenChunkSubPenyusutan(pdfToTxt, kata1Ekuitas, kata2Ekuitas, i).Length > 5 && getBetweenChunkSubPenyusutan(pdfToTxt, kata1Ekuitas, kata2Ekuitas, i).ToCharArray()[0] < 58 && getBetweenChunkSubPenyusutan(pdfToTxt, kata1Ekuitas, kata2Ekuitas, i).ToCharArray()[1] < 58 && getBetweenChunkSubPenyusutan(pdfToTxt, kata1Ekuitas, kata2Ekuitas, i).ToCharArray()[2] < 58)
                 {
-                    Ekuitas = getBetweenChunk(pdfToTxt, kataEkuitas, i);
+                    Ekuitas = getBetweenChunkSubPenyusutan(pdfToTxt, kata1Ekuitas, kata2Ekuitas, i);
                     break;
                 }
+
+                //else if (getBetweenChunk(pdfToTxt, kata1Ekuitas, i).Length > 5 && getBetweenChunk(pdfToTxt, kata1Ekuitas, i).ToCharArray()[0] < 58 && getBetweenChunk(pdfToTxt, kata1Ekuitas, i).ToCharArray()[1] < 58 && getBetweenChunk(pdfToTxt, kata1Ekuitas, i).ToCharArray()[2] < 58)
+                //{
+                //    Ekuitas = getBetweenChunk(pdfToTxt, kata1Ekuitas, i);
+                //    break;
+                //}
             }
 
             char[] arrayEkuitas = Ekuitas.ToCharArray();
@@ -530,23 +827,36 @@ namespace SkripsiGabungan.Controllers
             return lngEkuitas;
         }
 
-        static long Pendapatan (string pdfToTxt)
+        static long Pendapatan(string pdfToTxt)
         {
-            string kataPendapatan = GetStringFromLaporan("total pendapatan", pdfToTxt);
+            string[] arraykataPendapatan = GetStringFromLaporanAll2("total pendapatan", pdfToTxt);
             //int iKePendapatan = getIfromDB("total pendapatan");
 
-            //getBetweenChunk11(pdfToTxt, kata, int, iKe);
-            
+            string kata1Pendapatan = arraykataPendapatan[0];
+            string kata2Pendapatan = arraykataPendapatan[1];
+            //string kata3Pendapatan = arraykataPendapatan[2];
 
             string Pendapatan;
             for (int i = 2; ; i++)
             {
-                if (getBetweenChunk(pdfToTxt, kataPendapatan, i).Length > 7 && getBetweenChunk(pdfToTxt, kataPendapatan, i).ToCharArray()[0] < 58)
+                //if (getBetweenChunk3nama(pdfToTxt, kata1Pendapatan, kata2Pendapatan, kata3Pendapatan, i).Length > 5 && getBetweenChunk3nama(pdfToTxt, kata1Pendapatan, kata2Pendapatan, kata3Pendapatan, i).ToCharArray()[0] < 58 && getBetweenChunk3nama(pdfToTxt, kata1Pendapatan, kata2Pendapatan, kata3Pendapatan, i).ToCharArray()[1] < 58 && getBetweenChunk3nama(pdfToTxt, kata1Pendapatan, kata2Pendapatan, kata3Pendapatan, i).ToCharArray()[2] < 58)
+                //{
+                //    Pendapatan = getBetweenChunk3nama(pdfToTxt, kata1Pendapatan, kata2Pendapatan, kata3Pendapatan, i);
+                //}
+
+                if (getBetweenChunkSubPenyusutan(pdfToTxt, kata1Pendapatan, kata2Pendapatan, i).Length > 5 && getBetweenChunkSubPenyusutan(pdfToTxt, kata1Pendapatan, kata2Pendapatan, i).ToCharArray()[0] < 58 && getBetweenChunkSubPenyusutan(pdfToTxt, kata1Pendapatan, kata2Pendapatan, i).ToCharArray()[1] < 58 && getBetweenChunkSubPenyusutan(pdfToTxt, kata1Pendapatan, kata2Pendapatan, i).ToCharArray()[2] < 58)
                 {
-                    Pendapatan = getBetweenChunk(pdfToTxt, kataPendapatan, i);
+                    Pendapatan = getBetweenChunkSubPenyusutan(pdfToTxt, kata1Pendapatan, kata2Pendapatan, i);
+                    break;
+                }
+
+                else if (getBetweenChunk(pdfToTxt, kata1Pendapatan, i).Length > 5 && getBetweenChunk(pdfToTxt, kata1Pendapatan, i).ToCharArray()[0] < 58 && getBetweenChunk(pdfToTxt, kata1Pendapatan, i).ToCharArray()[1] < 58 && getBetweenChunk(pdfToTxt, kata1Pendapatan, i).ToCharArray()[2] < 58)
+                {
+                    Pendapatan = getBetweenChunk(pdfToTxt, kata1Pendapatan, i);
                     break;
                 }
             }
+
             char[] arrayPendapatan = Pendapatan.ToCharArray();
             char[] arrayPendapatan2 = new char[arrayPendapatan.Length];
             int nextPendapatan = 0; //Untuk Menghilangkan titik (.) dan koma (,)
@@ -568,26 +878,39 @@ namespace SkripsiGabungan.Controllers
             return lngPendapatan;
         }
 
-        static long PihakBerelasi (string pdfToTxt)
+        static long PihakBerelasi(string pdfToTxt)
         {
-            string kataPiutangUsaha = GetStringFromLaporan("pihak berelasi", pdfToTxt);
-            string kataPihakBerelasi = GetStringFromLaporan2("pihak berelasi", pdfToTxt);
-            string kata3 = GetStringFromLaporan3("pihak berelasi", pdfToTxt);
+            string[] arraykataPihakBerelasi = GetStringFromLaporanAll("pihak berelasi", pdfToTxt);
             //int iKePihakBerelasi = getIfromDB("pihak berelasi");
+            string kata1PihakBerelasi = arraykataPihakBerelasi[0];
+            string kata2PihakBerelasi = arraykataPihakBerelasi[1];
+            string kata3PihakBerelasi = arraykataPihakBerelasi[2];
 
-            //getBetweenChunk11(pdfToTxt, kata, int, iKe);
+            string PihakBerelasi = "0";
 
-
-            string PihakBerelasi;
-            
-            for (int i = 2; ; i++)
+            if (kata1PihakBerelasi == "Not Found")
             {
-                if (getBetweenChunk3nama(pdfToTxt, kataPiutangUsaha, kataPihakBerelasi, kata3, i).Length > 7 && getBetweenChunk3nama(pdfToTxt, kataPiutangUsaha, kataPihakBerelasi, kata3, i).ToCharArray()[0] < 58)
-                {
-                    PihakBerelasi = getBetweenChunk3nama(pdfToTxt, kataPiutangUsaha, kataPihakBerelasi, kata3, i);
-                    break;
-                }
+                PihakBerelasi = "0";
             }
+            else
+            {
+                for (int i = 2; ; i++)
+                {
+                    if (getBetweenChunk3nama(pdfToTxt, kata1PihakBerelasi, kata2PihakBerelasi, kata3PihakBerelasi, i).Length > 5 && getBetweenChunk3nama(pdfToTxt, kata1PihakBerelasi, kata2PihakBerelasi, kata3PihakBerelasi, i).ToCharArray()[0] < 58 && getBetweenChunk3nama(pdfToTxt, kata1PihakBerelasi, kata2PihakBerelasi, kata3PihakBerelasi, i).ToCharArray()[1] < 58 && getBetweenChunk3nama(pdfToTxt, kata1PihakBerelasi, kata2PihakBerelasi, kata3PihakBerelasi, i).ToCharArray()[2] < 58)
+                    {
+                        PihakBerelasi = getBetweenChunk3nama(pdfToTxt, kata1PihakBerelasi, kata2PihakBerelasi, kata3PihakBerelasi, i);
+                        break;
+                    }
+
+                    else if (getBetweenChunkSubPenyusutan(pdfToTxt, kata1PihakBerelasi, kata2PihakBerelasi, i).Length >= 5 && getBetweenChunkSubPenyusutan(pdfToTxt, kata1PihakBerelasi, kata2PihakBerelasi, i).ToCharArray()[0] < 58 && getBetweenChunkSubPenyusutan(pdfToTxt, kata1PihakBerelasi, kata2PihakBerelasi, i).ToCharArray()[1] < 58 && getBetweenChunkSubPenyusutan(pdfToTxt, kata1PihakBerelasi, kata2PihakBerelasi, i).ToCharArray()[2] < 58)
+                    {
+                        PihakBerelasi = getBetweenChunkSubPenyusutan(pdfToTxt, kata1PihakBerelasi, kata2PihakBerelasi, i);
+                        break;
+                    }
+                }
+
+            }
+
             char[] arrayPihakBerelasi = PihakBerelasi.ToCharArray();
             char[] arrayPihakBerelasi2 = new char[arrayPihakBerelasi.Length];
             int nextPihakBerelasi = 0; //Untuk Menghilangkan titik (.) dan koma (,)
@@ -610,21 +933,36 @@ namespace SkripsiGabungan.Controllers
 
         static long PihakKetiga(string pdfToTxt)
         {
-            string kataPihakKetiga = GetStringFromLaporan("pihak ketiga", pdfToTxt);
-            //int iKePihakKetiga = getIfromDB("pihak ketiga");
+            string[] arraykataPihakKetiga = GetStringFromLaporanAll("pihak ketiga", pdfToTxt);
+            //int iKePihakBerelasi = getIfromDB("pihak berelasi");
+            string kata1PihakKetiga = arraykataPihakKetiga[0];
+            string kata2PihakKetiga = arraykataPihakKetiga[1];
+            string kata3PihakKetiga = arraykataPihakKetiga[2];
 
-            //getBetweenChunk11(pdfToTxt, kata, int, iKe);
-           
+            string PihakKetiga = "0";
 
-            string PihakKetiga;
-            for (int i = 2; ; i++)
+            if (kata1PihakKetiga == "Not Found")
             {
-                if (getBetweenChunk(pdfToTxt, kataPihakKetiga, i).Length > 7 && getBetweenChunk(pdfToTxt, kataPihakKetiga, i).ToCharArray()[0] < 58)
+                PihakKetiga = "0";
+            }
+            else
+            {
+                for (int i = 2; ; i++)
                 {
-                    PihakKetiga = getBetweenChunk(pdfToTxt, kataPihakKetiga, i);
-                    break;
+                    if (getBetweenChunk3nama(pdfToTxt, kata1PihakKetiga, kata2PihakKetiga, kata3PihakKetiga, i).Length > 5 && getBetweenChunk3nama(pdfToTxt, kata1PihakKetiga, kata2PihakKetiga, kata3PihakKetiga, i).ToCharArray()[0] < 58 && getBetweenChunk3nama(pdfToTxt, kata1PihakKetiga, kata2PihakKetiga, kata3PihakKetiga, i).ToCharArray()[1] < 58 && getBetweenChunk3nama(pdfToTxt, kata1PihakKetiga, kata2PihakKetiga, kata3PihakKetiga, i).ToCharArray()[2] < 58)
+                    {
+                        PihakKetiga = getBetweenChunk3nama(pdfToTxt, kata1PihakKetiga, kata2PihakKetiga, kata3PihakKetiga, i);
+                        break;
+                    }
+
+                    else if (getBetweenChunkSubPenyusutan(pdfToTxt, kata1PihakKetiga, kata2PihakKetiga, i).Length > 5 && getBetweenChunkSubPenyusutan(pdfToTxt, kata1PihakKetiga, kata2PihakKetiga, i).ToCharArray()[0] < 58 && getBetweenChunkSubPenyusutan(pdfToTxt, kata1PihakKetiga, kata2PihakKetiga, i).ToCharArray()[1] < 58)
+                    {
+                        PihakKetiga = getBetweenChunkSubPenyusutan(pdfToTxt, kata1PihakKetiga, kata2PihakKetiga, i);
+                        break;
+                    }
                 }
             }
+
             char[] arrayPihakKetiga = PihakKetiga.ToCharArray();
             char[] arrayPihakKetiga2 = new char[arrayPihakKetiga.Length];
             int nextPihakKetiga = 0; //Untuk Menghilangkan titik (.) dan koma (,)
@@ -647,18 +985,24 @@ namespace SkripsiGabungan.Controllers
 
         static long Investasi(string pdfToTxt)
         {
-            string kataInvestasi = GetStringFromLaporan("investasi jangka pendek", pdfToTxt);
-            //int iKePihakKetiga = getIfromDB("pihak ketiga");
+            string arrayKataInvestasi = GetStringFromLaporan("investasi jangka pendek", pdfToTxt);
+            string kata1Investasi = arrayKataInvestasi;
 
-            //getBetweenChunk11(pdfToTxt, kata, int, iKe);
+            string Investasi;
 
-            string Investasi = "";
-            for (int i = 2; i < 40; i++)
+            if (kata1Investasi == "Not Found")
             {
-                if (getBetweenChunk(pdfToTxt, kataInvestasi, i).Length > 7 && getBetweenChunk(pdfToTxt, kataInvestasi, i).ToCharArray()[0] < 58)
+                Investasi = "0";
+            }
+            else
+            {
+                for (int i = 2; ; i++)
                 {
-                    Investasi = getBetweenChunk(pdfToTxt, kataInvestasi, i);
-                    break;
+                    if (getBetweenChunk(pdfToTxt, kata1Investasi, i).Length > 4 && getBetweenChunk(pdfToTxt, kata1Investasi, i).ToCharArray()[0] < 58 && getBetweenChunk(pdfToTxt, kata1Investasi, i).ToCharArray()[1] < 58 && getBetweenChunk(pdfToTxt, kata1Investasi, i).ToCharArray()[2] < 58)
+                    {
+                        Investasi = getBetweenChunk(pdfToTxt, kata1Investasi, i);
+                        break;
+                    }
                 }
             }
 
@@ -690,20 +1034,81 @@ namespace SkripsiGabungan.Controllers
             return lngInvestasi;
         }
 
-        [HttpGet]
-        public ActionResult Result(long? id)
+        static void nominal(long lngKasSetara, long lngLabaBersih, long lngLabaUsaha, long lngLiabilitas, long lngPendapatan, long lngPenyusutan, long lngPersediaan, long lngAsetLancar, long lngTotalAset, long lngEkuitas, long lngPihakBerelasi, long lngPihakKetiga, long lngInvestasi, string pdfToTxt)
         {
-            if (id == null)
+            string[] jutaanRupiah = GetStringFromLaporanAll("jutaan rupiah", pdfToTxt);
+            string kataJutaanRupiah = jutaanRupiah[0];
+
+            if (jutaanRupiah[0] == "Not Found")
             {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+                lngKasSetara = lngKasSetara * 1;
+                lngLabaBersih = lngLabaBersih * 1;
+                lngLabaUsaha = lngLabaUsaha * 1;
+                lngLiabilitas = lngLiabilitas * 1;
+                lngPendapatan = lngPendapatan * 1;
+                lngPenyusutan = lngPenyusutan * 1;
+                lngPersediaan = lngPersediaan * 1;
+                lngAsetLancar = lngAsetLancar * 1;
+                lngTotalAset = lngTotalAset * 1;
+                lngEkuitas = lngEkuitas * 1;
+                lngPihakBerelasi = lngPihakBerelasi * 1;
+                lngPihakKetiga = lngPihakKetiga * 1;
+                lngInvestasi = lngInvestasi * 1;
             }
-            testing_data_hasil testingData = db.testing_data_hasil.Find(id);
-            if (testingData == null)
+            else
             {
-                return HttpNotFound();
+                lngKasSetara = lngKasSetara * 1000000;
+                lngKasSetara = lngKasSetara * 1000000;
+                lngLabaBersih = lngLabaBersih * 1000000;
+                lngLabaUsaha = lngLabaUsaha * 1000000;
+                lngLiabilitas = lngLiabilitas * 1000000;
+                lngPendapatan = lngPendapatan * 1000000;
+                lngPenyusutan = lngPenyusutan * 1000000;
+                lngPersediaan = lngPersediaan * 1000000;
+                lngAsetLancar = lngAsetLancar * 1000000;
+                lngTotalAset = lngTotalAset * 1000000;
+                lngEkuitas = lngEkuitas * 1000000;
+                lngPihakBerelasi = lngPihakBerelasi * 1000000;
+                lngPihakKetiga = lngPihakKetiga * 1000000;
+                lngInvestasi = lngInvestasi * 1000000;
             }
-            return View(testingData);            
-        }       
+
+            string[] ribuanRupiah = GetStringFromLaporanAll("ribuan rupiah", pdfToTxt);
+            string kataRibuanRupiah = ribuanRupiah[0];
+
+            if (ribuanRupiah[0] == "Not Found")
+            {
+                lngKasSetara = lngKasSetara * 1;
+                lngLabaBersih = lngLabaBersih * 1;
+                lngLabaUsaha = lngLabaUsaha * 1;
+                lngLiabilitas = lngLiabilitas * 1;
+                lngPendapatan = lngPendapatan * 1;
+                lngPenyusutan = lngPenyusutan * 1;
+                lngPersediaan = lngPersediaan * 1;
+                lngAsetLancar = lngAsetLancar * 1;
+                lngTotalAset = lngTotalAset * 1;
+                lngEkuitas = lngEkuitas * 1;
+                lngPihakBerelasi = lngPihakBerelasi * 1;
+                lngPihakKetiga = lngPihakKetiga * 1;
+                lngInvestasi = lngInvestasi * 1;
+            }
+            else
+            {
+                lngKasSetara = lngKasSetara * 1000;
+                lngLabaBersih = lngLabaBersih * 1000;
+                lngLabaUsaha = lngLabaUsaha * 1000;
+                lngLiabilitas = lngLiabilitas * 1000;
+                lngPendapatan = lngPendapatan * 1000;
+                lngPenyusutan = lngPenyusutan * 1000;
+                lngPersediaan = lngPersediaan * 1000;
+                lngAsetLancar = lngAsetLancar * 1000;
+                lngTotalAset = lngTotalAset * 1000;
+                lngEkuitas = lngEkuitas * 1000;
+                lngPihakBerelasi = lngPihakBerelasi * 1000;
+                lngPihakKetiga = lngPihakKetiga * 1000;
+                lngInvestasi = lngInvestasi * 1000;
+            }
+        }
 
         public static string ExtractTextFromPdf(string path)
         {
@@ -770,7 +1175,7 @@ namespace SkripsiGabungan.Controllers
         {
             int Start;
             int Start2 = 0;
-            int start3 = 0;
+            int Start3 = 0;
             char[] whitespace = new char[] { ' ', '\t', '\n' };
 
             if (strSource.Contains(strStart))
@@ -785,9 +1190,9 @@ namespace SkripsiGabungan.Controllers
                 Start2 = Start;
 
                 Start = strSource.IndexOf(next2, Start2) + next2.Length;
-                start3 = Start;
+                Start2 = Start;
 
-                string findwordChunk = strSource.Substring(start3, strSource.Length - start3);
+                string findwordChunk = strSource.Substring(Start2, strSource.Length - Start2);
                 string[] Chunk = findwordChunk.Split(whitespace);
                 return Chunk[HowManyChunck - 1];
             }
@@ -956,5 +1361,78 @@ namespace SkripsiGabungan.Controllers
 
         }
 
+        public static string[] GetStringFromLaporanAll(string kode, string laporanKeuangan)
+        {
+            string[] result = new string[3]{ "Not Found", "Not Found", "Not Found" };
+            List<string> namalist1 = new List<string>();
+            List<string> namaList2 = new List<string>();
+            List<string> namaList3 = new List<string>();
+            namalist1 = parameterGet(kode);
+            namaList2 = parameterGet2(kode);
+            namaList3 = parameterGet3(kode);
+            int index = 0;
+            foreach (string nama_1 in namalist1)
+            {
+                if (laporanKeuangan.Contains(nama_1))
+                {                   
+                    int j = 0;
+                    foreach (string nama_2 in namaList2)
+                    {
+                        if (laporanKeuangan.Contains(nama_2) && (j == index))
+                        {
+                            int k = 0;
+                            foreach (string nama_3 in namaList3)
+                            {
+                             
+                                //jika kalimat nama ini ada di laporan keuangan
+                                if (laporanKeuangan.Contains(nama_3) && (j == index) && (k == index))
+                                {
+                                    result[0] = nama_1;
+                                     result[1] = nama_2;
+                                    result[2] =nama_3;
+                                    return result;
+                                    //break;
+                                }
+                                k++;
+                            }
+                        }
+                        j++;
+                    }
+                }
+                index++;
+            }
+
+            return result;
+        }
+
+        public static string[] GetStringFromLaporanAll2(string kode, string laporanKeuangan)
+        {
+            string[] result = new string[2] { "Not Found", "Not Found"};
+            List<string> namalist1 = new List<string>();
+            List<string> namaList2 = new List<string>();
+            namalist1 = parameterGet(kode);
+            namaList2 = parameterGet2(kode);
+            int index = 0;
+            foreach (string nama_1 in namalist1)
+            {
+                if (laporanKeuangan.Contains(nama_1))
+                {
+                    int j = 0;
+                    foreach (string nama_2 in namaList2)
+                    {
+                        if (laporanKeuangan.Contains(nama_2) && (j == index))
+                        {
+
+                            result[0] = nama_1;
+                            result[1] = nama_2;
+                        }
+                        j++;
+                    }
+                }
+                index++;
+            }
+
+            return result;
+        }
     }
 }

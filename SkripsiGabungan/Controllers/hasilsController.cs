@@ -29,23 +29,23 @@ namespace SkripsiGabungan.Controllers
                 //List<hasil> empList = db.hasils.ToList<hasil>();
                 //var empList = db.hasils.OrderBy(a => a.id).ToList();
                 var join = (from hasil in db.hasils
-                            join perusahaan in db.perusahaans on hasil.id_perusahaan equals perusahaan.id
-                            join tahun in db.tahuns on hasil.id_tahun equals tahun.id
-                            select new { hasil.id, perusahaan.nama_perusahaan, tahun.tahun1, hasil.ROE, hasil.ROI, hasil.tingkat_kesehatan, hasil.grade });
+                            join perusahaan in db.perusahaans on hasil.id_perusahaan equals perusahaan.IDPerusahaan
+                            join tahun in db.tahuns on hasil.id_tahun equals tahun.IDTahun
+                            select new { hasil.IDHasil, perusahaan.nama_perusahaan, tahun.tahun1, hasil.ROE, hasil.ROI, hasil.tingkat_kesehatan, hasil.grade });
                 //hasil.id digunakan untuk dipanggil function lain
                 var list = new List<hasil>();
                 foreach (var hasils in join)
                 {
                     list.Add(new hasil()
                     {
-                        id = hasils.id,
+                        IDHasil = hasils.IDHasil,
                         nama_perusahaan = hasils.nama_perusahaan,
                         tahun_1 = hasils.tahun1,
                         grade = hasils.grade,
                         tingkat_kesehatan = hasils.tingkat_kesehatan
                     });
                 }
-                list.OrderBy(a => a.id).ToList();
+                list.OrderBy(a => a.IDHasil).ToList();
                 return Json(new { data = list }, JsonRequestBehavior.AllowGet);
             }
         }
@@ -68,9 +68,9 @@ namespace SkripsiGabungan.Controllers
         // GET: hasils/Create
         public ActionResult Create()
         {
-            ViewBag.id_perusahaan = new SelectList(db.perusahaans, "id", "nama_perusahaan");
-            ViewBag.id = new SelectList(db.sumbers, "id", "id");
-            ViewBag.id_tahun = new SelectList(db.tahuns, "id", "id");
+            ViewBag.id_perusahaan = new SelectList(db.perusahaans, "IDPerusahaan", "nama_perusahaan");
+            ViewBag.IDHasil = new SelectList(db.sumbers, "IDSumber", "IDSumber");
+            ViewBag.id_tahun = new SelectList(db.tahuns, "IDTahun", "IDTahun");
             return View();
         }
 
@@ -79,7 +79,7 @@ namespace SkripsiGabungan.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "id,id_perusahaan,id_tahun,ROE,ROI,cash_ratio,current_ratio,CP,PP,TATO,TMS_TA,target,target_2,tingkat_kesehatan,grade")] hasil hasil)
+        public ActionResult Create([Bind(Include = "IDHasil,id_perusahaan,id_tahun,ROE,ROI,cash_ratio,current_ratio,CP,PP,TATO,TMS_TA,target,target_2,tingkat_kesehatan,grade")] hasil hasil)
         {
             if (ModelState.IsValid)
             {
@@ -88,9 +88,9 @@ namespace SkripsiGabungan.Controllers
                 return RedirectToAction("Index");
             }
 
-            ViewBag.id_perusahaan = new SelectList(db.perusahaans, "id", "nama_perusahaan", hasil.id_perusahaan);
-            ViewBag.id = new SelectList(db.sumbers, "id", "id", hasil.id);
-            ViewBag.id_tahun = new SelectList(db.tahuns, "id", "id", hasil.id_tahun);
+            ViewBag.id_perusahaan = new SelectList(db.perusahaans, "IDPerusahaan", "nama_perusahaan", hasil.id_perusahaan);
+            ViewBag.IDHasil = new SelectList(db.sumbers, "IDSumber", "IDSumber", hasil.IDHasil);
+            ViewBag.id_tahun = new SelectList(db.tahuns, "IDTahun", "IDTahun", hasil.id_tahun);
             return View(hasil);
         }
 
@@ -106,9 +106,9 @@ namespace SkripsiGabungan.Controllers
             {
                 return HttpNotFound();
             }
-            ViewBag.id_perusahaan = new SelectList(db.perusahaans, "id", "nama_perusahaan", hasil.id_perusahaan);
-            ViewBag.id = new SelectList(db.sumbers, "id", "id", hasil.id);
-            ViewBag.id_tahun = new SelectList(db.tahuns, "id", "id", hasil.id_tahun);
+            ViewBag.id_perusahaan = new SelectList(db.perusahaans, "IDPerusahaan", "nama_perusahaan", hasil.id_perusahaan);
+            ViewBag.IDHasil = new SelectList(db.sumbers, "IDSumber", "IDSumber", hasil.IDHasil);
+            ViewBag.id_tahun = new SelectList(db.tahuns, "IDTahun", "IDTahun", hasil.id_tahun);
             return View(hasil);
         }
 
@@ -117,7 +117,7 @@ namespace SkripsiGabungan.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "id,id_perusahaan,id_tahun,ROE,ROI,cash_ratio,current_ratio,CP,PP,TATO,TMS_TA,target,target_2,tingkat_kesehatan,grade")] hasil hasil)
+        public ActionResult Edit([Bind(Include = "IDHasil,id_perusahaan,id_tahun,ROE,ROI,cash_ratio,current_ratio,CP,PP,TATO,TMS_TA,target,target_2,tingkat_kesehatan,grade")] hasil hasil)
         {
             if (ModelState.IsValid)
             {
@@ -125,9 +125,9 @@ namespace SkripsiGabungan.Controllers
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
-            ViewBag.id_perusahaan = new SelectList(db.perusahaans, "id", "nama_perusahaan", hasil.id_perusahaan);
-            ViewBag.id = new SelectList(db.sumbers, "id", "id", hasil.id);
-            ViewBag.id_tahun = new SelectList(db.tahuns, "id", "id", hasil.id_tahun);
+            ViewBag.id_perusahaan = new SelectList(db.perusahaans, "IDPerusahaan", "nama_perusahaan", hasil.id_perusahaan);
+            ViewBag.IDHasil = new SelectList(db.sumbers, "IDSumber", "IDSumber", hasil.IDHasil);
+            ViewBag.id_tahun = new SelectList(db.tahuns, "IDTahun", "IDTahun", hasil.id_tahun);
             return View(hasil);
         }
 
