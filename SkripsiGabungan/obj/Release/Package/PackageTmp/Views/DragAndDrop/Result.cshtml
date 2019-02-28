@@ -1,0 +1,102 @@
+﻿@model SkripsiGabungan.Models.testing_data_hasil
+
+@{
+    ViewBag.Title = "Result";
+}
+
+<h2>Hasil</h2>
+
+<div>
+    <div class="row">
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.ROE):
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.ROE)
+            </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.ROI) :
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.ROI)
+            </dd>
+
+            <dt>
+                Cash Ratio :
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.cash_ratio)
+            </dd>
+            <dt>
+                Current Ratio :
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.current_ratio)
+            </dd>
+
+            <dt>
+                CP :
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.CP)
+            </dd>
+
+            <dt>
+                PP :
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.PP)
+            </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.TATO) :
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.TATO)
+            </dd>
+
+            <dt>
+                TMS TA :
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.TMS_TA)
+            </dd>
+            @*<dt>
+                @Html.DisplayNameFor(model => model.OutputANN) :
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.OutputANN)
+            </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.OutputFNN) :
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.OutputFNN)
+            </dd>*@
+            <dt>
+                @Html.DisplayNameFor(model => model.TingkatKesehatan) :
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.TingkatKesehatan)
+            </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.Grade) :
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Grade)
+            </dd>
+        </dl>
+    </div>
+</div>

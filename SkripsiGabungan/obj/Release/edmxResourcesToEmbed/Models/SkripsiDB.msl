@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="tugasakhirModelStoreContainer" CdmEntityContainer="tugasakhirEntities">
+    <EntitySetMapping Name="mappings">
+      <EntityTypeMapping TypeName="tugasakhirModel.mapping">
+        <MappingFragment StoreEntitySet="mapping">
+          <ScalarProperty Name="nama_mapping" ColumnName="nama_mapping" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="source_ocr">
+      <EntityTypeMapping TypeName="tugasakhirModel.source_ocr">
+        <MappingFragment StoreEntitySet="source_ocr">
+          <ScalarProperty Name="nama_3" ColumnName="nama_3" />
+          <ScalarProperty Name="nama_2" ColumnName="nama_2" />
+          <ScalarProperty Name="nama" ColumnName="nama" />
+          <ScalarProperty Name="id_mapping" ColumnName="id_mapping" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Indikators">
+      <EntityTypeMapping TypeName="tugasakhirModel.Indikator">
+        <MappingFragment StoreEntitySet="Indikator">
+          <ScalarProperty Name="Bias1" ColumnName="Bias1" />
+          <ScalarProperty Name="Bias0" ColumnName="Bias0" />
+          <ScalarProperty Name="Weight11" ColumnName="Weight11" />
+          <ScalarProperty Name="Weight10" ColumnName="Weight10" />
+          <ScalarProperty Name="Weight9" ColumnName="Weight9" />
+          <ScalarProperty Name="Weight8" ColumnName="Weight8" />
+          <ScalarProperty Name="Weight7" ColumnName="Weight7" />
+          <ScalarProperty Name="Weight6" ColumnName="Weight6" />
+          <ScalarProperty Name="Weight5" ColumnName="Weight5" />
+          <ScalarProperty Name="Weight4" ColumnName="Weight4" />
+          <ScalarProperty Name="Weight3" ColumnName="Weight3" />
+          <ScalarProperty Name="Weight2" ColumnName="Weight2" />
+          <ScalarProperty Name="Weight1" ColumnName="Weight1" />
+          <ScalarProperty Name="Weight0" ColumnName="Weight0" />
+          <ScalarProperty Name="Algorithm" ColumnName="Algorithm" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sumbers">
+      <EntityTypeMapping TypeName="tugasakhirModel.sumber">
+        <MappingFragment StoreEntitySet="sumber">
+          <ScalarProperty Name="kas_dan_setara_kas" ColumnName="kas_dan_setara_kas" />
+          <ScalarProperty Name="total_aset" ColumnName="total_aset" />
+          <ScalarProperty Name="total_pendapatan_usaha" ColumnName="total_pendapatan_usaha" />
+          <ScalarProperty Name="total_persediaan" ColumnName="total_persediaan" />
+          <ScalarProperty Name="total_piutang_usaha" ColumnName="total_piutang_usaha" />
+          <ScalarProperty Name="current_liabilities" ColumnName="current_liabilities" />
+          <ScalarProperty Name="current_asset" ColumnName="current_asset" />
+          <ScalarProperty Name="surat_berharga_jangka_pendek" ColumnName="surat_berharga_jangka_pendek" />
+          <ScalarProperty Name="bank" ColumnName="bank" />
+          <ScalarProperty Name="kas" ColumnName="kas" />
+          <ScalarProperty Name="capital_employed" ColumnName="capital_employed" />
+          <ScalarProperty Name="penyusutan" ColumnName="penyusutan" />
+          <ScalarProperty Name="EBIT" ColumnName="EBIT" />
+          <ScalarProperty Name="total_ekuitas" ColumnName="total_ekuitas" />
+          <ScalarProperty Name="laba_setelah_pajak" ColumnName="laba_setelah_pajak" />
+          <ScalarProperty Name="id_tahun" ColumnName="id_tahun" />
+          <ScalarProperty Name="id_perusahaan" ColumnName="id_perusahaan" />
+          <ScalarProperty Name="IDSumber" ColumnName="IDSumber" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="perusahaans">
+      <EntityTypeMapping TypeName="tugasakhirModel.perusahaan">
+        <MappingFragment StoreEntitySet="perusahaan">
+          <ScalarProperty Name="nama_perusahaan" ColumnName="nama_perusahaan" />
+          <ScalarProperty Name="IDPerusahaan" ColumnName="IDPerusahaan" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="hasils">
+      <EntityTypeMapping TypeName="tugasakhirModel.hasil">
+        <MappingFragment StoreEntitySet="hasil">
+          <ScalarProperty Name="grade" ColumnName="grade" />
+          <ScalarProperty Name="tingkat_kesehatan" ColumnName="tingkat_kesehatan" />
+          <ScalarProperty Name="target_2" ColumnName="target_2" />
+          <ScalarProperty Name="target" ColumnName="target" />
+          <ScalarProperty Name="TMS_TA" ColumnName="TMS_TA" />
+          <ScalarProperty Name="TATO" ColumnName="TATO" />
+          <ScalarProperty Name="PP" ColumnName="PP" />
+          <ScalarProperty Name="CP" ColumnName="CP" />
+          <ScalarProperty Name="current_ratio" ColumnName="current_ratio" />
+          <ScalarProperty Name="cash_ratio" ColumnName="cash_ratio" />
+          <ScalarProperty Name="ROI" ColumnName="ROI" />
+          <ScalarProperty Name="ROE" ColumnName="ROE" />
+          <ScalarProperty Name="id_tahun" ColumnName="id_tahun" />
+          <ScalarProperty Name="id_perusahaan" ColumnName="id_perusahaan" />
+          <ScalarProperty Name="IDHasil" ColumnName="IDHasil" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tahuns">
+      <EntityTypeMapping TypeName="tugasakhirModel.tahun">
+        <MappingFragment StoreEntitySet="tahun">
+          <ScalarProperty Name="tahun1" ColumnName="tahun" />
+          <ScalarProperty Name="IDTahun" ColumnName="IDTahun" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="testing_data_hasil">
+      <EntityTypeMapping TypeName="tugasakhirModel.testing_data_hasil">
+        <MappingFragment StoreEntitySet="testing_data_hasil">
+          <ScalarProperty Name="Grade" ColumnName="Grade" />
+          <ScalarProperty Name="TingkatKesehatan" ColumnName="TingkatKesehatan" />
+          <ScalarProperty Name="OutputFNN" ColumnName="OutputFNN" />
+          <ScalarProperty Name="OutputANN" ColumnName="OutputANN" />
+          <ScalarProperty Name="TMS_TA" ColumnName="TMS_TA" />
+          <ScalarProperty Name="TATO" ColumnName="TATO" />
+          <ScalarProperty Name="PP" ColumnName="PP" />
+          <ScalarProperty Name="CP" ColumnName="CP" />
+          <ScalarProperty Name="current_ratio" ColumnName="current_ratio" />
+          <ScalarProperty Name="cash_ratio" ColumnName="cash_ratio" />
+          <ScalarProperty Name="ROI" ColumnName="ROI" />
+          <ScalarProperty Name="ROE" ColumnName="ROE" />
+          <ScalarProperty Name="IDTesting" ColumnName="IDTesting" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

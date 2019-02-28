@@ -22,7 +22,7 @@ namespace SkripsiGabungan.Controllers
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Silahkan Hubungi Admin Dibawah ini.";
 
             return View();
         }

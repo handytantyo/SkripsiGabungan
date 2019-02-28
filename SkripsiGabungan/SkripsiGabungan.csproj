@@ -60,6 +60,9 @@
     <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
+    <Reference Include="Highcharts.Web.Mvc, Version=6.1.1.0, Culture=neutral, PublicKeyToken=90b74bd27a557bd3, processorArchitecture=MSIL">
+      <HintPath>..\packages\Highsoft.Highcharts.6.1.1.27\lib\net40\Highcharts.Web.Mvc.dll</HintPath>
+    </Reference>
     <Reference Include="itextsharp, Version=5.5.13.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
       <HintPath>..\packages\iTextSharp.5.5.13\lib\itextsharp.dll</HintPath>
     </Reference>
@@ -161,6 +164,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\ClassificationController.cs" />
     <Compile Include="Controllers\DragAndDropController.cs" />
     <Compile Include="Controllers\hasilsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
@@ -246,6 +250,7 @@
     <Content Include="Content\themes\base\theme.css" />
     <Content Include="Content\themes\base\tooltip.css" />
     <Content Include="favicon.ico" />
+    <Content Include="financialicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
@@ -271,7 +276,12 @@
     <Content Include="Models\SkripsiDB.edmx.diagram">
       <DependentUpon>SkripsiDB.edmx</DependentUpon>
     </Content>
+    <None Include="Properties\PublishProfiles\financialcheckup - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\financialcheckup - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\financialcheckup - Web Deploy1.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\Chart\exporting.js" />
+    <Content Include="Scripts\Chart\highcharts.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
@@ -312,6 +322,9 @@
     <Content Include="Views\hasils\Details.cshtml" />
     <Content Include="Views\hasils\Edit.cshtml" />
     <Content Include="Views\hasils\Index.cshtml" />
+    <Content Include="Views\Classification\Create.cshtml" />
+    <Content Include="Views\Classification\Edit.cshtml" />
+    <Content Include="Views\Classification\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="tugasakhirEntities-Web.config Connection String" description="tugasakhirEntities Connection String used in web.config by the application to access the database." defaultValue="Data Source=tugasakhirserver.database.windows.net;Initial Catalog=tugasakhirDB;User ID=handy.tantyo14;Password=Admin2014" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\Kuliah\\Semester\ 8\\GitHub\ Skripsi\\SkripsiGabungan\\SkripsiGabungan\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='tugasakhirEntities']/@connectionString" />
+  </parameter>
+</parameters>

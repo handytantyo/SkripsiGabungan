@@ -89,17 +89,19 @@ namespace SkripsiGabungan.Controllers
             long labaUsaha_ = labaUsaha(pdfToTxt);
             long labaBersih_ = labaBersih(pdfToTxt);
             long kasDanSetaraKas_ = kasDanSetaraKas(pdfToTxt);
-            long penyusutan_ = penyusutan(pdfToTxt);
+            long penyusutan_ = penyusutan(pdfToTxt);//masih error
             long persediaan_ = persediaan(pdfToTxt);
             long AsetLancar_ = AsetLancar(pdfToTxt);
             long TotalAset_ = TotalAset(pdfToTxt);
             long Liabilitas_ = Liabilitas(pdfToTxt);
             long Ekuitas_ = Ekuitas(pdfToTxt);
             long Pendapatan_ = Pendapatan(pdfToTxt);
-            //long PihakBerelasi_ = PihakBerelasi(pdfToTxt);
-            //long PihakKetiga_ = PihakKetiga(pdfToTxt);
+            long PihakBerelasi_ = PihakBerelasi(pdfToTxt);
+            long PihakKetiga_ = PihakKetiga(pdfToTxt);
             long Investasi_ = Investasi(pdfToTxt);
+
             long CapitalEmployed = TotalAset_ - Liabilitas_;
+            long PiutangUsaha = PihakBerelasi_ + PihakKetiga_;
 
             var Indikators = db.Indikators;
 
@@ -107,11 +109,11 @@ namespace SkripsiGabungan.Controllers
             testing_data_hasil.ROI = (((float)labaUsaha_ + penyusutan_) / CapitalEmployed) * 100;
             testing_data_hasil.cash_ratio = (((float)kasDanSetaraKas_ + Investasi_) / Liabilitas_) * 100;//investasi belum
             testing_data_hasil.current_ratio = ((float)AsetLancar_ / Liabilitas_) * 100;
-            ////testing_data_hasil.CP = ((float)PiutangUsaha / Pendapatan) * 365;//piutang usaha belum
+            testing_data_hasil.CP = ((float)PiutangUsaha / Pendapatan_) * 365;
             testing_data_hasil.PP = ((float)persediaan_ / Pendapatan_) * 365;
             testing_data_hasil.TATO = ((float)Pendapatan_ / CapitalEmployed) * 100;
             testing_data_hasil.TMS_TA = ((float)Ekuitas_ / TotalAset_) * 100;
-
+            
             #region //ANN
             double[] input = new double[3];
             input[0] = (double)testing_data_hasil.ROE;
@@ -544,28 +546,30 @@ namespace SkripsiGabungan.Controllers
 
         static long penyusutan(string pdfToTxt)
         {
-            string[] contoh = GetStringFromLaporanAll2("penyusutan", pdfToTxt);
+            string[] contoh = GetStringFromLaporanAll("penyusutan", pdfToTxt);
             //int iKePenyusutan = getIfromDB("penyusutan");
 
             string kata1Penyusutan = contoh[0];
             string kata2Penyusutan = contoh[1];
-            // string kata3Penyusutan = contoh[2];
+            string kata3Penyusutan = contoh[2];
             //getBetweenChunk11(pdfToTxt, kata, int, iKe);
 
             string Penyusutan;
             for (int i = 2; ; i++)
             {
-                //if(kata3Penyusutan == "")
-                //{
-                //    if (getBetweenChunk3nama(pdfToTxt, kata1Penyusutan, kata2Penyusutan, kata3Penyusutan, i).Length > 5 && getBetweenChunk3nama(pdfToTxt, kata1Penyusutan, kata2Penyusutan, kata3Penyusutan, i).ToCharArray()[0] < 58 && getBetweenChunk3nama(pdfToTxt, kata1Penyusutan, kata2Penyusutan, kata3Penyusutan, i).ToCharArray()[1] < 58 && getBetweenChunk3nama(pdfToTxt, kata1Penyusutan, kata2Penyusutan, kata3Penyusutan, i).ToCharArray()[2] < 58)
-                //    {
-                //        Penyusutan = getBetweenChunk3nama(pdfToTxt, kata1Penyusutan, kata2Penyusutan, kata3Penyusutan, i);
-                //    }
-                //}
-
-                if (getBetweenChunkSubPenyusutan(pdfToTxt, kata1Penyusutan, kata2Penyusutan, i).Length > 5 && getBetweenChunkSubPenyusutan(pdfToTxt, kata1Penyusutan, kata2Penyusutan, i).ToCharArray()[0] < 58 && getBetweenChunkSubPenyusutan(pdfToTxt, kata1Penyusutan, kata2Penyusutan, i).ToCharArray()[1] < 58 && getBetweenChunkSubPenyusutan(pdfToTxt, kata1Penyusutan, kata2Penyusutan, i).ToCharArray()[2] < 58)
+                
+                if (getBetweenChunk3nama(pdfToTxt, kata1Penyusutan, kata2Penyusutan, kata3Penyusutan, i).Length > 5 && getBetweenChunk3nama(pdfToTxt, kata1Penyusutan, kata2Penyusutan, kata3Penyusutan, i).ToCharArray()[0] < 58 && getBetweenChunk3nama(pdfToTxt, kata1Penyusutan, kata2Penyusutan, kata3Penyusutan, i).ToCharArray()[1] < 58 && getBetweenChunk3nama(pdfToTxt, kata1Penyusutan, kata2Penyusutan, kata3Penyusutan, i).ToCharArray()[2] < 58)
+                {
+                    Penyusutan = getBetweenChunk3nama(pdfToTxt, kata1Penyusutan, kata2Penyusutan, kata3Penyusutan, i);
+                } 
+                else if (getBetweenChunkSubPenyusutan(pdfToTxt, kata1Penyusutan, kata2Penyusutan, i).Length > 5 && getBetweenChunkSubPenyusutan(pdfToTxt, kata1Penyusutan, kata2Penyusutan, i).ToCharArray()[0] < 58 && getBetweenChunkSubPenyusutan(pdfToTxt, kata1Penyusutan, kata2Penyusutan, i).ToCharArray()[1] < 58 && getBetweenChunkSubPenyusutan(pdfToTxt, kata1Penyusutan, kata2Penyusutan, i).ToCharArray()[2] < 58)
                 {
                     Penyusutan = getBetweenChunkSubPenyusutan(pdfToTxt, kata1Penyusutan, kata2Penyusutan, i);
+                    break;
+                }
+                else if (i > 60)
+                {
+                    Penyusutan = "0";
                     break;
                 }
             }
@@ -907,7 +911,11 @@ namespace SkripsiGabungan.Controllers
                         PihakBerelasi = getBetweenChunkSubPenyusutan(pdfToTxt, kata1PihakBerelasi, kata2PihakBerelasi, i);
                         break;
                     }
-                }
+                    else if (i > 60)
+                    {
+                        PihakBerelasi = "0";
+                    }
+                }                
 
             }
 
@@ -959,6 +967,10 @@ namespace SkripsiGabungan.Controllers
                     {
                         PihakKetiga = getBetweenChunkSubPenyusutan(pdfToTxt, kata1PihakKetiga, kata2PihakKetiga, i);
                         break;
+                    }
+                    else if (i > 60)
+                    {
+                        PihakKetiga = "0";
                     }
                 }
             }

@@ -12,19 +12,28 @@ namespace SkripsiGabungan.Models
     using System;
     using System.Collections.Generic;
     using System.ComponentModel;
+    using System.ComponentModel.DataAnnotations;
 
     public partial class hasil
     {
         public long IDHasil { get; set; }
         public Nullable<long> id_perusahaan { get; set; }
         public Nullable<long> id_tahun { get; set; }
+        [DisplayFormat(DataFormatString = "{0:N2}")]
         public Nullable<double> ROE { get; set; }
+        [DisplayFormat(DataFormatString = "{0:N2}")]
         public Nullable<double> ROI { get; set; }
+        [DisplayFormat(DataFormatString = "{0:N2}")]
         public Nullable<double> cash_ratio { get; set; }
+        [DisplayFormat(DataFormatString = "{0:N2}")]
         public Nullable<double> current_ratio { get; set; }
+        [DisplayFormat(DataFormatString = "{0:N2}")]
         public Nullable<double> CP { get; set; }
+        [DisplayFormat(DataFormatString = "{0:N2}")]
         public Nullable<double> PP { get; set; }
+        [DisplayFormat(DataFormatString = "{0:N2}")]
         public Nullable<double> TATO { get; set; }
+        [DisplayFormat(DataFormatString = "{0:N2}")]
         public Nullable<double> TMS_TA { get; set; }
         public Nullable<double> target { get; set; }
         public Nullable<double> target_2 { get; set; }

@@ -1,0 +1,64 @@
+﻿
+@{
+    ViewBag.Title = "OCR";
+}
+
+<h2>Drag and drop upload</h2>
+<p>Pada proses Ekstraksi dalam Implementasi ETL menggunakan Fitur PDFExtractor dari ByteScout Technology</p>
+<div id="dropArea">
+    Drop Your file
+</div>
+<h4>Uploaded Files: </h4>
+<ul class="list-group" id="uploadList"></ul>
+<button type="button" name="button" class="btn-block" onclick="location.href='@Url.Action("Create","DragAndDrop")'">OCR</button>
+
+
+<style>
+    #dropArea {
+        background: #b5b5b5;
+        border: black dashed;
+        height: 50px;
+        text-align: center;
+        color: #ffffff;
+        padding-top: 12px;
+    }
+
+    .active-drop {
+        background: #77bafa !important;
+        border: solid 2px blue !important;
+        opacity: .5;
+        color: black !important
+    }
+</style>
+
+@section Scripts{
+
+    <script src="~/Scripts/jquery.filedrop.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $('#dropArea').filedrop({
+                url: '/DragAndDrop/UploadFiles', @*'@Url.Action("UploadFiles")',*@
+                allowedfiletypes: ['image/jpeg', 'image/png', 'image/gif', 'application/pdf'],
+                allowedfileextensions: ['.jpg', '.jpeg', '.png', '.gif', '.pdf'],
+                paramname: 'files',
+                maxfiles: 5,
+                maxfilesize: 5, //in MB
+                dragOver: function () {
+                    $('#dropArea').addClass('active-drop');
+                },
+                dragLeave: function () {
+                    $('#dropArea').removeClass('active-drop');
+                },
+                drop: function () {
+                    $('#dropArea').removeClass('active-drop');
+                },
+                afterAll: function (e) {
+                    $('#dropArea').html('file(s) uploaded succesfully');
+                },
+                uploadFinished: function (i, file, response, time) {
+                    $('#uploadList').append('<li class="list-group-item">'+file.name+'</li>');
+                }
+            })
+        })
+    </script>
+}

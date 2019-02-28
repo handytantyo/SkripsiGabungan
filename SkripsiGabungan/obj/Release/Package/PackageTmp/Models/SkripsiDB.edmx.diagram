@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="ff938491706845238a49345fdd99cdd1" Name="Diagram1">
+        <EntityTypeShape EntityType="tugasakhirModel.mapping" Width="1.5" PointX="5.375" PointY="1.25" />
+        <EntityTypeShape EntityType="tugasakhirModel.source_ocr" Width="1.5" PointX="7.625" PointY="0.875" />
+        <AssociationConnector Association="tugasakhirModel.FK_source_ocr_mapping" />
+        <EntityTypeShape EntityType="tugasakhirModel.Indikator" Width="1.5" PointX="5.375" PointY="4.75" />
+        <EntityTypeShape EntityType="tugasakhirModel.sumber" Width="1.5" PointX="3" PointY="0.75" />
+        <EntityTypeShape EntityType="tugasakhirModel.perusahaan" Width="1.5" PointX="2.625" PointY="6.375" />
+        <AssociationConnector Association="tugasakhirModel.FK_sumber_perusahaan1" />
+        <EntityTypeShape EntityType="tugasakhirModel.hasil" Width="1.5" PointX="0.625" PointY="0.5" />
+        <EntityTypeShape EntityType="tugasakhirModel.tahun" Width="1.5" PointX="0.5" PointY="6.5" />
+        <AssociationConnector Association="tugasakhirModel.FK_hasil_perusahaan1" />
+        <AssociationConnector Association="tugasakhirModel.FK_hasil_sumber" />
+        <AssociationConnector Association="tugasakhirModel.FK_hasil_tahun1" />
+        <AssociationConnector Association="tugasakhirModel.FK_sumber_tahun1" />
+        <EntityTypeShape EntityType="tugasakhirModel.testing_data_hasil" Width="1.5" PointX="7.375" PointY="4.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

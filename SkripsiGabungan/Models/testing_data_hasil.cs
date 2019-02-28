@@ -12,19 +12,29 @@ namespace SkripsiGabungan.Models
     using System;
     using System.Collections.Generic;
     using System.ComponentModel;
+    using System.ComponentModel.DataAnnotations;
 
     public partial class testing_data_hasil
     {
         public long IDTesting { get; set; }
+        [DisplayFormat(DataFormatString = "{0:N2}")]
         public Nullable<double> ROE { get; set; }
+        [DisplayFormat(DataFormatString = "{0:N2}")]
         public Nullable<double> ROI { get; set; }
+        [DisplayFormat(DataFormatString = "{0:N2}")]
         public Nullable<double> cash_ratio { get; set; }
+        [DisplayFormat(DataFormatString = "{0:N2}")]
         public Nullable<double> current_ratio { get; set; }
+        [DisplayFormat(DataFormatString = "{0:N2}")]
         public Nullable<double> CP { get; set; }
+        [DisplayFormat(DataFormatString = "{0:N2}")]
         public Nullable<double> PP { get; set; }
+        [DisplayFormat(DataFormatString = "{0:N2}")]
         public Nullable<double> TATO { get; set; }
+        [DisplayFormat(DataFormatString = "{0:N2}")]
         public Nullable<double> TMS_TA { get; set; }
         public Nullable<double> OutputANN { get; set; }
+        [DisplayFormat(DataFormatString = "{0:N2}")]
         public Nullable<double> OutputFNN { get; set; }
 
         [DisplayName("Tingkat Kesehatan")]

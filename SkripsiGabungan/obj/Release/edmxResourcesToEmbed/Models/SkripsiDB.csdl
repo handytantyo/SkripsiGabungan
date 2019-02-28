@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="tugasakhirModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="tugasakhirEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="mappings" EntityType="tugasakhirModel.mapping" />
+    <EntitySet Name="source_ocr" EntityType="tugasakhirModel.source_ocr" />
+    <AssociationSet Name="FK_source_ocr_mapping" Association="tugasakhirModel.FK_source_ocr_mapping">
+      <End Role="mapping" EntitySet="mappings" />
+      <End Role="source_ocr" EntitySet="source_ocr" />
+    </AssociationSet>
+    <EntitySet Name="Indikators" EntityType="tugasakhirModel.Indikator" />
+    <EntitySet Name="sumbers" EntityType="tugasakhirModel.sumber" />
+    <EntitySet Name="perusahaans" EntityType="tugasakhirModel.perusahaan" />
+    <AssociationSet Name="FK_sumber_perusahaan1" Association="tugasakhirModel.FK_sumber_perusahaan1">
+      <End Role="perusahaan" EntitySet="perusahaans" />
+      <End Role="sumber" EntitySet="sumbers" />
+    </AssociationSet>
+    <EntitySet Name="hasils" EntityType="tugasakhirModel.hasil" />
+    <EntitySet Name="tahuns" EntityType="tugasakhirModel.tahun" />
+    <AssociationSet Name="FK_hasil_perusahaan1" Association="tugasakhirModel.FK_hasil_perusahaan1">
+      <End Role="perusahaan" EntitySet="perusahaans" />
+      <End Role="hasil" EntitySet="hasils" />
+    </AssociationSet>
+    <AssociationSet Name="FK_hasil_sumber" Association="tugasakhirModel.FK_hasil_sumber">
+      <End Role="sumber" EntitySet="sumbers" />
+      <End Role="hasil" EntitySet="hasils" />
+    </AssociationSet>
+    <AssociationSet Name="FK_hasil_tahun1" Association="tugasakhirModel.FK_hasil_tahun1">
+      <End Role="tahun" EntitySet="tahuns" />
+      <End Role="hasil" EntitySet="hasils" />
+    </AssociationSet>
+    <AssociationSet Name="FK_sumber_tahun1" Association="tugasakhirModel.FK_sumber_tahun1">
+      <End Role="tahun" EntitySet="tahuns" />
+      <End Role="sumber" EntitySet="sumbers" />
+    </AssociationSet>
+    <EntitySet Name="testing_data_hasil" EntityType="tugasakhirModel.testing_data_hasil" />
+  </EntityContainer>
+  <EntityType Name="mapping">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nama_mapping" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="source_ocr" Relationship="tugasakhirModel.FK_source_ocr_mapping" FromRole="mapping" ToRole="source_ocr" />
+  </EntityType>
+  <EntityType Name="source_ocr">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="id_mapping" Type="Int64" Nullable="false" />
+    <Property Name="nama" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="nama_2" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="nama_3" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="mapping" Relationship="tugasakhirModel.FK_source_ocr_mapping" FromRole="source_ocr" ToRole="mapping" />
+  </EntityType>
+  <Association Name="FK_source_ocr_mapping">
+    <End Type="tugasakhirModel.mapping" Role="mapping" Multiplicity="1" />
+    <End Type="tugasakhirModel.source_ocr" Role="source_ocr" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="mapping">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="source_ocr">
+        <PropertyRef Name="id_mapping" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="Indikator">
+    <Key>
+      <PropertyRef Name="Algorithm" />
+    </Key>
+    <Property Name="Algorithm" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Weight0" Type="Double" />
+    <Property Name="Weight1" Type="Double" />
+    <Property Name="Weight2" Type="Double" />
+    <Property Name="Weight3" Type="Double" />
+    <Property Name="Weight4" Type="Double" />
+    <Property Name="Weight5" Type="Double" />
+    <Property Name="Weight6" Type="Double" />
+    <Property Name="Weight7" Type="Double" />
+    <Property Name="Weight8" Type="Double" />
+    <Property Name="Weight9" Type="Double" />
+    <Property Name="Weight10" Type="Double" />
+    <Property Name="Weight11" Type="Double" />
+    <Property Name="Bias0" Type="Double" />
+    <Property Name="Bias1" Type="Double" />
+  </EntityType>
+  <EntityType Name="sumber">
+    <Key>
+      <PropertyRef Name="IDSumber" />
+    </Key>
+    <Property Name="IDSumber" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="id_perusahaan" Type="Int64" />
+    <Property Name="id_tahun" Type="Int64" />
+    <Property Name="laba_setelah_pajak" Type="Int64" />
+    <Property Name="total_ekuitas" Type="Int64" />
+    <Property Name="EBIT" Type="Int64" />
+    <Property Name="penyusutan" Type="Int64" />
+    <Property Name="capital_employed" Type="Int64" />
+    <Property Name="kas" Type="Int64" />
+    <Property Name="bank" Type="Int64" />
+    <Property Name="surat_berharga_jangka_pendek" Type="Int64" />
+    <Property Name="current_asset" Type="Int64" />
+    <Property Name="current_liabilities" Type="Int64" />
+    <Property Name="total_piutang_usaha" Type="Int64" />
+    <Property Name="total_persediaan" Type="Int64" />
+    <Property Name="total_pendapatan_usaha" Type="Int64" />
+    <Property Name="total_aset" Type="Int64" />
+    <Property Name="kas_dan_setara_kas" Type="Int64" />
+    <NavigationProperty Name="perusahaan" Relationship="tugasakhirModel.FK_sumber_perusahaan1" FromRole="sumber" ToRole="perusahaan" />
+    <NavigationProperty Name="hasil" Relationship="tugasakhirModel.FK_hasil_sumber" FromRole="sumber" ToRole="hasil" />
+    <NavigationProperty Name="tahun" Relationship="tugasakhirModel.FK_sumber_tahun1" FromRole="sumber" ToRole="tahun" />
+  </EntityType>
+  <EntityType Name="perusahaan">
+    <Key>
+      <PropertyRef Name="IDPerusahaan" />
+    </Key>
+    <Property Name="IDPerusahaan" Type="Int64" Nullable="false" />
+    <Property Name="nama_perusahaan" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="sumbers" Relationship="tugasakhirModel.FK_sumber_perusahaan1" FromRole="perusahaan" ToRole="sumber" />
+    <NavigationProperty Name="hasils" Relationship="tugasakhirModel.FK_hasil_perusahaan1" FromRole="perusahaan" ToRole="hasil" />
+  </EntityType>
+  <Association Name="FK_sumber_perusahaan1">
+    <End Type="tugasakhirModel.perusahaan" Role="perusahaan" Multiplicity="0..1" />
+    <End Type="tugasakhirModel.sumber" Role="sumber" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="perusahaan">
+        <PropertyRef Name="IDPerusahaan" />
+      </Principal>
+      <Dependent Role="sumber">
+        <PropertyRef Name="id_perusahaan" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="hasil">
+    <Key>
+      <PropertyRef Name="IDHasil" />
+    </Key>
+    <Property Name="IDHasil" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="id_perusahaan" Type="Int64" />
+    <Property Name="id_tahun" Type="Int64" />
+    <Property Name="ROE" Type="Double" />
+    <Property Name="ROI" Type="Double" />
+    <Property Name="cash_ratio" Type="Double" />
+    <Property Name="current_ratio" Type="Double" />
+    <Property Name="CP" Type="Double" />
+    <Property Name="PP" Type="Double" />
+    <Property Name="TATO" Type="Double" />
+    <Property Name="TMS_TA" Type="Double" />
+    <Property Name="target" Type="Double" />
+    <Property Name="target_2" Type="Double" />
+    <Property Name="tingkat_kesehatan" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="grade" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="perusahaan" Relationship="tugasakhirModel.FK_hasil_perusahaan1" FromRole="hasil" ToRole="perusahaan" />
+    <NavigationProperty Name="sumber" Relationship="tugasakhirModel.FK_hasil_sumber" FromRole="hasil" ToRole="sumber" />
+    <NavigationProperty Name="tahun" Relationship="tugasakhirModel.FK_hasil_tahun1" FromRole="hasil" ToRole="tahun" />
+  </EntityType>
+  <EntityType Name="tahun">
+    <Key>
+      <PropertyRef Name="IDTahun" />
+    </Key>
+    <Property Name="IDTahun" Type="Int64" Nullable="false" />
+    <Property Name="tahun1" Type="Int32" />
+    <NavigationProperty Name="hasils" Relationship="tugasakhirModel.FK_hasil_tahun1" FromRole="tahun" ToRole="hasil" />
+    <NavigationProperty Name="sumbers" Relationship="tugasakhirModel.FK_sumber_tahun1" FromRole="tahun" ToRole="sumber" />
+  </EntityType>
+  <Association Name="FK_hasil_perusahaan1">
+    <End Type="tugasakhirModel.perusahaan" Role="perusahaan" Multiplicity="0..1" />
+    <End Type="tugasakhirModel.hasil" Role="hasil" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="perusahaan">
+        <PropertyRef Name="IDPerusahaan" />
+      </Principal>
+      <Dependent Role="hasil">
+        <PropertyRef Name="id_perusahaan" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_hasil_sumber">
+    <End Type="tugasakhirModel.sumber" Role="sumber" Multiplicity="1" />
+    <End Type="tugasakhirModel.hasil" Role="hasil" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="sumber">
+        <PropertyRef Name="IDSumber" />
+      </Principal>
+      <Dependent Role="hasil">
+        <PropertyRef Name="IDHasil" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_hasil_tahun1">
+    <End Type="tugasakhirModel.tahun" Role="tahun" Multiplicity="0..1" />
+    <End Type="tugasakhirModel.hasil" Role="hasil" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tahun">
+        <PropertyRef Name="IDTahun" />
+      </Principal>
+      <Dependent Role="hasil">
+        <PropertyRef Name="id_tahun" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_sumber_tahun1">
+    <End Type="tugasakhirModel.tahun" Role="tahun" Multiplicity="0..1" />
+    <End Type="tugasakhirModel.sumber" Role="sumber" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tahun">
+        <PropertyRef Name="IDTahun" />
+      </Principal>
+      <Dependent Role="sumber">
+        <PropertyRef Name="id_tahun" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="testing_data_hasil">
+    <Key>
+      <PropertyRef Name="IDTesting" />
+    </Key>
+    <Property Name="IDTesting" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ROE" Type="Double" />
+    <Property Name="ROI" Type="Double" />
+    <Property Name="cash_ratio" Type="Double" />
+    <Property Name="current_ratio" Type="Double" />
+    <Property Name="CP" Type="Double" />
+    <Property Name="PP" Type="Double" />
+    <Property Name="TATO" Type="Double" />
+    <Property Name="TMS_TA" Type="Double" />
+    <Property Name="OutputANN" Type="Double" />
+    <Property Name="OutputFNN" Type="Double" />
+    <Property Name="TingkatKesehatan" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Grade" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+</Schema>

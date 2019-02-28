@@ -1,0 +1,144 @@
+﻿@model SkripsiGabungan.Models.hasil
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>hasil</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ROE)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ROE)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ROI)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ROI)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.cash_ratio)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.cash_ratio)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.current_ratio)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.current_ratio)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CP)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CP)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PP)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PP)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TATO)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TATO)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TMS_TA)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TMS_TA)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.target)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.target)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.target_2)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.target_2)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.tingkat_kesehatan)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.tingkat_kesehatan)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.grade)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.grade)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.perusahaan.nama_perusahaan)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.perusahaan.nama_perusahaan)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.sumber.IDSumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.sumber.IDSumber)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.tahun.IDTahun)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.tahun.IDTahun)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

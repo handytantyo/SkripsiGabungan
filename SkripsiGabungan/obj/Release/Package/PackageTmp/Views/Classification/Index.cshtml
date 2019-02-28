@@ -1,0 +1,141 @@
+﻿@model IEnumerable<SkripsiGabungan.Models.hasil>
+
+@{
+    ViewBag.Title = "Klasifikasi";
+}
+<script src="~/Scripts/Chart/exporting.js"></script>
+<script src="~/Scripts/Chart/highcharts.js"></script>
+<h2>Statistik Training Data</h2>
+
+<div class="jumbotron">
+    <div id="containerAll" style="min-width: 310px; height: 400px; max-width: 600px; margin: 0 auto">
+
+    </div>
+</div>
+
+<p>
+    @using (Html.BeginForm())
+    {
+        <table>
+            <tr>
+                <th>
+                    @Html.DropDownList("id_tahun", null, htmlAttributes: new { @class = "form-control" })
+                </th>
+                <th><input class="btn btn-success" type="submit" value="Search" style="margin-left:10px"/></th>
+            </tr>
+        </table>
+    }
+</p>
+
+<div class="jumbotron">
+    <div id="container" style="min-width: 310px; height: 400px; max-width: 600px; margin: 0 auto">
+
+    </div>
+</div>
+
+
+<script>
+
+    $(document).ready(function () {
+        $.getJSON("/Classification/GetChart", function (data) {
+
+
+            Highcharts.chart('container', {
+                chart: {
+                    plotBackgroundColor: null,
+                    plotBorderWidth: null,
+                    plotShadow: false,
+                    type: 'pie'
+                },
+                title: {
+                    text: 'Klasifikasi Perusahaan Pada Tahun ' + data.KodeTahun
+                },
+                tooltip: {
+                    pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+                },
+                plotOptions: {
+                    pie: {
+                        allowPointSelect: true,
+                        cursor: 'pointer',
+                        dataLabels: {
+                            enabled: true,
+                            format: '<b>{point.name}</b>: {point.percentage:.1f} %',
+                            style: {
+                                color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black'
+                            }
+                        }
+                    }
+                },
+                series: [{
+                    name: 'Persentase',
+                    colorByPoint: true,
+                    data: [{
+                        name: 'Sehat',
+                        y: data.Sehat,
+                        color: '#6ec438'
+                    }, {
+                        name: 'Kurang Sehat',
+                        y: data.KurangSehat,
+                        color: '#fbff00'
+                    }, {
+                        name: 'Tidak Sehat',
+                        y: data.TidakSehat,
+                        color: '#fe3b3b'
+                    }]
+                }]
+            });
+        });
+    });
+
+    $(document).ready(function () {
+        $.getJSON("/Classification/GetChartAll", function (data) {
+
+
+            Highcharts.chart('containerAll', {
+                chart: {
+                    plotBackgroundColor: null,
+                    plotBorderWidth: null,
+                    plotShadow: false,
+                    type: 'pie'
+                },
+                title: {
+                    text: 'Klasifikasi Perusahaan dari Tahun 2012-2016'
+                },
+                tooltip: {
+                    pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+                },
+                plotOptions: {
+                    pie: {
+                        allowPointSelect: true,
+                        cursor: 'pointer',
+                        dataLabels: {
+                            enabled: true,
+                            format: '<b>{point.name}</b>: {point.percentage:.1f} %',
+                            style: {
+                                color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black'
+                            }
+                        }
+                    }
+                },
+                series: [{
+                    name: 'Persentase',
+                    colorByPoint: true,
+                    data: [{
+                        name: 'Sehat',
+                        y: data.Sehat,
+                        color: '#6ec438'
+                    }, {
+                        name: 'Kurang Sehat',
+                        y: data.KurangSehat,
+                        color: '#fbff00'
+                    }, {
+                        name: 'Tidak Sehat',
+                        y: data.TidakSehat,
+                        color: '#fe3b3b'
+                    }]
+                }]
+            });
+        });
+    });
+
+</script>

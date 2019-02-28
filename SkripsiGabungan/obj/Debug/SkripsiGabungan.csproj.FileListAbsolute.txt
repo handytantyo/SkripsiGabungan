@@ -195,4 +195,6 @@ D:\Kuliah\Semester 8\GitHub Skripsi\SkripsiGabungan\SkripsiGabungan\obj\Debug\Sk
 D:\Kuliah\Semester 8\GitHub Skripsi\SkripsiGabungan\SkripsiGabungan\obj\Debug\SkripsiGabungan.pdb
 D:\Kuliah\Semester 8\GitHub Skripsi\SkripsiGabungan\SkripsiGabungan\bin\itextsharp.dll
 D:\Kuliah\Semester 8\GitHub Skripsi\SkripsiGabungan\SkripsiGabungan\bin\itextsharp.xml
-D:\Kuliah\Semester 8\GitHub Skripsi\SkripsiGabungan\SkripsiGabungan\obj\Debug\SkripsiGabungan.csprojResolveAssemblyReference.cache
+D:\Kuliah\Semester 8\GitHub Skripsi\SkripsiGabungan\SkripsiGabungan\bin\Highcharts.Web.Mvc.dll
+D:\Kuliah\Semester 8\GitHub Skripsi\SkripsiGabungan\SkripsiGabungan\bin\Highcharts.Web.Mvc.xml
+D:\Kuliah\Semester 8\GitHub Skripsi\SkripsiGabungan\SkripsiGabungan\obj\Debug\SkripsiGabungan.csprojAssemblyReference.cache

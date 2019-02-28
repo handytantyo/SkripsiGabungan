@@ -4,10 +4,108 @@
     ViewBag.Title = "Detail";
 }
 
+<script src="~/Scripts/Chart/exporting.js"></script>
+<script src="~/Scripts/Chart/highcharts.js"></script>
+
 <h2>Detail</h2>
 
 <div>
     <h4>@Html.DisplayFor(model => model.perusahaan.nama_perusahaan) Tahun @Html.DisplayFor(model => model.tahun.tahun1)</h4>
+
+    <div class="LineGraph" style="margin-bottom:5%">
+        @using Highsoft.Web.Mvc.Charts
+
+        <script type="text/javascript">
+
+            function formatYAxisLabels() {
+                return this.value + '';
+            }
+
+        </script>
+
+        @(Html.Highsoft().GetHighcharts(
+                new Highcharts
+                {
+                    Title = new Title
+                    {
+                        Text = "Tingkat Kesehatan Perusahaan"
+                    },
+                    Subtitle = new Subtitle
+                    {
+                        Text = "Nama Perusahaan: " + ViewData["NamaPerusahaan"],
+                        X = -20
+                    },
+                    XAxis = new List<XAxis>
+                    {
+            new XAxis
+            {
+                Categories = ViewData["Tahun"] as List<string>,
+                Crosshair = new XAxisCrosshair
+                {
+                    Width = 1
+                }
+            }
+                    },
+                    YAxis = new List<YAxis>
+                    {
+            new YAxis
+            {
+                Title = new YAxisTitle
+                {
+                    Text = "Poin"
+                },
+                Labels = new YAxisLabels
+                {
+                    Formatter = "formatYAxisLabels"
+                },
+                Crosshair = new YAxisCrosshair
+                {
+                    Width = 1
+                }
+            }
+                    },
+                    Tooltip = new Tooltip
+                    {
+                        Shared = true
+                    },
+                    PlotOptions = new PlotOptions
+                    {
+                        Spline = new PlotOptionsSpline
+                        {
+                            Marker = new PlotOptionsSplineMarker
+                            {
+                                Radius = 4,
+                                LineColor = "#666666",
+                                LineWidth = 1
+                            }
+                        }
+                    },
+                    Series = new List<Series>
+                    {
+            new SplineSeries
+            {
+                Name = ViewData["NamaPerusahaan"] as string,
+                Data = @ViewData["TargetData"] as List<SplineSeriesData>,
+                Color = "#6ec438"
+            },
+            new SplineSeries
+            {
+                Name = "Batas Kurang Sehat",
+                Data = @ViewData["DataKurangSehat"] as List<SplineSeriesData>,
+                Color = "#fbff00"
+            },
+            new SplineSeries
+            {
+                Name = "Batas Tidak Sehat",
+                Data = @ViewData["DataTidakSehat"] as List<SplineSeriesData>,
+                Color = "#fe3b3b"
+            }
+                    }
+                }
+                , "chart")
+        )
+    </div>
+   
     <table class="table table table-bordered" style="width: 50%;margin-left:20%">
         <thead style="background-color: #e9ecef">
             <tr>
@@ -23,13 +121,13 @@
         </tbody>
     </table>
 
-    <div class="row">
+    <div class="row" style="margin-left : 10%">
         <div class="col-md-4">
             <dl class="dl-horizontal">
                 <dt>
                     @Html.DisplayNameFor(model => model.ROE) :
                 </dt>
-
+                
                 <dd>
                     @Html.DisplayFor(model => model.ROE)
                 </dd>
@@ -91,63 +189,63 @@
         <div class="col-md-6">
             <dl class="dl-horizontal" style="display:normal">
                 <dt>
-                    Laba Setelah Pajak :
+                    Laba Setelah Pajak : <span style="font-weight:normal">Rp. </span>
                 </dt>
 
                 <dd>
                     @Html.DisplayFor(model => model.sumber.laba_setelah_pajak)
                 </dd>
                 <dt>
-                    Total Ekuitas :
+                    Total Ekuitas : <span style="font-weight:normal">Rp. </span>
                 </dt>
 
                 <dd>
                     @Html.DisplayFor(model => model.sumber.total_ekuitas)
                 </dd>
                 <dt>
-                    EBIT :
+                    EBIT : <span style="font-weight:normal">Rp. </span>
                 </dt>
 
                 <dd>
                     @Html.DisplayFor(model => model.sumber.EBIT)
                 </dd>
                 <dt>
-                    Penyusutan :
+                    Penyusutan : <span style="font-weight:normal">Rp. </span>
                 </dt>
 
                 <dd>
                     @Html.DisplayFor(model => model.sumber.penyusutan)
                 </dd>
                 <dt>
-                    Capital Employed :
+                    Capital Employed : <span style="font-weight:normal">Rp. </span>
                 </dt>
 
                 <dd>
                     @Html.DisplayFor(model => model.sumber.capital_employed)
                 </dd>
-                <dt>
-                    Surat Berharga Jangka Pendek :
+                <dt style="width:50%;margin-left:-50px">
+                    Surat Berharga Jangka Pendek : <span style="font-weight:normal">Rp. </span>
                 </dt>
 
                 <dd>
                     @Html.DisplayFor(model => model.sumber.surat_berharga_jangka_pendek)
                 </dd>
                 <dt>
-                    Current Asset :
+                    Current Asset : <span style="font-weight:normal">Rp. </span>
                 </dt>
 
                 <dd>
                     @Html.DisplayFor(model => model.sumber.current_asset)
                 </dd>
                 <dt>
-                    Current Liabilities:
+                    Current Liabilities: <span style="font-weight:normal">Rp. </span>
                 </dt>
 
                 <dd>
                     @Html.DisplayFor(model => model.sumber.current_liabilities)
                 </dd>
                 <dt>
-                    Total Piutang Usaha :
+                    Total Piutang Usaha : <span style="font-weight:normal">Rp. </span>
                 </dt>
 
                 <dd>
@@ -155,7 +253,7 @@
                 </dd>
 
                 <dt>
-                    Total Persediaan :
+                    Total Persediaan : <span style="font-weight:normal">Rp. </span>
                 </dt>
 
                 <dd>
@@ -167,6 +265,8 @@
     </div>
 </div>
 
+
+
 <p>
     @*@Html.ActionLink("Edit", "Edit", new { id = Model.id }) |*@
     <a href="/hasils">
@@ -175,3 +275,78 @@
         </button>
     </a>
 </p>
+
+@*<script>
+    $(document).ready(function () {
+        $.getJSON("/hasils/GetLineChart", function (data) {
+            Highcharts.chart('container', {
+                chart: {
+                    type: 'area',
+                    width: 1000
+                },
+                title: {
+                    text: 'Tingkat Kesehatan Perusahaan'
+                },
+                subtitle: {
+                    text: 'Nama Perusahaan : ' + data.NamaPerusahaan
+                },
+                xAxis: {
+                    allowDecimals: false,
+                    labels: {
+                        formatter: function () {
+                            return this.value; // clean, unformatted number for year
+                        }
+                    }
+                },
+                yAxis: {
+                    title: {
+                        text: 'Poin'
+                    },
+                    labels: {
+                        formatter: function () {
+                            return this.value;
+                        }
+                    }
+                },
+                tooltip: {
+                    pointFormat: '{series.name} memiliki <b>{point.y:,.0f} poin</b><br/>saat tahun {point.x}'
+                },
+                plotOptions: {
+                    area: {
+                        pointStart: 2012,
+                        marker: {
+                            enabled: false,
+                            symbol: 'circle',
+                            radius: 1,
+                            states: {
+                                hover: {
+                                    enabled: true
+                                }
+                            }
+                        }
+                    }
+                },
+                series: [{
+                    name: 'Perusahaan Yang Dipilih',
+                    data: [
+                        data.TargetTahun1, data.TargetTahun2, data.TargetTahun3, data.TargetTahun4, data.TargetTahun5
+                    ]
+                }, {
+                    name: 'Batas Kurang Sehat',
+                    data: [
+                        70, 70, 70, 70, 70
+                    ],
+                    color: '#a8ffa36b'
+                }, {
+                    name: 'Batas Tidak Sehat',
+                    data: [
+                        40, 40, 40, 40, 40
+                    ],
+                    color: '#e7717152'
+                }]
+            });
+        });
+    });
+
+
+</script>*@
